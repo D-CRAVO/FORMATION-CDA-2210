@@ -1,0 +1,4 @@
+creer l'objet
+advanced
+set run state
+apply
