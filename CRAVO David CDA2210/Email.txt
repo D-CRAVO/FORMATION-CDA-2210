@@ -1,0 +1,58 @@
+# VARIABLES
+
+BOOLEEN checkComplet <-- false	// Contrôle des vérifications de l'Email
+BOOLEEN checkEmail <-- false	// Contrôle de l'existence de l'adresse Email
+BOOLEEN checkDestinataire		// Présence d'un message d'absence du destinataire
+TEXTE email
+TEXTE reponseDestinataire
+TEXTE retour
+TABLEAU listeEmail
+ENTIER compteur1 <-- 0
+REEL tailleEmail 
+REEL espaceTotalBoite
+REEL espaceOccupeBoite
+REEL tailleMaxEmail <-- 25Mo
+
+# DEBUT PROGRAMME
+
+FAIRE
+	TANT QUE  (email != listeEmail[compteur1] ET compteur1 < |listeEmail|)
+	FAIRE	
+		SI (email = listeEmail[compteur1])
+		ALORS 
+			checkEmail <-- vrai
+		SINON
+			compteur <-- compteur + 1
+		FIN SI			
+	FIN TANT QUE
+	SI (checkEmail = vrai)
+	ALORS
+		LIRE tailleEmail
+		SI (espaceOccupeBoite + tailleEmail > espaceTotalBoite)
+		ALORS
+			ECRIRE "La taille de votre Email dépasse l'espace disponible."
+		SINON
+			SI (tailleEmail > tailleMaxEmail)
+			ALORS
+				ECRIRE "La taille de votre Email dépasse la limite autorisée."
+			SINON 
+				checkComplet <-- vrai
+			FIN SI
+		FIN SI
+	SINON
+		ECRIRE "Adresse Email non trouvée"
+	FIN SI
+TANT QUE (checkComplet != vrai ET email !="Quitter")
+
+SI (checkComplet = vrai)
+ALORS 
+	LIRE checkDestinataire
+	SI (checkDestinataire = faux)
+	ALORS 
+		LIRE reponseDestinataire
+		retour <-- reponseDestinataire
+	SINON
+		retour <-- "Votre message a été envoyé."
+	FIN SI
+FIN SI	
+ECRIRE retour

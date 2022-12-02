@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\bin\Debug\net6.0\SuiteFibonacci.exe
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\bin\Debug\net6.0\SuiteFibonacci.deps.json
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\bin\Debug\net6.0\SuiteFibonacci.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\bin\Debug\net6.0\SuiteFibonacci.dll
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\bin\Debug\net6.0\SuiteFibonacci.pdb
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.dll
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\refint\SuiteFibonacci.dll
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.pdb
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\SuiteFibonacci.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive - CENTRE DE READAPTATION\Bureau\CRAVO David CDA2210\SuiteFibonacci\SuiteFibonacci\obj\Debug\net6.0\ref\SuiteFibonacci.dll
