@@ -15,21 +15,31 @@ namespace CompteBancaire
             CompteBancaire david = new CompteBancaire("David", 0, -250);
             CompteBancaire john = new CompteBancaire("John", 0, -500);
             CompteBancaire jane = new CompteBancaire();
-            // Console.WriteLine($"Le Compte Bancaire {CompteBancaire.numero}")
-            // Aurait pu être utilisé si la propriété numero avait été "public" et non "private"
 
             /* Opérations sur les comptes */
-            david.Crediter(500);
-            Console.WriteLine(david);
+            try
+            {
+                david.Crediter(500);
+                Console.WriteLine(david);
 
-            david.Debiter(500);
-            Console.WriteLine(david);
+                david.Debiter(500);
+                Console.WriteLine(david);
 
-            david.Transferer(john, 60);
-            Console.WriteLine(david);
-            Console.WriteLine(john);
+                david.Transferer(john, 60);
+                Console.WriteLine(david);
+                Console.WriteLine(john);
 
-            Console.WriteLine(jane);
+                Console.WriteLine(jane);
+
+                Console.WriteLine(jane.Comparer(john));
+                Console.WriteLine(jane.Comparer(david));
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
         }
     }
 }

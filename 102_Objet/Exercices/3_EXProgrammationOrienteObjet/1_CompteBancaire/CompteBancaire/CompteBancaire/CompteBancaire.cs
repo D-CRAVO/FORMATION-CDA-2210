@@ -65,13 +65,13 @@ namespace CompteBancaire
         /**
          * Crédite le compte "this" du montant "_montant"
          */
-        public void Crediter(float _montant)
+        public void Crediter(float _montantCredit)
         {
-            if (_montant <= 0)
+            if (_montantCredit <= 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(_montant), "Le montant du crédit doit être positif");
+                throw new ArgumentOutOfRangeException(nameof(_montantCredit), "Le montant du crédit doit être positif");
             }
-            this.solde += _montant;
+            this.solde += _montantCredit;
         }
 
 
@@ -79,17 +79,17 @@ namespace CompteBancaire
          * Débite le compte "this" du montant "_montant"
          * et renvoie un booléen "verif" pour indiquer si l'opération a été effectuée.
          */
-        public bool Debiter(float _montant)
+        public bool Debiter(float _montantDebit)
         {
-            if (_montant < 0)
+            if (_montantDebit < 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(_montant), "Le montant du débit doit être positif");
+                throw new ArgumentOutOfRangeException(nameof(_montantDebit), "Le montant du débit doit être positif");
             }
-            if (this.solde - this.decouvert < _montant)
+            if (this.solde - this.decouvert < _montantDebit)
             {
                 throw new InvalidOperationException("Le compte débiteur n'est pas assez provisionné");
             }
-            this.solde -= _montant;
+            this.solde -= _montantDebit;
             return true;
         }
 
@@ -98,11 +98,22 @@ namespace CompteBancaire
          * Tranfert le montant "_montant" du compte bancaire "this" vers le compte bancaire "_compteCredit"
          * Et renvoie un bool "verif" pour indiquer si l'opération a été effectuée.
          */
-        public bool Transferer(CompteBancaire _compteCredit, float _montant)
+        public bool Transferer(CompteBancaire _compteCredit, float _montantTransfert)
         {
-            this.Debiter(_montant);
-            _compteCredit.Crediter(_montant);
+            this.Debiter(_montantTransfert);
+            _compteCredit.Crediter(_montantTransfert);
             return true;
         }
+
+
+        public string Comparer(CompteBancaire _autreCompte)
+        {
+            if (solde < _autreCompte.solde)
+            {
+                return $"Le solde du compte de {proprietaire} est inférieur au solde du compte de {_autreCompte.proprietaire}";
+            }
+            return $"Le solde du compte de {proprietaire} est supérieur au solde du compte de {_autreCompte.proprietaire}";
+        }
+
     }
 }
