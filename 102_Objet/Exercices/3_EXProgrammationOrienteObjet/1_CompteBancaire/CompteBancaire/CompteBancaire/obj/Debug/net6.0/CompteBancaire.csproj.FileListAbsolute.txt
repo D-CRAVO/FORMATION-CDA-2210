@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\bin\Debug\net6.0\CompteBancaire.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\bin\Debug\net6.0\CompteBancaire.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\bin\Debug\net6.0\CompteBancaire.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\bin\Debug\net6.0\CompteBancaire.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\bin\Debug\net6.0\CompteBancaire.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\refint\CompteBancaire.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\CompteBancaire.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\1_CompteBancaire\CompteBancaire\CompteBancaire\obj\Debug\net6.0\ref\CompteBancaire.dll
