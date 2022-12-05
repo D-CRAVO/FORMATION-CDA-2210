@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\bin\Debug\net6.0\voiture.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\bin\Debug\net6.0\voiture.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\bin\Debug\net6.0\voiture.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\bin\Debug\net6.0\voiture.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\bin\Debug\net6.0\voiture.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\refint\voiture.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\voiture.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\voiture\voiture\obj\Debug\net6.0\ref\voiture.dll
