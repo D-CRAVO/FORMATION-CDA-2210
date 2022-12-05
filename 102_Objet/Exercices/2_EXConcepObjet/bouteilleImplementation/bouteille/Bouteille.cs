@@ -6,43 +6,40 @@ using System.Threading.Tasks;
 
 namespace bouteille
 {
-    internal class Bouteille
+    public class Bouteille
     {
         private int contenanceEnCl;
         private string contenuActuel;
         private string matiere;
-        private int pourcentageDeRemplissage;
         private bool bouteilleFermee;
         private float quantitePresente;
 
-        public float vider(float quantite)
+        public Bouteille(int contenanceEnCl, string contenuActuel, string matiere, bool bouteilleFermee, float quantitePresente)
         {
-            if (quantite > quantitePresente)
-            {
-                quantitePresente = 0;
-            }
-            else
-            {
-                quantitePresente = quantitePresente - quantite;
-            }
-            return quantitePresente;
+            this.contenanceEnCl = contenanceEnCl;
+            this.contenuActuel = contenuActuel;
+            this.matiere = matiere;
+            this.bouteilleFermee = bouteilleFermee;
+            this.quantitePresente = quantitePresente;
         }
 
-        public float remplir(float quantite)
+        public override string ToString()
         {
-            if (quantitePresente + quantite > contenanceEnCl)
-            {
-                quantitePresente = contenanceEnCl;
-            }
-            else
-            {
-                quantitePresente = quantitePresente + quantite;
-            }
-            return quantitePresente;
+            return $"La bouteille est en {matiere}, a une contenance de {contenanceEnCl} Cl et contient {quantitePresente} de {contenuActuel}";
         }
-        public bool fermer()
+
+        /*
+        public enum matiere
         {
-            if (bouteilleFermee == false)
+            plastique,
+            metal,
+            verre
+        }
+        */
+
+        public bool Fermer()
+        {
+            if (!bouteilleFermee)
             {
                 bouteilleFermee = true;
             }
@@ -53,9 +50,9 @@ namespace bouteille
             return bouteilleFermee;
         }
 
-        public bool ouvrir()
+        public bool Ouvrir()
         {
-            if (bouteilleFermee == true)
+            if (bouteilleFermee)
             {
                 bouteilleFermee = false;
             }
@@ -65,6 +62,99 @@ namespace bouteille
             }
             return bouteilleFermee;
         }
+
+        public float Vider(float quantite)
+        {
+            if (bouteilleFermee)
+            {
+                Console.WriteLine("Une bouteille fermée ne peut être vidée");
+            }
+            else if (quantite < 0)
+            {
+                Console.WriteLine("Veuillez saisir une valeur positive");
+            }
+            else if (quantite > quantitePresente)
+            {
+                quantitePresente = 0;
+            }
+            else
+            {
+                quantitePresente = quantitePresente - quantite;
+            }
+            Console.Write($"La nouvelle quantité de {contenuActuel} dans la bouteille en Cl est de : ");
+            return quantitePresente;
+        }
+
+        public float Remplir(float quantite)
+        {
+            if (bouteilleFermee)
+            {
+                Console.WriteLine("Une bouteille fermée ne peut être vidée");
+            }
+            else if (quantite < 0)
+            {
+                Console.WriteLine("Veuillez saisir une valeur positive");
+            }
+            else if (quantitePresente + quantite > contenanceEnCl)
+            {
+                quantitePresente = contenanceEnCl;
+            }
+            else
+            {
+                quantitePresente = quantitePresente + quantite;
+            }
+            Console.Write($"La nouvelle quantité de {contenuActuel} dans la bouteille en Cl est de : ");
+            return quantitePresente;
+        }
+
+        public float ViderCompletement()
+        {
+            if (bouteilleFermee)
+            {
+                this.Ouvrir();
+            }
+            Console.Write($"La nouvelle quantité de {contenuActuel} dans la bouteille en Cl est de : ");
+            return quantitePresente = 0;
+        }
+
+        public void ChangerContenu(string nouveauContenu)
+        {
+            if (bouteilleFermee)
+            {
+                this.Ouvrir();
+            }
+            if (quantitePresente > 0)
+            {
+                this.ViderCompletement();
+            }
+            if (nouveauContenu == contenuActuel)
+            {
+                Console.WriteLine("Contenu déjà présent dans la bouteille");
+            }
+            contenuActuel = nouveauContenu;
+        }
+
+        public string Recycler()
+        {
+            if (matiere == "plastique")
+            {
+                return "La bouteille en plastique va dans la poubelle jaune";
+            }
+            else if (matiere == "metal")
+            {
+                return "La bouteille en metal va dans la poubelle jaune";
+            }
+            else if (matiere == "verre")
+            {
+                return "La bouteille en verre va dans la poubelle verte";
+            }
+            else
+            {
+                return "Demandez à l'employé du centre de tri";
+            }
+
+        }
+        
     }
 }
 

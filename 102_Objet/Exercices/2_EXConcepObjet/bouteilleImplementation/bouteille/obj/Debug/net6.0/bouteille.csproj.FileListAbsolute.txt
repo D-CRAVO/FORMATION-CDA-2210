@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\bin\Debug\net6.0\bouteille.exe
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\bin\Debug\net6.0\bouteille.deps.json
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\bin\Debug\net6.0\bouteille.runtimeconfig.json
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\bin\Debug\net6.0\bouteille.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\bin\Debug\net6.0\bouteille.pdb
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.AssemblyInfo.cs
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\refint\bouteille.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.pdb
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\bouteille.genruntimeconfig.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\bouteilleImplementation\bouteille\obj\Debug\net6.0\ref\bouteille.dll
