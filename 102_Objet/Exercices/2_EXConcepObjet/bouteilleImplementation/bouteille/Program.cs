@@ -1,14 +1,23 @@
 ﻿using bouteille;
 
-Bouteille bouteilleChampagne  = new Bouteille(100, "Champagne", "verre", true, 100);
-Bouteille bouteilleEau = new Bouteille(75,"Eau", "plastique", true, 75);
+Bouteille bouteilleChampagne = new Bouteille(100, "Champagne", "verre", true, 100);
+Bouteille bouteilleEau = new Bouteille(75, "Eau", "plastique", true, 75);
 
-bouteilleEau.Ouvrir();
-Console.WriteLine(bouteilleEau.Remplir(25));
-bouteilleEau.Fermer();
-Console.WriteLine (bouteilleEau.Vider(85));
-Console.WriteLine (bouteilleEau.ViderCompletement());
-bouteilleEau.ChangerContenu("Coca-Cola");
-Console.WriteLine(bouteilleEau);
-Console.WriteLine(bouteilleEau.Recycler());
-Console.WriteLine(bouteilleChampagne.Recycler());
+try
+{
+    bool resultat01 = bouteilleEau.Ouvrir();
+    bool resultat02 = bouteilleEau.Remplir(25);
+    bool resultat03 = bouteilleEau.Fermer();
+    bool resultat04 = bouteilleEau.Ouvrir();
+    bool resultat05 = bouteilleEau.Ouvrir();
+    bool resultat06 = bouteilleEau.Vider(85);
+    bool resultat07 = bouteilleEau.ViderCompletement();
+    bool resultat08 = bouteilleEau.ChangerContenu("Coca-Cola");
+    string resultat09 = bouteilleEau.Recycler();
+    string resultat10 = bouteilleChampagne.Recycler();
+}
+catch (Exception e)
+{
+    Console.WriteLine(e.Message);
+}
+
