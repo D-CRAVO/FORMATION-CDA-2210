@@ -58,7 +58,7 @@ namespace CompteBancaire
          */
         public override string ToString()
         {
-            return $"Le compte  {this.numero}  a pour propriétaire {this.proprietaire}, pour solde {this.solde} euros, et pour découvert autorisé {this.decouvert} euros";
+            return $"Le compte {this.numero} a pour propriétaire {this.proprietaire}, pour solde {this.solde} euros, et pour découvert autorisé {this.decouvert} euros";
         }
 
 
