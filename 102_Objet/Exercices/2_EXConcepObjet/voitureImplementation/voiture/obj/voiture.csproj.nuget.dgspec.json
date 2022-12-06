@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voiture\\voiture\\voiture.csproj": {}
+    "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voitureImplementation\\voiture\\voiture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voiture\\voiture\\voiture.csproj": {
+    "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voitureImplementation\\voiture\\voiture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voiture\\voiture\\voiture.csproj",
+        "projectUniqueName": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voitureImplementation\\voiture\\voiture.csproj",
         "projectName": "voiture",
-        "projectPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voiture\\voiture\\voiture.csproj",
+        "projectPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voitureImplementation\\voiture\\voiture.csproj",
         "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voiture\\voiture\\obj\\",
+        "outputPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\voitureImplementation\\voiture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
