@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>voiture</name>
+    </assembly>
+    <members>
+        <member name="T:Jante">
+            <summary>
+            Classe Jante de la roue
+            </summary>
+        </member>
+        <member name="F:Jante.matiere">
+            <summary>
+            Déclaration des attributs
+            </summary>
+        </member>
+        <member name="M:Jante.#ctor">
+            <summary>
+            Constructeur à vide
+            </summary>
+        </member>
+        <member name="M:Jante.#ctor(System.String,System.String,System.UInt32)">
+            <summary>
+            Constructeur classique
+            </summary>
+            <param name="_matiere">Matière de la jante</param>
+            <param name="_couleur">Couleur de la jante</param>
+            <param name="_rayonEnPouces">Rayon en Pouces de la jante</param>
+        </member>
+        <member name="M:Jante.Peindre(System.String)">
+            <summary>
+            Peindre les jantes
+            </summary>
+            <param name="_nouvelleCouleur">Nouvelle couleur de la jante</param>
+        </member>
+        <member name="F:Moteur.carburant">
+            <summary>
+            Déclaration des attributs
+            </summary>
+        </member>
+        <member name="M:Moteur.#ctor">
+            <summary>
+            Constructeur à vide
+            </summary>
+        </member>
+        <member name="M:Moteur.#ctor(System.String,System.Double,System.UInt32,System.Boolean)">
+            <summary>
+            Constructeur classique
+            </summary>
+            <param name="_carburant">Type de carburant du moteur</param>
+            <param name="_cylindree">Cylindrée du moteur</param>
+            <param name="_puissance">Puissance du moteur</param>
+            <param name="_moteurTourne">Indique si le moteur tourne</param>
+        </member>
+        <member name="M:Moteur.#ctor(Moteur)">
+            <summary>
+            Constructeur de clonage avec interdépendance
+            </summary>
+            <param name="_moteurCopie"></param>
+        </member>
+        <member name="M:Moteur.Demarrer">
+            <summary>
+            Démarrer le moteur
+            </summary>
+            <returns>
+            "true" si le moteur démarre
+            "false" dans le cas contraire
+            </returns>
+        </member>
+        <member name="M:Moteur.Arreter">
+            <summary>
+            Arrêter le moteur
+            </summary>
+            <returns>
+            "true" si le moteur s'arrête
+            "false" dans le cas contraire
+            </returns>
+        </member>
+        <member name="T:Pneu">
+            <summary>
+            Classe Pneu de la roue
+            </summary>
+        </member>
+        <member name="F:Pneu.largeur">
+            <summary>
+            Déclaration des attributs
+            </summary>
+        </member>
+        <member name="M:Pneu.#ctor">
+            <summary>
+            Constructeur à vide
+            </summary>
+        </member>
+        <member name="M:Pneu.#ctor(System.UInt32,System.UInt32,System.Single)">
+            <summary>
+            Constructeur classique
+            </summary>
+            <param name="_largeur">Largeur du pneu</param>
+            <param name="_hauteur">Hauteur du pneu</param>
+            <param name="_pression">Pression en Bar du pneu</param>
+        </member>
+        <member name="M:Pneu.Gonfler(System.Single)">
+            <summary>
+            Gonfler le pneu
+            </summary>
+            <param name="_nouvellePression">Nouvelle pression du pneu</param>
+            <returns>
+            "true" si le pneu a pu être gonflé
+            "false" dans le cas contraire
+            </returns>
+        </member>
+        <member name="F:Roue.poidsEquilibrageGrammes">
+            <summary>
+            Déclaration des attributs
+            </summary>
+        </member>
+        <member name="M:Roue.#ctor">
+            <summary>
+            Constructeur à vide
+            </summary>
+        </member>
+        <member name="M:Roue.#ctor(System.UInt32,System.UInt32,System.UInt32,System.Single,System.String,System.String,System.UInt32)">
+            <summary>
+            Constructeur classique
+            </summary>
+            <param name="_poidsEquilibrage">Poids d'équilibrage de la roue</param>
+            <param name="_largeur">Largeur du pneu</param>
+            <param name="_hauteur">Hauteur du pneu</param>
+            <param name="_pression">Pression en Bar du pneu</param>
+            <param name="_matiere">Matière de la jante</param>
+            <param name="_couleur">Couleur de la jante</param>
+            <param name="_rayon">Rayon en Pouces de la jante</param>
+        </member>
+        <member name="M:Roue.Equilibrer(System.UInt32)">
+            <summary>
+            Equilibrer la jante
+            </summary>
+            <param name="_nouveauPoids"></param>
+        </member>
+        <member name="F:Voiture.marque">
+            Déclaration des attributs
+        </member>
+        <member name="M:Voiture.#ctor">
+            Constructeur à vide
+        </member>
+        <member name="M:Voiture.#ctor(System.String,System.String,System.Double,System.Double,System.String,System.Double,System.UInt32,System.Boolean,System.UInt32,System.UInt32,System.UInt32,System.Single,System.String,System.String,System.UInt32)">
+            Constructeur classique
+        </member>
+        <member name="M:Voiture.Accelerer">
+            Faire accélérer la voiture
+        </member>
+        <member name="M:Voiture.Ralentir">
+            Faire ralentir la voiture
+        </member>
+    </members>
+</doc>

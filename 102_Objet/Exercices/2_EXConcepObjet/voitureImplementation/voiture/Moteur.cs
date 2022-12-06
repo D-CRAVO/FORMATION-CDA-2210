@@ -1,17 +1,38 @@
-﻿public class Moteur
+﻿/// <summary>
+/// Classe Moteur
+/// </summary>
+public class Moteur
 {
-    /**
-     * Déclaration des attributs
-     */
+    /// <summary>
+    /// Type de carburant du moteur
+    /// </summary>
     private string carburant;
+    /// <summary>
+    /// Cylindrée du moteur
+    /// </summary>
     private double cylindree;
+    /// <summary>
+    /// Puissance du moteur
+    /// </summary>
     private uint puissance;
+    /// <summary>
+    /// Indique si le moteur tourne
+    /// </summary>
     private bool moteurTourne;
 
 
-    /**
-     * Constructeur à vide
-     */
+    /// <summary>
+    /// Accesseurs à l'attribut "moteurTourne"
+    /// </summary>
+    public bool MoteurTourne
+    {
+        get { return moteurTourne; }
+    }
+
+
+    /// <summary>
+    /// Constructeur à vide
+    /// </summary>
     public Moteur()
     {
         carburant = "gazole";
@@ -21,9 +42,13 @@
     }
 
 
-    /**
-    * Constructeur classique
-    */
+    /// <summary>
+    /// Constructeur classique
+    /// </summary>
+    /// <param name="_carburant">Type de carburant du moteur</param>
+    /// <param name="_cylindree">Cylindrée du moteur</param>
+    /// <param name="_puissance">Puissance du moteur</param>
+    /// <param name="_moteurTourne">Indique si le moteur tourne</param>
     public Moteur(string _carburant, double _cylindree, uint _puissance, bool _moteurTourne)
     {
         carburant = _carburant;
@@ -33,9 +58,10 @@
     }
 
 
-    /**
-     * Constructeur de clonage avec interdépendance
-     */
+    /// <summary>
+    /// Constructeur de clonage avec interdépendance
+    /// </summary>
+    /// <param name="_moteurCopie"></param>
     public Moteur(Moteur _moteurCopie) 
         : this
         (
@@ -47,9 +73,13 @@
     { }
 
 
-    /**
-     * Démarrer le moteur
-     */
+    /// <summary>
+    /// Démarrer le moteur
+    /// </summary>
+    /// <returns>
+    /// "true" si le moteur démarre
+    /// "false" dans le cas contraire
+    /// </returns>
     public bool Demarrer()
     {
         if (!moteurTourne)
@@ -61,9 +91,13 @@
     }
 
 
-    /**
-     * Arrêter le moteur
-     */
+    /// <summary>
+    /// Arrêter le moteur
+    /// </summary>
+    /// <returns>
+    /// "true" si le moteur s'arrête
+    /// "false" dans le cas contraire
+    /// </returns>
     public bool Arreter()
     {
         if (moteurTourne)

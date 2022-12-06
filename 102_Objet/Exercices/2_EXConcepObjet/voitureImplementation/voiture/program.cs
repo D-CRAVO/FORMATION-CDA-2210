@@ -10,9 +10,18 @@ namespace voiture
     {
         static void Main(string[] args)
         {
-            //Moteur leonMoteur = new Moteur("diesel", 2.0, 184, false);
-            //Roue leonRoue = new Roue(0, new Pneu(205, 55, 1.9), new Jante("aluminium", "gris", 17));
-            Voiture leon = new Voiture("Seat", "Leon", 0, 200, new Moteur("diesel", 2.0, 184, false), new Roue(0, new Pneu(205, 55, 1.9), new Jante("aluminium", "gris", 17)));
+            //Voiture(marque,modele,vitesseKmh,vMaxKmh,carburant,cylindree,puissance,moteurTourne,poidsEquilibrage,largeur,hauteur,pression,matiere,couleur,rayonEnPouces)
+            Voiture leon = new Voiture("Seat", "Leon", 200, 200, "diesel", 2.0, 184, false, 0, 205, 55, 1.9f, "aluminium", "gris", 17);
+
+            if (!leon.Moteur.MoteurTourne)
+            {
+                bool resultat03 = leon.Moteur.Demarrer();
+                if (resultat03)
+                {
+                    bool resultat04 = leon.Accelerer();
+                }
+            }
+            
         }
     }
 }

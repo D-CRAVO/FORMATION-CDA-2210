@@ -10,6 +10,10 @@ public class Voiture
     private Moteur moteur;
     private Roue roue;
 
+
+    public Moteur Moteur { get { return moteur; } set { moteur = value; } }
+
+
     /**
      * Constructeur à vide
      */
@@ -23,18 +27,22 @@ public class Voiture
         roue = new Roue();
     }
 
-
+ 
     /**
      * Constructeur classique
      */
-    public Voiture(string _marque, string _modele, double _vitesseKmh, double _vMaxKmh, Moteur _moteur, Roue _roue)
+    public Voiture(string _marque, string _modele, double _vitesseKmh, double _vMaxKmh,
+        string _carburant, double _cylindree, uint _puissance, bool _moteurTourne,
+        uint _poidsEquilibrage, 
+        uint _largeur, uint _hauteur, float _pression, 
+        string _matiere, string _couleur, uint _rayonEnPouces)
     {
         marque = _marque;
         modele = _modele;
         vitesseKmh = _vitesseKmh;
         vMaxKmh = _vMaxKmh;
-        moteur = _moteur;
-        roue = _roue;
+        moteur = new Moteur(_carburant, _cylindree, _puissance, _moteurTourne);
+        roue = new Roue(_poidsEquilibrage, _largeur, _hauteur, _pression, _matiere, _couleur, _rayonEnPouces);
     }
 
 
@@ -43,10 +51,13 @@ public class Voiture
      */
     public bool Accelerer() 
     {
-        if (vitesseKmh < vMaxKmh - 10)
+        if (Moteur.MoteurTourne)
         {
-            vitesseKmh += 10;
-            return true;
+            if (vitesseKmh < vMaxKmh - 10)
+            {
+                vitesseKmh += 10;
+                return true;
+            }
         }
         return false;
     }
@@ -57,10 +68,13 @@ public class Voiture
      */
     public bool Ralentir() 
     {
-        if (vitesseKmh > 10)
+        if (Moteur.MoteurTourne)
         {
-            vitesseKmh -= 10;
-            return true;
+            if (vitesseKmh > 10)
+            {
+                vitesseKmh -= 10;
+                return true;
+            }
         }
         return false;
     }
