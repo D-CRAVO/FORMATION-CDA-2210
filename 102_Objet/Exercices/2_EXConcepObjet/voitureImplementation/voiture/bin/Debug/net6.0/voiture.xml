@@ -33,9 +33,34 @@
             </summary>
             <param name="_nouvelleCouleur">Nouvelle couleur de la jante</param>
         </member>
+        <member name="T:Moteur">
+            <summary>
+            Classe Moteur
+            </summary>
+        </member>
         <member name="F:Moteur.carburant">
             <summary>
-            Déclaration des attributs
+            Type de carburant du moteur
+            </summary>
+        </member>
+        <member name="F:Moteur.cylindree">
+            <summary>
+            Cylindrée du moteur
+            </summary>
+        </member>
+        <member name="F:Moteur.puissance">
+            <summary>
+            Puissance du moteur
+            </summary>
+        </member>
+        <member name="F:Moteur.moteurTourne">
+            <summary>
+            Indique si le moteur tourne
+            </summary>
+        </member>
+        <member name="P:Moteur.MoteurTourne">
+            <summary>
+            Accesseurs à l'attribut "moteurTourne"
             </summary>
         </member>
         <member name="M:Moteur.#ctor">
@@ -83,7 +108,17 @@
         </member>
         <member name="F:Pneu.largeur">
             <summary>
-            Déclaration des attributs
+            Largeur du pneu
+            </summary>
+        </member>
+        <member name="F:Pneu.hauteur">
+            <summary>
+            Hauteur du pneu
+            </summary>
+        </member>
+        <member name="F:Pneu.presionEnBar">
+            <summary>
+            Pression en bar dans le pneu
             </summary>
         </member>
         <member name="M:Pneu.#ctor">
@@ -109,9 +144,24 @@
             "false" dans le cas contraire
             </returns>
         </member>
+        <member name="T:Roue">
+            <summary>
+            Classe Roue
+            </summary>
+        </member>
         <member name="F:Roue.poidsEquilibrageGrammes">
             <summary>
-            Déclaration des attributs
+            Poids d'équilibrage de la jante en Grammes
+            </summary>
+        </member>
+        <member name="F:Roue.pneu">
+            <summary>
+            Pneu de la roue
+            </summary>
+        </member>
+        <member name="F:Roue.jante">
+            <summary>
+            Jante de la roue
             </summary>
         </member>
         <member name="M:Roue.#ctor">
@@ -123,7 +173,7 @@
             <summary>
             Constructeur classique
             </summary>
-            <param name="_poidsEquilibrage">Poids d'équilibrage de la roue</param>
+            <param name="_poidsEquilibrage">Poids d'équilibrage de la roue en Grammes</param>
             <param name="_largeur">Largeur du pneu</param>
             <param name="_hauteur">Hauteur du pneu</param>
             <param name="_pression">Pression en Bar du pneu</param>
@@ -135,22 +185,90 @@
             <summary>
             Equilibrer la jante
             </summary>
-            <param name="_nouveauPoids"></param>
+            <param name="_nouveauPoids">Nouveau poids installé pour équilibrer la roue</param>
+        </member>
+        <member name="T:Voiture">
+            <summary>
+            Classe Voiture
+            </summary>
         </member>
         <member name="F:Voiture.marque">
-            Déclaration des attributs
+            <summary>
+            Marque de la voiture
+            </summary>
+        </member>
+        <member name="F:Voiture.modele">
+            <summary>
+            Modèle de la voiture
+            </summary>
+        </member>
+        <member name="F:Voiture.vitesseKmh">
+            <summary>
+            Vitesse actuelle de la voiture en Kmh
+            </summary>
+        </member>
+        <member name="F:Voiture.vMaxKmh">
+            <summary>
+            Vitesse maximale de la voiture en Kmh
+            </summary>    
+        </member>
+        <member name="F:Voiture.moteur">
+            <summary>
+            Moteur de la voiture
+            </summary>
+        </member>
+        <member name="F:Voiture.roue">
+            <summary>
+            Roue de la voiture
+            </summary>
+        </member>
+        <member name="P:Voiture.Moteur">
+            <summary>
+            Accesseurs du moteur de la voiture
+            </summary>
         </member>
         <member name="M:Voiture.#ctor">
+            <summary>
             Constructeur à vide
+            </summary>
         </member>
         <member name="M:Voiture.#ctor(System.String,System.String,System.Double,System.Double,System.String,System.Double,System.UInt32,System.Boolean,System.UInt32,System.UInt32,System.UInt32,System.Single,System.String,System.String,System.UInt32)">
+            <summary>
             Constructeur classique
+            </summary>
+            <param name="_marque">Marque de la voiture</param>
+            <param name="_modele">Modèle de la voiture</param>
+            <param name="_vitesseKmh">Vitesse actuelle de la voiture</param>
+            <param name="_vMaxKmh">Vitesse maximale de la voiture</param>
+            <param name="_carburant">Type de carburant du moteur</param>
+            <param name="_cylindree">Cylindrée du moteur</param>
+            <param name="_puissance">Puissance du moteur</param>
+            <param name="_moteurTourne">Indique si le moteur tourne</param>
+            <param name="_poidsEquilibrage">Poids d'équilibrage de la roue</param>
+            <param name="_largeur">Largeur du pneu</param>
+            <param name="_hauteur">Hauteur du pneu</param>
+            <param name="_pression">Pression du pneu</param>
+            <param name="_matiere">Matière de la jante</param>
+            <param name="_couleur">Couleur de la jante</param>
+            <param name="_rayonEnPouces">Rayon de la jante en Pouces</param>
         </member>
         <member name="M:Voiture.Accelerer">
+            <summary>
             Faire accélérer la voiture
+            </summary>
+            <returns>
+            "true" si la voiture peut accélérer
+            "false" dans le cas contraire
+            </returns>
         </member>
         <member name="M:Voiture.Ralentir">
+            <summary>
             Faire ralentir la voiture
+            </summary>
+            <returns>
+            "true" si la voiture peut ralentir
+            "false dans le cas contraire
+            </returns>
         </member>
     </members>
 </doc>
