@@ -22,10 +22,10 @@ public class Roue
     /**
      * Constructeur classique
      */
-    public Roue(uint _poidsEquilibrage, Pneu _pneu, Jante _jante)
+    public Roue(uint _poidsEquilibrage,uint _largeur, uint _hauteur, double _pression, Jante _jante)
     {
         poidsEquilibrageGrammes = _poidsEquilibrage;
-        _pneu = new Pneu();
+        _pneu = new Pneu(_largeur);
         _jante = new Jante();
     }
 
