@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj": {}
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj": {
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj",
+        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj",
         "projectName": "bouteille",
-        "projectPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj",
+        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\bouteille.csproj",
         "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\obj\\",
+        "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\bouteilleImplementation\\bouteille\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

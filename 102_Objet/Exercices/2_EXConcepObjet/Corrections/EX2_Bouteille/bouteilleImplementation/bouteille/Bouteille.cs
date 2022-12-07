@@ -85,9 +85,9 @@ namespace bouteille
         /// <returns>true if allow ,false instead</returns>
         public bool Vider(float quantiteAViderEnCl)
         {
-            if (this.estOuverte &&
-                this.contenuActuelEnCl >= quantiteAViderEnCl &&
-                quantiteAViderEnCl > 0)
+            if (this.estOuverte 
+                && this.contenuActuelEnCl >= quantiteAViderEnCl 
+                && quantiteAViderEnCl > 0)
             {
                 this.contenuActuelEnCl -= quantiteAViderEnCl;
                 return true;
@@ -114,9 +114,9 @@ namespace bouteille
         /// <returns>true if allow ,false instead</returns>
         public bool Remplir(float quantiteARemplirEnCl)
         {
-            if (estOuverte &&
-                quantiteARemplirEnCl > 0 &&
-                quantiteARemplirEnCl <= contenanceEnCl - contenuActuelEnCl)
+            if (estOuverte 
+                && quantiteARemplirEnCl > 0 
+                && quantiteARemplirEnCl <= contenanceEnCl - contenuActuelEnCl)
             {
                 contenuActuelEnCl += quantiteARemplirEnCl;
                 return true;
