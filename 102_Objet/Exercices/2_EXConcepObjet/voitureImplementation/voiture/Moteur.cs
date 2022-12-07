@@ -20,6 +20,7 @@ public class Moteur
     /// </summary>
     private bool moteurTourne;
 
+    //public int vari {  get; private set; }
 
     /// <summary>
     /// Accesseurs à l'attribut "moteurTourne"

@@ -26,7 +26,8 @@ public class Voiture
     /// <summary>
     /// Roue de la voiture
     /// </summary>
-    private Roue roue;
+    private Roue[] roues = new Roue[4];
+
 
     /// <summary>
     /// Accesseurs du moteur de la voiture
@@ -37,14 +38,11 @@ public class Voiture
     /// <summary>
     /// Constructeur à vide
     /// </summary>
-    public Voiture()
+    /// <remarks>
+    /// <seealso cref="Voiture(string,string,double,double,string,double,uint,bool,uint,uint,uint,float,string,string,uint)" />
+    /// </remarks>
+    public Voiture() : this("Seat", "Cordoba", 0, 170, "essence", 1.9, 100, false, 0, 205, 55, 1.9F, "aluminium", "gris",15)
     {
-        marque = "Seat";
-        modele = "Cordoba";
-        vitesseKmh = 0;
-        vMaxKmh = 170;
-        moteur = new Moteur();
-        roue = new Roue();
     }
 
 
@@ -77,9 +75,18 @@ public class Voiture
         vitesseKmh = _vitesseKmh;
         vMaxKmh = _vMaxKmh;
         moteur = new Moteur(_carburant, _cylindree, _puissance, _moteurTourne);
-        roue = new Roue(_poidsEquilibrage, _largeur, _hauteur, _pression, _matiere, _couleur, _rayonEnPouces);
+        roues[0] = roues[1] = roues[2] = roues[3] = new Roue(_poidsEquilibrage, _largeur, _hauteur, _pression, _matiere, _couleur, _rayonEnPouces);
     }
 
+    public Voiture(string _marque, string _modele, double _vitesseKmh, double _vMaxKmh, Moteur _moteur, Roue _roueDeBase)
+    {
+        marque = _marque;
+        modele = _modele;
+        vitesseKmh = _vitesseKmh;
+        vMaxKmh = _vMaxKmh;
+        moteur = new Moteur(_moteur);
+        roues[0] = roues[1] = roues[2] = roues[3] = new Roue(_roueDeBase);
+    }
 
     /// <summary>
     /// Faire accélérer la voiture

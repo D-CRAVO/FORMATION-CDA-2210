@@ -27,6 +27,14 @@ public class Roue
         jante = new Jante();
     }
 
+    public Roue(Roue _nouvelleRoue) : this(_nouvelleRoue.poidsEquilibrageGrammes, _nouvelleRoue.pneu.largeur, _nouvelleRoue.pneu.hauteur,
+        _nouvelleRoue.pneu.presionEnBar, _nouvelleRoue.jante.matiere, _nouvelleRoue.jante.couleur, _nouvelleRoue.jante.rayonEnPouces)
+
+    {
+
+    }
+
+
 
     /// <summary>
     /// Constructeur classique

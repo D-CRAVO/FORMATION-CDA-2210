@@ -217,7 +217,7 @@
             Moteur de la voiture
             </summary>
         </member>
-        <member name="F:Voiture.roue">
+        <member name="F:Voiture.roues">
             <summary>
             Roue de la voiture
             </summary>
