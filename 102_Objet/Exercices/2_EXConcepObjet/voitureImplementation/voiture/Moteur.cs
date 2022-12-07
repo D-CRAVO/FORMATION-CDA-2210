@@ -18,17 +18,17 @@ public class Moteur
     /// <summary>
     /// Indique si le moteur tourne
     /// </summary>
-    private bool moteurTourne;
+    public bool moteurTourne { get; private set; }
 
     //public int vari {  get; private set; }
 
     /// <summary>
     /// Accesseurs à l'attribut "moteurTourne"
     /// </summary>
-    public bool MoteurTourne
-    {
-        get { return moteurTourne; }
-    }
+    //public bool MoteurTourne
+    //{
+    //    get { return moteurTourne; }
+    //}
 
 
     /// <summary>

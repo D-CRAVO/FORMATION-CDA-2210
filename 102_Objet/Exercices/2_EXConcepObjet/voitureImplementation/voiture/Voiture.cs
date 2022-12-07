@@ -22,7 +22,7 @@ public class Voiture
     /// <summary>
     /// Moteur de la voiture
     /// </summary>
-    private Moteur moteur;
+    public Moteur moteur { get; private set; }
     /// <summary>
     /// Roue de la voiture
     /// </summary>
@@ -32,7 +32,7 @@ public class Voiture
     /// <summary>
     /// Accesseurs du moteur de la voiture
     /// </summary>
-    public Moteur Moteur { get { return moteur; } set { moteur = value; } }
+    // public Moteur Moteur { get { return moteur; } set { moteur = value; } }
 
 
     /// <summary>
@@ -97,7 +97,7 @@ public class Voiture
     /// </returns>
     public bool Accelerer() 
     {
-        if (Moteur.MoteurTourne)
+        if (moteur.moteurTourne)
         {
             if (vitesseKmh < vMaxKmh - 10)
             {
@@ -118,7 +118,7 @@ public class Voiture
     /// </returns>
     public bool Ralentir() 
     {
-        if (Moteur.MoteurTourne)
+        if (moteur.moteurTourne)
         {
             if (vitesseKmh > 10)
             {
