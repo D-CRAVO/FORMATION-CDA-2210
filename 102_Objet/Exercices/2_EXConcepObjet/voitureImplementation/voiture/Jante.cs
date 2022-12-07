@@ -6,9 +6,9 @@ public class Jante
     /// <summary>
     /// Déclaration des attributs
     /// </summary>
-    private string matiere;
-    private string couleur;
-    private uint rayonEnPouces;
+    public string matiere { get; private set; }
+    public string couleur { get; private set; }
+    public uint rayonEnPouces { get; private set; }
 
 
     /// <summary>

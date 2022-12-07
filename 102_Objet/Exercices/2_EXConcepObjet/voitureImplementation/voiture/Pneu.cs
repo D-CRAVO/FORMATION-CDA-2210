@@ -14,7 +14,7 @@ public class Pneu
     /// <summary>
     /// Pression en bar dans le pneu
     /// </summary>
-    private float presionEnBar;
+    public float presionEnBar { get; private set; }
 
 
     /// <summary>
@@ -43,14 +43,14 @@ public class Pneu
 
 
     /// <summary>
-    /// Gonfler le pneu
+    /// Modifie la pression du pneu
     /// </summary>
     /// <param name="_nouvellePression">Nouvelle pression du pneu</param>
     /// <returns>
     /// "true" si le pneu a pu être gonflé
     /// "false" dans le cas contraire
     /// </returns>
-    public bool Gonfler(float _nouvellePression)
+    public bool ModifierPression(float _nouvellePression)
     {
         if (presionEnBar != _nouvellePression)
         {
