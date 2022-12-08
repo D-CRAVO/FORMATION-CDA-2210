@@ -10,61 +10,70 @@ namespace CompteBancaire
     {
         private static int numeroIncremente = 1;
 
-        /**
-         * Déclaration des propriétés
-         */
+        /// <summary>
+        /// Numero de compte bancaire
+        /// </summary>
         private string numero { get; }
+        /// <summary>
+        /// Nom du propriétaire du compte
+        /// </summary>
         private string proprietaire { get; set; }
+        /// <summary>
+        /// Solde du compte
+        /// </summary>
         private float solde { get; set; }
+        /// <summary>
+        /// Montant du découvert autorisé
+        /// </summary>
         private int decouvert { get; set; }
 
 
-        /**
-         * Déclaration des méthodes
-         */
 
 
-        /**
-         * Constructeur à vide
-         */
-        public CompteBancaire()
-        {
-            this.numero = numeroIncremente.ToString();
-            numeroIncremente++;
-            this.proprietaire = "sansNom";
-            this.solde = 0;
-            this.decouvert = 0;
-        }
 
-
-        /**
-         * Constructeur
-         */
+        /// <summary>
+        /// Constructeur classique
+        /// </summary>
+        /// <param name="_proprietaire">Nom du propriétaire du compte</param>
+        /// <param name="_solde">Solde du compte</param>
+        /// <param name="_decouvert">Montant du découvert autorisé</param>
         public CompteBancaire(string _proprietaire, float _solde, int _decouvert)
         {
-            this.numero = numeroIncremente.ToString();
+            numero = numeroIncremente.ToString();
             numeroIncremente++;
-            this.proprietaire = _proprietaire;
-            this.solde = _solde;
+            proprietaire = _proprietaire;
+            solde = _solde;
             if (_decouvert <= 0)
             {
-                this.decouvert = _decouvert;
+                decouvert = _decouvert;
             }
         }
 
 
-        /**
-         * Affiche toutes les informations du compte bancaire.
-         */
+        /// <summary>
+        /// Constructeur à vide
+        /// </summary>
+        public CompteBancaire()
+            : this("sansNom", 0, 0)
+        { }
+
+
+
+        /// <summary>
+        /// Affiche toutes les informations du compte bancaire.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return $"Le compte {this.numero} a pour propriétaire {this.proprietaire}, pour solde {this.solde} euros, et pour découvert autorisé {this.decouvert} euros";
         }
 
 
-        /**
-         * Crédite le compte "this" du montant "_montant"
-         */
+        /// <summary>
+        /// Crédite le compte "this" du montant "_montant"
+        /// </summary>
+        /// <param name="_montantCredit"></param>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
         public void Crediter(float _montantCredit)
         {
             if (_montantCredit <= 0)
@@ -75,10 +84,16 @@ namespace CompteBancaire
         }
 
 
-        /**
-         * Débite le compte "this" du montant "_montant"
-         * et renvoie un booléen "verif" pour indiquer si l'opération a été effectuée.
-         */
+        /// <summary>
+        /// Débite le compte "this" du montant "_montant"
+        /// </summary>
+        /// <param name="_montantDebit"></param>
+        /// <returns>
+        /// "true" si l'opération s'est bien déroulée
+        /// "false" dans le cas contraire
+        /// </returns>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        /// <exception cref="InvalidOperationException"></exception>
         public bool Debiter(float _montantDebit)
         {
             if (_montantDebit < 0)
@@ -94,11 +109,17 @@ namespace CompteBancaire
         }
 
 
-        /**
-         * Tranfert le montant "_montant" du compte bancaire "this" vers le compte bancaire "_compteCredit"
-         * Et renvoie un bool "verif" pour indiquer si l'opération a été effectuée.
-         */
-        public bool Transferer(CompteBancaire _compteCredit, float _montantTransfert)
+        /// <summary>
+        /// Tranfert le montant "_montant" du compte bancaire "this" vers le compte bancaire "_compteCredit"
+        /// Et renvoie un bool "verif" pour indiquer si l'opération a été effectuée.
+        /// </summary>
+        /// <param name="_compteCredit">Compte à crediter</param>
+        /// <param name="_montantTransfert">Montant du transfert</param>
+        /// <returns>
+        /// "true" si l'opération s'est bien déroulée
+        /// "false" dans le cas contraire
+        /// </returns>
+        public bool TransfererVers(CompteBancaire _compteCredit, float _montantTransfert)
         {
             this.Debiter(_montantTransfert);
             _compteCredit.Crediter(_montantTransfert);
@@ -106,6 +127,12 @@ namespace CompteBancaire
         }
 
 
+        /// <summary>
+        /// Permet de savoir si le solde du compte "this" 
+        /// est supérieur ou inférieur au solde du compte "_autreCompte"
+        /// </summary>
+        /// <param name="_autreCompte"></param>
+        /// <returns></returns>
         public string Comparer(CompteBancaire _autreCompte)
         {
             if (solde < _autreCompte.solde)

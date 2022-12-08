@@ -20,24 +20,19 @@ namespace CompteBancaire
             try
             {
                 david.Crediter(500);
-                Console.WriteLine(david);
 
-                david.Debiter(500);
-                Console.WriteLine(david);
+                bool result2 = david.Debiter(5000);
 
-                david.Transferer(john, 60);
-                Console.WriteLine(david);
-                Console.WriteLine(john);
+                bool result3 = david.TransfererVers(john, 60);
 
-                Console.WriteLine(jane);
 
-                Console.WriteLine(jane.Comparer(john));
-                Console.WriteLine(jane.Comparer(david));
+                string result4 = jane.Comparer(john);
+                string result5 = jane.Comparer(david);
 
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                string result = e.Message;
             }
             
         }
