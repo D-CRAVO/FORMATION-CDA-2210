@@ -2,3 +2,8 @@ creer l'objet
 advanced
 set run state
 apply
+
+selectionner le diagramme 
+add
+uml behavior
+sequence
