@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX2_Bouteille\\bouteilleImplementation\\bouteille\\bouteille.csproj",
-      "projectName": "bouteille",
-      "projectPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX2_Bouteille\\bouteilleImplementation\\bouteille\\bouteille.csproj",
+      "projectUniqueName": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX8_Lepidoptere\\LepidoptereImplementation\\LepidoptereImplementation\\LepidoptereImplementation.csproj",
+      "projectName": "LepidoptereImplementation",
+      "projectPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX8_Lepidoptere\\LepidoptereImplementation\\LepidoptereImplementation\\LepidoptereImplementation.csproj",
       "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX2_Bouteille\\bouteilleImplementation\\bouteille\\obj\\",
+      "outputPath": "C:\\Users\\CRAVO David\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX8_Lepidoptere\\LepidoptereImplementation\\LepidoptereImplementation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
