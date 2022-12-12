@@ -8,7 +8,9 @@ namespace LepidoptereCodage
 {
     public class Chenille : StadeEvolution
     {
-        public Chenille() { }
+        public Chenille() 
+        {
+        }
 
         public override string SeDeplacer()
         {

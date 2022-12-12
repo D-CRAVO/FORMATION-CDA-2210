@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\bin\Debug\net6.0\PointCodage.exe
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\bin\Debug\net6.0\PointCodage.deps.json
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\bin\Debug\net6.0\PointCodage.runtimeconfig.json
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\bin\Debug\net6.0\PointCodage.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\bin\Debug\net6.0\PointCodage.pdb
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.AssemblyInfo.cs
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\refint\PointCodage.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.pdb
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\PointCodage.genruntimeconfig.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrammationOrienteObjet\EX2_Point\PointCodage\PointCodage\obj\Debug\net6.0\ref\PointCodage.dll

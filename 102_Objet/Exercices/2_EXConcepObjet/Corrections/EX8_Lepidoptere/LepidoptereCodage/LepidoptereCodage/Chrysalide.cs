@@ -8,7 +8,9 @@ namespace LepidoptereCodage
 {
     public class Chrysalide : StadeEvolution
     {
-        public Chrysalide() { }
+        public Chrysalide() 
+        {
+        }
 
         public override string SeDeplacer()
         {

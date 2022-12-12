@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.AssemblyInfo.cs
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\bin\Debug\net6.0\LepidoptereCodage.exe
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\bin\Debug\net6.0\LepidoptereCodage.deps.json
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\bin\Debug\net6.0\LepidoptereCodage.runtimeconfig.json
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\bin\Debug\net6.0\LepidoptereCodage.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\bin\Debug\net6.0\LepidoptereCodage.pdb
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\refint\LepidoptereCodage.dll
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.pdb
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\LepidoptereCodage.genruntimeconfig.cache
+C:\Users\CRAVO David\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\2_EXConcepObjet\Corrections\EX8_Lepidoptere\LepidoptereCodage\LepidoptereCodage\obj\Debug\net6.0\ref\LepidoptereCodage.dll

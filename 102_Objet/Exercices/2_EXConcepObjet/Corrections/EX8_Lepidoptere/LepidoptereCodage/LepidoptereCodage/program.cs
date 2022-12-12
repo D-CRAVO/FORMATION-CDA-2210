@@ -8,5 +8,24 @@ namespace LepidoptereCodage
 {
     internal class program
     {
+        static void Main(string[] args)
+        {
+            Lepidoptere lepidoptere = new Lepidoptere();
+            Console.WriteLine(lepidoptere.SeDeplacer());
+            lepidoptere.SeMetamorphoser();
+
+            Console.WriteLine(lepidoptere.SeDeplacer());
+            lepidoptere.SeMetamorphoser();
+
+            Console.WriteLine(lepidoptere.SeDeplacer());
+            lepidoptere.SeMetamorphoser();
+
+            Console.WriteLine(lepidoptere.SeDeplacer());
+            lepidoptere.SeMetamorphoser();
+
+            Console.WriteLine(lepidoptere.SeDeplacer());
+            lepidoptere.SeMetamorphoser();
+
+        }
     }
 }

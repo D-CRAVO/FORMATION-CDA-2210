@@ -8,7 +8,9 @@ namespace LepidoptereCodage
 {
     public abstract class StadeEvolution
     {
-        public StadeEvolution() { }
+        public StadeEvolution() 
+        { 
+        }
 
         public abstract string SeDeplacer();
 

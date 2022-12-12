@@ -8,15 +8,18 @@ namespace LepidoptereCodage
 {
     public class Papillon : StadeEvolution
     {
-        public Papillon() { }
+        public Papillon() 
+        {
+        }
+
         public override string SeDeplacer()
         {
-            return "Voler";
+            return "Voler et marcher";
         }
 
         public override StadeEvolution SeMetamorphoser()
         {
-            return new Papillon();
+            return this;
         }
     }
 }

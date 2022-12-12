@@ -8,7 +8,9 @@ namespace LepidoptereCodage
 {
     public class Oeuf : StadeEvolution
     {
-        public Oeuf() { }
+        public Oeuf() 
+        {
+        }
 
         public override string SeDeplacer()
         {

@@ -8,7 +8,9 @@ namespace LepidoptereCodage
 {
     public class Larve : StadeEvolution
     {
-        public Larve() { }
+        public Larve() 
+        {
+        }
 
         public override string SeDeplacer()
         {

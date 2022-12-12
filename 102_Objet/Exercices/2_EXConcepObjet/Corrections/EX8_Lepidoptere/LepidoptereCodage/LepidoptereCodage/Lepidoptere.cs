@@ -10,16 +10,24 @@ namespace LepidoptereCodage
     {
         private StadeEvolution stadeCourant;
 
-        public Lepidoptere(StadeEvolution _stadeCourant)
+        public Lepidoptere()
         {
-            stadeCourant = _stadeCourant;
+            stadeCourant = new Oeuf();
         }
 
         public string SeDeplacer()
         {
-            return "Se déplacer";
+            return stadeCourant.SeDeplacer();
         }
 
-        public void SeMetamorphoser() { }
+        public void SeMetamorphoser() 
+        { 
+            stadeCourant = stadeCourant.SeMetamorphoser();
+        }
+
+        public override string ToString()
+        {
+            return "stadeCourant = " + stadeCourant.ToString();
+        }
     }
 }
