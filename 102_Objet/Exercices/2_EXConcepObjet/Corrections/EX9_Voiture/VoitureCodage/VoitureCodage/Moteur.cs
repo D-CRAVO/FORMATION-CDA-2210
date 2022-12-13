@@ -6,27 +6,47 @@ using System.Threading.Tasks;
 
 namespace VoitureCodage
 {
-    internal class Moteur
+    public class Moteur
     {
         /// <summary>
         /// Carburant utilisé par le moteur
         /// </summary>
-        private string carburant;
+        public string carburant;
+        public bool enMarche { get; private set; }
 
 
-        public Moteur(string _carburant)
+        public Moteur(string _carburant, bool _enMarche)
         {
             carburant = _carburant;
+            enMarche = _enMarche;
         }
 
-        public Moteur() : this("gazole") { }
+        public Moteur() : this("gazole", false) { }
 
         public Moteur(Moteur _nouveauMoteur) 
             : this
             (
-                  _nouveauMoteur.carburant
+                  _nouveauMoteur.carburant,
+                  _nouveauMoteur.enMarche
             )
         {
         }
+
+        public bool Demarrer()
+        {
+            return (!enMarche) ? enMarche = true : false;
+        }
+
+        public bool Arreter()
+        {
+            return (enMarche) ? !(enMarche = false) : false;
+        }
+
+        public bool EntrainerRoue(Roue _roueAvantGauche, Roue _roueAvantDroite)
+        {
+            return (enMarche && _roueAvantGauche.FaireTourner() && _roueAvantDroite.FaireTourner()) ? true : false;
+        }
+
+        
     }
 }
