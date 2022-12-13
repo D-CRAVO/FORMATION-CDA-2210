@@ -15,6 +15,8 @@ namespace VoitureCodage
             bool result02 = auto.Demarrer();
             bool result03 = auto.Arreter();
             bool result04 = auto.Arreter();
+            Voiture auto2 = new Voiture("Peugeot", "Sans Plomb" , true, 17, true);
+            Voiture autoCopie = new Voiture(auto2);
         }
     }
 }

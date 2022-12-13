@@ -25,14 +25,26 @@ namespace VoitureCodage
         public Voiture () : this("Seat", "Gazole", false, 15, false)
         { }
 
-        public Voiture(Voiture _nouvelleVoiture) : this
-            (
-                _nouvelleVoiture.marque,
-                _nouvelleVoiture.moteur),
-                _nouvelleVoiture.roues,
-                _nouvelleVoiture.estDemarre
-            )
+        //public Voiture(Voiture _nouvelleVoiture) : this
+        //    (
+        //        _nouvelleVoiture.marque,
+        //        new Moteur(_nouvelleVoiture.moteur),
+        //        _nouvelleVoiture.roues.Add("avd", new Roue(_nouvelleVoiture.roues["avd"])),
+        //        _nouvelleVoiture.roues.Add("avg", new Roue(_nouvelleVoiture.roues["avg"])),
+        //        _nouvelleVoiture.roues.Add("ard", new Roue(_nouvelleVoiture.roues["ard"])),
+        //        _nouvelleVoiture.roues.Add("arg", new Roue(_nouvelleVoiture.roues["arg"]))
+        //    )
+        //{
+        //}
+
+        public Voiture(Voiture _nouvelleVoiture)
         {
+            marque = _nouvelleVoiture.marque;
+            moteur = new Moteur(_nouvelleVoiture.moteur);
+            roues["avd"] = new Roue(_nouvelleVoiture.roues["avd"]);
+            roues["avg"] = new Roue(_nouvelleVoiture.roues["avg"]);
+            roues["ard"] = new Roue(_nouvelleVoiture.roues["ard"]);
+            roues["arg"] = new Roue(_nouvelleVoiture.roues["arg"]);
         }
 
         public bool Demarrer()

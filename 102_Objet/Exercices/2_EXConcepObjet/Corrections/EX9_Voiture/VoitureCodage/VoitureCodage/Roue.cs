@@ -11,8 +11,8 @@ namespace VoitureCodage
         /// <summary>
         /// Diametre de la jante en Pouces
         /// </summary>
-        private uint diametre;
-        private bool tourne;
+        public uint diametre;
+        public bool tourne;
       
 
         public Roue(uint _diametre, bool _tourne)
