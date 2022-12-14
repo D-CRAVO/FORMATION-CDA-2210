@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoitureCodage", "VoitureCodage\VoitureCodage.csproj", "{2B8BFF18-0333-44BD-A22E-85F35A74834D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoitureCodage", "VoitureCodage\VoitureCodage.csproj", "{EE16AF31-320C-49DA-9A01-0545F7FFF70F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2B8BFF18-0333-44BD-A22E-85F35A74834D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B8BFF18-0333-44BD-A22E-85F35A74834D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B8BFF18-0333-44BD-A22E-85F35A74834D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B8BFF18-0333-44BD-A22E-85F35A74834D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE16AF31-320C-49DA-9A01-0545F7FFF70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE16AF31-320C-49DA-9A01-0545F7FFF70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE16AF31-320C-49DA-9A01-0545F7FFF70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE16AF31-320C-49DA-9A01-0545F7FFF70F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D6A3F4C1-E59A-4B79-B981-102B3CAC84FB}
+		SolutionGuid = {701EE8F3-7299-4022-9E38-B691BC5307C0}
 	EndGlobalSection
 EndGlobal

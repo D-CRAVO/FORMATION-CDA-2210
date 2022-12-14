@@ -10,25 +10,23 @@ namespace VoitureCodage
     {
         static void Main(string[] args)
         {
-            Voiture auto = new Voiture();
-            bool result01 = auto.Demarrer();
-            bool result03 = auto.Demarrer();
-            bool result04 = auto.Avancer();
-            bool result05 = auto.Avancer();
-            bool result06 = auto.Freiner();
-            bool result07 = auto.Freiner();
-            bool result08 = auto.CouperContact();
-            bool result09 = auto.CouperContact();
-            Voiture auto2 = new Voiture("Peugeot", "Sans Plomb" , true, 17, true);
-            Voiture autoCopie = new Voiture(auto2);
-            bool result11 = auto2.Demarrer();
-            bool result12 = auto2.Freiner();
-            bool result13 = auto2.Avancer();
-            bool result14 = auto2.CouperContact();
-            bool result15 = auto2.Freiner();
-            bool result16 = auto2.CouperContact();
-
-
+            Roue[] roues = new Roue[] { new Roue(), new Roue(), new Roue(), new Roue(), new Roue(), new Roue() };
+            Moteur moteur = new Moteur();
+            string marque = "Citroen";
+            //Utilisation du constructeur V1 : public Voiture(string _marque, Moteur _sonMoteur, Roue[] _ses4roues)
+            Voiture voiture = new Voiture(marque, moteur, roues);
+            Roue roueA = new Roue();
+            Roue roueB = new Roue();
+            Roue roueC = new Roue();
+            Roue roueD = new Roue();
+            Moteur moteurB = new Moteur();
+            //Utilisation du constructeur V2 : public Voiture(string _marque, Moteur _sonMoteur,
+            //Roue _roue1, Roue _roue2, Roue _roue3, Roue _roue4)
+            Voiture voitureB = new Voiture(marque, moteur, roueA, roueB, roueC, roueD);
+            //Utilisation du constructeur V3 : public Voiture(string _marque, bool _enMarche,
+            // bool _tourne, string _dimensionPneu)
+            Voiture voitureC = new Voiture(marque, false, false, "240/15/10V");
         }
     }
 }
+

@@ -8,53 +8,62 @@ namespace VoitureCodage
 {
     public class Roue
     {
+        private bool tourne;
+        private string dimensionPneu;
+        public bool Tourne { get => tourne; /*set => tourne = value;*/ }
         /// <summary>
-        /// Diametre de la jante en Pouces
+        /// Constructeur générique d'une roue. 
         /// </summary>
-        private uint diametre;
-        private bool tourne ;
-      
-        public bool Tourne { get => tourne;  /*set => tourne = value;*/ }
-
-        public Roue(uint _diametre, bool _tourne)
+        /// <param name="_tourne"></param>
+        /// <param name="_dimensionPneu"></param>
+        public Roue(bool _tourne, string _dimensionPneu)
         {
-            diametre = _diametre;
-            tourne = _tourne;
+            this.tourne = _tourne;
+            this.dimensionPneu = _dimensionPneu;
         }
-
-        public Roue() : this(15, false) { }
-
-        public Roue(Roue _nouvelleRoue) 
-            : this
-            (
-                _nouvelleRoue.diametre,
-                _nouvelleRoue.tourne
-            )
+        /// <summary>
+        /// Constructeur par défaut d'une roue. 
+        /// </summary>
+        public Roue()
         {
+            this.tourne = false;
+            this.dimensionPneu = "1.0";
         }
-
-        public bool FaireTourner() 
+        //public Roue() : this(false, "1.0") { }
+        /// <summary>
+        /// Constructeur par copie d'une roue. 
+        /// </summary>
+        /// <param name="_roueACopier"></param>
+        public Roue(Roue _roueACopier)
         {
-            if (!tourne)
+            this.tourne = _roueACopier.tourne;
+            this.dimensionPneu = _roueACopier.dimensionPneu;
+        }
+        /*public Roue(Roue _roueACopier) :
+        this(_roueACopier.tourne,
+            _roueACopier.dimensionPneu)
+        { }*/
+        public bool Tourner()
+        {
+            if (this.tourne == true)
             {
-                tourne=true;
+                return false;
+            }
+            else
+            {
+                this.tourne = true;
                 return true;
             }
-            return false;
         }
-
         /// <summary>
-        /// Methode pour stopper une roue
+        /// Méthode pour stopper une roue. 
         /// </summary>
-        /// <returns>
-        /// Retourne true et passe tourne à false
-        /// Sinon retourne false
-        /// </returns>
+        /// <returns>Retourne true si on passe de tourne=true à tourne=false. </returns>
         public bool Stopper()
         {
-            if (tourne)
+            if (this.tourne)
             {
-                tourne = false;
+                this.tourne = false;
                 return true;
             }
             return false;

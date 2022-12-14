@@ -8,93 +8,90 @@ namespace VoitureCodage
 {
     public class Moteur
     {
+        private bool enMarche;
         /// <summary>
-        /// Type de carburant utilisé par le moteur
+        /// Constructeur générique d'un moteur. 
         /// </summary>
-        public string carburant;
-        /// <summary>
-        /// Indique si le moteur est en marche
-        /// </summary>
-        public bool enMarche { get; private set; }
-
-        /// <summary>
-        /// Constructeur générique du moteur
-        /// </summary>
-        /// <param name="_carburant">Type de carburant utilisé par le moteur</param>
-        /// <param name="_enMarche">Indique si le moteur est en marche</param>
-        public Moteur(string _carburant, bool _enMarche)
+        /// <param name="_enMarche"></param>
+        public Moteur(bool _enMarche)
         {
-            carburant = _carburant;
-            enMarche = _enMarche;
-        }
-
-        /// <summary>
-        /// Constructeur par défaut du moteur
-        /// </summary>
-        public Moteur() : this("gazole", false) { }
-
-        /// <summary>
-        /// Constructeur par copie du moteur
-        /// </summary>
-        /// <param name="_nouveauMoteur">Moteur à copier</param>
-        public Moteur(Moteur _nouveauMoteur) 
-            : this
-            (
-                  _nouveauMoteur.carburant,
-                  _nouveauMoteur.enMarche
-            )
-        {
+            this.enMarche = _enMarche;
         }
         /// <summary>
-        /// Demarre le moteur
+        /// Constructeur par défaut d'un moteur. 
         /// </summary>
-        /// <returns>
-        /// Passe à enMarche à true et renvoie true si la voiture est arrêtée
-        /// Renvoie false si la voiture est déjà démarrée
-        /// </returns>
+        public Moteur()
+        {
+            this.enMarche = false;
+        }
+        //public Moteur() : this(false) { }
+        /// <summary>
+        /// Constructeur par copie d'un moteur. 
+        /// </summary>
+        /// <param name="_moteurACopier"></param>
+        public Moteur(Moteur _moteurACopier)
+        {
+            this.enMarche = _moteurACopier.enMarche;
+        }
+        /// <summary>
+        /// Bascule enMarche de false à true. 
+        /// Si enMarche est déjà true, la méthode ne fait rien. 
+        /// </summary>
+        /// <returns>Retourne false si déjà enMarche est déjà true ou 
+        /// retourne true si enMarche est initialement false. </returns>
         public bool Demarrer()
         {
-            if (!enMarche)
+            if (this.enMarche == true)
             {
-                enMarche=true;
+                return false;
+            }
+            else
+            {
+                this.enMarche = true;
+                return true;
+            }
+        }
+        public bool EntrainerRoues(Roue roue1, Roue roue2)
+        {
+            if (this.enMarche)
+            {
+                bool rt1 = roue1.Tourner();
+                bool rt2 = roue2.Tourner();
+                if (rt1 == true && rt2 == true)//if (rt1 && rt2)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        /// <summary>
+        /// Permet de stopper 
+        /// </summary>
+        /// <param name="roue1"></param>
+        /// <param name="roue2"></param>
+        /// <returns></returns>
+        public bool ArreterRoues(Roue roue1, Roue roue2)
+        {
+            bool rt1 = roue1.Stopper();
+            bool rt2 = roue2.Stopper();
+            if (rt1 && rt2)
+            {
                 return true;
             }
             return false;
-            //return (!enMarche) ? enMarche = true : false;
         }
-
         /// <summary>
-        /// Arrête le moteur
+        /// Permet de passer enMarche de true à false. 
         /// </summary>
-        /// <returns>
-        /// Passe enMarche à false et renvoie true si le moteur est en marche
-        /// Renvoie false si le moteur est déjà arrêté
-        /// </returns>
+        /// <returns>Retourne true si enMarche passe de true à false. </returns>
         public bool Eteindre()
         {
-            if (enMarche)
+            if (this.enMarche)
             {
-                enMarche = false;
+                this.enMarche = false;
                 return true;
             }
             return false;
-            // return (enMarche) ? !(enMarche = false) : false;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="_roueAvantGauche"></param>
-        /// <param name="_roueAvantDroite"></param>
-        /// <returns></returns>
-        public bool EntrainerRoues(Roue _roueAvantGauche, Roue _roueAvantDroite)
-        {
-            return (enMarche && _roueAvantGauche.FaireTourner() && _roueAvantDroite.FaireTourner());
-        }
-
-        public bool ArreterRoues(Roue _roueAvantGauche, Roue _roueAvantDroite)
-        {
-            return (_roueAvantGauche.Stopper() && _roueAvantDroite.Stopper());
         }
     }
 }

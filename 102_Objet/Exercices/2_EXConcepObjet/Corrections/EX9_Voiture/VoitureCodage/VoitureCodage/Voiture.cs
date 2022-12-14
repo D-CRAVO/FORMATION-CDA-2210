@@ -9,115 +9,136 @@ namespace VoitureCodage
     public class Voiture
     {
         private string marque;
-        private Moteur moteur;
-        public Dictionary<string, Roue> roues = new Dictionary<string, Roue>(4);
-        // private Roue[] roues;
-
+        private Moteur sonMoteur;
+        private Roue[] ses4roues;
+        //version dictionnaire
+        //private Dictionary<string, Roue> ses4Roues2;
         /// <summary>
-        /// Constructeur générique de Voiture
+        /// Constructeur par défaut de Voiture. 
         /// </summary>
-        /// <param name="_marque">Marque de la voiture</param>
-        /// <param name="_carburant">Type de carburant utilisé par le moteur</param>
-        /// <param name="_enMarche">Indique si le moteur est en marche</param>
-        /// <param name="_diametre">Diametre de la roue</param>
-        /// <param name="_tourne">Indique si la roue tourne</param>
-        public Voiture (string _marque, string _carburant, bool _enMarche, uint _diametre, bool _tourne)
+        public Voiture()
         {
-            marque = _marque;
-            moteur = new Moteur (_carburant, _enMarche);
-            roues.Add("avd", new Roue(_diametre, _tourne));
-            roues.Add("avg", new Roue(_diametre, _tourne));
-            roues.Add("ard", new Roue(_diametre, _tourne));
-            roues.Add("arg", new Roue(_diametre, _tourne));
-            // roues = new Roue[4];
-            // roues[0] = new Roue(); // Roue avant droite
-            // roues[1] = new Roue(); // Roue avant gauche
-            // roues[2] = new Roue(); // Roue arrière droite
-            // roues[3] = new Roue(); // Roue arrière gauche
+            this.marque = "Peugeot";
+            this.sonMoteur = new Moteur();
+            //this.ses4roues = new Roue[4] {new Roue(),
+            //new Roue(), new Roue(), new Roue()};
+            this.ses4roues = new Roue[4];
+            this.ses4roues[0] = new Roue();//roue avant droite
+            this.ses4roues[1] = new Roue();//roue avant gauche
+            this.ses4roues[2] = new Roue();//roue arriere droite
+            this.ses4roues[3] = new Roue();//roue arriere gauche
+            //version dictionnaire
+            /*ses4Roues2 = new Dictionary<string, Roue>();
+            ses4Roues2.Add("rad", new Roue());
+            ses4Roues2.Add("rag", new Roue());
+            ses4Roues2.Add("rard", new Roue());
+            ses4Roues2.Add("rarg", new Roue());*/
         }
-
-        //public Voiture(string _marque, Moteur _moteur, Roue _r1, Roue _r2, Roue _r3, Roue _r4)
-        //{
-        //    marque = _marque;
-        //    moteur = new Moteur(_moteur);
-        //    roues.Add("avd", new Roue(_r1));
-        //    roues.Add("avg", new Roue(_r2));
-        //    roues.Add("ard", new Roue(_r3));
-        //    roues.Add("arg", new Roue(_r4));
-        //}
-
-
         /// <summary>
-        /// Constructeur par défaut de la voiture
+        /// Constructeur classique d'une voiture V1. 
         /// </summary>
-        public Voiture () : this("Seat", "Gazole", false, 15, false)
+        /// <param name="_marque"></param>
+        /// <param name="_sonMoteur"></param>
+        /// <param name="_ses4roues"></param>
+        public Voiture(string _marque, Moteur _sonMoteur, Roue[] _ses4roues)
+        {
+            this.marque = _marque;
+            this.sonMoteur = _sonMoteur;
+            this.ses4roues = _ses4roues;
+        }
+        /// <summary>
+        /// Autre constructeur classique de Voiture V2. 
+        /// </summary>
+        /// <param name="_marque"></param>
+        /// <param name="_sonMoteur"></param>
+        /// <param name="_roue1"></param>
+        /// <param name="_roue2"></param>
+        /// <param name="_roue3"></param>
+        /// <param name="_roue4"></param>
+        public Voiture(string _marque, Moteur _sonMoteur, Roue _roue1, Roue _roue2,
+            Roue _roue3, Roue _roue4)
+        {
+            this.marque = _marque;
+            this.sonMoteur = _sonMoteur;
+            this.ses4roues = new Roue[4] { _roue1, _roue2, _roue3, _roue4 };
+        }
+        /// <summary>
+        /// Encore un autre constructeur classique de Voiture V3. 
+        /// </summary>
+        /// <param name="_marque"></param>
+        /// <param name="_enMarche"></param>
+        /// <param name="_tourne"></param>
+        /// <param name="_dimensionPneu"></param>
+        public Voiture(string _marque, bool _enMarche, bool _tourne, string _dimensionPneu)
+        {
+            this.marque = _marque;
+            this.sonMoteur = new Moteur(_enMarche);
+            this.ses4roues = new Roue[4] {new Roue(_tourne,_dimensionPneu),
+                new Roue(_tourne, _dimensionPneu) , new Roue(_tourne,_dimensionPneu),
+                new Roue(_tourne,_dimensionPneu)};
+        }
+        /// <summary>
+        /// Constructeur par copie de Voiture. 
+        /// </summary>
+        /// <param name="_voitureACopier"></param>
+        /*public Voiture(Voiture _voitureACopier)
+        {
+            this.marque = _voitureACopier.marque;
+            this.sonMoteur = new Moteur(_voitureACopier.sonMoteur);
+            //this.sonMoteur = _voitureACopier.sonMoteur; //ne pas faire ça 
+            this.ses4roues = new Roue[] {new Roue(_voitureACopier.ses4roues[0]),
+            new Roue(_voitureACopier.ses4roues[1]),
+            new Roue(_voitureACopier.ses4roues[2]),
+            new Roue(_voitureACopier.ses4roues[3])};
+        }*/
+        /// <summary>
+        /// Autre constructeur par recopie avec référence avec un constructeur classique. 
+        /// </summary>
+        /// <param name="_voitureACopier"></param>
+        public Voiture(Voiture _voitureACopier) : this(_voitureACopier.marque,
+            new Moteur(_voitureACopier.sonMoteur),
+            new Roue[] { new Roue(_voitureACopier.ses4roues[0]),
+            new Roue(_voitureACopier.ses4roues[1]),
+            new Roue(_voitureACopier.ses4roues[2]),
+            new Roue(_voitureACopier.ses4roues[3])})
         { }
-
-        
-        //public Voiture(Voiture _nouvelleVoiture) : this
-        //    (
-        //        _nouvelleVoiture.marque,
-        //        _nouvelleVoiture.moteur,
-        //        _nouvelleVoiture.roues["avd"],
-        //        _nouvelleVoiture.roues["avg"],
-        //        _nouvelleVoiture.roues["ard"],
-        //        _nouvelleVoiture.roues["arg"]
-        //    )
-        //{
-        //}
-
         /// <summary>
-        /// Constructeur par copie de voiture
+        /// Appelle la méthode Démarrer de Moteur. 
         /// </summary>
-        /// <param name="_nouvelleVoiture">Voiture à copier</param>
-        public Voiture(Voiture _nouvelleVoiture)
-        {
-            marque = _nouvelleVoiture.marque;
-            moteur = new Moteur(_nouvelleVoiture.moteur);
-            roues["avd"] = new Roue(_nouvelleVoiture.roues["avd"]);
-            roues["avg"] = new Roue(_nouvelleVoiture.roues["avg"]);
-            roues["ard"] = new Roue(_nouvelleVoiture.roues["ard"]);
-            roues["arg"] = new Roue(_nouvelleVoiture.roues["arg"]);
-        }
-
-        /// <summary>
-        /// Demarrer la voiture
-        /// </summary>
-        /// <returns></returns>
+        /// <returns>Voir retour de Moteur.Demarrer(). </returns>
         public bool Demarrer()
         {
-            return moteur.Demarrer();
+            return sonMoteur.Demarrer();
         }
-        
         /// <summary>
-        /// Faire avancer la voiture
+        /// Permet d'appeler la méthode EntrainerRoue de Moteur. 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Voir retour de Moteur.EntrainerRoue. </returns>
         public bool Avancer()
         {
-            return moteur.EntrainerRoues(roues["avg"], roues["avd"]);
-            // return moteur.EntrainerRoues(roues[0], roues[1]);
+            return sonMoteur.EntrainerRoues(ses4roues[0], ses4roues[1]);
+            //return sonMoteur.EntrainerRoue(ses4Roues2["rad"], ses4Roues2["rag"]);//version dictionnaire
         }
-
         /// <summary>
-        /// Freiner la voiture
+        /// Permet d'appeler la méthode Freiner de Moteur. 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Voir retour de Moteur.Freiner. </returns>
         public bool Freiner()
         {
-            return moteur.ArreterRoues(roues["avg"], roues["avd"]);
-            // return moteur.ArreterRoues(roues[0], roues[1]);
+            return sonMoteur.ArreterRoues(ses4roues[0], ses4roues[1]);
         }
-
         /// <summary>
-        /// Permet de couper le contact
+        /// Permet d'éteindre le moteur si les roues ne tournent pas. 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Voir retour de Moteur.Eteindre. </returns>
         public bool CouperContact()
         {
-            if (!roues["avg"].Tourne && !roues["avd"].Tourne)
+            //ses4roues[0].Tourne = true; impossible car pas de set dans la propriété Tourne. 
+            //if !(ses4roues[0].Tourne || ses4roues[1].Tourne)
+            //if (ses4roues[0].Tourne==false && ses4roues[1].Tourne==false)
+            if (!ses4roues[0].Tourne && !ses4roues[1].Tourne)
             {
-                return moteur.Eteindre();
+                return sonMoteur.Eteindre();
             }
             return false;
         }
