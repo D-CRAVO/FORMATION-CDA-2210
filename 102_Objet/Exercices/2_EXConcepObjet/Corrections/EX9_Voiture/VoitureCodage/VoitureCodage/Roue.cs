@@ -11,9 +11,10 @@ namespace VoitureCodage
         /// <summary>
         /// Diametre de la jante en Pouces
         /// </summary>
-        public uint diametre;
-        public bool tourne;
+        private uint diametre;
+        private bool tourne ;
       
+        public bool Tourne { get => tourne;  /*set => tourne = value;*/ }
 
         public Roue(uint _diametre, bool _tourne)
         {
@@ -34,7 +35,29 @@ namespace VoitureCodage
 
         public bool FaireTourner() 
         {
-            return (!tourne) ? false : true;
+            if (!tourne)
+            {
+                tourne=true;
+                return true;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Methode pour stopper une roue
+        /// </summary>
+        /// <returns>
+        /// Retourne true et passe tourne à false
+        /// Sinon retourne false
+        /// </returns>
+        public bool Stopper()
+        {
+            if (tourne)
+            {
+                tourne = false;
+                return true;
+            }
+            return false;
         }
     }
 }
