@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LepidoptereRevision
 {
-    internal class StadeEvolution
+    public abstract class StadeEvolution
     {
+        public StadeEvolution() { }
+        public abstract string SeDeplacer();
+        public abstract StadeEvolution SeMetamorphoser();
     }
 }

@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace LepidoptereRevision
 {
-    internal class Oeuf
+    public class Oeuf : StadeEvolution
     {
+        public Oeuf() { }
+
+        public override string SeDeplacer()
+        {
+            return "Rouler";
+        }
+
+        public override StadeEvolution SeMetamorphoser()
+        {
+            return new Chenille();
+        }
+
     }
 }

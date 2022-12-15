@@ -8,5 +8,9 @@ namespace LepidoptereRevision
 {
     internal class program
     {
+        static void Main(string[] args)
+        {
+            Lepidoptere lepidoptere = new Lepidoptere();
+        }
     }
 }

@@ -4,9 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LepidoptereRevision
+namespace LepidoptereRevision 
 {
-    internal class Papillon
+    internal class Papillon : StadeEvolution
     {
+        public Papillon() { }
+
+        public override string SeDeplacer()
+        {
+            return "Voler";
+        }
+
+        public override StadeEvolution SeMetamorphoser()
+        {
+            return this;
+        }
     }
 }
