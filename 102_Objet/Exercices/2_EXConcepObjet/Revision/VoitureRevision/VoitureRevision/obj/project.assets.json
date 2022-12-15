@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX9_Voiture\\VoitureCodage\\VoitureCodage\\VoitureCodage.csproj",
-      "projectName": "VoitureCodage",
-      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX9_Voiture\\VoitureCodage\\VoitureCodage\\VoitureCodage.csproj",
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Revision\\VoitureRevision\\VoitureRevision\\VoitureRevision.csproj",
+      "projectName": "VoitureRevision",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Revision\\VoitureRevision\\VoitureRevision\\VoitureRevision.csproj",
       "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Corrections\\EX9_Voiture\\VoitureCodage\\VoitureCodage\\obj\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\2_EXConcepObjet\\Revision\\VoitureRevision\\VoitureRevision\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
