@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace VoitureRevision
 {
-    internal class Moteur
+    public class Moteur
     {
         private bool enMarche;
+
+        public bool EnMarche { get => enMarche ;}
 
         public Moteur (bool _enMarche)
         {
@@ -24,7 +26,7 @@ namespace VoitureRevision
         {
         }
 
-        public bool Demarrer()
+        public bool Allumer()
         {
             if (!enMarche)
             {

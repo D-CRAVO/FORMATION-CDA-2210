@@ -13,6 +13,8 @@ namespace VoitureRevision
         /// </summary>
         private bool tourne;
 
+        public bool Tourne { get => tourne; }
+
 
         /// <summary>
         /// Constructeur classique
