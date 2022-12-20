@@ -121,9 +121,12 @@ namespace CompteBancaire
         /// </returns>
         public bool TransfererVers(CompteBancaire _compteCredit, float _montantTransfert)
         {
-            this.Debiter(_montantTransfert);
-            _compteCredit.Crediter(_montantTransfert);
-            return true;
+            if (this.Debiter(_montantTransfert))
+            {
+                _compteCredit.Crediter(_montantTransfert);
+                return true;
+            }
+            return false;
         }
 
 
