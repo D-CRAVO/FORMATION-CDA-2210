@@ -8,42 +8,38 @@ namespace PointCodage
 {
     internal class Point
     {
-        private string name;
         private double x;
         private double y;
-
 
         /// <summary>
         /// Constructeur classique
         /// </summary>
-        /// <param name="_name"></param>
         /// <param name="_x"></param>
         /// <param name="_y"></param>
-        public Point(string _name, double _x, double _y)
+        public Point(double _x, double _y)
         {
-            name = _name;
             x = _x;
             y = _y;
         }
 
-
         /// <summary>
-        /// Constructeur par défaut
+        /// Constructeur par défaut avec interdépendance
         /// </summary>
-        public Point():this("O",0,0) 
+        public Point():this(0,0) 
         {
         }
 
-
+        /// <summary>
+        /// Constructeur par copie avec interdépendance
+        /// </summary>
+        /// <param name="_nouveauPoint"></param>
         public Point(Point _nouveauPoint) : this
             (
-                _nouveauPoint.name,
                 _nouveauPoint.x,
                 _nouveauPoint.y
             )
         {
         }
-
 
         /// <summary>
         /// Permet d'afficher les caractéristiques du point
@@ -51,24 +47,8 @@ namespace PointCodage
         /// <returns></returns>
         public override string ToString()
         {
-            return $"Le point {this.name} a pour coordonnées ({x},{y})";
+            return $"Le point a pour coordonnées ({x},{y})";
         }
-
-
-        /// <summary>
-        /// Retourne la position du point
-        /// </summary>
-        /// <returns>
-        /// Les caractéristiques du point
-        /// </returns>
-        public Point IndiquerPosition()
-        {
-            return new Point(name, x, y);
-        }
-
-
-        
-
 
         /// <summary>
         /// Déplace le point de _dx suivant les abscisses
@@ -83,19 +63,17 @@ namespace PointCodage
         {
             x += _dx;
             y += _dy;
-            return new Point(name, x, y);
+            return new Point(x, y);
         }
 
         public Point SymetrieOrdonnees()
         {
-            y = -y;
-            return new Point(name, x, y);
+            return new Point(-x, y);
         }
 
         public Point SymetrieAbscisses()
         {
-            x = -x;
-            return new Point(name, x, y);
+            return new Point(x, -y);
         }
 
         public Point SymetrieOrigine()
