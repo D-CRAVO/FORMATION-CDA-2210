@@ -16,6 +16,8 @@ namespace CompteBancaire
             CompteBancaire john = new CompteBancaire("John", 0, -500);
             CompteBancaire jane = new CompteBancaire();
 
+            // Console.WriteLine(david);
+
             /* Opérations sur les comptes */
             try
             {
