@@ -11,7 +11,11 @@ namespace ReservationVol_2
         static void Main(string[] args)
         {
             Compagnie compagnie01 = new Compagnie("Compagnie01");
-            Vol vol01 = new Vol(0123, compagnie01)
+            Aeroport aeroport01 = new Aeroport("Aeroport01");
+            Aeroport aeroport02 = new Aeroport("Aeroport02");
+            DateTime dateHeureDepart = new DateTime(2022, 12, 30, 12, 00, 00);
+            DateTime dateHeureArrivee = new DateTime(2022, 12, 31, 15, 00, 00);
+            Vol vol01 = new Vol(null, aeroport01, aeroport02, compagnie01, EnumVolOuvertureReservationEtat.enAttente, "0123", dateHeureDepart, dateHeureArrivee);
         }
     }
 }
