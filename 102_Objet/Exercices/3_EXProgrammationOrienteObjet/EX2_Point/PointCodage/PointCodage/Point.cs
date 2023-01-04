@@ -66,19 +66,40 @@ namespace PointCodage
             return new Point(x, y);
         }
 
+        /// <summary>
+        /// Construit un point symétrique par rapport à l'axe des ordonnées
+        /// </summary>
+        /// <returns></returns>
         public Point SymetrieOrdonnees()
         {
             return new Point(-x, y);
         }
 
+        /// <summary>
+        /// Construit un point symétrique par rapport à l'axe des abscisses
+        /// </summary>
+        /// <returns></returns>
         public Point SymetrieAbscisses()
         {
             return new Point(x, -y);
         }
 
+        /// <summary>
+        /// Construit un point symétrique par rapport à l'origine
+        /// </summary>
+        /// <returns></returns>
         public Point SymetrieOrigine()
         {
             return this.SymetrieAbscisses().SymetrieOrdonnees();
+        }
+
+        /// <summary>
+        /// Construit un point symétrique par rapport à la bissectrice des axes Ox, Oy
+        /// </summary>
+        /// <returns></returns>
+        public Point SymetrieBissectrice()
+        {
+            return new Point(y, x);
         }
     }
 }
