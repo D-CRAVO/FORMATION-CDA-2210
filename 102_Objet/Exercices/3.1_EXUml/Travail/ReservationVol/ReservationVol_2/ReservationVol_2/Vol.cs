@@ -13,11 +13,11 @@ namespace ReservationVol_2
         private Compagnie saCompagnie;
         private Aeroport sonAeroportDepart;
         private Aeroport sonAeroportArrivee;
-        private Escale sonEscale;
+        private Escale? sonEscale;
         private DateTime dateHeureDepart;
         private DateTime dateHeureArrivee;
 
-        public Vol(Escale _sonEscale, Aeroport _sonAeroportArrivee, Aeroport _sonAeroportDepart, Compagnie _saCompagnie, EnumVolOuvertureReservationEtat _volOuvertureReservationEtat, string _volNumero, DateTime _dateHeureDepart, DateTime _dateHeureArrivee)
+        public Vol(Escale? _sonEscale, Aeroport _sonAeroportArrivee, Aeroport _sonAeroportDepart, Compagnie _saCompagnie, EnumVolOuvertureReservationEtat _volOuvertureReservationEtat, string _volNumero, DateTime _dateHeureDepart, DateTime _dateHeureArrivee)
         {
             this.volNumero = _volNumero;
             this.volOuvertureReservationEtat = _volOuvertureReservationEtat;
