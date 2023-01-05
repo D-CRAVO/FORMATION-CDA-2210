@@ -65,12 +65,12 @@ namespace CompteBancaire
         /// <returns></returns>
         public override string ToString()
         {
-            return $"Le compte {this.numero} a pour propriétaire {this.proprietaire}, pour solde {this.solde} euros, et pour découvert autorisé {this.decouvert} euros";
+            return $"Le compte {numero} a pour propriétaire {proprietaire}, pour solde {solde} euros, et pour découvert autorisé {decouvert} euros";
         }
 
 
         /// <summary>
-        /// Crédite le compte "this" du montant "_montant"
+        /// Crédite le compte courant du montant passé en paramètre
         /// </summary>
         /// <param name="_montantCredit"></param>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
@@ -85,12 +85,12 @@ namespace CompteBancaire
 
 
         /// <summary>
-        /// Débite le compte "this" du montant "_montant"
+        /// Débite le compte courant du montant passé en paramètre
         /// </summary>
         /// <param name="_montantDebit"></param>
         /// <returns>
-        /// "true" si l'opération s'est bien déroulée
-        /// "false" dans le cas contraire
+        /// True si l'opération s'est bien déroulée
+        /// False dans le cas contraire
         /// </returns>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
         /// <exception cref="InvalidOperationException"></exception>
@@ -110,14 +110,13 @@ namespace CompteBancaire
 
 
         /// <summary>
-        /// Tranfert le montant "_montant" du compte bancaire "this" vers le compte bancaire "_compteCredit"
-        /// Et renvoie un bool "verif" pour indiquer si l'opération a été effectuée.
+        /// Tranfert le montant "_montant" du compte bancaire courant vers le compte bancaire passé en paramètre
         /// </summary>
         /// <param name="_compteCredit">Compte à crediter</param>
         /// <param name="_montantTransfert">Montant du transfert</param>
         /// <returns>
-        /// "true" si l'opération s'est bien déroulée
-        /// "false" dans le cas contraire
+        /// True si l'opération s'est bien déroulée
+        /// False dans le cas contraire
         /// </returns>
         public bool TransfererVers(CompteBancaire _compteCredit, float _montantTransfert)
         {
@@ -131,18 +130,31 @@ namespace CompteBancaire
 
 
         /// <summary>
-        /// Permet de savoir si le solde du compte "this" 
-        /// est supérieur ou inférieur au solde du compte "_autreCompte"
+        /// Permet de savoir si le solde du compte courant est supérieur ou inférieur au solde du compte passé en paramètre
         /// </summary>
-        /// <param name="_autreCompte"></param>
+        /// <param name="_compteComparaison"></param>
         /// <returns></returns>
-        public string Comparer(CompteBancaire _autreCompte)
+        public string Comparer(CompteBancaire _compteComparaison)
         {
-            if (solde < _autreCompte.solde)
+            if (solde < _compteComparaison.solde)
             {
-                return $"Le solde du compte de {proprietaire} est inférieur au solde du compte de {_autreCompte.proprietaire}";
+                return $"Le solde du compte de {proprietaire} est inférieur au solde du compte de {_compteComparaison.proprietaire}";
             }
-            return $"Le solde du compte de {proprietaire} est supérieur au solde du compte de {_autreCompte.proprietaire}";
+            return $"Le solde du compte de {proprietaire} est supérieur au solde du compte de {_compteComparaison.proprietaire}";
+        }
+
+        /// <summary>
+        /// Indique si le solde du compte courant est supérieur au solde du compte passé en paramètre
+        /// </summary>
+        /// <param name="_compteComparaison"></param>
+        /// <returns></returns>
+        public bool SuperieurA(CompteBancaire _compteComparaison)
+        {
+            if(solde > _compteComparaison.solde)
+            {
+                return true;
+            }
+            return false;
         }
 
     }

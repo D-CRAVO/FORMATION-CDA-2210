@@ -22,14 +22,19 @@ namespace CompteBancaire
             try
             {
                 david.Crediter(500);
+                string informationsCompte = david.ToString();    
 
-                bool result2 = david.Debiter(5000);
+                bool debiterTrue = david.Debiter(100); // true
+                // bool debiterFalse = david.Debiter(5000); // exception
 
-                bool result3 = david.TransfererVers(john, 60);
+                bool transfererTrue = david.TransfererVers(john, 60); // true
+                // bool transfererFalse = david.TransfererVers(john, 5000); // exception
 
 
                 string result4 = jane.Comparer(john);
-                string result5 = jane.Comparer(david);
+                string result5 = david.Comparer(john);
+                bool superieurTrue = david.SuperieurA(john); // true
+                bool superieurFalse = jane.SuperieurA(david); // false
 
             }
             catch (Exception e)
