@@ -24,9 +24,11 @@ namespace Bank
 
             /* Opérations */
             Console.WriteLine(david.Compare(john));
-            creditMutuel41000.AddBankAccount(david);
-            creditMutuel41000.AddBankAccount(john);
-            creditMutuel41000.ShowAllBankAccount();
+            creditMutuel41000.AddBankAccount("Rambo", 5000, -250);
+            creditMutuel41000.AddBankAccount("Shrek", 2000, -250);
+            creditAgricole41000.AddBankAccount("Cendrillon", 0, 0);
+
+            string result01 = creditMutuel41000.ToString(); 
 
             /* Affichages */
             Console.WriteLine(creditMutuel41001);

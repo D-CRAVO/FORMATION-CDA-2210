@@ -17,7 +17,7 @@ namespace Bank
          * Propriétés
          */
         private float balance { get; set; }
-        private string number { get; set; }
+        private uint number { get; set; }
         private int overdraft { get; set; }
         private string owner { get; set; }
 
@@ -32,7 +32,7 @@ namespace Bank
          */
         public BankAccount(string _owner, float _balance, int _overdraft)
         {
-            number = accountNumberSeed.ToString();
+            number = accountNumberSeed;
             accountNumberSeed++;
             owner = _owner;
             balance = _balance;
