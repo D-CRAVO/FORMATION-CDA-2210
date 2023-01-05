@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -83,7 +84,7 @@ namespace FractionCodage
         /// <returns></returns>
         public Fraction Oppose()
         {
-            return new Fraction(-this.numerateur, this.denominateur);
+            return this * (-1);
         }
 
         /// <summary>
@@ -93,6 +94,16 @@ namespace FractionCodage
         public Fraction Inverse()
         {
             return new Fraction(this.denominateur, this.numerateur);
+        }
+
+        /// <summary>
+        /// Construit une copie de la fraction courante avec le même dénominateur que la fraction passée en paramètre
+        /// </summary>
+        /// <param name="_fraction"></param>
+        /// <returns></returns>
+        public Fraction DenominateurCommun(Fraction _fraction)
+        {
+            return new Fraction(this.numerateur * _fraction.denominateur, this.denominateur * _fraction.denominateur);
         }
 
         /// <summary>
@@ -107,6 +118,10 @@ namespace FractionCodage
         {
             Fraction a = this.DenominateurCommun(_fraction);
             Fraction b = _fraction.DenominateurCommun(this);
+            if (a.numerateur > b.numerateur)
+            {
+                return true;
+            }
             //if (this.numerateur * _fraction.denominateur > _fraction.numerateur * this.denominateur)
             //{
             //    return true;
@@ -124,10 +139,16 @@ namespace FractionCodage
         /// </returns>
         public bool EgalA(Fraction _fraction)
         {
-            if (this.numerateur * _fraction.denominateur == _fraction.numerateur * this.denominateur)
+            Fraction a = this.DenominateurCommun(_fraction);
+            Fraction b = _fraction.DenominateurCommun(this);
+            if (a.numerateur == b.numerateur)
             {
                 return true;
             }
+            //if (this.numerateur * _fraction.denominateur == _fraction.numerateur * this.denominateur)
+            //{
+            //    return true;
+            //}
             return false;
         }
 
@@ -180,16 +201,80 @@ namespace FractionCodage
                 this.numerateur = -this.numerateur;
                 this.denominateur = -this.denominateur;
             }
+            else if (this.numerateur == 0)
+            {
+                return new Fraction();
+            }
             int pgcd = this.GetPgcd();
             return new Fraction(this.numerateur/pgcd, this.denominateur/pgcd);
         }
 
-        public Fraction DenominateurCommun(Fraction _fraction)
+        /// <summary>
+        /// Additionne la fraction courante à la fraction passée en paramètre
+        /// </summary>
+        /// <param name="_fraction"></param>
+        /// <returns></returns>
+        public Fraction Plus(Fraction _fraction)
         {
-            return new Fraction(this.numerateur * _fraction.denominateur, this.denominateur * _fraction.denominateur);
+            Fraction a = this.DenominateurCommun(_fraction);
+            Fraction b = _fraction.DenominateurCommun(this);
+            Fraction c = new Fraction(a.numerateur + b.numerateur, a.denominateur);
+            return c.Reduire(); 
         }
 
+        /// <summary>
+        /// Soustrait la fraction passée en paramètre à la fraction courante
+        /// </summary>
+        /// <param name="_fraction"></param>
+        /// <returns></returns>
+        public Fraction Moins(Fraction _fraction)
+        {
+            Fraction a = this.DenominateurCommun(_fraction);
+            Fraction b = _fraction.DenominateurCommun(this);
+            Fraction c = a.Plus(b.Oppose());
+            return c.Reduire();
+        }
 
+        /// <summary>
+        /// Multiplie la fraction courante par la fraction passée en paramètre
+        /// </summary>
+        /// <param name="_fraction"></param>
+        /// <returns></returns>
+        public Fraction Multiplie(Fraction _fraction)
+        {
+            return new Fraction(this.numerateur * _fraction.numerateur, this.denominateur * _fraction.denominateur).Reduire();
+        }
+
+        /// <summary>
+        /// Divise la fraction courante par la fraction passée en paramètre
+        /// </summary>
+        /// <param name="_fraction"></param>
+        /// <returns></returns>
+        public Fraction Divise(Fraction _fraction)
+        {
+            return this.Multiplie(_fraction.Inverse()).Reduire();
+        }
+
+        
+        public static Fraction operator + (Fraction left, Fraction right)
+        {
+            return new Fraction(left.Plus(right)).Reduire();
+        }
+
+        public static Fraction operator - (Fraction left, Fraction right)
+        {
+            return new Fraction(left.Moins(right)).Reduire();
+        }
+
+        public static Fraction operator * (Fraction left, Fraction right)
+        {
+            return new Fraction(left.Multiplie(right)).Reduire();
+        }
+
+        public static Fraction operator / (Fraction left, Fraction right)
+        {
+            return new Fraction(left.Divise(right)).Reduire();
+        }
 
     }
 }
