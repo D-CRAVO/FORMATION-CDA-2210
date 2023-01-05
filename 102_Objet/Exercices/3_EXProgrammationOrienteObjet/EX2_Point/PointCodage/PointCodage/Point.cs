@@ -8,15 +8,15 @@ namespace PointCodage
 {
     internal class Point
     {
-        private double x;
-        private double y;
+        private float x;
+        private float y;
 
         /// <summary>
         /// Constructeur classique
         /// </summary>
         /// <param name="_x"></param>
         /// <param name="_y"></param>
-        public Point(double _x, double _y)
+        public Point(float _x, float _y)
         {
             x = _x;
             y = _y;
@@ -54,16 +54,15 @@ namespace PointCodage
         /// Déplace le point de _dx suivant les abscisses
         /// Et de _dy suivant les ordonnées
         /// </summary>
-        /// <param name="_dx">Déplacement sur axe des abscisses</param>
-        /// <param name="_dy">Déplacement sur axe des ordonnées</param>
+        /// <param name="_nouveauX">Déplacement sur axe des abscisses</param>
+        /// <param name="_nouveauY">Déplacement sur axe des ordonnées</param>
         /// <returns>
         /// Les nouvelles caractéristiques du point
         /// </returns>
-        public Point SeDeplacer(double _dx, double _dy)
+        public void SeDeplacer(float _nouveauX, float _nouveauY)
         {
-            x += _dx;
-            y += _dy;
-            return new Point(x, y);
+            x = _nouveauX;
+            y = _nouveauY;
         }
 
         /// <summary>

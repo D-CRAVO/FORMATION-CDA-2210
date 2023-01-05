@@ -14,12 +14,14 @@ namespace PointCodage
             Point pointA = new Point(4,2);
             Point pointB = new Point(pointA);
             Point pointC = new Point(pointA);
-            Console.WriteLine(pointA);
-            Point result01 = pointA.SeDeplacer(-2, -3);
+            string information1 = pointA.ToString(); // (4, 2)
+            pointA.SeDeplacer(-2, -3);
+            string information2 = pointA.ToString(); // (-2, -3)
 
-            Point result02 = pointB.SymetrieOrdonnees();
-            Point result03 = pointB.SymetrieAbscisses();
-            Point result04 = pointC.SymetrieOrigine();
+            Point symetriqueOrdonnee = pointB.SymetrieOrdonnees(); // (-4, 2)
+            Point symetriqueAbcisse = pointB.SymetrieAbscisses(); // (4, -2)
+            Point symetriqueOrigine = pointB.SymetrieOrigine(); // (-4, -2)
+            Point symetriqueBissectrice = pointB.SymetrieBissectrice(); // (2, 4)
         }
     }
 }
