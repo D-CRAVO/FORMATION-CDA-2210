@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleAppBanque/1.0.0": {
+        "dependencies": {
+          "ClassLibraryBanque": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppBanque.dll": {}
+        }
+      },
+      "ClassLibraryBanque/1.0.0": {
+        "runtime": {
+          "ClassLibraryBanque.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppBanque/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryBanque/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
