@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CompteBancaire
 {
-    internal class CompteBancaire
+    internal class CompteBancaire:IComparable<CompteBancaire>
     {
         private static int numeroIncremente = 1;
 
@@ -100,7 +100,7 @@ namespace CompteBancaire
             {
                 throw new ArgumentOutOfRangeException(nameof(_montantDebit), "Le montant du débit doit être positif");
             }
-            if (this.solde - this.decouvert < _montantDebit)
+            else if (this.solde - this.decouvert < _montantDebit)
             {
                 throw new InvalidOperationException("Le compte débiteur n'est pas assez provisionné");
             }
@@ -157,5 +157,9 @@ namespace CompteBancaire
             return false;
         }
 
+        public int CompareTo(CompteBancaire? other)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

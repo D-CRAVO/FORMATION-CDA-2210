@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,16 +26,7 @@ namespace LibraryFraction
                 throw new InvalidOperationException("Il est impossible de diviser par zéro");
             }
             denominateur = _denominateur;
-            if (denominateur < 0 && numerateur < 0)
-            {
-                denominateur = -denominateur;
-                numerateur = -numerateur;
-            }
-            else if (denominateur < 0 && numerateur > 0)
-            {
-                numerateur = -numerateur;
-                denominateur = -denominateur;
-            }
+            Signe();
         }
 
         /// <summary>
@@ -88,19 +80,19 @@ namespace LibraryFraction
             }
         }
 
-        //private void Signe()
-        //{
-        //    if (this.denominateur < 0 && this.numerateur < 0)
-        //    {
-        //        this.denominateur = -this.denominateur;
-        //        this.numerateur = -this.numerateur;
-        //    }
-        //    else if (this.denominateur < 0 && this.numerateur > 0)
-        //    {
-        //        this.numerateur = -this.numerateur;
-        //        this.denominateur = -this.denominateur;
-        //    }
-        //}
+        private void Signe()
+        {
+            if (this.denominateur < 0 && this.numerateur < 0)
+            {
+                this.denominateur = -this.denominateur;
+                this.numerateur = -this.numerateur;
+            }
+            else if (this.denominateur < 0 && this.numerateur > 0)
+            {
+                this.numerateur = -this.numerateur;
+                this.denominateur = -this.denominateur;
+            }
+        }
 
         /// <summary>
         /// Construit l'opposé de la fraction
@@ -215,12 +207,12 @@ namespace LibraryFraction
         /// <returns>
         /// La fraction réduite
         /// </returns>
-        private Fraction Reduire()
+        public Fraction Reduire()
         {
-            if (this.numerateur == 0)
-            {
-                return new Fraction();
-            }
+            //if (this.numerateur == 0)
+            //{
+            //    return new Fraction();
+            //}
             int pgcd = this.GetPgcd();
             return new Fraction(this.numerateur / pgcd, this.denominateur / pgcd);
         }
@@ -269,8 +261,9 @@ namespace LibraryFraction
         /// <returns></returns>
         public Fraction Divise(Fraction _fraction)
         {
-            _fraction.Inverse();
-            return this.Multiplie(_fraction);
+            Fraction fractionTemp = _fraction;
+            fractionTemp.Inverse();
+            return this.Multiplie(fractionTemp);
         }
 
 

@@ -53,6 +53,8 @@ namespace AppFraction
                 Fraction estSoustrait3 = fraction11 - fraction12; // 5/2
                 Fraction estMultiplie3 = fraction11 * fraction12; // -1
                 Fraction estDivise3 = fraction11 / fraction12; // -1/4
+
+                Fraction fraction13 = new Fraction(0, 1);
             }
             catch (Exception e)
             {
