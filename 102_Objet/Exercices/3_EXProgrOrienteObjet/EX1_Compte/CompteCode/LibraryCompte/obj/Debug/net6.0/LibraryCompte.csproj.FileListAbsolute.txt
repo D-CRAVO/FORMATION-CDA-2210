@@ -1,0 +1,12 @@
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\bin\Debug\net6.0\LibraryCompte.deps.json
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\bin\Debug\net6.0\LibraryCompte.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\bin\Debug\net6.0\LibraryCompte.pdb
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.csproj.AssemblyReference.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.AssemblyInfoInputs.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.AssemblyInfo.cs
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.csproj.CoreCompileInputs.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\refint\LibraryCompte.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\LibraryCompte.pdb
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX1_Compte\CompteCode\LibraryCompte\obj\Debug\net6.0\ref\LibraryCompte.dll

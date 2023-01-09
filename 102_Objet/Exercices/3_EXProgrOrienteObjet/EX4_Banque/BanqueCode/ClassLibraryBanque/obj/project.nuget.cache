@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Mc7GS/Gu+OzUB1bU+x6wfF8wENebKoJcwtEz6FAkp3a4mhX6FIC5+3WgJp5wbL95HisCZytPsvWUkCgg33ZY8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+=======
+  "dgSpecHash": "FKOk0iXJJciQblIYyGLPgvEqmH6WaMqj4zTDqqJogVwPPQXt/Fy8YLiJmcuJL1RIvxelnfBFumz7ZcDVjt7duQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
   "expectedPackageFiles": [],
   "logs": []
 }

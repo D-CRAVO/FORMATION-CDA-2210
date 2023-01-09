@@ -10,3 +10,18 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exer
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\refint\ClassLibraryBanque.dll
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ref\ClassLibraryBanque.dll
+<<<<<<< HEAD
+=======
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\bin\Debug\net6.0\ClassLibraryBanque.deps.json
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\bin\Debug\net6.0\ClassLibraryBanque.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\bin\Debug\net6.0\ClassLibraryBanque.pdb
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.csproj.AssemblyReference.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.AssemblyInfoInputs.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.AssemblyInfo.cs
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.csproj.CoreCompileInputs.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\refint\ClassLibraryBanque.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.pdb
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ref\ClassLibraryBanque.dll
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
