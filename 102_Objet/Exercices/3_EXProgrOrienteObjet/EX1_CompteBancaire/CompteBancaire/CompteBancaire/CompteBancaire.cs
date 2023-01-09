@@ -102,7 +102,7 @@ namespace CompteBancaire
             }
             else if (this.solde - this.decouvert < _montantDebit)
             {
-                throw new InvalidOperationException("Le compte débiteur n'est pas assez provisionné");
+                return false;
             }
             this.solde -= _montantDebit;
             return true;

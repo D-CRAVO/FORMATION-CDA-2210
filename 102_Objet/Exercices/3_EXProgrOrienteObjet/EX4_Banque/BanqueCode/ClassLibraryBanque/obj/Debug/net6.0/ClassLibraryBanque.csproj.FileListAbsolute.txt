@@ -1,0 +1,12 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\bin\Debug\net6.0\ClassLibraryBanque.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\bin\Debug\net6.0\ClassLibraryBanque.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\bin\Debug\net6.0\ClassLibraryBanque.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\refint\ClassLibraryBanque.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ClassLibraryBanque.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ClassLibraryBanque\obj\Debug\net6.0\ref\ClassLibraryBanque.dll
