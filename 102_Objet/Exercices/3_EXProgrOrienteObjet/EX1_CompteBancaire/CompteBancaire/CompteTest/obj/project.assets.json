@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MSTest.TestAdapter >= 2.2.10",
+      "MSTest.TestFramework >= 2.2.10",
+      "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "coverlet.collector >= 3.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX1_CompteBancaire\\CompteBancaire\\CompteTest\\CompteTest.csproj",
+      "projectName": "CompteTest",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX1_CompteBancaire\\CompteBancaire\\CompteTest\\CompteTest.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX1_CompteBancaire\\CompteBancaire\\CompteTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[2.2.10, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.2.10, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.3.2, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Échec du téléchargement du package 'MSTest.TestAdapter.2.2.10' à partir de 'https://api.nuget.org/v3-flatcontainer/mstest.testadapter/2.2.10/mstest.testadapter.2.2.10.nupkg'.\r\nUne erreur s'est produite lors de l'envoi de la demande.\r\n  Le nom distant n'a pas pu être résolu: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Échec du téléchargement du package 'coverlet.collector.3.1.2' à partir de 'https://api.nuget.org/v3-flatcontainer/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg'.\r\nUne erreur s'est produite lors de l'envoi de la demande.\r\n  Le nom distant n'a pas pu être résolu: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Échec du téléchargement du package 'MSTest.TestFramework.2.2.10' à partir de 'https://api.nuget.org/v3-flatcontainer/mstest.testframework/2.2.10/mstest.testframework.2.2.10.nupkg'.\r\nUne erreur s'est produite lors de l'envoi de la demande.\r\n  Le nom distant n'a pas pu être résolu: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Échec du téléchargement du package 'Microsoft.TestPlatform.TestHost.17.3.2' à partir de 'https://api.nuget.org/v3-flatcontainer/microsoft.testplatform.testhost/17.3.2/microsoft.testplatform.testhost.17.3.2.nupkg'.\r\nUne erreur s'est produite lors de l'envoi de la demande.\r\n  Le nom distant n'a pas pu être résolu: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Échec du téléchargement du package 'Microsoft.CodeCoverage.17.3.2' à partir de 'https://api.nuget.org/v3-flatcontainer/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg'.\r\nUne erreur s'est produite lors de l'envoi de la demande.\r\n  Le nom distant n'a pas pu être résolu: 'api.nuget.org'"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'MSTest.TestAdapter' à partir de la source distante 'https://api.nuget.org/v3-flatcontainer/mstest.testadapter/index.json'.",
+      "libraryId": "MSTest.TestAdapter"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'coverlet.collector' à partir de la source distante 'https://api.nuget.org/v3-flatcontainer/coverlet.collector/index.json'.",
+      "libraryId": "coverlet.collector"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'MSTest.TestFramework' à partir de la source distante 'https://api.nuget.org/v3-flatcontainer/mstest.testframework/index.json'.",
+      "libraryId": "MSTest.TestFramework"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'Microsoft.CodeCoverage' à partir de la source distante 'https://api.nuget.org/v3-flatcontainer/microsoft.codecoverage/index.json'.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'Microsoft.TestPlatform.TestHost' à partir de la source distante 'https://api.nuget.org/v3-flatcontainer/microsoft.testplatform.testhost/index.json'.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    }
+  ]
+}
