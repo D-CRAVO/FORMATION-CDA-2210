@@ -11,21 +11,12 @@
 using System;
 using System.Reflection;
 
-<<<<<<<< HEAD:102_Objet/Exercices/3_EXProgrOrienteObjet/EXA_Exception/ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.AssemblyInfo.cs
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp1")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ConsoleApp1")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ConsoleApp1")]
-========
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraryCompte")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraryCompte")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraryCompte")]
->>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c:102_Objet/Exercices/3_EXProgrOrienteObjet/EX1_Compte/CompteCode/LibraryCompte/obj/Debug/net6.0/LibraryCompte.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
