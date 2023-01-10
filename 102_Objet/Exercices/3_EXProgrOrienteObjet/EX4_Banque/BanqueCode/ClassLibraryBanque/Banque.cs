@@ -13,11 +13,7 @@ namespace ClassLibraryBanque
         /// <summary>
         /// Liste des comptes de la banque
         /// </summary>
-        private List<Compte> mesComptes = new List<Compte>();
-        /// <summary>
-        /// Nombre de comptes de la banque
-        /// </summary>
-        private int nbComptes;
+        private List<Compte> mesComptes;
         /// <summary>
         /// Nom de la banque
         /// </summary>
@@ -34,8 +30,11 @@ namespace ClassLibraryBanque
         /// <param name="_ville">Ville de la banque</param>
         public Banque(string _nom, string _ville) 
         {
+            mesComptes = new List<Compte>();
+
             nom = _nom;
             ville = _ville;
+     
         }
 
         /// <summary>
@@ -44,10 +43,9 @@ namespace ClassLibraryBanque
         /// <returns></returns>
         public override string ToString()
         {
-            nbComptes = mesComptes.Count;
             string resultBanque = $"La banque {nom} de la ville de {ville} possède les comptes :\n";
             string resultCompte = "";
-            for(int i = 0; i < nbComptes; i++) 
+            for(int i = 0; i < mesComptes.Count; i++) 
             {
                 resultCompte += mesComptes[i].ToString() + "\n";
             }
@@ -86,7 +84,7 @@ namespace ClassLibraryBanque
         public Compte? RendCompte(int _numero)
         {
             int i = 0;
-            while (i < nbComptes)
+            while (i < mesComptes.Count)
             {
                 if (mesComptes[i].Numero == _numero)
                 {
