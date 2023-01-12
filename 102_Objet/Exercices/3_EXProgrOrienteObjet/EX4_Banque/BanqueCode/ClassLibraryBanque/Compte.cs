@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace ClassLibraryBanque
+namespace LibraryBanque
 {
     public class Compte : IComparable<Compte>
     {

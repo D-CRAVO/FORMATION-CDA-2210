@@ -1,4 +1,4 @@
-using ClassLibraryBanque;
+using LibraryBanque;
 
 namespace TestBanque
 {

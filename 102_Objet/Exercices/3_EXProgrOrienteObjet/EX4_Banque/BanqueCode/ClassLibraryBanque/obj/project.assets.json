@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
-      "projectName": "ClassLibraryBanque",
-      "projectPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+      "projectUniqueName": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\LibraryBanque.csproj",
+      "projectName": "LibraryBanque",
+      "projectPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\LibraryBanque.csproj",
       "packagesPath": "C:\\Users\\DCravo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\obj\\",
       "projectStyle": "PackageReference",

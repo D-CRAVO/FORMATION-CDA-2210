@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryBanque", "ClassLibraryBanque\ClassLibraryBanque.csproj", "{92004CBD-1DD5-4E4C-951C-8145E9BC796B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryBanque", "ClassLibraryBanque\LibraryBanque.csproj", "{92004CBD-1DD5-4E4C-951C-8145E9BC796B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppBanque", "ConsoleAppBanque\ConsoleAppBanque.csproj", "{738A3B3F-1964-4F92-BBC9-D9BBC158B896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBanque", "TestBanque\TestBanque.csproj", "{1D583177-49A3-496E-AF1F-1197DBDDB072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBanque", "TestBanque\TestBanque.csproj", "{1D583177-49A3-496E-AF1F-1197DBDDB072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
