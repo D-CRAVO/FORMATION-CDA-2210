@@ -8,7 +8,7 @@ namespace Library421
         private int valeurMin;
         private int valeurMax;
 
-        public int Valeur { get { return valeur; } }
+        public int Valeur { get { return valeur; } set { valeur = value; } }
 
         public De ()
         {
@@ -124,7 +124,17 @@ namespace Library421
             _de3 = listDe[2];
         }
 
-        
+        public void TrierDes(De[] _mesDes)
+        {
+            Array.Sort(_mesDes);
+            Array.Reverse(_mesDes);
+        }
+
+        //public void TriDes()
+        //{
+        //    Array.Sort(this.CompareTo();
+        //    Array.Reverse(_mesDes);
+        //}
 
     }
 }

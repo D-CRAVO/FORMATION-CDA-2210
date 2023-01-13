@@ -6,25 +6,53 @@ using System.Threading.Tasks;
 
 namespace Library421
 {
-    internal class Manche
+    public class Manche
     {
-        private byte nbLanceEffectue;
-        private const byte nbLanceMax = 3;
-        private De de1;
-        private De de2;
-        private De de3;
-        private int?[] combinaison;
+        private byte nbLancesEffectue;
+        private const byte nbLancesMax = 3;
+        private De? de1;
+        private De? de2;
+        private De? de3;
+        private De?[] mesDes;
+
+        public De?[] MesDes
+        {
+            get => mesDes;
+        }
 
 
         public Manche()
         {
-            nbLanceEffectue = 0;
-            combinaison = new int?[] { de1.Valeur, de2.Valeur, de3.Valeur };
+            nbLancesEffectue = 0;
+            mesDes = new De?[3] { null, null, null };
+
+            //nbLancesEffectue = 1;
+            //mesDes = new De[3] { new De(), new De(), new De() };
+        }
+
+
+        public void PremierLancer()
+        {
+            //foreach(De de in mesDes)
+            //{
+            //    de = new De();
+            //}
+
+            //mesDes[0] = new De();
+            //mesDes[1] = new De();
+            //mesDes[2] = new De();
+
+            for (int i = 0;i < mesDes.Length; i++)
+            {
+                mesDes[i] = new De();
+            }
+
+            nbLancesEffectue++;
         }
 
         public bool AEncoreUnLance()
         {
-            if (nbLanceEffectue < nbLanceMax)
+            if (nbLancesEffectue < nbLancesMax)
             {
                 return true;
             }
@@ -33,12 +61,39 @@ namespace Library421
 
         public bool EstGagne()
         {
-            if (combinaison[0])
-            else if (!AEncoreUnLance() && combinaison[0] != 4  && combinaison[1] != 2 && combinaison[2] != 1)
+            trierDesManche(mesDes);
+            if (mesDes[0].Valeur == 4 && mesDes[1].Valeur == 2 && mesDes[2].Valeur == 1)
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
+            
+        }
+
+        private void trierDesManche(De[] mesDes)
+        {
+            Array.Sort(mesDes);
+            Array.Reverse(mesDes);
+        }
+
+        private void trierDesManche1(De[] mesDes)
+        {
+            TrierDes(mesDes);
+        }
+
+        public void Relance(De _de)
+        {
+            _de.Valeur = _de.Rouler();
+            nbLancesEffectue++;
+        }
+
+        public void Relance()
+        {
+            foreach (De _de in mesDes)
+            {
+                _de.Rouler();
+                nbLancesEffectue++;
+            }
         }
     }
 }
