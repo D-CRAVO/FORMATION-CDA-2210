@@ -4,8 +4,6 @@ namespace LibraryBanque
 {
     public class Compte : IComparable<Compte>
     {
-        private static int numeroIncremente = 1;
-
         /// <summary>
         /// Numero de compte bancaire
         /// </summary>
@@ -120,14 +118,14 @@ namespace LibraryBanque
         /// </summary>
         /// <param name="_compteComparaison"></param>
         /// <returns></returns>
-        public string Comparer(Compte _compteComparaison)
-        {
-            if (solde < _compteComparaison.solde)
-            {
-                return $"Le solde du compte de {proprietaire} est inférieur au solde du compte de {_compteComparaison.proprietaire}";
-            }
-            return $"Le solde du compte de {proprietaire} est supérieur au solde du compte de {_compteComparaison.proprietaire}";
-        }
+        //public string Comparer(Compte _compteComparaison)
+        //{
+        //    if (solde < _compteComparaison.solde)
+        //    {
+        //        return $"Le solde du compte de {proprietaire} est inférieur au solde du compte de {_compteComparaison.proprietaire}";
+        //    }
+        //    return $"Le solde du compte de {proprietaire} est supérieur au solde du compte de {_compteComparaison.proprietaire}";
+        //}
 
         /// <summary>
         /// Indique si le solde du compte courant est supérieur au solde du compte passé en paramètre
@@ -145,7 +143,39 @@ namespace LibraryBanque
 
         public int CompareTo(Compte? other)
         {
-            throw new NotImplementedException();
+            if (this.solde < other.solde)
+            {
+                return -1;
+            }
+            else if (this.solde > other.solde)
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+        /// <summary>
+        /// Compare si le solde du compte courant est supérieur, inférieur ou supérieur au solde du compte passé en paramètre 
+        /// </summary>
+        /// <param name="_compteComparaison"></param>
+        /// <returns></returns>
+        public string Comparer(Compte _compteComparaison)
+        {
+            if (this.CompareTo(_compteComparaison) == -1)
+            {
+                return $"Le solde du compte de {proprietaire} est inférieur au solde du compte de {_compteComparaison.proprietaire}";
+            }
+            else if (this.CompareTo(_compteComparaison) == 1)
+            {
+                return $"Le solde du compte de {proprietaire} est supérieur au solde du compte de {_compteComparaison.proprietaire}";
+            }
+            else
+            {
+                return $"Le solde du compte de {proprietaire} est égal au solde du compte de {_compteComparaison.proprietaire}";
+            }
         }
     }
 }
