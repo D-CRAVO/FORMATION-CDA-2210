@@ -9,6 +9,89 @@ namespace Library421
     internal class Partie
     {
         private int nbManchesSouhaitees;
-        private
+        private int nbManchesEffectuees;
+        private int score;
+        private Manche mancheCourante;
+
+        public int NbManchesSouhaitees
+        {
+            get { return nbManchesSouhaitees; }
+            set { nbManchesSouhaitees = value; }
+        }
+
+        public int NbManchesEffectuees
+        {
+            set { nbManchesEffectuees = value; }
+        }
+
+        public int Score
+        {
+            get { return score; }
+        }
+
+        Partie(int _nbManchesSouhaitees)
+        {
+            nbManchesSouhaitees = _nbManchesSouhaitees;
+        }
+
+        Partie() : this
+            (
+                10
+            )
+        {}
+
+        public void CreerUneNouvelleManche()
+        {
+            Manche manche = new Manche();
+            nbManchesEffectuees = 1;
+        }
+
+        public bool AEncoreUneMancheAJouer()
+        {
+            if (nbManchesEffectuees < nbManchesSouhaitees)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public bool EstCeQueLaMancheCouranteAEncoreUnLance()
+        {
+            if (mancheCourante.AEncoreUnLance())
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public bool EstCeQueLaMancheCouranteEstGagnee()
+        {
+            if (mancheCourante.EstGagnee())
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public void RelancerLesDesDeLaMancheCourante()
+        {
+            mancheCourante.Relance();
+        }
+
+        public int GetScore()
+        {
+            score = 10 * nbManchesSouhaitees;
+            if (EstCeQueLaMancheCouranteEstGagnee())
+            {
+                score += 30;
+            }
+            else
+            {
+                score -= 10;
+            }
+
+            return score;
+        }
+
     }
 }
