@@ -10,16 +10,13 @@ namespace Library421
     {
         private byte nbLanceEffectue;
         private const byte nbLanceMax = 3;
-        private De de1;
-        private De de2;
-        private De de3;
-        private int?[] combinaison;
+        private De?[] mesDes;
 
 
         public Manche()
         {
             nbLanceEffectue = 0;
-            combinaison = new int?[] { de1.Valeur, de2.Valeur, de3.Valeur };
+            mesDes = new De?[] { null, null, null };
         }
 
         public bool AEncoreUnLance()
@@ -33,12 +30,11 @@ namespace Library421
 
         public bool EstGagne()
         {
-            if (combinaison[0])
-            else if (!AEncoreUnLance() && combinaison[0] != 4  && combinaison[1] != 2 && combinaison[2] != 1)
+            if (mesDes[0].Valeur != 4  && mesDes[1].Valeur != 2 && mesDes[2].Valeur != 1)
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
     }
 }
