@@ -1,15 +1,32 @@
 ﻿
 
+using System.Collections.Immutable;
+
 namespace Library421
 {
     public class De : IComparable<De>
     {
+        /// <summary>
+        /// valeur du dé
+        /// </summary>
         private int valeur;
+        /// <summary>
+        /// valeur minimale du dé
+        /// </summary>
         private int valeurMin;
+        /// <summary>
+        /// valeur maximale du dé
+        /// </summary>
         private int valeurMax;
 
-        public int Valeur { get { return valeur; } set { valeur = value; } }
+        /// <summary>
+        /// Accesseur de la variable valeur
+        /// </summary>
+        public int Valeur { get { return valeur; } }
 
+        /// <summary>
+        /// Constructeur par défaut
+        /// </summary>
         public De ()
         {
             valeurMin = 1;
@@ -17,11 +34,22 @@ namespace Library421
             valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
         }
 
+        /// <summary>
+        /// Constructeur classique
+        /// </summary>
+        /// <param name="_valeurMin"></param>
+        /// <param name="_valeurMax"></param>
         public De (int _valeurMin, int _valeurMax)
         {
             valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
         }
 
+        /// <summary>
+        /// Compare les valeurs des dés
+        /// </summary>
+        /// <param name="other"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public int CompareTo(De? other)
         {
             if (other == null)
@@ -42,18 +70,22 @@ namespace Library421
             }
         }
 
+        /// <summary>
+        /// Attribue une nouvelle valeur au dé
+        /// </summary>
+        /// <returns></returns>
         public int Rouler()
         {
-            return Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
+            return valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
         }
 
         public void TriDe1(De _de1, De _de2, De _de3)
         {
             De temp;
-            if (_de1 == null || _de2 == null || _de3 == null)
-            {
-                throw new Exception("Veuillez lancer tous les dés");
-            }
+            //if (_de1 == null || _de2 == null || _de3 == null)
+            //{
+            //    throw new Exception("Veuillez lancer tous les dés");
+            //}
             if (_de1.CompareTo(_de2) == -1)
             {
                 if (_de2.CompareTo(_de3) == -1)
@@ -123,18 +155,5 @@ namespace Library421
             _de2 = listDe[1];
             _de3 = listDe[2];
         }
-
-        public void TrierDes(De[] _mesDes)
-        {
-            Array.Sort(_mesDes);
-            Array.Reverse(_mesDes);
-        }
-
-        //public void TriDes()
-        //{
-        //    Array.Sort(this.CompareTo();
-        //    Array.Reverse(_mesDes);
-        //}
-
     }
 }
