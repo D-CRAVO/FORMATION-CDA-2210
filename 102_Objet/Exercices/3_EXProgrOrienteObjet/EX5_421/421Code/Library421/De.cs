@@ -46,7 +46,7 @@ namespace Library421
 
         public int Rouler()
         {
-            return Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
+            return valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
         }
 
         public void TriDe1(De _de1, De _de2, De _de3)

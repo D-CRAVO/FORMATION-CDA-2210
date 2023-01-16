@@ -17,6 +17,12 @@ namespace Library421
             get { return mesDes; }
         }
 
+        public byte NbLanceEffectue
+        {
+            get { return nbLanceEffectue; }
+            set { nbLanceEffectue = value; }
+        }
+
         public Manche()
         {
             nbLanceEffectue = 0;
@@ -37,8 +43,8 @@ namespace Library421
             TrierDes();
             if (mesDes[0] == null || mesDes[1] == null || mesDes[2] == null)
             {
-                return false;
-                // throw new Exception("Veuillez lancer tous les dés");
+                // return false;
+                throw new Exception("Veuillez lancer tous les dés");
             }
             else if (mesDes[0].Valeur == 4  && mesDes[1].Valeur == 2 && mesDes[2].Valeur == 1)
             {
@@ -47,7 +53,7 @@ namespace Library421
             return false;
         }
 
-        public void PremierLancer()
+        public void PremierLance()
         {
             mesDes[0] = new De();
             mesDes[1] = new De();
@@ -57,75 +63,20 @@ namespace Library421
 
         public void Relance()
         {
-            mesDes[0].Rouler();
-            mesDes[1].Rouler();
-            mesDes[2].Rouler();
-            nbLanceEffectue++;
+            for (int i = 0; i < 3; i++)
+            {
+                if (MesDes[i].Valeur != 4 && MesDes[i].Valeur != 2 && MesDes[i].Valeur != 1)
+                {
+                    RelanceDe(MesDes[i]);
+                }
+            }
+            NbLanceEffectue++;
         }
 
-        public void Relance(De _de)
+        public void RelanceDe(De _de)
         {
             _de.Rouler();
-            nbLanceEffectue++;
         }
-
-
-        //public void TrierDes(De[] _mesDes)
-        //{
-        //    De _de1 = _mesDes[0];
-        //    De _de2 = _mesDes[1];
-        //    De _de3 = _mesDes[2];
-        //    De temp;
-        //    //if (_de1 == null || _de2 == null || _de3 == null)
-        //    //{
-        //    //    throw new Exception("Veuillez lancer tous les dés");
-        //    //}
-        //    if (_de1.CompareTo(_de2) == -1)
-        //    {
-        //        if (_de2.CompareTo(_de3) == -1)
-        //        {
-        //            temp = _de1;
-        //            _de1 = _de3;
-        //            _de3 = temp;
-        //        }
-        //        else
-        //        {
-        //            if (_de3.CompareTo(_de1) == -1)
-        //            {
-        //                temp = _de1;
-        //                _de1 = _de2;
-        //                _de2 = temp;
-        //            }
-        //            else
-        //            {
-        //                temp = _de1;
-        //                _de1 = _de2;
-        //                _de2 = _de3;
-        //                _de3 = temp;
-        //            }
-        //        }
-        //    }
-        //    else
-        //    {
-        //        if (_de2.CompareTo(_de3) == -1)
-        //        {
-        //            if (_de1.CompareTo(_de3) == -1)
-        //            {
-        //                temp = _de1;
-        //                _de1 = _de3;
-        //                _de3 = _de2;
-        //                _de2 = temp;
-        //            }
-        //            else
-        //            {
-        //                temp = _de2;
-        //                _de2 = _de3;
-        //                _de3 = temp;
-
-        //            }
-        //        }
-        //    }
-        //}
 
         public void TrierDes()
         {
