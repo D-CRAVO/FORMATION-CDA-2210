@@ -6,12 +6,27 @@ namespace Library421
 {
     public class De : IComparable<De>
     {
+        /// <summary>
+        /// valeur du dé
+        /// </summary>
         private int valeur;
+        /// <summary>
+        /// valeur minimale du dé
+        /// </summary>
         private int valeurMin;
+        /// <summary>
+        /// valeur maximale du dé
+        /// </summary>
         private int valeurMax;
 
+        /// <summary>
+        /// Accesseur de la variable valeur
+        /// </summary>
         public int Valeur { get { return valeur; } }
 
+        /// <summary>
+        /// Constructeur par défaut
+        /// </summary>
         public De ()
         {
             valeurMin = 1;
@@ -19,11 +34,22 @@ namespace Library421
             valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
         }
 
+        /// <summary>
+        /// Constructeur classique
+        /// </summary>
+        /// <param name="_valeurMin"></param>
+        /// <param name="_valeurMax"></param>
         public De (int _valeurMin, int _valeurMax)
         {
             valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
         }
 
+        /// <summary>
+        /// Compare les valeurs des dés
+        /// </summary>
+        /// <param name="other"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public int CompareTo(De? other)
         {
             if (other == null)
@@ -44,6 +70,10 @@ namespace Library421
             }
         }
 
+        /// <summary>
+        /// Attribue une nouvelle valeur au dé
+        /// </summary>
+        /// <returns></returns>
         public int Rouler()
         {
             return valeur = Aleatoire.Instance().Nouveau(valeurMin, valeurMax);
@@ -125,13 +155,5 @@ namespace Library421
             _de2 = listDe[1];
             _de3 = listDe[2];
         }
-
-        public void TrierDes(De[] _des)
-        {
-            Array.Sort(_des);
-            Array.Reverse(_des);
-        }
-        
-
     }
 }

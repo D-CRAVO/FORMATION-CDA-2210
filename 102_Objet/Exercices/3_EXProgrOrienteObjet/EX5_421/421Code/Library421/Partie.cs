@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Library421
 {
-    internal class Lancer
+    internal class Partie
     {
-        private De de1;
-        private De de2;
-        private De de3;
-
-        
+        private int nbManchesSouhaitees;
+        private
     }
 }
