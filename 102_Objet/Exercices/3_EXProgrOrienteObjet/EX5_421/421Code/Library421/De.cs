@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections.Immutable;
+
 namespace Library421
 {
     public class De : IComparable<De>
@@ -50,10 +52,10 @@ namespace Library421
         public void TriDe1(De _de1, De _de2, De _de3)
         {
             De temp;
-            if (_de1 == null || _de2 == null || _de3 == null)
-            {
-                throw new Exception("Veuillez lancer tous les dés");
-            }
+            //if (_de1 == null || _de2 == null || _de3 == null)
+            //{
+            //    throw new Exception("Veuillez lancer tous les dés");
+            //}
             if (_de1.CompareTo(_de2) == -1)
             {
                 if (_de2.CompareTo(_de3) == -1)
@@ -124,6 +126,11 @@ namespace Library421
             _de3 = listDe[2];
         }
 
+        public void TrierDes(De[] _des)
+        {
+            Array.Sort(_des);
+            Array.Reverse(_des);
+        }
         
 
     }
