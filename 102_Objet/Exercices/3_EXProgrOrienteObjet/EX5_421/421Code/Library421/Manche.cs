@@ -11,11 +11,11 @@ namespace Library421
         /// <summary>
         /// Nombre de lancés effectués pour la manche
         /// </summary>
-        private byte nbLanceEffectue;
+        private byte nbLancesEffectues;
         /// <summary>
         /// Nombre de lancés maximums pour la manche
         /// </summary>
-        private const byte nbLanceMax = 3;
+        private const byte nbLancesMax = 3;
         /// <summary>
         /// Tableau rassemblant les 3 dés du lancé
         /// </summary>
@@ -32,10 +32,10 @@ namespace Library421
         /// <summary>
         /// Accesseur modifieur du nombre de lancés effectués
         /// </summary>
-        public byte NbLanceEffectue
+        public byte NbLancesEffectues
         {
-            get { return nbLanceEffectue; }
-            set { nbLanceEffectue = value; }
+            get { return nbLancesEffectues; }
+            set { nbLancesEffectues = value; }
         }
 
         /// <summary>
@@ -43,8 +43,8 @@ namespace Library421
         /// </summary>
         public Manche()
         {
-            nbLanceEffectue = 0;
-            mesDes = new De?[] { null, null, null };
+            nbLancesEffectues = 1;
+            mesDes = new De?[] { new De(), new De(), new De() };
         }
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace Library421
         /// </returns>
         public bool AEncoreUnLance()
         {
-            if (nbLanceEffectue < nbLanceMax)
+            if (nbLancesEffectues < nbLancesMax)
             {
                 return true;
             }
@@ -71,7 +71,7 @@ namespace Library421
         /// False dans le cas contraire
         /// </returns>
         /// <exception cref="Exception"></exception>
-        public bool EstGagne()
+        public bool EstGagnee()
         {
             TrierDes();
             if (mesDes[0] == null || mesDes[1] == null || mesDes[2] == null)
@@ -88,13 +88,13 @@ namespace Library421
         /// <summary>
         /// Effectue le premier lancé de la manche
         /// </summary>
-        public void PremierLance()
-        {
-            mesDes[0] = new De();
-            mesDes[1] = new De();
-            mesDes[2] = new De();
-            nbLanceEffectue++;
-        }
+        //public void PremierLance()
+        //{
+        //    mesDes[0] = new De();
+        //    mesDes[1] = new De();
+        //    mesDes[2] = new De();
+        //    nbLancesEffectues++;
+        //}
 
         /// <summary>
         /// Relance les dés non égaux à 4 2 1
@@ -103,15 +103,25 @@ namespace Library421
         {
             if (AEncoreUnLance())
             {
-                for (int i = 0; i < 3; i++)
+                int i = 0;
+                while (i < nbLancesMax)
                 {
-                    if (MesDes[i])
-                    if (MesDes[i].Valeur != 4 && MesDes[i].Valeur != 2 && MesDes[i].Valeur != 1)
+                    if ((i < nbLancesMax - 1) && (MesDes[i].Valeur == 4 || MesDes[i].Valeur == 2 || MesDes[i].Valeur == 1) && (MesDes[i].Valeur == mesDes[i + 1].Valeur))
                     {
                         RelanceDe(MesDes[i]);
+                        i = i+2;
+                    }
+                    else if (MesDes[i].Valeur != 4 && MesDes[i].Valeur != 2 && MesDes[i].Valeur != 1)
+                    {
+                        RelanceDe(MesDes[i]);
+                        i++;
+                    }
+                    else
+                    {
+                        i++;
                     }
                 }
-                NbLanceEffectue++;
+                NbLancesEffectues++;
             }
         }
 

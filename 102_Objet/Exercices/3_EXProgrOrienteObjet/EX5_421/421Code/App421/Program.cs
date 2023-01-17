@@ -18,21 +18,24 @@ namespace App421
             Manche manche1 = new Manche();
             try
             {
-                //bool estGagne0 = manche1.EstGagne();
-                manche1.PremierLance();
-
-                bool estGagne1 = manche1.EstGagne();
-                if (!manche1.EstGagne())
+                
+                int i = 0;
+                while (i < manche1.NbLancesEffectues)
                 {
-                    manche1.Relance();
+                    bool estGagne = manche1.EstGagnee();
+                    if (!estGagne)
+                    {
+                        manche1.Relance();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Vous avez gagné !");
+                    }
+                    i++;
                 }
 
-                bool estGagne2 = manche1.EstGagne();
-                if (!manche1.EstGagne())
-                {
-                    manche1.Relance();
-                }
-                bool estGagne3 = manche1.EstGagne();
+
+
             }
             catch (Exception e)
             {
