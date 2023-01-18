@@ -2,7 +2,7 @@
 using Library421;
 using System.Security.Cryptography;
 using System;
-
+using System.Threading.Tasks.Sources;
 
 namespace App421
 {
@@ -14,11 +14,11 @@ namespace App421
             De de2 = new De();
             De de3 = new De();
             int result01 = de1.CompareTo(de2);
-
-            Manche manche1 = new Manche();
+            
             try
             {
-                
+                Manche manche1 = new Manche();
+
                 int i = 0;
                 while (i < manche1.NbLancesEffectues)
                 {
@@ -34,6 +34,24 @@ namespace App421
                     i++;
                 }
 
+                int nbManchesSouhaitees = int.Parse(Console.ReadLine());
+                Partie partie01 = new Partie(nbManchesSouhaitees);
+                int score = 10 * nbManchesSouhaitees;
+                do
+                {
+                    partie01.CreerUneNouvelleManche();
+                    while (!partie01.EstCeQueLaMancheCouranteEstGagnee() && partie01.EstCeQueLaMancheCouranteAEncoreUnLance())
+                    {
+                        partie01.RelancerLesDesDeLaMancheCourante();
+                    }
+                    if (partie01.EstCeQueLaMancheCouranteEstGagnee())
+                    {
+                        Console.WriteLine("Vous avez gagné la manche");
+                    }
+                    Console.WriteLine("Vous avez perdu la manche");
+                    score += partie01.GetScore();
+                } while (partie01.AEncoreUneMancheAJouer());
+                Console.WriteLine(score);
 
 
             }
