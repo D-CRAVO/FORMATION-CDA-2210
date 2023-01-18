@@ -16,6 +16,8 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exer
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\obj\Debug\net6.0\ConsoleAppBanque.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\obj\Debug\net6.0\ConsoleAppBanque.genruntimeconfig.cache
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\obj\Debug\net6.0\ref\ConsoleAppBanque.dll
+<<<<<<< HEAD
+=======
 C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\bin\Debug\net6.0\ConsoleAppBanque.exe
 C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\bin\Debug\net6.0\ConsoleAppBanque.deps.json
 C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\bin\Debug\net6.0\ConsoleAppBanque.runtimeconfig.json
@@ -34,3 +36,4 @@ C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA
 C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\obj\Debug\net6.0\ConsoleAppBanque.pdb
 C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\obj\Debug\net6.0\ConsoleAppBanque.genruntimeconfig.cache
 C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX4_Banque\BanqueCode\ConsoleAppBanque\obj\Debug\net6.0\ref\ConsoleAppBanque.dll
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
