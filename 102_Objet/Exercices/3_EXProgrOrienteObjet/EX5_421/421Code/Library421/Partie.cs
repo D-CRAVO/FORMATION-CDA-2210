@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library421
 {
-    internal class Partie
+    public class Partie
     {
         private int nbManchesSouhaitees;
         private int nbManchesEffectuees;
@@ -29,12 +29,13 @@ namespace Library421
             get { return score; }
         }
 
-        Partie(int _nbManchesSouhaitees)
+        public Partie(int _nbManchesSouhaitees)
         {
             nbManchesSouhaitees = _nbManchesSouhaitees;
+            nbManchesEffectuees = 0;
         }
 
-        Partie() : this
+        public Partie() : this
             (
                 10
             )
@@ -43,7 +44,7 @@ namespace Library421
         public void CreerUneNouvelleManche()
         {
             Manche manche = new Manche();
-            nbManchesEffectuees = 1;
+            nbManchesEffectuees++;
         }
 
         public bool AEncoreUneMancheAJouer()
@@ -89,9 +90,7 @@ namespace Library421
             {
                 score -= 10;
             }
-
             return score;
         }
-
     }
 }
