@@ -44,7 +44,7 @@ namespace Library421
         public Manche()
         {
             nbLancesEffectues = 1;
-            mesDes = new De?[] { new De(), new De(), new De() };
+            mesDes = new De[] { new De(), new De(), new De() };
         }
 
         /// <summary>

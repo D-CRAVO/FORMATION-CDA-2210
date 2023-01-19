@@ -15,6 +15,10 @@ namespace App421
             De de3 = new De();
             int result01 = de1.CompareTo(de2);
             
+
+            
+
+
             try
             {
                 Manche manche1 = new Manche();
@@ -34,9 +38,13 @@ namespace App421
                     i++;
                 }
 
+                Console.WriteLine("test");
                 int nbManchesSouhaitees = int.Parse(Console.ReadLine());
+                Console.WriteLine("test");
+
                 Partie partie01 = new Partie(nbManchesSouhaitees);
                 int score = 10 * nbManchesSouhaitees;
+                Console.WriteLine(score);
                 do
                 {
                     partie01.CreerUneNouvelleManche();
@@ -48,8 +56,13 @@ namespace App421
                     {
                         Console.WriteLine("Vous avez gagné la manche");
                     }
-                    Console.WriteLine("Vous avez perdu la manche");
+                    else
+                    {
+                        Console.WriteLine("Vous avez perdu la manche");
+
+                    }
                     score += partie01.GetScore();
+                    partie01.EstCeQueLaMancheCouranteEstGagnee();
                 } while (partie01.AEncoreUneMancheAJouer());
                 Console.WriteLine(score);
 
