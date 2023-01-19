@@ -8,45 +8,75 @@ namespace Library421
 {
     public class Partie
     {
+        /// <summary>
+        /// Nombre de manches souhaitées
+        /// </summary>
         private int nbManchesSouhaitees;
+        /// <summary>
+        /// Nombre de manches effectuées
+        /// </summary>
         private int nbManchesEffectuees;
+        /// <summary>
+        /// Score de la manche
+        /// </summary>
         private int score;
+        /// <summary>
+        /// Manche courante de la partie
+        /// </summary>
         private Manche mancheCourante;
 
+        /// <summary>
+        /// Accesseur modifieur du nombre de manches
+        /// </summary>
         public int NbManchesSouhaitees
         {
             get { return nbManchesSouhaitees; }
             set { nbManchesSouhaitees = value; }
         }
 
+        /// <summary>
+        /// Modifieur du nombre de manches
+        /// </summary>
         public int NbManchesEffectuees
         {
             set { nbManchesEffectuees = value; }
         }
 
-        public int Score
-        {
-            get { return score; }
-        }
-
+        /// <summary>
+        /// Constructeur classique
+        /// </summary>
+        /// <param name="_nbManchesSouhaitees"></param>
         public Partie(int _nbManchesSouhaitees)
         {
             nbManchesSouhaitees = _nbManchesSouhaitees;
             nbManchesEffectuees = 0;
         }
 
+        /// <summary>
+        /// Constructeur par défaut avec interdépendance
+        /// </summary>
         public Partie() : this
             (
                 10
             )
         {}
 
+        /// <summary>
+        /// Crée une nouvelle manche pour la partie et incrémente le nombre de parties jouées
+        /// </summary>
         public void CreerUneNouvelleManche()
         {
-            Manche manche = new Manche();
+            mancheCourante = new Manche();
             nbManchesEffectuees++;
         }
 
+        /// <summary>
+        /// Détermine s'il reste encore une manche à jouer
+        /// </summary>
+        /// <returns>
+        /// True s'il reste encore une manche à jouer
+        /// False dans le cas contraire
+        /// </returns>
         public bool AEncoreUneMancheAJouer()
         {
             if (nbManchesEffectuees < nbManchesSouhaitees)
@@ -56,6 +86,13 @@ namespace Library421
             return false;
         }
 
+        /// <summary>
+        /// Indique si la manche courante a encore un lancé
+        /// </summary>
+        /// <returns>
+        /// True si c'est les cas
+        /// False dans le cas contraire
+        /// </returns>
         public bool EstCeQueLaMancheCouranteAEncoreUnLance()
         {
             if (mancheCourante.AEncoreUnLance())
@@ -65,6 +102,13 @@ namespace Library421
             return false;
         }
 
+        /// <summary>
+        /// Détermine si la manche courante est gagnée
+        /// </summary>
+        /// <returns>
+        /// True si c'est le cas
+        /// False dans le cas contraire
+        /// </returns>
         public bool EstCeQueLaMancheCouranteEstGagnee()
         {
             if (mancheCourante.EstGagnee())
@@ -74,21 +118,29 @@ namespace Library421
             return false;
         }
 
+        /// <summary>
+        /// Demande la relance des dés de la manche courante
+        /// </summary>
         public void RelancerLesDesDeLaMancheCourante()
         {
             mancheCourante.Relance();
         }
 
+        /// <summary>
+        /// Calcule le score de la manche courante
+        /// </summary>
+        /// <returns>
+        /// Le score de la manche courante
+        /// </returns>
         public int GetScore()
         {
-            score = 10 * nbManchesSouhaitees;
             if (EstCeQueLaMancheCouranteEstGagnee())
             {
-                score += 30;
+                score = 30;
             }
             else
             {
-                score -= 10;
+                score = -10;
             }
             return score;
         }
