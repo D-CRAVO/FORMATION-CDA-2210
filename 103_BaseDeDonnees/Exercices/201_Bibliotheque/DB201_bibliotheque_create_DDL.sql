@@ -3,6 +3,7 @@ drop table if exists auteur;
 drop table if exists emprunt;
 drop table if exists client;
 drop table if exists livre;
+drop table if exists adresse;
 
 create table auteur
 (
@@ -44,22 +45,34 @@ alter table auteur_livre
 	,add foreign key (auteur_id) references auteur(auteur_id)
 ;
 
+create table adresse
+(
+	adresse_id serial
+	,adresse_numero_voie varchar(25)
+	,adresse_voie varchar(50)
+	,adresse_complement_adresse varchar(100)
+	,adresse_code_postal char(5) not null
+	,adresse_ville varchar(50) not null
+)
+;
+
+alter table adresse
+	add primary key (adresse_id)
+;
+
 create table client
 (
 	client_id serial
 	,client_nom varchar(50) not null
 	,client_prenom varchar(50) not null
-	,client_numero_rue varchar(25)
-	,client_rue varchar(32)
-	,client_complement_adresse varchar(32)
-	,client_code_postal char(5) not null
-	,client_ville varchar(32) not null
 	,client_caution int not null
+	,adresse_id int
 )
 ;
 
 alter table client
 	add primary key (client_id)
+	,add foreign key (adresse_id) references adresse(adresse_id)
 ;
 
 create table emprunt
@@ -77,3 +90,4 @@ alter table emprunt
 	,add foreign key (livre_numero) references livre(livre_numero)
 	,add foreign key (client_id) references client(client_id)
 ;
+
