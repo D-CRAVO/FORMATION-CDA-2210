@@ -1,56 +1,63 @@
-drop table if exists Course_Cheval;
-drop table if exists Cheval;
-drop table if exists Pari;
-drop table if exists Course;
-drop table if exists Categorie;
+drop table if exists epreuve_cheval;
+drop table if exists cheval;
+drop table if exists pari;
+drop table if exists categorie;
+drop table if exists course;
+drop table if exists ordre;
 
 
-create table Categorie
+create table ordre
 (
-	categorie_id int identity(1,1)
+	ordre_id int primary key identity(1,1)
+	,ordre_arrivee varchar(150) not null
+)
+;
+
+create table course
+(
+	course_nom varchar(50) primary key not null
+)
+;
+
+create table epreuve
+(
+	epreuve_id int primary key identity(1,1)
+)
+;
+
+create table categorie
+(
+	categorie_id int primary key identity(1,1)
 	,categorie_libelle varchar(50) not null
-	,primary key (categorie_id)
 )
 ;
 
-create table Course
+create table pari
 (
-	course_nom varchar(50) not null
-	,course_date date not null
-	,course_resultat varchar(50) not null
-	,primary key (course_nom)
-)
-;
-
--- Est-ce acceptable d'intégrer directement les foreign key au creat table ?
-
-create table Pari
-(
-	pari_id int identity(1,1)
+	pari_id int primary key identity(1,1)
 	,pari_somme decimal(10,2) not null
-	,pari_ordre varchar(50) not null
+	,ordre_id int
 	,categorie_id int
-	,course_nom varchar(50)
-	,primary key (pari_id)
-	,foreign key (categorie_id) references Categorie(categorie_id)
-	,foreign key (course_nom) references Course(course_nom)
+	,epreuve_id int
+	,foreign key (ordre_id) references ordre(ordre_id)
+	,foreign key (categorie_id) references categorie(categorie_id)
+	,foreign key (epreuve_id) references epreuve(epreuve_id)
 )
 ;
 
-create table Cheval
+create table cheval
 (
-	cheval_nom varchar(50) not null
-	,cheval_numero tinyint not null
-	,primary key (cheval_nom)
+	cheval_nom varchar(50) primary key not null
 )
 ;
 
-create table Course_Cheval
+create table epreuve_cheval
 (
-	course_nom varchar(50)
+	epreuve_id int
 	,cheval_nom varchar(50) 
-	,primary key (course_nom, cheval_nom)
-	,foreign key (course_nom) references Course(course_nom)
-	,foreign key (cheval_nom) references Cheval(cheval_nom)
+	,cheval_numero tinyint not null unique
+	,primary key (epreuve_id, cheval_nom)
+	,foreign key (epreuve_id) references epreuve(epreuve_id)
+	,foreign key (cheval_nom) references cheval(cheval_nom)
 )
 ;
