@@ -7,15 +7,12 @@ drop table if exists adresse;
 
 create table auteur
 (
-	auteur_id serial 
+	auteur_id int identity(1,1) 
 	,auteur_nom varchar(50)
 	,auteur_prenom varchar(50)
 	,auteur_pseudonyme varchar(50)
+	,primary key (auteur_id)
 )
-;
-
-alter table auteur
-	add primary key (auteur_id)
 ;
 
 create table livre
@@ -25,69 +22,61 @@ create table livre
 	,livre_editeur varchar(100) not null
 	,livre_date_achat date not null
 	,livre_etat varchar(50) not null
+	,primary key (livre_numero)
 )
-;
-
-alter table livre
-	add primary key (livre_numero)
 ;
 
 create table auteur_livre
 (
 	livre_numero int not null
 	,auteur_id int not null
+	,primary key (livre_numero, auteur_id)
+	,foreign key (livre_numero) references livre(livre_numero)
+	,foreign key (auteur_id) references auteur(auteur_id)
 )
-;
-
-alter table auteur_livre
-	add primary key (livre_numero, auteur_id)
-	,add foreign key (livre_numero) references livre(livre_numero)
-	,add foreign key (auteur_id) references auteur(auteur_id)
 ;
 
 create table adresse
 (
-	adresse_id serial
+	adresse_id int identity(1,1)
 	,adresse_numero_voie varchar(25)
 	,adresse_voie varchar(50)
 	,adresse_complement_adresse varchar(100)
 	,adresse_code_postal char(5) not null
 	,adresse_ville varchar(50) not null
+	,primary key (adresse_id)
 )
-;
-
-alter table adresse
-	add primary key (adresse_id)
 ;
 
 create table client
 (
-	client_id serial
+	client_id int identity(1,1)
 	,client_nom varchar(50) not null
 	,client_prenom varchar(50) not null
 	,client_caution int not null
 	,adresse_id int
+	,primary key (client_id)
 )
-;
-
-alter table client
-	add primary key (client_id)
-	,add foreign key (adresse_id) references adresse(adresse_id)
 ;
 
 create table emprunt
 (
-	emprunt_id serial
+	emprunt_id int identity(1,1)
 	,emprunt_date_heure_emprunt date not null
 	,emprunt_date_heure_retour date
 	,livre_numero int not null
 	,client_id int not null
+	,primary key (emprunt_id)
 )
 ;
 
+alter table client
+	add foreign key (adresse_id) references adresse(adresse_id)
+
 alter table emprunt
-	add primary key (emprunt_id)
-	,add foreign key (livre_numero) references livre(livre_numero)
-	,add foreign key (client_id) references client(client_id)
-;
+	add foreign key (livre_numero) references livre(livre_numero)
+
+alter table emprunt
+	add foreign key (client_id) references client(client_id)
+
 
