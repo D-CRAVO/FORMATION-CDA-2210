@@ -53,7 +53,7 @@ create table client
 	client_id int identity(1,1)
 	,client_nom varchar(50) not null
 	,client_prenom varchar(50) not null
-	,client_caution int not null
+	,client_caution int not null check (client_caution > 0)
 	,adresse_id int
 	,primary key (client_id)
 )
