@@ -15,9 +15,9 @@ drop table if exists publics;
 
 create table publics
 (
-	publics_id int identity(1,1)
-	,publics_libelle varchar(50) not null
-	,primary key (publics_id)
+	public_id int identity(1,1)
+	,public_libelle varchar(50) not null
+	,primary key (public_id)
 );
 create table genres
 (
@@ -41,7 +41,7 @@ create table acteurs
 create table magasins
 (
 	magasin_id int identity(1,1)
-	,nominatif_id int not null
+	,magasin_raison_sociale varchar(100) not null
 	,primary key (magasin_id)
 );
 create table realisateurs
@@ -56,6 +56,7 @@ create table titres
 	,titre_libelle varchar(255) not null
 	,titre_duree smallint not null
 	,realisateur_id int not null
+	,public_id int not null
 	,primary key (titre_id)
 );
 create table etats
@@ -117,24 +118,30 @@ create table acteurs_titres
 alter table acteurs_titres
 	add foreign key (acteur_id) references acteurs(acteur_id)
 		,foreign key (titre_id) references titres(titre_id)
+
 alter table genres_titres
 	add foreign key (genre_id) references genres(genre_id)
 		,foreign key (titre_id) references titres(titre_id)
+
 alter table emprunts
 	add foreign key (cassette_numero) references cassettes(cassette_numero)
 		,foreign key (client_id) references clients(client_id)
+
 alter table cassettes 
 	add foreign key (magasin_id) references magasins(magasin_id)
 		,foreign key (etat_id) references etats(etat_id)
 		,foreign key (titre_id) references titres(titre_id)
+
 alter table clients
 	add foreign key (nominatif_id) references nominatifs(nominatif_id)
 		,foreign key (adresse_id) references adresses(adresse_id)
+
 alter table acteurs
 	add foreign key (nominatif_id) references nominatifs(nominatif_id)
-alter table magasins
-	add foreign key (nominatif_id) references nominatifs(nominatif_id)
+
 alter table realisateurs
 	add foreign key (nominatif_id) references nominatifs(nominatif_id)
+
 alter table titres
 	add foreign key (realisateur_id) references realisateurs(realisateur_id)
+	,foreign key (public_id) references publics(public_id)
