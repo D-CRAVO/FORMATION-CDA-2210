@@ -1,3 +1,5 @@
+use db204_clubvideo
+
 drop table if exists acteurs_titres;
 drop table if exists genres_titres;
 drop table if exists emprunts;
@@ -69,11 +71,11 @@ create table adresses
 (
 	adresse_id int identity(1,1)
 	,adresse_numero varchar(5)
-	,adresse_voie varchar(33)
+	,adresse_intitule_voie varchar(33)
 	,adresse_complement_remise varchar(38)
 	,adresse_complement_distribution varchar(38)
 	,adresse_code_postal char(5) not null
-	,adresse_ville varchar(33) not null
+	,adresse_localite varchar(33) not null
 	,primary key (adresse_id)
 );
 create table clients
