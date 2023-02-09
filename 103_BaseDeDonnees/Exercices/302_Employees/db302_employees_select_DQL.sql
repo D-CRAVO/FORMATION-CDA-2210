@@ -65,19 +65,15 @@ order by average_salary desc
 
 -- 7
 select 
-	e1.emp_id
-	,e1.emp_lastname
-	,e1.emp_firstname
-	,e1.emp_salary
-	,e1.emp_hiredate
-	,count (employees.emp_id) as nb_employees
-from employees
-inner join employees as e1 on e1.emp_id = employees.emp_manager_id
+	e0.emp_manager_id
+	
+	,count (e1.emp_id) as nb_employees
+from employees as e0
+inner join e0 as e1 on e1.emp_id = e0.emp_manager_id
 --inner join employees as e2 on e2.emp_id = employees.emp_id
-where employees.emp_manager_id is null
+where e0.emp_manager_id is null
 group by 
-	e1.emp_id
-	,e1.emp_lastname
-	,e1.emp_firstname
-	,e1.emp_salary
-	,e1.emp_hiredate
+	
+	e0.emp_manager_id
+	
+
