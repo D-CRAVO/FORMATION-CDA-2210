@@ -65,13 +65,13 @@ order by average_salary desc
 
 -- 7
 select 
-	employees.emp_lastname
-	--,count (employees.emp_id) as nb_employees
+	e1.emp_lastname
+	,count (employees.emp_id) as nb_employees
 	--,sum(employees.emp_salary) as sum_salary
 from employees
---inner join employees as e1 on e1.emp_manager_id = employees.emp_manager_id
-where employees.emp_manager_id is null
---group by employees.emp_lastname
+left join employees as e1 on e1.emp_manager_id = employees.emp_manager_id
+where employees.emp_id = 1
+group by e1.emp_lastname
 
 select * from employees
 
