@@ -1,3 +1,5 @@
+use db302_employees;
+
 drop table if exists employees;
 
 create table employees
