@@ -64,22 +64,38 @@ group by e1.emp_lastname
 order by average_salary desc
 
 -- 7
+
+select 
+	count(emp_id) as nb_employees
+	,sum(emp_salary) as sum_salary
+	,avg(emp_salary) as average_salary
+from employees
+where emp_manager_id is not null
+
 select 
 	employees.emp_lastname
-	,e1.emp_firstname
-	,e1.emp_salary
-	,e1.emp_hiredate
-	,count (employees.emp_manager_id) as nb_employees
-	,sum(employees.emp_salary) as sum_salary
-	,avg(employees.emp_salary) as average_salary
+	,employees.emp_firstname
+	,employees.emp_salary
+	,employees.emp_hiredate
 from employees
-left join employees as e1 on e1.emp_id = employees.emp_manager_id
 where employees.emp_manager_id is null
+
+select 
+	employees.emp_lastname
+	,employees.emp_firstname
+	,employees.emp_salary
+	,employees.emp_hiredate
+	,count(e1.emp_id) as nb_employees
+	,sum(e1.emp_salary) as sum_salary
+	,avg(e1.emp_salary) as average_salary
+from employees
+inner join employees as e1 on e1.emp_manager_id = employees.emp_id
+--where employees.emp_manager_id is null
 group by
 	employees.emp_lastname
-	,e1.emp_firstname
-	,e1.emp_salary
-	,e1.emp_hiredate
+	,employees.emp_firstname
+	,employees.emp_salary
+	,employees.emp_hiredate
 
 select * from employees
 
