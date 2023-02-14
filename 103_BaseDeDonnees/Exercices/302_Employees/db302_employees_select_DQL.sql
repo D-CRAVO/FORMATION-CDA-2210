@@ -89,8 +89,8 @@ select
 	,sum(e1.emp_salary) as sum_salary
 	,avg(e1.emp_salary) as average_salary
 from employees
-inner join employees as e1 on e1.emp_manager_id = employees.emp_id
---where employees.emp_manager_id is null
+inner join employees as e1 on e1.emp_manager_id is not null
+where employees.emp_manager_id is null
 group by
 	employees.emp_lastname
 	,employees.emp_firstname
