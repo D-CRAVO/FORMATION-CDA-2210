@@ -1,7 +1,9 @@
 use db302_employees;
 
+/*
 delete from employees;
 dbcc checkident('employees', reseed,0);
+*/
 
 insert into employees
 (emp_manager_id, emp_lastname, emp_firstname, emp_salary, emp_hiredate)
