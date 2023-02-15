@@ -12,9 +12,22 @@ insert into owners
 (owner_lastname, owner_firstname)
 values
 ('Petit', 'Annie')
-,('Marsfall', 'Bénédicte')
+,('Marsfall', 'BÃ©nÃ©dicte')
 ,('Doe', 'John')
-,('Bouchra', 'Amine'),('Jones', 'Steeven');insert into brands(brand_name)values('AMC')			-- 1,('Audi')		-- 2,('Chevrolet')	-- 3,('Peugeot')	-- 4,('Toyota')		-- 5;
+,('Bouchra', 'Amine')
+,('Jones', 'Steeven')
+;
+
+insert into brands
+(brand_name)
+values
+('AMC')			-- 1
+,('Audi')		-- 2
+,('Chevrolet')	-- 3
+,('Peugeot')	-- 4
+,('Toyota')		-- 5
+;
+
 insert into cars
 (car_id, car_registration, car_name, car_owner_id, brand_id)
 values
