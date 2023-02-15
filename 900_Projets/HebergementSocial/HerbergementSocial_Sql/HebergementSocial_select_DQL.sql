@@ -91,4 +91,18 @@ where personnes.role_id = 3
 group by 
 	p2.personne_nom
 	,p2.personne_prenom
+;
+
+select 
+	personnes.personne_id
+	,personne_nom
+	,personne_prenom
+	,count(resident_id)
+from personnes
+join residents on residents.medecin_id = personnes.personne_id
+group by
+	personnes.personne_id
+	,personne_nom
+	,personne_prenom
+;
 
