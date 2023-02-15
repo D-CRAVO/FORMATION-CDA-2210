@@ -9,7 +9,7 @@ select
 	,emp_salary
 	,emp_hiredate
 from employees
-order by emp_hiredate desc
+order by emp_hiredate asc
 
 -- 2
 select 
@@ -32,7 +32,7 @@ select
 	,e1.emp_lastname as manager_lastname
 	,e1.emp_firstname as manager_firstname
 from employees
-inner join employees as e1 on e1.emp_id = employees.emp_manager_id
+left join employees as e1 on e1.emp_id = employees.emp_manager_id
 order by manager_lastname asc
 	,emp_hiredate asc
 
@@ -52,6 +52,34 @@ from employees
 inner join employees as e1 on  e1.emp_id = employees.emp_manager_id
 group by e1.emp_firstname, e1.emp_lastname
 order by number_employees asc
+
+select 
+	count(*)
+from employees
+where emp_manager_id = 5
+
+select 
+	e1.emp_firstname as manager_firstname
+	,e1.emp_lastname as manager_lastname
+	,count(employees.emp_id) as number_employees
+	,(
+		select 
+			count(*)
+		from employees as e2
+		where e2.emp_manager_id = e1.emp_manager_id
+	)
+from employees
+inner join employees as e1 on  e1.emp_id = employees.emp_manager_id
+group by 
+	e1.emp_firstname 
+	,e1.emp_lastname
+	,e1.emp_manager_id
+order by number_employees asc
+
+select 
+	count(*)
+from employees
+where emp_manager_id = 5
 
 -- 6
 select 
