@@ -51,10 +51,11 @@ from owners
 where len (owner_firstname) > 5
 ;
 
--- 6 Sélectionner les noms et prénoms des propriétaires possédant plus d’une voiture avec le nombre de voitures possédées 
+-- 7 Sélectionner les noms et prénoms des propriétaires possédant plus d’une voiture avec le nombre de voitures possédées 
 -- par propriétaire. Trier la liste par nombre de voitures possédées. Les propriétaires possédant le plus de voitures
 -- apparaissent en 1er
---.
+--.
+
 select
 	owner_lastname
 	,owner_firstname
@@ -68,14 +69,33 @@ having count(car_id) > 1
 order by nb_cars desc
 ;
 
--- 7 Sélectionner les noms et prénoms des propriétaires possédant plus d’une voiture de même marque. Pour chaque marque 
+-- 8 Sélectionner les noms et prénoms des propriétaires possédant plus d’une voiture de même marque. Pour chaque marque 
 -- de voiture trouvée, afficher le nom de la marque et le nombre de voiture possédées pour cette marque
 
 select 
 	owner_lastname
 	,owner_firstname
-	,brand_name
-	,count(
-
+	--,cars.brand_id
+	--,brand_name
+	,count(cars.brand_id) as nb_cars
+from owners
+	inner join registrations on owners.owner_id = registrations.car_owner_id
+	inner join cars on registrations.car_id = cars.car_id
+	inner join brands on cars.brand_id = brands.brand_id
+group by
+	owner_lastname
+	,owner_firstname
+	,cars.brand_id
+	--,brand_name
+having count(cars.brand_id) > 1
 
 select * from registrations;
+
+SELECT owners.owner_firstname, owners.owner_lastname, COUNT(B.brand_id) AS nbVehicules
+FROM owners
+INNER JOIN cars_owners AS CO ON CO.car_owner_id = owners.owner_id
+INNER JOIN cars AS C ON C.car_id = CO.car_id
+INNER JOIN brands AS B ON B.brand_id = C.brand_id
+GROUP BY owners.owner_firstname, owners.owner_lastname
+HAVING COUNT(CO.car_owner_id) > 1
+ORDER BY nbVehicules DESC;
