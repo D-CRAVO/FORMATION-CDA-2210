@@ -1,0 +1,15 @@
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\bin\Debug\net6.0\Tri3Nombres.exe
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\bin\Debug\net6.0\Tri3Nombres.deps.json
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\bin\Debug\net6.0\Tri3Nombres.runtimeconfig.json
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\bin\Debug\net6.0\Tri3Nombres.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\bin\Debug\net6.0\Tri3Nombres.pdb
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.csproj.AssemblyReference.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.AssemblyInfoInputs.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.AssemblyInfo.cs
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.csproj.CoreCompileInputs.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\refint\Tri3Nombres.dll
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.pdb
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\Tri3Nombres.genruntimeconfig.cache
+C:\Users\DCravo\OneDrive - CENTRE DE READAPTATION\Documents\GitHub\FORMATION-CDA-2210\102_Objet\Exercices\3_EXProgrOrienteObjet\EX5_421\Tri3Nombres\Tri3Nombres\obj\Debug\net6.0\ref\Tri3Nombres.dll

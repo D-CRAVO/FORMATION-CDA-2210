@@ -1,0 +1,15 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\bin\Debug\net6.0\Average.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\bin\Debug\net6.0\Average.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\bin\Debug\net6.0\Average.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\bin\Debug\net6.0\Average.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\bin\Debug\net6.0\Average.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\refint\Average.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\Average.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\901_Anglais\ULMER Catherine\IDE\Average\Average\obj\Debug\net6.0\ref\Average.dll

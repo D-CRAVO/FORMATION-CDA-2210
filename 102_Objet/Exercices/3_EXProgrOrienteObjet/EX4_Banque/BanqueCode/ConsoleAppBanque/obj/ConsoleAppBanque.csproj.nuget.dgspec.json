@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+        "projectName": "ClassLibraryBanque",
+        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+        "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+        "projectName": "ClassLibraryBanque",
+        "projectPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj",
+        "packagesPath": "C:\\Users\\DCravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DCravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj",
+        "projectName": "ConsoleAppBanque",
+        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj",
+        "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj",
+        "projectName": "ConsoleAppBanque",
+        "projectPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\ConsoleAppBanque.csproj",
+        "packagesPath": "C:\\Users\\DCravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ConsoleAppBanque\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DCravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj": {
+                "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj"
+=======
+              "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj": {
+                "projectPath": "C:\\Users\\DCravo\\OneDrive - CENTRE DE READAPTATION\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX4_Banque\\BanqueCode\\ClassLibraryBanque\\ClassLibraryBanque.csproj"
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c
+        }
+      }
+    }
+  }
+}
