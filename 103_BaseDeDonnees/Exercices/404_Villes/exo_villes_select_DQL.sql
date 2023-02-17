@@ -57,7 +57,7 @@ group by
 select 
 	count(ville_departement)
 from villes_france_free
-where ville_departement like '02'
+where ville_departement = '02'
 
 
 -- 6
@@ -132,23 +132,62 @@ select
 	,v2.ville_surface
 	,avg(v1.ville_surface) as surface_moyenne
 from villes_france_free as v1
-	inner join villes_france_free as v2 on v2.ville_id > 0
+	inner join villes_france_free as v2 on v2.ville_id > 0 -- Demander des explications 
 group by
 	v2.ville_nom
 	,v2.ville_surface
 having v2.ville_surface > avg(v1.ville_surface)
 order by
 	ville_surface asc
+;
 
 
+select
+	v2.ville_nom
+	,v2.ville_surface
+	,avg(v1.ville_surface) as surface_moyenne
+from villes_france_free as v1
+	inner join villes_france_free as v2 on v2.ville_id = v1.ville_id -- Demander des explications 
+group by
+	v2.ville_nom
+	,v2.ville_surface
+having v2.ville_surface > avg(v1.ville_surface)
+order by
+	v2.ville_surface asc
 
+-- 9
+-- Obtenir la liste des départements qui possèdent plus de 2 millions d’habitants
 
+select 
+	departement_nom
+	,sum(ville_population_2012) as nb_habitants
+from villes_france_free as vi
+	inner join departement as de on  vi.ville_departement = de.departement_code
+group by 
+	ville_departement
+	,departement_nom
+having sum(ville_population_2012) > 2000000
+order by nb_habitants desc
+;
 
+-- Contrôle
+-- 2 145 906 habitants pour Paris en 2020
+-- 2 606 200 habitants sur Nord en 2018 (Haut-de-France)
 
+-- 10
+-- Remplacez les tirets par un espace vide, pour toutes les villes commençant par “SAINT-” (dans la colonne qui contient 
+-- les noms en majuscule)
 
+update villes_france_free
+set ville_nom = replace(ville_nom, '-', ' ')
+where ville_nom like 'Saint%'
+;
 
-
-
+select
+	ville_nom
+from villes_france_free
+where ville_nom like 'Saint%'
+;
 
 
 select * from departement;
