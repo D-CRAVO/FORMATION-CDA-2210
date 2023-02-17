@@ -26,6 +26,7 @@ values
 ,('Chevrolet')	-- 3
 ,('Peugeot')	-- 4
 ,('Toyota')		-- 5
+,('Seat')		-- 6
 ;
 
 insert into cars
