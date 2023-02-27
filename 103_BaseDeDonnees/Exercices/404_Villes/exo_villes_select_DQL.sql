@@ -46,12 +46,14 @@ order by ville_population_2012 desc
 select 
 	departement_nom
 	,departement_code
-	,count(ville_nom)
+	,count(ville_nom) as nb_villes
 from departement as de
 	inner join villes_france_free as vi on de.departement_code = vi.ville_departement 
 group by 
 	departement_nom
 	,departement_code
+order by 
+	nb_villes desc
 
 -- Contrôle
 select 
