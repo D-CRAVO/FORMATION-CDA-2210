@@ -6,11 +6,11 @@ DROP TABLE IF EXISTS commande_ligne;
 
 CREATE TABLE commande_ligne (
   id int NOT NULL,
-  commande_id int(10) UNSIGNED NOT NULL,
+  commande_id int NOT NULL,
   nom varchar(255) NOT NULL,
-  quantite int(10) UNSIGNED NOT NULL,
-  prix_unitaire float UNSIGNED NOT NULL,
-  prix_total float UNSIGNED NOT NULL,
+  quantite int NOT NULL,
+  prix_unitaire float NOT NULL,
+  prix_total float NOT NULL,
   PRIMARY KEY (id)
 ) ;
 
