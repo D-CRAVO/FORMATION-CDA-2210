@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS commande;
 
 CREATE TABLE commande (
   id int NOT NULL,
-  client_id int(10) NOT NULL,
+  client_id int NOT NULL,
   date_achat date NOT NULL,
   reference varchar(255) NOT NULL,
   cache_prix_total float NOT NULL,
