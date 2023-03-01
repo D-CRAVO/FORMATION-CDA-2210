@@ -1,20 +1,15 @@
-use db302_employees;
-
-/*
-delete from employees;
-dbcc checkident('employees', reseed,0);
-*/
+use db302_employees_revision;
 
 insert into employees
 (emp_manager_id, emp_lastname, emp_firstname, emp_salary, emp_hiredate)
 values
 (null, 'Holems', 'Cathy', 100000, '2010-01-09')
 ,(1, 'Mannheim', 'Luc', 87500, '2017-06-07')
-,(2, 'KiprÃ©', 'Abdou', 42800, '2017-10-09')
-,(2, 'Martin', 'ValÃ©rie', 39500, '2018-03-30')
+,(2, 'Kipré', 'Abdou', 42800, '2017-10-09')
+,(2, 'Martin', 'Valérie', 39500, '2018-03-30')
 ,(1, 'Slezak', 'Daniel', 75000, '2011-09-09')
 ,(5, 'Bahl', 'Tarik', 60000, '2014-04-08')
-,(5, 'Armanetti', 'MichaÃ«l', 60000, '2014-05-06')
+,(5, 'Armanetti', 'Michaël', 60000, '2014-05-06')
 ,(5, 'Goldman', 'Estelle', 55000, '2016-04-20')
 ,(5, 'Durand', 'Gabriel', 55000, '2016-12-02')
 ,(8, 'Morel', 'Audrey', 46500, '2012-07-01')
@@ -29,4 +24,5 @@ values
 
 update employees
 set emp_manager_id = 15
-where emp_id = 14;
+where emp_id = 14
+;
