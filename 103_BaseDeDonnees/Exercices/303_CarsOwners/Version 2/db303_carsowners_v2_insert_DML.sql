@@ -25,7 +25,7 @@ insert into owners
 (owner_lastname, owner_firstname)
 values
 ('Petit', 'Annie')
-,('Marsfall', 'Bénédicte')
+,('Marsfall', 'BÃ©nÃ©dicte')
 ,('Doe', 'John')
 ,('Bouchra', 'Amine')
 ,('Jones', 'Steeven')
