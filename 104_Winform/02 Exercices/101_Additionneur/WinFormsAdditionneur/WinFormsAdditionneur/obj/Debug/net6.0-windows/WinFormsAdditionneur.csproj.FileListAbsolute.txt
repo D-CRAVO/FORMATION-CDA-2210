@@ -18,3 +18,4 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\WinFormsAdditionneur\obj\Debug\net6.0-windows\ref\WinFormsAdditionneur.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.Properties.Resources.resources

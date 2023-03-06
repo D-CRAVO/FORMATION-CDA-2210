@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibraryAdditionneur;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,8 +18,31 @@ namespace WinFormsAdditionneur
             InitializeComponent();
         }
 
-        public int somme = 0;
 
+
+        
+        Additionneur sum = new Additionneur();
+       
+        private void button_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            this.textBoxAdditionneur.Text += b.Tag + "+";
+            sum.Additionner(Int32.Parse((string)b.Tag));
+        }
+        
+
+        /*
+        public int sum = 0;
+        private void button_Click(object sender, EventArgs e)
+        {
+            //caster le sender en Button b
+            Button b = (Button)sender;
+            this.textBoxAdditionneur.Text += b.Tag + "+";
+            sum += int.Parse((string)b.Tag);
+        }
+       
+
+        /*
         private void button0_Click(object sender, EventArgs e)
         {
             this.textBoxAdditionneur.Text += "0+";
@@ -78,15 +102,15 @@ namespace WinFormsAdditionneur
             this.textBoxAdditionneur.Text += "9+";
             somme += 9;
         }
-
+        */
         private void buttonCalculer_Click(object sender, EventArgs e)
         {
-            this.textBoxAdditionneur.Text += " =" + somme + "+";
+            this.textBoxAdditionneur.Text += " =" + sum + "+";
         }
 
         private void buttonVider_Click(object sender, EventArgs e)
         {
-            somme = 0;
+            Additionneur sum = new Additionneur();
             this.textBoxAdditionneur.Text = "";
         }
     }
