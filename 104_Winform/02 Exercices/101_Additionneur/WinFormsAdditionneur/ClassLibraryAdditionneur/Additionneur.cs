@@ -22,7 +22,7 @@ namespace ClassLibraryAdditionneur
 
         public override string ToString()
         {
-
+            return $"= {sum} +";
         }
 
     }
