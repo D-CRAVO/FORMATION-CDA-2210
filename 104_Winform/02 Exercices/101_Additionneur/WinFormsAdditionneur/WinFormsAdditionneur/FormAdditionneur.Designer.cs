@@ -47,7 +47,7 @@
             // 
             this.button0.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button0.ForeColor = System.Drawing.Color.Blue;
-            this.button0.Location = new System.Drawing.Point(104, 294);
+            this.button0.Location = new System.Drawing.Point(1, 166);
             this.button0.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(29, 32);
@@ -61,7 +61,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(143, 294);
+            this.button1.Location = new System.Drawing.Point(40, 166);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(29, 32);
@@ -75,7 +75,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.Blue;
-            this.button2.Location = new System.Drawing.Point(178, 294);
+            this.button2.Location = new System.Drawing.Point(75, 166);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(29, 32);
@@ -89,7 +89,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.Blue;
-            this.button3.Location = new System.Drawing.Point(214, 294);
+            this.button3.Location = new System.Drawing.Point(111, 166);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(29, 32);
@@ -103,7 +103,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.Blue;
-            this.button4.Location = new System.Drawing.Point(249, 294);
+            this.button4.Location = new System.Drawing.Point(146, 166);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(29, 32);
@@ -117,7 +117,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.Color.Blue;
-            this.button5.Location = new System.Drawing.Point(104, 333);
+            this.button5.Location = new System.Drawing.Point(1, 205);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(29, 32);
@@ -131,7 +131,7 @@
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.Color.Blue;
-            this.button6.Location = new System.Drawing.Point(143, 334);
+            this.button6.Location = new System.Drawing.Point(40, 206);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(29, 32);
@@ -145,7 +145,7 @@
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button7.ForeColor = System.Drawing.Color.Blue;
-            this.button7.Location = new System.Drawing.Point(178, 334);
+            this.button7.Location = new System.Drawing.Point(75, 206);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(29, 32);
@@ -159,7 +159,7 @@
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button8.ForeColor = System.Drawing.Color.Blue;
-            this.button8.Location = new System.Drawing.Point(214, 333);
+            this.button8.Location = new System.Drawing.Point(111, 205);
             this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(29, 32);
@@ -174,7 +174,7 @@
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button9.ForeColor = System.Drawing.Color.Blue;
-            this.button9.Location = new System.Drawing.Point(249, 333);
+            this.button9.Location = new System.Drawing.Point(146, 205);
             this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(29, 32);
@@ -188,7 +188,7 @@
             // 
             this.buttonVider.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonVider.ForeColor = System.Drawing.Color.Blue;
-            this.buttonVider.Location = new System.Drawing.Point(104, 372);
+            this.buttonVider.Location = new System.Drawing.Point(1, 244);
             this.buttonVider.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonVider.Name = "buttonVider";
             this.buttonVider.Size = new System.Drawing.Size(86, 29);
@@ -201,7 +201,7 @@
             // 
             this.buttonCalculer.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonCalculer.ForeColor = System.Drawing.Color.Blue;
-            this.buttonCalculer.Location = new System.Drawing.Point(192, 372);
+            this.buttonCalculer.Location = new System.Drawing.Point(89, 244);
             this.buttonCalculer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCalculer.Name = "buttonCalculer";
             this.buttonCalculer.Size = new System.Drawing.Size(86, 29);
@@ -212,19 +212,19 @@
             // 
             // textBoxAdditionneur
             // 
-            this.textBoxAdditionneur.Location = new System.Drawing.Point(104, 229);
+            this.textBoxAdditionneur.Location = new System.Drawing.Point(1, 1);
             this.textBoxAdditionneur.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxAdditionneur.Multiline = true;
             this.textBoxAdditionneur.Name = "textBoxAdditionneur";
             this.textBoxAdditionneur.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxAdditionneur.Size = new System.Drawing.Size(173, 56);
+            this.textBoxAdditionneur.Size = new System.Drawing.Size(174, 157);
             this.textBoxAdditionneur.TabIndex = 12;
             // 
             // FormAdditionneur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 570);
+            this.ClientSize = new System.Drawing.Size(175, 272);
             this.Controls.Add(this.textBoxAdditionneur);
             this.Controls.Add(this.buttonCalculer);
             this.Controls.Add(this.buttonVider);
