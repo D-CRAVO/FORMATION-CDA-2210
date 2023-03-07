@@ -11,21 +11,12 @@
 using System;
 using System.Reflection;
 
-<<<<<<<< HEAD:102_Objet/Exercices/3_EXProgrOrienteObjet/EX1_CompteBancaire/CompteBancaire/CompteTest/obj/Debug/net6.0/CompteTest.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompteTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompteTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompteTest")]
-========
-[assembly: System.Reflection.AssemblyCompanyAttribute("AppCompte")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("AppCompte")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AppCompte")]
->>>>>>>> fe7b0673256200b7f38ce78bdac67d5e0319725c:102_Objet/Exercices/3_EXProgrOrienteObjet/EX1_Compte/CompteCode/AppCompte/obj/Debug/net6.0/AppCompte.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
