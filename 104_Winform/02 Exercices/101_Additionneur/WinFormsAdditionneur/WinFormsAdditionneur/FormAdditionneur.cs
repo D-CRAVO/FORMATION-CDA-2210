@@ -18,6 +18,8 @@ namespace WinFormsAdditionneur
             InitializeComponent();
         }
 
+        /**** version 1 ****/
+
         //public int sum = 0;
 
         //private void button0_Click(object sender, EventArgs e)
@@ -92,7 +94,7 @@ namespace WinFormsAdditionneur
         //}
 
 
-
+        /**** Version 2 ****/
 
         //public int sum = 0;
 
@@ -115,8 +117,7 @@ namespace WinFormsAdditionneur
         //    this.textBoxAdditionneur.Text = "";
         //}
 
-
-
+        /**** Version 3 ****/
 
         Additionneur sum = new Additionneur();
 
