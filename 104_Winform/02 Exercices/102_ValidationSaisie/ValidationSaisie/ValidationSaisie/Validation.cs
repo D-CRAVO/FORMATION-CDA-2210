@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ValidationSaisie
 {
-    public partial class Form1 : Form
+    public partial class Validation : Form
     {
-        public Form1()
+        public Validation()
         {
             InitializeComponent();
         }
