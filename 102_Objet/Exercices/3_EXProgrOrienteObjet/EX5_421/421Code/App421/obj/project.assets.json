@@ -27,25 +27,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DCravo\\.nuget\\packages\\": {},
+    "C:\\Users\\dcravo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DCravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\App421\\App421.csproj",
+      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\App421\\App421.csproj",
       "projectName": "App421",
-      "projectPath": "C:\\Users\\DCravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\App421\\App421.csproj",
-      "packagesPath": "C:\\Users\\DCravo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DCravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\App421\\obj\\",
+      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\App421\\App421.csproj",
+      "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\App421\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DCravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -60,8 +60,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\DCravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\Library421\\Library421.csproj": {
-              "projectPath": "C:\\Users\\DCravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\Library421\\Library421.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\Library421\\Library421.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\102_Objet\\Exercices\\3_EXProgrOrienteObjet\\EX5_421\\421Code\\Library421\\Library421.csproj"
             }
           }
         }
