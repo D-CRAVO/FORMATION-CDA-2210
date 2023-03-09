@@ -1,0 +1,12 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\bin\Debug\net6.0\ClassLibraryValidationSaisie.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\bin\Debug\net6.0\ClassLibraryValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\bin\Debug\net6.0\ClassLibraryValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\refint\ClassLibraryValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ClassLibraryValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ClassLibraryValidationSaisie\obj\Debug\net6.0\ref\ClassLibraryValidationSaisie.dll
