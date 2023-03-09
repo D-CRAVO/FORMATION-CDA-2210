@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -22,13 +23,13 @@ namespace ValidationSaisie
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
         {
+            ValideNom(textBoxNom.Text);
             if (!ValideNom(textBoxNom.Text))
             {
                 errorProviderNom.SetError(textBoxNom, "Nom invalide");
             }
             else
             {
-                DateTime.TryParse(textBoxDate.Text, out DateTime date);
                 errorProviderNom.SetError(textBoxNom, "");
             }
         }
@@ -71,7 +72,6 @@ namespace ValidationSaisie
             }
         }
 
-
         private static bool ValideNom(string _nom)
         {
             Regex myRegex = new Regex(@"^[a-zA-Z]{1,25}$");
@@ -103,12 +103,12 @@ namespace ValidationSaisie
 
         private void buttonValider_Click(object sender, EventArgs e)
         {
-            if (ValideNom(textBoxNom.Text) 
-                && ValideDate(textBoxDate.Text) 
+            if (ValideNom(textBoxNom.Text)
+                && ValideDate(textBoxDate.Text)
                 && ValideMontant(textBoxMontant.Text)
                 && ValideCP(textBoxCP.Text))
             {
-                MessageBox.Show
+                DialogResult dialogResult = MessageBox.Show
                     (
                         $"Nom : {textBoxNom.Text}\n" +
                         $"Date : {textBoxDate.Text}\n" +
@@ -116,6 +116,34 @@ namespace ValidationSaisie
                         $"Code Postal : {textBoxCP.Text}"
                         , "Validation effectuée"
                     );
+                if (dialogResult == DialogResult.OK)
+                {
+                    DialogResult dialogResultYesNo = MessageBox.Show("Fin de l'application", "FIN", MessageBoxButtons.YesNo);
+                    if (dialogResultYesNo == DialogResult.Yes)
+                    {
+                        Close();
+                    }
+                }
+            }
+            else
+            {
+                SystemSounds.Exclamation.Play();
+                if(!ValideNom(textBoxNom.Text))
+                {
+                    textBoxNom.Focus();
+                }
+                else if (!ValideDate(textBoxDate.Text))
+                {
+                    textBoxDate.Focus();
+                }
+                else if (!ValideMontant(textBoxMontant.Text))
+                {
+                    textBoxMontant.Focus();
+                }
+                else if (!ValideCP(textBoxCP.Text))
+                {
+                    textBoxCP.Focus();
+                }
             }
         }
 
