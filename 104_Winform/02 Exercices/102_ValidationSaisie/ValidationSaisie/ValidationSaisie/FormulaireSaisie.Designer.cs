@@ -41,9 +41,13 @@
             this.labelDate = new System.Windows.Forms.Label();
             this.labelNom = new System.Windows.Forms.Label();
             this.errorProviderNom = new System.Windows.Forms.ErrorProvider(this.components);
-            this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderDate = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderMontant = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderCP = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderMontant)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderCP)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxCP
@@ -52,6 +56,7 @@
             this.textBoxCP.Name = "textBoxCP";
             this.textBoxCP.Size = new System.Drawing.Size(75, 20);
             this.textBoxCP.TabIndex = 25;
+            this.textBoxCP.TextChanged += new System.EventHandler(this.textBoxCP_TextChanged);
             // 
             // textBoxMontant
             // 
@@ -59,6 +64,7 @@
             this.textBoxMontant.Name = "textBoxMontant";
             this.textBoxMontant.Size = new System.Drawing.Size(100, 20);
             this.textBoxMontant.TabIndex = 24;
+            this.textBoxMontant.TextChanged += new System.EventHandler(this.textBoxMontant_TextChanged);
             // 
             // textBoxDate
             // 
@@ -66,6 +72,7 @@
             this.textBoxDate.Name = "textBoxDate";
             this.textBoxDate.Size = new System.Drawing.Size(100, 20);
             this.textBoxDate.TabIndex = 23;
+            this.textBoxDate.TextChanged += new System.EventHandler(this.textBoxDate_TextChanged);
             // 
             // textBoxNom
             // 
@@ -92,6 +99,7 @@
             this.buttonEffacer.TabIndex = 20;
             this.buttonEffacer.Text = "Effacer";
             this.buttonEffacer.UseVisualStyleBackColor = true;
+            this.buttonEffacer.Click += new System.EventHandler(this.buttonEffacer_Click);
             // 
             // buttonValider
             // 
@@ -101,6 +109,7 @@
             this.buttonValider.TabIndex = 19;
             this.buttonValider.Text = "Valider";
             this.buttonValider.UseVisualStyleBackColor = true;
+            this.buttonValider.Click += new System.EventHandler(this.buttonValider_Click);
             // 
             // labelCP
             // 
@@ -142,9 +151,17 @@
             // 
             this.errorProviderNom.ContainerControl = this;
             // 
-            // errorProvider2
+            // errorProviderDate
             // 
-            this.errorProvider2.ContainerControl = this;
+            this.errorProviderDate.ContainerControl = this;
+            // 
+            // errorProviderMontant
+            // 
+            this.errorProviderMontant.ContainerControl = this;
+            // 
+            // errorProviderCP
+            // 
+            this.errorProviderCP.ContainerControl = this;
             // 
             // FormulaireSaisie
             // 
@@ -169,7 +186,9 @@
             this.Name = "FormulaireSaisie";
             this.Text = "FormulaireSaisie";
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderMontant)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderCP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,6 +208,8 @@
         private System.Windows.Forms.Label labelDate;
         private System.Windows.Forms.Label labelNom;
         private System.Windows.Forms.ErrorProvider errorProviderNom;
-        private System.Windows.Forms.ErrorProvider errorProvider2;
+        private System.Windows.Forms.ErrorProvider errorProviderDate;
+        private System.Windows.Forms.ErrorProvider errorProviderMontant;
+        private System.Windows.Forms.ErrorProvider errorProviderCP;
     }
 }
