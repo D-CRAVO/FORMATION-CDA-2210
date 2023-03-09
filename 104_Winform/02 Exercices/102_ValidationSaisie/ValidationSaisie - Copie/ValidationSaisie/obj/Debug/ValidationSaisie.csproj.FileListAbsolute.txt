@@ -1,0 +1,34 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\bin\Debug\ValidationSaisie.exe.config
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\bin\Debug\ValidationSaisie.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\bin\Debug\ValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.SuggestedBindingRedirects.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.Properties.Resources.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.FormulaireSaisie.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.Validation.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\bin\Debug\ValidationSaisie.exe.config
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\bin\Debug\ValidationSaisie.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\bin\Debug\ValidationSaisie.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.SuggestedBindingRedirects.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.FormulaireSaisie.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.Properties.Resources.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.SuggestedBindingRedirects.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.FormulaireSaisie.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.Properties.Resources.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\obj\Debug\ValidationSaisie.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\bin\Debug\ValidationSaisie.exe.config
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\bin\Debug\ValidationSaisie.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie - Copie\ValidationSaisie\bin\Debug\ValidationSaisie.pdb
