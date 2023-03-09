@@ -100,7 +100,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnQuitter);
             this.Name = "frmTest";
-            this.Text = "frmTest";
+            this.Text = "Premier test";
             this.ResumeLayout(false);
             this.PerformLayout();
 

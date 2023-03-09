@@ -32,6 +32,8 @@ namespace WindowsFormsApp1
             Application.Exit();
         }
 
-       
+        
+
+        // MessageBox.Show("Je suis une simple boîte de message", "Test MessageBox", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
     }
 }
