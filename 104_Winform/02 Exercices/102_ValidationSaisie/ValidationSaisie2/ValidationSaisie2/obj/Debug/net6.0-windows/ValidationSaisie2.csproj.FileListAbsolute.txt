@@ -41,3 +41,6 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ref\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormRecapTransaction.resources
