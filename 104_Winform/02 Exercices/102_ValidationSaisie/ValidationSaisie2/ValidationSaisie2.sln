@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationSaisie2", "ValidationSaisie2\ValidationSaisie2.csproj", "{7AFEC4D7-EE4B-4198-879F-55D3555A14FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryValidationSaisie2", "ClassLibraryValidationSaisie2\ClassLibraryValidationSaisie2.csproj", "{58DE1CA2-B562-49DA-A19E-10E7BDFC57F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryValidationSaisie2", "ClassLibraryValidationSaisie2\ClassLibraryValidationSaisie2.csproj", "{58DE1CA2-B562-49DA-A19E-10E7BDFC57F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryTransaction", "ClassLibraryTransaction\ClassLibraryTransaction.csproj", "{BE75CF3A-B2DC-42F9-9796-9FC95BB2FDB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{58DE1CA2-B562-49DA-A19E-10E7BDFC57F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58DE1CA2-B562-49DA-A19E-10E7BDFC57F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58DE1CA2-B562-49DA-A19E-10E7BDFC57F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE75CF3A-B2DC-42F9-9796-9FC95BB2FDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE75CF3A-B2DC-42F9-9796-9FC95BB2FDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE75CF3A-B2DC-42F9-9796-9FC95BB2FDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE75CF3A-B2DC-42F9-9796-9FC95BB2FDB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

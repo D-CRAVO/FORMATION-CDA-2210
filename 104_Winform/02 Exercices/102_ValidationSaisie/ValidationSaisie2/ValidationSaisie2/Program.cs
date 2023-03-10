@@ -15,8 +15,6 @@ namespace ValidationSaisie2
             ApplicationConfiguration.Initialize();
             Application.Run(new FormulaireSaisie2());
 
-            Controles2 monControle = new Controles2();
-            //ValideNom(monControle.Nom);
         }
     }
 }

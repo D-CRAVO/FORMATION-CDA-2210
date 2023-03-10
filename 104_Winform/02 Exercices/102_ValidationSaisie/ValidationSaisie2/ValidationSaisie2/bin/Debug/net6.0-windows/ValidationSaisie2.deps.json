@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "ValidationSaisie2/1.0.0": {
         "dependencies": {
+          "ClassLibraryTransaction": "1.0.0",
           "ClassLibraryValidationSaisie2": "1.0.0"
         },
         "runtime": {
           "ValidationSaisie2.dll": {}
+        }
+      },
+      "ClassLibraryTransaction/1.0.0": {
+        "runtime": {
+          "ClassLibraryTransaction.dll": {}
         }
       },
       "ClassLibraryValidationSaisie2/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryTransaction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
