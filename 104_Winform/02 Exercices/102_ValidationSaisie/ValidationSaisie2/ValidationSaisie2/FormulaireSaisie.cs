@@ -107,7 +107,6 @@ namespace ValidationSaisie2
                 );
 
                 maRecapTransaction = new FormRecapTransaction(maTransaction);
-                maRecapTransaction.Enregistrement(maTransaction);
                 
             }
             else

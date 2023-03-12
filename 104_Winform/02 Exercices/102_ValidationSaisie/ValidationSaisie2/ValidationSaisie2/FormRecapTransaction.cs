@@ -22,23 +22,17 @@ namespace ValidationSaisie2
         public FormRecapTransaction(Transaction t)
         {
             InitializeComponent();
-            Enregistrement(t);
-            Affichage();
+            Affichage(t);
         }
 
-        public void Enregistrement(Transaction _transaction)
-        {
-            labelNom.Text += _transaction.Nom;
-            labelDate.Text += _transaction.Date;
-            labelMontant.Text += _transaction.Montant;
-            labelCP.Text += _transaction.CodePostal;
-        }
-
-        public void Affichage()
+        public void Affichage(Transaction _transaction)
         {
             MessageBox.Show
                 (
-                    $"{ labelNom.Text}\n{labelDate.Text}\n{labelMontant.Text}\n{labelCP.Text}"
+                    $"{labelNom.Text} {_transaction.Nom}{Environment.NewLine}" +
+                    $"{labelDate.Text} {_transaction.Date}{Environment.NewLine}" +
+                    $"{labelMontant.Text} {_transaction.Montant}{Environment.NewLine}" +
+                    $"{labelCP.Text} {_transaction.CodePostal}{Environment.NewLine}"
                     , "Validation effectuée"
                 );
         }

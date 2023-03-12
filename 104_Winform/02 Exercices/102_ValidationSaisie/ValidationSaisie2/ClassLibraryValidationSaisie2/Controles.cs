@@ -21,7 +21,7 @@ namespace ClassLibraryValidationSaisie2
             Regex myRegex = new Regex(@"^[0-9]{2}/[0-9]{2}/[0-9]{4}");
             if (DateTime.TryParse(_date, out DateTime temp) && myRegex.IsMatch(_date))
             {
-                DateTime.Parse(_date);
+                //DateTime.Parse(_date);
                 return true;
             }
             return false;

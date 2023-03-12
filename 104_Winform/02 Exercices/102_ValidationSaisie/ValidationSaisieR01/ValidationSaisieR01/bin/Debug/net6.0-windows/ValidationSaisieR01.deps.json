@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ValidationSaisieR01/1.0.0": {
+        "dependencies": {
+          "ClassLibraryControles": "1.0.0",
+          "ClassLibraryTransactions": "1.0.0"
+        },
+        "runtime": {
+          "ValidationSaisieR01.dll": {}
+        }
+      },
+      "ClassLibraryControles/1.0.0": {
+        "runtime": {
+          "ClassLibraryControles.dll": {}
+        }
+      },
+      "ClassLibraryTransactions/1.0.0": {
+        "runtime": {
+          "ClassLibraryTransactions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValidationSaisieR01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryTransactions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
