@@ -21,11 +21,20 @@ namespace ValidationSaisie2
     public partial class FormulaireSaisie2 : Form
     {
         private ClassLibraryTransaction.Transaction maTransaction;
-        private FormRecapTransaction maRecapTransaction;
+  
 
         public FormulaireSaisie2()
         {
             InitializeComponent();
+            preRemplissage();
+        }
+
+        private void preRemplissage()
+        {
+            textBoxNom.Text = "David";
+            textBoxDate.Text = "13/03/2023";
+            textBoxMontant.Text = "1000,00";
+            textBoxCP.Text = "41000";
         }
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
@@ -105,9 +114,10 @@ namespace ValidationSaisie2
                     float.Parse(textBoxMontant.Text),
                     int.Parse(textBoxCP.Text)
                 );
+                FormRecapTransaction maRecapTransaction = new FormRecapTransaction(maTransaction);
+                maRecapTransaction.ShowDialog();
 
-                maRecapTransaction = new FormRecapTransaction(maTransaction);
-                
+
             }
             else
             {
@@ -137,6 +147,10 @@ namespace ValidationSaisie2
             textBoxDate.Clear();
             textBoxMontant.Clear();
             textBoxCP.Clear();
+            errorProviderNom.SetError(textBoxNom, "");
+            errorProviderDate.SetError(textBoxDate, "");
+            errorProviderMontant.SetError(textBoxMontant, "");
+            errorProviderCP.SetError(textBoxCP, "");
         }
 
         private void FormulaireSaisie2_FormClosing(object sender, FormClosingEventArgs e)

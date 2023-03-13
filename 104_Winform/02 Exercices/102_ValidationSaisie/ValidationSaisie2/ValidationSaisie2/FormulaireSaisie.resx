@@ -57,9 +57,324 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelNom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 60</value>
+  </data>
+  <data name="labelNom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="labelNom.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelNom.Text" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;labelNom.Name" xml:space="preserve">
+    <value>labelNom</value>
+  </data>
+  <data name="&gt;&gt;labelNom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelNom.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBoxNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 52</value>
+  </data>
+  <data name="textBoxNom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="textBoxNom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxNom.Name" xml:space="preserve">
+    <value>textBoxNom</value>
+  </data>
+  <data name="&gt;&gt;textBoxNom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxNom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxNom.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonValider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 186</value>
+  </data>
+  <data name="buttonValider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonValider.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="buttonValider.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;buttonValider.Name" xml:space="preserve">
+    <value>buttonValider</value>
+  </data>
+  <data name="&gt;&gt;buttonValider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonValider.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonValider.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonEffacer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 215</value>
+  </data>
+  <data name="buttonEffacer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonEffacer.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonEffacer.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="&gt;&gt;buttonEffacer.Name" xml:space="preserve">
+    <value>buttonEffacer</value>
+  </data>
+  <data name="&gt;&gt;buttonEffacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEffacer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonEffacer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <metadata name="errorProviderNom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 261</value>
+  </data>
+  <data name="labelCommentaire.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCommentaire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 98</value>
+  </data>
+  <data name="labelCommentaire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 15</value>
+  </data>
+  <data name="labelCommentaire.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelCommentaire.Text" xml:space="preserve">
+    <value>(JJ/MM/AAAA)</value>
+  </data>
+  <data name="&gt;&gt;labelCommentaire.Name" xml:space="preserve">
+    <value>labelCommentaire</value>
+  </data>
+  <data name="&gt;&gt;labelCommentaire.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCommentaire.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCommentaire.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxCP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 187</value>
+  </data>
+  <data name="textBoxCP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="textBoxCP.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxCP.Name" xml:space="preserve">
+    <value>textBoxCP</value>
+  </data>
+  <data name="&gt;&gt;textBoxCP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelCP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 195</value>
+  </data>
+  <data name="labelCP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 15</value>
+  </data>
+  <data name="labelCP.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelCP.Text" xml:space="preserve">
+    <value>Code Postal :</value>
+  </data>
+  <data name="&gt;&gt;labelCP.Name" xml:space="preserve">
+    <value>labelCP</value>
+  </data>
+  <data name="&gt;&gt;labelCP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxMontant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 141</value>
+  </data>
+  <data name="textBoxMontant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="textBoxMontant.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxMontant.Name" xml:space="preserve">
+    <value>textBoxMontant</value>
+  </data>
+  <data name="&gt;&gt;textBoxMontant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMontant.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxMontant.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelMontant.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMontant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 149</value>
+  </data>
+  <data name="labelMontant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="labelMontant.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelMontant.Text" xml:space="preserve">
+    <value>Montant :</value>
+  </data>
+  <data name="&gt;&gt;labelMontant.Name" xml:space="preserve">
+    <value>labelMontant</value>
+  </data>
+  <data name="&gt;&gt;labelMontant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMontant.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMontant.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 95</value>
+  </data>
+  <data name="textBoxDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="textBoxDate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxDate.Name" xml:space="preserve">
+    <value>textBoxDate</value>
+  </data>
+  <data name="&gt;&gt;textBoxDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 103</value>
+  </data>
+  <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="labelDate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelDate.Text" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Name" xml:space="preserve">
+    <value>labelDate</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Les Contrôles</value>
+  </data>
+  <data name="&gt;&gt;errorProviderNom.Name" xml:space="preserve">
+    <value>errorProviderNom</value>
+  </data>
+  <data name="&gt;&gt;errorProviderNom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProviderDate.Name" xml:space="preserve">
+    <value>errorProviderDate</value>
+  </data>
+  <data name="&gt;&gt;errorProviderDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProviderMontant.Name" xml:space="preserve">
+    <value>errorProviderMontant</value>
+  </data>
+  <data name="&gt;&gt;errorProviderMontant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProviderCP.Name" xml:space="preserve">
+    <value>errorProviderCP</value>
+  </data>
+  <data name="&gt;&gt;errorProviderCP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormulaireSaisie2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="errorProviderDate.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>168, 17</value>
   </metadata>

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormulaireSaisie2));
             this.labelNom = new System.Windows.Forms.Label();
             this.textBoxNom = new System.Windows.Forms.TextBox();
             this.buttonValider = new System.Windows.Forms.Button();
@@ -43,6 +44,7 @@
             this.errorProviderDate = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProviderMontant = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProviderCP = new System.Windows.Forms.ErrorProvider(this.components);
+            this.labelCommentaire = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderMontant)).BeginInit();
@@ -51,38 +53,26 @@
             // 
             // labelNom
             // 
-            this.labelNom.AutoSize = true;
-            this.labelNom.Location = new System.Drawing.Point(125, 149);
+            resources.ApplyResources(this.labelNom, "labelNom");
             this.labelNom.Name = "labelNom";
-            this.labelNom.Size = new System.Drawing.Size(34, 15);
-            this.labelNom.TabIndex = 0;
-            this.labelNom.Text = "Nom";
             // 
             // textBoxNom
             // 
-            this.textBoxNom.Location = new System.Drawing.Point(207, 141);
+            resources.ApplyResources(this.textBoxNom, "textBoxNom");
             this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(100, 23);
-            this.textBoxNom.TabIndex = 1;
             this.textBoxNom.TextChanged += new System.EventHandler(this.textBoxNom_TextChanged);
             // 
             // buttonValider
             // 
-            this.buttonValider.Location = new System.Drawing.Point(659, 333);
+            resources.ApplyResources(this.buttonValider, "buttonValider");
             this.buttonValider.Name = "buttonValider";
-            this.buttonValider.Size = new System.Drawing.Size(75, 23);
-            this.buttonValider.TabIndex = 9;
-            this.buttonValider.Text = "Valider";
             this.buttonValider.UseVisualStyleBackColor = true;
             this.buttonValider.Click += new System.EventHandler(this.buttonValider_Click);
             // 
             // buttonEffacer
             // 
-            this.buttonEffacer.Location = new System.Drawing.Point(659, 362);
+            resources.ApplyResources(this.buttonEffacer, "buttonEffacer");
             this.buttonEffacer.Name = "buttonEffacer";
-            this.buttonEffacer.Size = new System.Drawing.Size(75, 23);
-            this.buttonEffacer.TabIndex = 10;
-            this.buttonEffacer.Text = "Effacer";
             this.buttonEffacer.UseVisualStyleBackColor = true;
             this.buttonEffacer.Click += new System.EventHandler(this.buttonEffacer_Click);
             // 
@@ -92,53 +82,35 @@
             // 
             // labelDate
             // 
-            this.labelDate.AutoSize = true;
-            this.labelDate.Location = new System.Drawing.Point(125, 192);
+            resources.ApplyResources(this.labelDate, "labelDate");
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(37, 15);
-            this.labelDate.TabIndex = 3;
-            this.labelDate.Text = "Date :";
             // 
             // textBoxDate
             // 
-            this.textBoxDate.Location = new System.Drawing.Point(207, 184);
+            resources.ApplyResources(this.textBoxDate, "textBoxDate");
             this.textBoxDate.Name = "textBoxDate";
-            this.textBoxDate.Size = new System.Drawing.Size(100, 23);
-            this.textBoxDate.TabIndex = 4;
             this.textBoxDate.TextChanged += new System.EventHandler(this.textBoxDate_TextChanged);
             // 
             // labelMontant
             // 
-            this.labelMontant.AutoSize = true;
-            this.labelMontant.Location = new System.Drawing.Point(125, 238);
+            resources.ApplyResources(this.labelMontant, "labelMontant");
             this.labelMontant.Name = "labelMontant";
-            this.labelMontant.Size = new System.Drawing.Size(59, 15);
-            this.labelMontant.TabIndex = 5;
-            this.labelMontant.Text = "Montant :";
             // 
             // textBoxMontant
             // 
-            this.textBoxMontant.Location = new System.Drawing.Point(207, 230);
+            resources.ApplyResources(this.textBoxMontant, "textBoxMontant");
             this.textBoxMontant.Name = "textBoxMontant";
-            this.textBoxMontant.Size = new System.Drawing.Size(100, 23);
-            this.textBoxMontant.TabIndex = 6;
             this.textBoxMontant.TextChanged += new System.EventHandler(this.textBoxMontant_TextChanged);
             // 
             // labelCP
             // 
-            this.labelCP.AutoSize = true;
-            this.labelCP.Location = new System.Drawing.Point(125, 284);
+            resources.ApplyResources(this.labelCP, "labelCP");
             this.labelCP.Name = "labelCP";
-            this.labelCP.Size = new System.Drawing.Size(76, 15);
-            this.labelCP.TabIndex = 7;
-            this.labelCP.Text = "Code Postal :";
             // 
             // textBoxCP
             // 
-            this.textBoxCP.Location = new System.Drawing.Point(207, 276);
+            resources.ApplyResources(this.textBoxCP, "textBoxCP");
             this.textBoxCP.Name = "textBoxCP";
-            this.textBoxCP.Size = new System.Drawing.Size(100, 23);
-            this.textBoxCP.TabIndex = 8;
             this.textBoxCP.TextChanged += new System.EventHandler(this.textBoxCP_TextChanged);
             // 
             // errorProviderDate
@@ -153,11 +125,16 @@
             // 
             this.errorProviderCP.ContainerControl = this;
             // 
+            // labelCommentaire
+            // 
+            resources.ApplyResources(this.labelCommentaire, "labelCommentaire");
+            this.labelCommentaire.Name = "labelCommentaire";
+            // 
             // FormulaireSaisie2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelCommentaire);
             this.Controls.Add(this.textBoxCP);
             this.Controls.Add(this.labelCP);
             this.Controls.Add(this.textBoxMontant);
@@ -169,7 +146,6 @@
             this.Controls.Add(this.textBoxNom);
             this.Controls.Add(this.labelNom);
             this.Name = "FormulaireSaisie2";
-            this.Text = "FormulaireSaisie2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormulaireSaisie2_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).EndInit();
@@ -196,5 +172,6 @@
         private ErrorProvider errorProviderDate;
         private ErrorProvider errorProviderMontant;
         private ErrorProvider errorProviderCP;
+        private Label labelCommentaire;
     }
 }

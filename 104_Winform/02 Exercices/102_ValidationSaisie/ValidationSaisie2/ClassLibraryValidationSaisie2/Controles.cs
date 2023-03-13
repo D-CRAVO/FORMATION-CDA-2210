@@ -21,21 +21,24 @@ namespace ClassLibraryValidationSaisie2
             Regex myRegex = new Regex(@"^[0-9]{2}/[0-9]{2}/[0-9]{4}");
             if (DateTime.TryParse(_date, out DateTime temp) && myRegex.IsMatch(_date))
             {
-                //DateTime.Parse(_date);
-                return true;
+                DateOnly dateCourante = DateOnly.FromDateTime(DateTime.Now);
+                if (DateOnly.Parse(_date) >= dateCourante)
+                {
+                    return true;
+                }
             }
             return false;
         }
 
         public static bool ValideMontant(string _montant)
         {
-            Regex myRegex = new Regex(@"^[0-9]{1,10}(?:(?:[.]|,)[0-9]{1,2})?$");
+            Regex myRegex = new Regex(@"^[0-9]{1,10}(?:(?:[.]|,)[0-9]{2})?$");
             return myRegex.IsMatch(_montant);
         }
 
         public static bool ValideCP(string _cp)
         {
-            Regex myRegex = new Regex(@"^[0-9]{5,5}$");
+            Regex myRegex = new Regex(@"^[0-9]{5}$");
             return myRegex.IsMatch(_cp);
         }
     }

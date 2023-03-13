@@ -28,257 +28,259 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBoxChoix = new GroupBox();
-            checkBoxCasse = new CheckBox();
-            checkBoxCaracteres = new CheckBox();
-            checkBoxFond = new CheckBox();
-            groupBoxFond = new GroupBox();
-            radioButtonFondBleu = new RadioButton();
-            radioButtonFondVert = new RadioButton();
-            radioButtonFondRouge = new RadioButton();
-            groupBoxCaracteres = new GroupBox();
-            radioButtonCaracteresNoir = new RadioButton();
-            radioButtonCaracteresBlanc = new RadioButton();
-            radioButtonCaracteresRouge = new RadioButton();
-            groupBoxCasse = new GroupBox();
-            radioButtonMajuscules = new RadioButton();
-            radioButtonMinuscules = new RadioButton();
-            labelTexte = new Label();
-            textBoxOrigine = new TextBox();
-            textBoxModifie = new TextBox();
-            groupBoxChoix.SuspendLayout();
-            groupBoxFond.SuspendLayout();
-            groupBoxCaracteres.SuspendLayout();
-            groupBoxCasse.SuspendLayout();
-            SuspendLayout();
+            this.groupBoxChoix = new System.Windows.Forms.GroupBox();
+            this.checkBoxCasse = new System.Windows.Forms.CheckBox();
+            this.checkBoxCaracteres = new System.Windows.Forms.CheckBox();
+            this.checkBoxFond = new System.Windows.Forms.CheckBox();
+            this.groupBoxFond = new System.Windows.Forms.GroupBox();
+            this.radioButtonFondBleu = new System.Windows.Forms.RadioButton();
+            this.radioButtonFondVert = new System.Windows.Forms.RadioButton();
+            this.radioButtonFondRouge = new System.Windows.Forms.RadioButton();
+            this.groupBoxCaracteres = new System.Windows.Forms.GroupBox();
+            this.radioButtonCaracteresNoir = new System.Windows.Forms.RadioButton();
+            this.radioButtonCaracteresBlanc = new System.Windows.Forms.RadioButton();
+            this.radioButtonCaracteresRouge = new System.Windows.Forms.RadioButton();
+            this.groupBoxCasse = new System.Windows.Forms.GroupBox();
+            this.radioButtonMajuscules = new System.Windows.Forms.RadioButton();
+            this.radioButtonMinuscules = new System.Windows.Forms.RadioButton();
+            this.labelTexte = new System.Windows.Forms.Label();
+            this.textBoxOrigine = new System.Windows.Forms.TextBox();
+            this.textBoxModifie = new System.Windows.Forms.TextBox();
+            this.groupBoxChoix.SuspendLayout();
+            this.groupBoxFond.SuspendLayout();
+            this.groupBoxCaracteres.SuspendLayout();
+            this.groupBoxCasse.SuspendLayout();
+            this.SuspendLayout();
             // 
             // groupBoxChoix
             // 
-            groupBoxChoix.Controls.Add(checkBoxCasse);
-            groupBoxChoix.Controls.Add(checkBoxCaracteres);
-            groupBoxChoix.Controls.Add(checkBoxFond);
-            groupBoxChoix.Enabled = false;
-            groupBoxChoix.Location = new Point(292, 12);
-            groupBoxChoix.Name = "groupBoxChoix";
-            groupBoxChoix.Size = new Size(180, 99);
-            groupBoxChoix.TabIndex = 0;
-            groupBoxChoix.TabStop = false;
-            groupBoxChoix.Text = "Choix";
+            this.groupBoxChoix.Controls.Add(this.checkBoxCasse);
+            this.groupBoxChoix.Controls.Add(this.checkBoxCaracteres);
+            this.groupBoxChoix.Controls.Add(this.checkBoxFond);
+            this.groupBoxChoix.Enabled = false;
+            this.groupBoxChoix.Location = new System.Drawing.Point(292, 12);
+            this.groupBoxChoix.Name = "groupBoxChoix";
+            this.groupBoxChoix.Size = new System.Drawing.Size(180, 99);
+            this.groupBoxChoix.TabIndex = 0;
+            this.groupBoxChoix.TabStop = false;
+            this.groupBoxChoix.Text = "Choix";
             // 
             // checkBoxCasse
             // 
-            checkBoxCasse.AutoSize = true;
-            checkBoxCasse.Location = new Point(9, 76);
-            checkBoxCasse.Name = "checkBoxCasse";
-            checkBoxCasse.Size = new Size(56, 19);
-            checkBoxCasse.TabIndex = 4;
-            checkBoxCasse.Text = "Casse";
-            checkBoxCasse.UseVisualStyleBackColor = true;
-            checkBoxCasse.CheckedChanged += checkBoxCasse_CheckedChanged;
+            this.checkBoxCasse.AutoSize = true;
+            this.checkBoxCasse.Location = new System.Drawing.Point(9, 76);
+            this.checkBoxCasse.Name = "checkBoxCasse";
+            this.checkBoxCasse.Size = new System.Drawing.Size(56, 19);
+            this.checkBoxCasse.TabIndex = 4;
+            this.checkBoxCasse.Text = "Casse";
+            this.checkBoxCasse.UseVisualStyleBackColor = true;
+            this.checkBoxCasse.CheckedChanged += new System.EventHandler(this.checkBoxCasse_CheckedChanged);
             // 
             // checkBoxCaracteres
             // 
-            checkBoxCaracteres.AutoSize = true;
-            checkBoxCaracteres.Location = new Point(9, 51);
-            checkBoxCaracteres.Name = "checkBoxCaracteres";
-            checkBoxCaracteres.Size = new Size(145, 19);
-            checkBoxCaracteres.TabIndex = 3;
-            checkBoxCaracteres.Text = "Couleur des caractères";
-            checkBoxCaracteres.UseVisualStyleBackColor = true;
-            checkBoxCaracteres.CheckedChanged += checkBoxCaracteres_CheckedChanged;
+            this.checkBoxCaracteres.AutoSize = true;
+            this.checkBoxCaracteres.Location = new System.Drawing.Point(9, 51);
+            this.checkBoxCaracteres.Name = "checkBoxCaracteres";
+            this.checkBoxCaracteres.Size = new System.Drawing.Size(145, 19);
+            this.checkBoxCaracteres.TabIndex = 3;
+            this.checkBoxCaracteres.Text = "Couleur des caractères";
+            this.checkBoxCaracteres.UseVisualStyleBackColor = true;
+            this.checkBoxCaracteres.CheckedChanged += new System.EventHandler(this.checkBoxCaracteres_CheckedChanged);
             // 
             // checkBoxFond
             // 
-            checkBoxFond.AutoSize = true;
-            checkBoxFond.Location = new Point(9, 26);
-            checkBoxFond.Name = "checkBoxFond";
-            checkBoxFond.Size = new Size(112, 19);
-            checkBoxFond.TabIndex = 2;
-            checkBoxFond.Text = "Couleur de fond";
-            checkBoxFond.UseVisualStyleBackColor = true;
-            checkBoxFond.CheckedChanged += checkBoxFond_CheckedChanged;
+            this.checkBoxFond.AutoSize = true;
+            this.checkBoxFond.Location = new System.Drawing.Point(9, 26);
+            this.checkBoxFond.Name = "checkBoxFond";
+            this.checkBoxFond.Size = new System.Drawing.Size(112, 19);
+            this.checkBoxFond.TabIndex = 2;
+            this.checkBoxFond.Text = "Couleur de fond";
+            this.checkBoxFond.UseVisualStyleBackColor = true;
+            this.checkBoxFond.CheckedChanged += new System.EventHandler(this.checkBoxFond_CheckedChanged);
             // 
             // groupBoxFond
             // 
-            groupBoxFond.Controls.Add(radioButtonFondBleu);
-            groupBoxFond.Controls.Add(radioButtonFondVert);
-            groupBoxFond.Controls.Add(radioButtonFondRouge);
-            groupBoxFond.Location = new Point(12, 143);
-            groupBoxFond.Name = "groupBoxFond";
-            groupBoxFond.Size = new Size(90, 106);
-            groupBoxFond.TabIndex = 1;
-            groupBoxFond.TabStop = false;
-            groupBoxFond.Text = "Fond";
-            groupBoxFond.Visible = false;
+            this.groupBoxFond.Controls.Add(this.radioButtonFondBleu);
+            this.groupBoxFond.Controls.Add(this.radioButtonFondVert);
+            this.groupBoxFond.Controls.Add(this.radioButtonFondRouge);
+            this.groupBoxFond.Location = new System.Drawing.Point(12, 143);
+            this.groupBoxFond.Name = "groupBoxFond";
+            this.groupBoxFond.Size = new System.Drawing.Size(90, 106);
+            this.groupBoxFond.TabIndex = 1;
+            this.groupBoxFond.TabStop = false;
+            this.groupBoxFond.Text = "Fond";
+            this.groupBoxFond.Visible = false;
             // 
             // radioButtonFondBleu
             // 
-            radioButtonFondBleu.AutoSize = true;
-            radioButtonFondBleu.Location = new Point(6, 72);
-            radioButtonFondBleu.Name = "radioButtonFondBleu";
-            radioButtonFondBleu.Size = new Size(48, 19);
-            radioButtonFondBleu.TabIndex = 2;
-            radioButtonFondBleu.Text = "Bleu";
-            radioButtonFondBleu.UseVisualStyleBackColor = true;
-            radioButtonFondBleu.CheckedChanged += radioButtonFondBleu_CheckedChanged;
+            this.radioButtonFondBleu.AutoSize = true;
+            this.radioButtonFondBleu.Location = new System.Drawing.Point(6, 72);
+            this.radioButtonFondBleu.Name = "radioButtonFondBleu";
+            this.radioButtonFondBleu.Size = new System.Drawing.Size(48, 19);
+            this.radioButtonFondBleu.TabIndex = 2;
+            this.radioButtonFondBleu.Text = "Bleu";
+            this.radioButtonFondBleu.UseVisualStyleBackColor = true;
+            this.radioButtonFondBleu.CheckedChanged += new System.EventHandler(this.radioButtonFondBleu_CheckedChanged);
             // 
             // radioButtonFondVert
             // 
-            radioButtonFondVert.AutoSize = true;
-            radioButtonFondVert.Location = new Point(6, 47);
-            radioButtonFondVert.Name = "radioButtonFondVert";
-            radioButtonFondVert.Size = new Size(45, 19);
-            radioButtonFondVert.TabIndex = 1;
-            radioButtonFondVert.Text = "Vert";
-            radioButtonFondVert.UseVisualStyleBackColor = true;
-            radioButtonFondVert.CheckedChanged += radioButtonFondVert_CheckedChanged;
+            this.radioButtonFondVert.AutoSize = true;
+            this.radioButtonFondVert.Location = new System.Drawing.Point(6, 47);
+            this.radioButtonFondVert.Name = "radioButtonFondVert";
+            this.radioButtonFondVert.Size = new System.Drawing.Size(45, 19);
+            this.radioButtonFondVert.TabIndex = 1;
+            this.radioButtonFondVert.Text = "Vert";
+            this.radioButtonFondVert.UseVisualStyleBackColor = true;
+            this.radioButtonFondVert.CheckedChanged += new System.EventHandler(this.radioButtonFondVert_CheckedChanged);
             // 
             // radioButtonFondRouge
             // 
-            radioButtonFondRouge.AutoSize = true;
-            radioButtonFondRouge.Location = new Point(6, 22);
-            radioButtonFondRouge.Name = "radioButtonFondRouge";
-            radioButtonFondRouge.Size = new Size(59, 19);
-            radioButtonFondRouge.TabIndex = 0;
-            radioButtonFondRouge.TabStop = true;
-            radioButtonFondRouge.Text = "Rouge";
-            radioButtonFondRouge.UseVisualStyleBackColor = true;
-            radioButtonFondRouge.CheckedChanged += radioButtonFondRouge_CheckedChanged;
+            this.radioButtonFondRouge.AutoSize = true;
+            this.radioButtonFondRouge.Location = new System.Drawing.Point(6, 22);
+            this.radioButtonFondRouge.Name = "radioButtonFondRouge";
+            this.radioButtonFondRouge.Size = new System.Drawing.Size(59, 19);
+            this.radioButtonFondRouge.TabIndex = 0;
+            this.radioButtonFondRouge.TabStop = true;
+            this.radioButtonFondRouge.Text = "Rouge";
+            this.radioButtonFondRouge.UseVisualStyleBackColor = true;
+            this.radioButtonFondRouge.CheckedChanged += new System.EventHandler(this.radioButtonFondRouge_CheckedChanged);
             // 
             // groupBoxCaracteres
             // 
-            groupBoxCaracteres.Controls.Add(radioButtonCaracteresNoir);
-            groupBoxCaracteres.Controls.Add(radioButtonCaracteresBlanc);
-            groupBoxCaracteres.Controls.Add(radioButtonCaracteresRouge);
-            groupBoxCaracteres.Location = new Point(108, 143);
-            groupBoxCaracteres.Name = "groupBoxCaracteres";
-            groupBoxCaracteres.Size = new Size(90, 106);
-            groupBoxCaracteres.TabIndex = 2;
-            groupBoxCaracteres.TabStop = false;
-            groupBoxCaracteres.Text = "Caractères";
-            groupBoxCaracteres.Visible = false;
+            this.groupBoxCaracteres.Controls.Add(this.radioButtonCaracteresNoir);
+            this.groupBoxCaracteres.Controls.Add(this.radioButtonCaracteresBlanc);
+            this.groupBoxCaracteres.Controls.Add(this.radioButtonCaracteresRouge);
+            this.groupBoxCaracteres.Location = new System.Drawing.Point(108, 143);
+            this.groupBoxCaracteres.Name = "groupBoxCaracteres";
+            this.groupBoxCaracteres.Size = new System.Drawing.Size(90, 106);
+            this.groupBoxCaracteres.TabIndex = 2;
+            this.groupBoxCaracteres.TabStop = false;
+            this.groupBoxCaracteres.Text = "Caractères";
+            this.groupBoxCaracteres.Visible = false;
             // 
             // radioButtonCaracteresNoir
             // 
-            radioButtonCaracteresNoir.AutoSize = true;
-            radioButtonCaracteresNoir.Location = new Point(6, 72);
-            radioButtonCaracteresNoir.Name = "radioButtonCaracteresNoir";
-            radioButtonCaracteresNoir.Size = new Size(48, 19);
-            radioButtonCaracteresNoir.TabIndex = 10;
-            radioButtonCaracteresNoir.TabStop = true;
-            radioButtonCaracteresNoir.Text = "Noir";
-            radioButtonCaracteresNoir.UseVisualStyleBackColor = true;
-            radioButtonCaracteresNoir.CheckedChanged += radioButtonCaracteresNoir_CheckedChanged;
+            this.radioButtonCaracteresNoir.AutoSize = true;
+            this.radioButtonCaracteresNoir.Location = new System.Drawing.Point(6, 72);
+            this.radioButtonCaracteresNoir.Name = "radioButtonCaracteresNoir";
+            this.radioButtonCaracteresNoir.Size = new System.Drawing.Size(48, 19);
+            this.radioButtonCaracteresNoir.TabIndex = 10;
+            this.radioButtonCaracteresNoir.TabStop = true;
+            this.radioButtonCaracteresNoir.Text = "Noir";
+            this.radioButtonCaracteresNoir.UseVisualStyleBackColor = true;
+            this.radioButtonCaracteresNoir.CheckedChanged += new System.EventHandler(this.radioButtonCaracteresNoir_CheckedChanged);
             // 
             // radioButtonCaracteresBlanc
             // 
-            radioButtonCaracteresBlanc.AutoSize = true;
-            radioButtonCaracteresBlanc.Location = new Point(6, 47);
-            radioButtonCaracteresBlanc.Name = "radioButtonCaracteresBlanc";
-            radioButtonCaracteresBlanc.Size = new Size(54, 19);
-            radioButtonCaracteresBlanc.TabIndex = 9;
-            radioButtonCaracteresBlanc.TabStop = true;
-            radioButtonCaracteresBlanc.Text = "Blanc";
-            radioButtonCaracteresBlanc.UseVisualStyleBackColor = true;
-            radioButtonCaracteresBlanc.CheckedChanged += radioButtonCaracteresBlanc_CheckedChanged;
+            this.radioButtonCaracteresBlanc.AutoSize = true;
+            this.radioButtonCaracteresBlanc.Location = new System.Drawing.Point(6, 47);
+            this.radioButtonCaracteresBlanc.Name = "radioButtonCaracteresBlanc";
+            this.radioButtonCaracteresBlanc.Size = new System.Drawing.Size(54, 19);
+            this.radioButtonCaracteresBlanc.TabIndex = 9;
+            this.radioButtonCaracteresBlanc.TabStop = true;
+            this.radioButtonCaracteresBlanc.Text = "Blanc";
+            this.radioButtonCaracteresBlanc.UseVisualStyleBackColor = true;
+            this.radioButtonCaracteresBlanc.CheckedChanged += new System.EventHandler(this.radioButtonCaracteresBlanc_CheckedChanged);
             // 
             // radioButtonCaracteresRouge
             // 
-            radioButtonCaracteresRouge.AutoSize = true;
-            radioButtonCaracteresRouge.Location = new Point(6, 22);
-            radioButtonCaracteresRouge.Name = "radioButtonCaracteresRouge";
-            radioButtonCaracteresRouge.Size = new Size(59, 19);
-            radioButtonCaracteresRouge.TabIndex = 8;
-            radioButtonCaracteresRouge.TabStop = true;
-            radioButtonCaracteresRouge.Text = "Rouge";
-            radioButtonCaracteresRouge.UseVisualStyleBackColor = true;
-            radioButtonCaracteresRouge.CheckedChanged += radioButtonCaracteresRouge_CheckedChanged;
+            this.radioButtonCaracteresRouge.AutoSize = true;
+            this.radioButtonCaracteresRouge.Location = new System.Drawing.Point(6, 22);
+            this.radioButtonCaracteresRouge.Name = "radioButtonCaracteresRouge";
+            this.radioButtonCaracteresRouge.Size = new System.Drawing.Size(59, 19);
+            this.radioButtonCaracteresRouge.TabIndex = 8;
+            this.radioButtonCaracteresRouge.TabStop = true;
+            this.radioButtonCaracteresRouge.Text = "Rouge";
+            this.radioButtonCaracteresRouge.UseVisualStyleBackColor = true;
+            this.radioButtonCaracteresRouge.CheckedChanged += new System.EventHandler(this.radioButtonCaracteresRouge_CheckedChanged);
             // 
             // groupBoxCasse
             // 
-            groupBoxCasse.Controls.Add(radioButtonMajuscules);
-            groupBoxCasse.Controls.Add(radioButtonMinuscules);
-            groupBoxCasse.Location = new Point(204, 171);
-            groupBoxCasse.Name = "groupBoxCasse";
-            groupBoxCasse.Size = new Size(105, 78);
-            groupBoxCasse.TabIndex = 3;
-            groupBoxCasse.TabStop = false;
-            groupBoxCasse.Text = "Casse";
-            groupBoxCasse.Visible = false;
+            this.groupBoxCasse.Controls.Add(this.radioButtonMajuscules);
+            this.groupBoxCasse.Controls.Add(this.radioButtonMinuscules);
+            this.groupBoxCasse.Location = new System.Drawing.Point(204, 171);
+            this.groupBoxCasse.Name = "groupBoxCasse";
+            this.groupBoxCasse.Size = new System.Drawing.Size(105, 78);
+            this.groupBoxCasse.TabIndex = 3;
+            this.groupBoxCasse.TabStop = false;
+            this.groupBoxCasse.Text = "Casse";
+            this.groupBoxCasse.Visible = false;
             // 
             // radioButtonMajuscules
             // 
-            radioButtonMajuscules.AutoSize = true;
-            radioButtonMajuscules.Location = new Point(6, 47);
-            radioButtonMajuscules.Name = "radioButtonMajuscules";
-            radioButtonMajuscules.Size = new Size(84, 19);
-            radioButtonMajuscules.TabIndex = 12;
-            radioButtonMajuscules.TabStop = true;
-            radioButtonMajuscules.Text = "Majuscules";
-            radioButtonMajuscules.UseVisualStyleBackColor = true;
-            radioButtonMajuscules.CheckedChanged += radioButtonMajuscules_CheckedChanged;
+            this.radioButtonMajuscules.AutoSize = true;
+            this.radioButtonMajuscules.Location = new System.Drawing.Point(6, 47);
+            this.radioButtonMajuscules.Name = "radioButtonMajuscules";
+            this.radioButtonMajuscules.Size = new System.Drawing.Size(84, 19);
+            this.radioButtonMajuscules.TabIndex = 12;
+            this.radioButtonMajuscules.TabStop = true;
+            this.radioButtonMajuscules.Text = "Majuscules";
+            this.radioButtonMajuscules.UseVisualStyleBackColor = true;
+            this.radioButtonMajuscules.CheckedChanged += new System.EventHandler(this.radioButtonMajuscules_CheckedChanged);
             // 
             // radioButtonMinuscules
             // 
-            radioButtonMinuscules.AutoSize = true;
-            radioButtonMinuscules.Location = new Point(6, 22);
-            radioButtonMinuscules.Name = "radioButtonMinuscules";
-            radioButtonMinuscules.Size = new Size(85, 19);
-            radioButtonMinuscules.TabIndex = 11;
-            radioButtonMinuscules.TabStop = true;
-            radioButtonMinuscules.Text = "Minuscules";
-            radioButtonMinuscules.UseVisualStyleBackColor = true;
-            radioButtonMinuscules.CheckedChanged += radioButtonMinuscules_CheckedChanged;
+            this.radioButtonMinuscules.AutoSize = true;
+            this.radioButtonMinuscules.Location = new System.Drawing.Point(6, 22);
+            this.radioButtonMinuscules.Name = "radioButtonMinuscules";
+            this.radioButtonMinuscules.Size = new System.Drawing.Size(85, 19);
+            this.radioButtonMinuscules.TabIndex = 11;
+            this.radioButtonMinuscules.TabStop = true;
+            this.radioButtonMinuscules.Text = "Minuscules";
+            this.radioButtonMinuscules.UseVisualStyleBackColor = true;
+            this.radioButtonMinuscules.CheckedChanged += new System.EventHandler(this.radioButtonMinuscules_CheckedChanged);
             // 
             // labelTexte
             // 
-            labelTexte.AutoSize = true;
-            labelTexte.Location = new Point(12, 9);
-            labelTexte.Name = "labelTexte";
-            labelTexte.Size = new Size(95, 15);
-            labelTexte.TabIndex = 4;
-            labelTexte.Text = "Tapez votre texte";
+            this.labelTexte.AutoSize = true;
+            this.labelTexte.Location = new System.Drawing.Point(12, 9);
+            this.labelTexte.Name = "labelTexte";
+            this.labelTexte.Size = new System.Drawing.Size(95, 15);
+            this.labelTexte.TabIndex = 4;
+            this.labelTexte.Text = "Tapez votre texte";
             // 
             // textBoxOrigine
             // 
-            textBoxOrigine.Location = new Point(12, 34);
-            textBoxOrigine.Name = "textBoxOrigine";
-            textBoxOrigine.Size = new Size(256, 23);
-            textBoxOrigine.TabIndex = 1;
-            textBoxOrigine.TextChanged += textBoxOrigine_TextChanged;
+            this.textBoxOrigine.Location = new System.Drawing.Point(12, 34);
+            this.textBoxOrigine.Name = "textBoxOrigine";
+            this.textBoxOrigine.Size = new System.Drawing.Size(256, 23);
+            this.textBoxOrigine.TabIndex = 1;
+            this.textBoxOrigine.TextChanged += new System.EventHandler(this.textBoxOrigine_TextChanged);
             // 
             // textBoxModifie
             // 
-            textBoxModifie.Location = new Point(12, 84);
-            textBoxModifie.Name = "textBoxModifie";
-            textBoxModifie.ReadOnly = true;
-            textBoxModifie.Size = new Size(256, 23);
-            textBoxModifie.TabIndex = 6;
+            this.textBoxModifie.BackColor = System.Drawing.SystemColors.Control;
+            //this.textBoxModifie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.textBoxModifie.Location = new System.Drawing.Point(12, 84);
+            this.textBoxModifie.Name = "textBoxModifie";
+            this.textBoxModifie.Size = new System.Drawing.Size(256, 23);
+            this.textBoxModifie.TabIndex = 6;
             // 
             // FormCheckBoxRadioButton
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(484, 261);
-            Controls.Add(textBoxModifie);
-            Controls.Add(textBoxOrigine);
-            Controls.Add(labelTexte);
-            Controls.Add(groupBoxCasse);
-            Controls.Add(groupBoxCaracteres);
-            Controls.Add(groupBoxFond);
-            Controls.Add(groupBoxChoix);
-            Name = "FormCheckBoxRadioButton";
-            Text = "CheckBox RadioButton";
-            groupBoxChoix.ResumeLayout(false);
-            groupBoxChoix.PerformLayout();
-            groupBoxFond.ResumeLayout(false);
-            groupBoxFond.PerformLayout();
-            groupBoxCaracteres.ResumeLayout(false);
-            groupBoxCaracteres.PerformLayout();
-            groupBoxCasse.ResumeLayout(false);
-            groupBoxCasse.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(484, 261);
+            this.Controls.Add(this.textBoxModifie);
+            this.Controls.Add(this.textBoxOrigine);
+            this.Controls.Add(this.labelTexte);
+            this.Controls.Add(this.groupBoxCasse);
+            this.Controls.Add(this.groupBoxCaracteres);
+            this.Controls.Add(this.groupBoxFond);
+            this.Controls.Add(this.groupBoxChoix);
+            this.Name = "FormCheckBoxRadioButton";
+            this.Text = "CheckBox RadioButton";
+            this.groupBoxChoix.ResumeLayout(false);
+            this.groupBoxChoix.PerformLayout();
+            this.groupBoxFond.ResumeLayout(false);
+            this.groupBoxFond.PerformLayout();
+            this.groupBoxCaracteres.ResumeLayout(false);
+            this.groupBoxCaracteres.PerformLayout();
+            this.groupBoxCasse.ResumeLayout(false);
+            this.groupBoxCasse.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

@@ -13,6 +13,7 @@ namespace ValidationSaisie2
 {
     public partial class FormRecapTransaction : Form
     {
+        private Transaction transaction;
         public FormRecapTransaction()
         {
             InitializeComponent();
@@ -22,21 +23,21 @@ namespace ValidationSaisie2
         public FormRecapTransaction(Transaction t)
         {
             InitializeComponent();
+            transaction = t;
             Affichage(t);
         }
 
         public void Affichage(Transaction _transaction)
         {
-            MessageBox.Show
-                (
-                    $"{labelNom.Text} {_transaction.Nom}{Environment.NewLine}" +
-                    $"{labelDate.Text} {_transaction.Date}{Environment.NewLine}" +
-                    $"{labelMontant.Text} {_transaction.Montant}{Environment.NewLine}" +
-                    $"{labelCP.Text} {_transaction.CodePostal}{Environment.NewLine}"
-                    , "Validation effectuée"
-                );
+            labelNom.Text = $"{labelNom.Text} {_transaction.Nom}{Environment.NewLine}";
+            labelDate.Text = $"{labelDate.Text} {_transaction.Date}{Environment.NewLine}";
+            labelMontant.Text = $"{labelMontant.Text} {_transaction.Montant}{Environment.NewLine}";
+            labelCP.Text = $"{labelCP.Text} {_transaction.CodePostal}{Environment.NewLine}";
         }
-     
 
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

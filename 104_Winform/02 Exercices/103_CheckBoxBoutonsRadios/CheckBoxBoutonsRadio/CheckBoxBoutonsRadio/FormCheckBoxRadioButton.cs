@@ -15,6 +15,10 @@ namespace CheckBoxBoutonsRadio
         public FormCheckBoxRadioButton()
         {
             InitializeComponent();
+            //this.textBoxModifie.ReadOnly = true;
+            //this.textBoxModifie.Text = "tutu";
+            //this.textBoxModifie.ForeColor= System.Drawing.Color.Orange;
+
         }
 
         private void textBoxOrigine_TextChanged(object sender, EventArgs e)
@@ -22,7 +26,18 @@ namespace CheckBoxBoutonsRadio
             if (!String.IsNullOrEmpty(textBoxOrigine.Text))
             {
                 groupBoxChoix.Enabled = true;
-                textBoxModifie.Text = textBoxOrigine.Text;
+                if (radioButtonMinuscules.Checked)
+                {
+                    textBoxModifie.Text = textBoxOrigine.Text.ToLower();
+                }
+                else if (radioButtonMajuscules.Checked)
+                {
+                    textBoxModifie.Text = textBoxOrigine.Text.ToUpper();
+                }
+                else
+                {
+                    textBoxModifie.Text = textBoxOrigine.Text;
+                }
             }
             else
             {
@@ -31,7 +46,9 @@ namespace CheckBoxBoutonsRadio
                 groupBoxFondInitialiser();
                 groupBoxCaracteresInitialiser();
                 groupBoxCasseInitialiser();
+
             }
+            
         }
 
         private void checkBoxFond_CheckedChanged(object sender, EventArgs e)
@@ -100,10 +117,11 @@ namespace CheckBoxBoutonsRadio
         private void groupBoxFondInitialiser()
         {
             checkBoxFond.Checked = false;
-            radioButtonCaracteresRouge.Checked = false;
+            textBoxModifie.BackColor = Color.Empty;
+            radioButtonFondRouge.Checked = false;
             radioButtonFondVert.Checked = false;
             radioButtonFondBleu.Checked = false;
-            textBoxModifie.BackColor = Color.Empty;
+
         }
 
         private void radioButtonCaracteresRouge_CheckedChanged(object sender, EventArgs e)
@@ -159,6 +177,9 @@ namespace CheckBoxBoutonsRadio
         {
             checkBoxCasse.Checked = false;
             textBoxModifie.Text = textBoxOrigine.Text;
+            this.radioButtonMinuscules.Checked = false;
+            this.radioButtonMajuscules.Checked = false;
         }
+
     }
 }
