@@ -56,10 +56,6 @@ namespace ListBox
                     textBoxIndex.Clear();
                     textBoxIndex.Focus();
                 }
-
-                //listBoxListe.SetSelected(int.Parse(textBoxIndex.Text), true);
-                //textBoxIndex.Clear();
-
             }
             else
             {
@@ -67,7 +63,6 @@ namespace ListBox
                 textBoxIndex.Clear();
                 textBoxIndex.Focus();
             }
-            
         }
 
         private void buttonVider_Click(object sender, EventArgs e)
