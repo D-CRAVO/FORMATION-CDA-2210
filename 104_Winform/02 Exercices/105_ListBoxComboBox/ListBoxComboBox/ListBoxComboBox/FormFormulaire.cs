@@ -20,32 +20,39 @@ namespace ListBoxComboBox
             InitializeComponent();
 
             comboBoxSource.Items.Add("Pays");
+            //comboBoxSource.Items.Add((string)comboBoxSource.Text);
 
             activationButtonUpDown();
             activationButtonAdd();
             activationButtonDelete();
         }
 
-        
-
         private void comboBoxSource_SelectedIndexChanged(object sender, EventArgs e)
         {
-            pays = new string[] { "France", "Belgique", "Allemagne", "Japon", "Portugal", "Grèce" };
+            
             if (comboBoxSource.Text == "Pays")
             {
-                bool ok = false;
-                
-                listBoxSource.Items.AddRange(pays);
+                bool ok = true;
+                pays = new string[] { "France", "Belgique", "Allemagne", "Japon", "Portugal", "Grèce", "France" };
+                //listBoxSource.Items.AddRange(pays);
+
                 for (int i = 0; i < pays.Length; i++)
                 {
-                    foreach (var item in listBoxSource.Items)
+                    for (var j = 0; j < listBoxSource.Items.Count; j++)
                     {
-                        
+                        if (pays[i] == (string)listBoxSource.Items[j])
+                        {
+                            ok = false;
+                        }
                     }
-                }  
-                listBoxSource.SetSelected(0, true);
-                activationButtonAdd();
+                    if (ok)
+                    {
+                        listBoxSource.Items.Add((string)pays[i]);
+                    }
+                }
             }
+            listBoxSource.SetSelected(0, true);
+            activationButtonAdd();
         }
 
         private void buttonAjouter_Click(object sender, EventArgs e)
