@@ -26,12 +26,23 @@ namespace ListBoxComboBox
             activationButtonDelete();
         }
 
+        
+
         private void comboBoxSource_SelectedIndexChanged(object sender, EventArgs e)
         {
+            pays = new string[] { "France", "Belgique", "Allemagne", "Japon", "Portugal", "Grèce" };
             if (comboBoxSource.Text == "Pays")
             {
-                pays = new string[] { "France", "Belgique", "Allemagne", "Japon", "Portugal", "Grèce" };
+                bool ok = false;
+                
                 listBoxSource.Items.AddRange(pays);
+                for (int i = 0; i < pays.Length; i++)
+                {
+                    foreach (var item in listBoxSource.Items)
+                    {
+                        
+                    }
+                }  
                 listBoxSource.SetSelected(0, true);
                 activationButtonAdd();
             }
@@ -40,14 +51,24 @@ namespace ListBoxComboBox
         private void buttonAjouter_Click(object sender, EventArgs e)
         {
             int nb = listBoxSource.SelectedIndex;
-            listBoxCible.Items.Add(listBoxSource.SelectedItem);
-            listBoxSource.Items.Remove(listBoxSource.SelectedItem);
-            activationButtonAdd();
-            activationButtonDelete();
-            activationButtonUpDown();
+            if (nb != null)
+            {
+                listBoxCible.Items.Add(listBoxSource.SelectedItem);
+                listBoxSource.Items.Remove(listBoxSource.SelectedItem);
+                activationButtonAdd();
+                activationButtonDelete();
+                activationButtonUpDown();
+            }
+            else
+            {
+                listBoxSource.SetSelected(0, true);
+            }
+           
+            
             if (nb > 0 && nb < listBoxSource.Items.Count)
             {
-                listBoxCible.SetSelected(nb - 1, true);
+
+                listBoxSource.SetSelected(nb - 1, true);
             }
             else if (nb == 0 && nb < listBoxSource.Items.Count)
             {
