@@ -67,7 +67,7 @@
             listBoxSource.Name = "listBoxSource";
             listBoxSource.Size = new Size(125, 94);
             listBoxSource.TabIndex = 2;
-            listBoxSource.SelectedIndexChanged += listBoxSource_SelectedIndexChanged;
+            //listBoxSource.SelectedIndexChanged += listBoxSource_SelectedIndexChanged;
             // 
             // buttonAjouter
             // 

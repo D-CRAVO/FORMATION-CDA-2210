@@ -22,14 +22,8 @@ namespace ListBoxComboBox
             comboBoxSource.Items.Add("Pays");
 
             activationButtonUpDown();
-
-
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
+            activationButtonAdd();
+            activationButtonDelete();
         }
 
         private void comboBoxSource_SelectedIndexChanged(object sender, EventArgs e)
@@ -39,12 +33,8 @@ namespace ListBoxComboBox
                 pays = new string[] { "France", "Belgique", "Allemagne", "Japon", "Portugal", "Grèce" };
                 listBoxSource.Items.AddRange(pays);
                 listBoxSource.SetSelected(0, true);
+                activationButtonAdd();
             }
-        }
-
-        private void listBoxSource_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void buttonAjouter_Click(object sender, EventArgs e)
@@ -53,6 +43,8 @@ namespace ListBoxComboBox
             listBoxCible.Items.Add(listBoxSource.SelectedItem);
             listBoxSource.Items.Remove(listBoxSource.SelectedItem);
             activationButtonAdd();
+            activationButtonDelete();
+            activationButtonUpDown();
             if (nb > 0 && nb < listBoxSource.Items.Count)
             {
                 listBoxCible.SetSelected(nb - 1, true);
@@ -63,7 +55,6 @@ namespace ListBoxComboBox
             }
             else
             {
-                
                 listBoxCible.SetSelected(0, true);
                 return;
             }
@@ -72,6 +63,119 @@ namespace ListBoxComboBox
         private void buttonAjouterTout_Click(object sender, EventArgs e)
         {
             listBoxCible.Items.AddRange(listBoxSource.Items);
+            //int nbItems = listBoxSource.Items.Count;
+            //for (int i = nbItems-1; i >= 0 ; i--)
+            //{
+            //    listBoxSource.Items.Remove(listBoxSource.Items[i]);
+            //}
+            listBoxCible.SetSelected(0, true);
+            listBoxSource.Items.Clear();
+            activationButtonAdd();
+            activationButtonDelete();
+            activationButtonUpDown();
+        }
+
+        private void buttonSupprimer_Click(object sender, EventArgs e)
+        {
+            int nb = listBoxCible.SelectedIndex;
+            if (nb != null)
+            {
+                listBoxSource.Items.Add(listBoxCible.SelectedItem);
+                listBoxCible.Items.Remove(listBoxCible.SelectedItem);
+                activationButtonAdd();
+                activationButtonUpDown();
+            }
+            else
+            {
+                listBoxCible.SetSelected(0, true);
+            }
+            
+            if (nb > 0 && nb < listBoxCible.Items.Count)
+            {
+                listBoxCible.SetSelected(nb - 1, true);
+            }
+            else if (nb == 0 && nb < listBoxCible.Items.Count)
+            {
+                listBoxCible.SetSelected(nb, true);
+            }
+            else
+            {
+                activationButtonUpDown();
+                activationButtonDelete();
+                listBoxSource.SetSelected(0, true);
+                return;
+            }
+        }
+
+        private void buttonSupprimerTout_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listBoxCible.Items.Count; i++)
+            {
+                listBoxSource.Items.Add((string)listBoxCible.Items[i]);
+            }
+            listBoxCible.Items.Clear();
+            listBoxSource.SetSelected(0, true);
+            activationButtonUpDown();
+            activationButtonAdd();
+            activationButtonDelete();
+        }
+
+        private void listBoxCible_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBoxCible.SelectedItem != null)
+            {
+                buttonUp.Enabled = true;
+                buttonDown.Enabled = true;
+            }
+        }
+
+        private void buttonUp_Click(object sender, EventArgs e)
+        {
+            int nb = listBoxCible.SelectedIndex;
+            if (nb == -1)
+            {
+                listBoxCible.SetSelected(0, true);
+                for (int i = 0; i < listBoxSource.Items.Count; i++)
+                {
+                    listBoxSource.SetSelected(i, false);
+                }
+                return;
+            }
+            else if (nb != 0)
+            {
+                string tempItem = (string)listBoxCible.Items[nb - 1];
+                listBoxCible.Items[nb - 1] = (string)listBoxCible.Items[nb];
+                listBoxCible.Items[nb] = tempItem;
+                listBoxCible.SelectedIndex = nb - 1;
+            }
+            else
+            {
+                return;
+            }
+        }
+
+        private void buttonDown_Click(object sender, EventArgs e)
+        {
+            int nb = listBoxCible.SelectedIndex;
+            if (nb == -1)
+            {
+                listBoxCible.SetSelected(0, true);
+                for(int i = 0; i < listBoxSource.Items.Count; i++)
+                {
+                    listBoxSource.SetSelected(i, false);
+                }
+            }
+            else if (nb != listBoxCible.Items.Count - 1)
+            {
+                string tempItem = (string)listBoxCible.Items[nb + 1];
+                listBoxCible.Items[nb + 1] = (string)listBoxCible.Items[nb];
+                listBoxCible.Items[nb] = tempItem;
+                listBoxCible.SelectedIndex = nb + 1;
+            }
+            else
+            {
+                return;
+            }
         }
 
         private void activationButtonAdd()
@@ -86,47 +190,19 @@ namespace ListBoxComboBox
                 buttonAjouter.Enabled = true;
                 buttonAjouterTout.Enabled = true;
             }
-           
         }
 
-        private void buttonSupprimer_Click(object sender, EventArgs e)
+        private void activationButtonDelete()
         {
-            int nb = listBoxCible.SelectedIndex;
-            if (nb != null)
+            if (listBoxCible.Items.Count == 0)
             {
-                listBoxSource.Items.Add(listBoxCible.SelectedItem);
-                listBoxCible.Items.Remove(listBoxCible.SelectedItem);
-                activationButtonAdd();
-            }
-            
-            if (nb > 0 && nb < listBoxCible.Items.Count)
-            {
-                listBoxCible.SetSelected(nb - 1, true);
-            }
-            else if (nb == 0 && nb < listBoxCible.Items.Count)
-            {
-                listBoxCible.SetSelected(nb, true);
+                buttonSupprimer.Enabled = false;
+                buttonSupprimerTout.Enabled = false;
             }
             else
             {
-                activationButtonUpDown();
-                listBoxSource.SetSelected(0, true);
-                return;
-            }
-        }
-
-        private void buttonSupprimerTout_Click(object sender, EventArgs e)
-        {
-            listBoxCible.Items.Clear();
-            activationButtonUpDown();
-        }
-
-        private void listBoxCible_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (listBoxCible.SelectedItem != null)
-            {
-                buttonUp.Enabled = true;
-                buttonDown.Enabled = true;
+                buttonSupprimer.Enabled = true;
+                buttonSupprimerTout.Enabled = true;
             }
         }
 
@@ -142,39 +218,6 @@ namespace ListBoxComboBox
                 buttonUp.Enabled = true;
                 buttonDown.Enabled = true;
             }
-        }
-
-        private void buttonUp_Click(object sender, EventArgs e)
-        {
-            int nb = listBoxCible.SelectedIndex;
-            if (nb != 0)
-            {
-                string tempItem = listBoxCible.Items[nb - 1].ToString();
-                listBoxCible.Items[nb - 1] = listBoxCible.Items[nb].ToString();
-                listBoxCible.Items[nb] = tempItem;
-                listBoxCible.SelectedIndex = nb - 1;
-            }
-            else
-            {
-                return;
-            }
-        }
-
-        private void buttonDown_Click(object sender, EventArgs e)
-        {
-            int nb = listBoxCible.SelectedIndex;
-            if (nb != listBoxCible.Items.Count - 1)
-            {
-                string tempItem = listBoxCible.Items[nb + 1].ToString();
-                listBoxCible.Items[nb + 1] = listBoxCible.Items[nb].ToString();
-                listBoxCible.Items[nb] = tempItem;
-                listBoxCible.SelectedIndex = nb + 1;
-            }
-            else
-            {
-                return;
-            }
-
         }
     }
 }
