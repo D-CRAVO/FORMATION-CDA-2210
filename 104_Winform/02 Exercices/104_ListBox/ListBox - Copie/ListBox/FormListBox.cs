@@ -108,9 +108,6 @@ namespace ListBox
 
         }
 
-        //private void buttonSelectionner_Click(object sender, EventArgs e)
-        //{
-
-        //}
+       
     }
 }
