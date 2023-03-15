@@ -22,6 +22,7 @@ namespace ListBox2
 
         private void textBoxNouvelElement_TextChanged(object sender, EventArgs e)
         {
+            
             string elementSaisi = (string)textBoxNouvelElement.Text.Trim();
             verifNouvelElement = true;
             verifDoublons = true;
@@ -33,15 +34,16 @@ namespace ListBox2
             }
             else if (Controles.controleNouvelElement(elementSaisi))
             {
+                errorProviderTexteInvalide.SetError(textBoxNouvelElement, "");
                 foreach (var item in listBoxListe.Items)
                 {
+                    
                     if ((string)item == elementSaisi)
                     {
                         verifDoublons = false;
                         errorProviderDoublons.SetError(textBoxNouvelElement, "Texte déjà enregistré");
                     }
                 }
-                
             }
             else
             {
@@ -54,7 +56,6 @@ namespace ListBox2
         private void buttonAjouter_Click(object sender, EventArgs e)
         {
             string elementSaisi = (string)textBoxNouvelElement.Text.Trim();
-            //if (Controles.controleNouvelElement(elementSaisi) && elementSaisi != "")
             if (verifNouvelElement && verifDoublons && elementSaisi != "")
             {
                 listBoxListe.Items.Add(elementSaisi);
