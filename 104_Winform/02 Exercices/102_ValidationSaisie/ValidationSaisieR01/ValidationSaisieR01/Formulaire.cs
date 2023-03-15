@@ -28,6 +28,7 @@ namespace ValidationSaisieR01
             if (!Controles.ControleNom(textBoxNom.Text))
             {
                 errorProviderNom.SetError(textBoxNom, "Le nom ne doit contenir que des lettres");
+                MessageBox.Show(textBoxNom.Text, "essai");
             }
             else
             {

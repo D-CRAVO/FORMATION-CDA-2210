@@ -1,0 +1,12 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\bin\Debug\net6.0\ClassLibraryControles.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\bin\Debug\net6.0\ClassLibraryControles.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\bin\Debug\net6.0\ClassLibraryControles.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\refint\ClassLibraryControles.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ClassLibraryControles.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\104_ListBox\ListBox2\ClassLibraryControles\obj\Debug\net6.0\ref\ClassLibraryControles.dll
