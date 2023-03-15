@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxText = new System.Windows.Forms.TextBox();
             this.labelText = new System.Windows.Forms.Label();
             this.textBoxSelectedIndex = new System.Windows.Forms.TextBox();
             this.labelSelectedIndex = new System.Windows.Forms.Label();
@@ -53,13 +53,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderTexteInvalide)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxText
             // 
-            this.textBox1.Location = new System.Drawing.Point(255, 193);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 31;
+            this.textBoxText.Location = new System.Drawing.Point(255, 193);
+            this.textBoxText.Name = "textBoxText";
+            this.textBoxText.ReadOnly = true;
+            this.textBoxText.Size = new System.Drawing.Size(100, 23);
+            this.textBoxText.TabIndex = 31;
             // 
             // labelText
             // 
@@ -121,6 +121,7 @@
             this.buttonVider.TabIndex = 24;
             this.buttonVider.Text = "Vider la Liste";
             this.buttonVider.UseVisualStyleBackColor = true;
+            this.buttonVider.Click += new System.EventHandler(this.buttonVider_Click);
             // 
             // buttonSelectionner
             // 
@@ -130,6 +131,7 @@
             this.buttonSelectionner.TabIndex = 23;
             this.buttonSelectionner.Text = "Selectionner";
             this.buttonSelectionner.UseVisualStyleBackColor = true;
+            this.buttonSelectionner.Click += new System.EventHandler(this.buttonSelectionner_Click);
             // 
             // textBoxIndex
             // 
@@ -156,6 +158,7 @@
             this.listBoxListe.Name = "listBoxListe";
             this.listBoxListe.Size = new System.Drawing.Size(120, 109);
             this.listBoxListe.TabIndex = 20;
+            this.listBoxListe.SelectedIndexChanged += new System.EventHandler(this.listBoxListe_SelectedIndexChanged);
             // 
             // labelLstListe
             // 
@@ -209,7 +212,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 261);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxText);
             this.Controls.Add(this.labelText);
             this.Controls.Add(this.textBoxSelectedIndex);
             this.Controls.Add(this.labelSelectedIndex);
@@ -237,7 +240,7 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox textBoxText;
         private Label labelText;
         private TextBox textBoxSelectedIndex;
         private Label labelSelectedIndex;
