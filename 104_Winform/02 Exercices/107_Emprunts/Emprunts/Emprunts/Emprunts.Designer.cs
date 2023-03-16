@@ -42,7 +42,7 @@
             this.labelPeriodicite = new System.Windows.Forms.Label();
             this.textBoxNbMensualites = new System.Windows.Forms.TextBox();
             this.labelRemboursements = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxMensualites = new System.Windows.Forms.TextBox();
             this.labelCapitalEmprunte = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.hScrollBarDuree = new System.Windows.Forms.HScrollBar();
@@ -187,18 +187,18 @@
             this.labelRemboursements.TabIndex = 21;
             this.labelRemboursements.Text = "Remboursements";
             // 
-            // textBox2
+            // textBoxMensualites
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.Color.Red;
-            this.textBox2.Location = new System.Drawing.Point(552, 285);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 22;
-            this.textBox2.Text = "5483,36€";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxMensualites.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxMensualites.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxMensualites.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxMensualites.ForeColor = System.Drawing.Color.Red;
+            this.textBoxMensualites.Location = new System.Drawing.Point(552, 285);
+            this.textBoxMensualites.Name = "textBoxMensualites";
+            this.textBoxMensualites.Size = new System.Drawing.Size(100, 20);
+            this.textBoxMensualites.TabIndex = 22;
+            this.textBoxMensualites.Text = "5483,36€";
+            this.textBoxMensualites.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelCapitalEmprunte
             // 
@@ -239,7 +239,7 @@
             this.Controls.Add(this.hScrollBarDuree);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.labelCapitalEmprunte);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBoxMensualites);
             this.Controls.Add(this.labelRemboursements);
             this.Controls.Add(this.textBoxNbMensualites);
             this.Controls.Add(this.labelPeriodicite);
@@ -276,7 +276,7 @@
         private Label labelPeriodicite;
         private TextBox textBoxNbMensualites;
         private Label labelRemboursements;
-        private TextBox textBox2;
+        private TextBox textBoxMensualites;
         private Label labelCapitalEmprunte;
         private ListBox listBox1;
         private HScrollBar hScrollBarDuree;
