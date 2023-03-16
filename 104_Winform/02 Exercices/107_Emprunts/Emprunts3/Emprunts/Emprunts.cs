@@ -48,7 +48,7 @@ namespace Emprunts
             IHM();
         }
 
-        private void determinationMontant()
+        private void determinationCapitalEmprunte()
         {
 
         }
@@ -92,6 +92,7 @@ namespace Emprunts
 
         private void IHM()
         {
+            textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
             hScrollBarDuree.Value = nbMois;
             textBoxDuree.Text = hScrollBarDuree.Value.ToString();
             listBoxPeriodicite.SelectedItem = periodicite;
