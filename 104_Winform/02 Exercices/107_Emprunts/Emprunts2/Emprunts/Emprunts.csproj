@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryCalculs\ClassLibraryCalculs.csproj" />
+    <ProjectReference Include="..\ClassLibraryControles\ClassLibraryControles.csproj" />
+  </ItemGroup>
+
 </Project>

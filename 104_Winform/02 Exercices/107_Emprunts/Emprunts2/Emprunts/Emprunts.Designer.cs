@@ -28,237 +28,227 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBoxTaux = new System.Windows.Forms.GroupBox();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.textBoxDuree = new System.Windows.Forms.TextBox();
-            this.labelDureeMois = new System.Windows.Forms.Label();
-            this.textBoxCapitalEmprunte = new System.Windows.Forms.TextBox();
-            this.textBoxNom = new System.Windows.Forms.TextBox();
-            this.labelNom = new System.Windows.Forms.Label();
-            this.buttonOk = new System.Windows.Forms.Button();
-            this.buttonAnnuler = new System.Windows.Forms.Button();
-            this.labelPeriodicite = new System.Windows.Forms.Label();
-            this.textBoxNbMensualites = new System.Windows.Forms.TextBox();
-            this.labelRemboursements = new System.Windows.Forms.Label();
-            this.textBoxMensualites = new System.Windows.Forms.TextBox();
-            this.labelCapitalEmprunte = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.hScrollBarDuree = new System.Windows.Forms.HScrollBar();
-            this.groupBoxTaux.SuspendLayout();
-            this.SuspendLayout();
+            groupBoxTaux = new GroupBox();
+            radioButton9 = new RadioButton();
+            radioButton8 = new RadioButton();
+            radioButton7 = new RadioButton();
+            textBoxDuree = new TextBox();
+            labelDureeMois = new Label();
+            textBoxCapitalEmprunte = new TextBox();
+            textBoxNom = new TextBox();
+            labelNom = new Label();
+            buttonOk = new Button();
+            buttonAnnuler = new Button();
+            labelPeriodicite = new Label();
+            textBoxNbMensualites = new TextBox();
+            labelRemboursements = new Label();
+            textBoxMensualites = new TextBox();
+            labelCapitalEmprunte = new Label();
+            listBoxPeriodicite = new ListBox();
+            hScrollBarDuree = new HScrollBar();
+            groupBoxTaux.SuspendLayout();
+            SuspendLayout();
             // 
             // groupBoxTaux
             // 
-            this.groupBoxTaux.Controls.Add(this.radioButton9);
-            this.groupBoxTaux.Controls.Add(this.radioButton8);
-            this.groupBoxTaux.Controls.Add(this.radioButton7);
-            this.groupBoxTaux.Location = new System.Drawing.Point(477, 44);
-            this.groupBoxTaux.Name = "groupBoxTaux";
-            this.groupBoxTaux.Size = new System.Drawing.Size(120, 170);
-            this.groupBoxTaux.TabIndex = 15;
-            this.groupBoxTaux.TabStop = false;
-            this.groupBoxTaux.Text = "Taux d(\'intérêt";
+            groupBoxTaux.Controls.Add(radioButton9);
+            groupBoxTaux.Controls.Add(radioButton8);
+            groupBoxTaux.Controls.Add(radioButton7);
+            groupBoxTaux.Location = new Point(477, 44);
+            groupBoxTaux.Name = "groupBoxTaux";
+            groupBoxTaux.Size = new Size(120, 170);
+            groupBoxTaux.TabIndex = 15;
+            groupBoxTaux.TabStop = false;
+            groupBoxTaux.Text = "Taux d('intérêt";
             // 
             // radioButton9
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(37, 112);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(44, 19);
-            this.radioButton9.TabIndex = 2;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "9 %";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            radioButton9.AutoSize = true;
+            radioButton9.Location = new Point(37, 112);
+            radioButton9.Name = "radioButton9";
+            radioButton9.Size = new Size(44, 19);
+            radioButton9.TabIndex = 2;
+            radioButton9.TabStop = true;
+            radioButton9.Text = "9 %";
+            radioButton9.UseVisualStyleBackColor = true;
             // 
             // radioButton8
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(37, 75);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(44, 19);
-            this.radioButton8.TabIndex = 1;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "8 %";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(37, 75);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(44, 19);
+            radioButton8.TabIndex = 1;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "8 %";
+            radioButton8.UseVisualStyleBackColor = true;
             // 
             // radioButton7
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(37, 39);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(44, 19);
-            this.radioButton7.TabIndex = 0;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "7 %";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(37, 39);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(44, 19);
+            radioButton7.TabIndex = 0;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "7 %";
+            radioButton7.UseVisualStyleBackColor = true;
             // 
             // textBoxDuree
             // 
-            this.textBoxDuree.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxDuree.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxDuree.Location = new System.Drawing.Point(176, 159);
-            this.textBoxDuree.Name = "textBoxDuree";
-            this.textBoxDuree.Size = new System.Drawing.Size(50, 16);
-            this.textBoxDuree.TabIndex = 13;
-            this.textBoxDuree.Tag = "";
-            this.textBoxDuree.Text = "120";
+            textBoxDuree.BackColor = SystemColors.Control;
+            textBoxDuree.BorderStyle = BorderStyle.None;
+            textBoxDuree.Location = new Point(176, 159);
+            textBoxDuree.Name = "textBoxDuree";
+            textBoxDuree.Size = new Size(50, 16);
+            textBoxDuree.TabIndex = 13;
+            textBoxDuree.Tag = "";
             // 
             // labelDureeMois
             // 
-            this.labelDureeMois.Location = new System.Drawing.Point(44, 156);
-            this.labelDureeMois.Name = "labelDureeMois";
-            this.labelDureeMois.Size = new System.Drawing.Size(109, 35);
-            this.labelDureeMois.TabIndex = 12;
-            this.labelDureeMois.Text = "Durée en mois du remboursement";
+            labelDureeMois.Location = new Point(44, 156);
+            labelDureeMois.Name = "labelDureeMois";
+            labelDureeMois.Size = new Size(109, 35);
+            labelDureeMois.TabIndex = 12;
+            labelDureeMois.Text = "Durée en mois du remboursement";
             // 
             // textBoxCapitalEmprunte
             // 
-            this.textBoxCapitalEmprunte.Location = new System.Drawing.Point(176, 93);
-            this.textBoxCapitalEmprunte.Name = "textBoxCapitalEmprunte";
-            this.textBoxCapitalEmprunte.Size = new System.Drawing.Size(150, 23);
-            this.textBoxCapitalEmprunte.TabIndex = 11;
-            this.textBoxCapitalEmprunte.Text = "150000";
+            textBoxCapitalEmprunte.Location = new Point(176, 93);
+            textBoxCapitalEmprunte.Name = "textBoxCapitalEmprunte";
+            textBoxCapitalEmprunte.Size = new Size(150, 23);
+            textBoxCapitalEmprunte.TabIndex = 11;
             // 
             // textBoxNom
             // 
-            this.textBoxNom.Location = new System.Drawing.Point(176, 44);
-            this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(150, 23);
-            this.textBoxNom.TabIndex = 10;
+            textBoxNom.Location = new Point(176, 44);
+            textBoxNom.Name = "textBoxNom";
+            textBoxNom.Size = new Size(150, 23);
+            textBoxNom.TabIndex = 10;
             // 
             // labelNom
             // 
-            this.labelNom.AutoSize = true;
-            this.labelNom.Location = new System.Drawing.Point(44, 52);
-            this.labelNom.Name = "labelNom";
-            this.labelNom.Size = new System.Drawing.Size(34, 15);
-            this.labelNom.TabIndex = 8;
-            this.labelNom.Text = "Nom";
+            labelNom.AutoSize = true;
+            labelNom.Location = new Point(44, 52);
+            labelNom.Name = "labelNom";
+            labelNom.Size = new Size(34, 15);
+            labelNom.TabIndex = 8;
+            labelNom.Text = "Nom";
             // 
             // buttonOk
             // 
-            this.buttonOk.Location = new System.Drawing.Point(627, 48);
-            this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(75, 23);
-            this.buttonOk.TabIndex = 16;
-            this.buttonOk.Text = "OK";
-            this.buttonOk.UseVisualStyleBackColor = true;
+            buttonOk.Location = new Point(627, 48);
+            buttonOk.Name = "buttonOk";
+            buttonOk.Size = new Size(75, 23);
+            buttonOk.TabIndex = 16;
+            buttonOk.Text = "OK";
+            buttonOk.UseVisualStyleBackColor = true;
             // 
             // buttonAnnuler
             // 
-            this.buttonAnnuler.Location = new System.Drawing.Point(627, 93);
-            this.buttonAnnuler.Name = "buttonAnnuler";
-            this.buttonAnnuler.Size = new System.Drawing.Size(75, 23);
-            this.buttonAnnuler.TabIndex = 17;
-            this.buttonAnnuler.Text = "Annuler";
-            this.buttonAnnuler.UseVisualStyleBackColor = true;
+            buttonAnnuler.Location = new Point(627, 93);
+            buttonAnnuler.Name = "buttonAnnuler";
+            buttonAnnuler.Size = new Size(75, 23);
+            buttonAnnuler.TabIndex = 17;
+            buttonAnnuler.Text = "Annuler";
+            buttonAnnuler.UseVisualStyleBackColor = true;
             // 
             // labelPeriodicite
             // 
-            this.labelPeriodicite.AutoSize = true;
-            this.labelPeriodicite.Location = new System.Drawing.Point(44, 212);
-            this.labelPeriodicite.Name = "labelPeriodicite";
-            this.labelPeriodicite.Size = new System.Drawing.Size(167, 15);
-            this.labelPeriodicite.TabIndex = 18;
-            this.labelPeriodicite.Text = "Périodicité de remboursement";
+            labelPeriodicite.AutoSize = true;
+            labelPeriodicite.Location = new Point(44, 212);
+            labelPeriodicite.Name = "labelPeriodicite";
+            labelPeriodicite.Size = new Size(167, 15);
+            labelPeriodicite.TabIndex = 18;
+            labelPeriodicite.Text = "Périodicité de remboursement";
             // 
             // textBoxNbMensualites
             // 
-            this.textBoxNbMensualites.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxNbMensualites.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNbMensualites.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxNbMensualites.ForeColor = System.Drawing.Color.Red;
-            this.textBoxNbMensualites.Location = new System.Drawing.Point(458, 233);
-            this.textBoxNbMensualites.Name = "textBoxNbMensualites";
-            this.textBoxNbMensualites.Size = new System.Drawing.Size(50, 20);
-            this.textBoxNbMensualites.TabIndex = 20;
-            this.textBoxNbMensualites.Text = "40";
-            this.textBoxNbMensualites.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            textBoxNbMensualites.BackColor = SystemColors.Control;
+            textBoxNbMensualites.BorderStyle = BorderStyle.None;
+            textBoxNbMensualites.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxNbMensualites.ForeColor = Color.Red;
+            textBoxNbMensualites.Location = new Point(458, 233);
+            textBoxNbMensualites.Name = "textBoxNbMensualites";
+            textBoxNbMensualites.Size = new Size(50, 20);
+            textBoxNbMensualites.TabIndex = 20;
+            textBoxNbMensualites.TextAlign = HorizontalAlignment.Center;
             // 
             // labelRemboursements
             // 
-            this.labelRemboursements.AutoSize = true;
-            this.labelRemboursements.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelRemboursements.Location = new System.Drawing.Point(537, 233);
-            this.labelRemboursements.Name = "labelRemboursements";
-            this.labelRemboursements.Size = new System.Drawing.Size(133, 20);
-            this.labelRemboursements.TabIndex = 21;
-            this.labelRemboursements.Text = "Remboursements";
+            labelRemboursements.AutoSize = true;
+            labelRemboursements.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            labelRemboursements.Location = new Point(537, 233);
+            labelRemboursements.Name = "labelRemboursements";
+            labelRemboursements.Size = new Size(133, 20);
+            labelRemboursements.TabIndex = 21;
+            labelRemboursements.Text = "Remboursements";
             // 
             // textBoxMensualites
             // 
-            this.textBoxMensualites.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxMensualites.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxMensualites.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxMensualites.ForeColor = System.Drawing.Color.Red;
-            this.textBoxMensualites.Location = new System.Drawing.Point(552, 285);
-            this.textBoxMensualites.Name = "textBoxMensualites";
-            this.textBoxMensualites.Size = new System.Drawing.Size(100, 20);
-            this.textBoxMensualites.TabIndex = 22;
-            this.textBoxMensualites.Text = "5483,36€";
-            this.textBoxMensualites.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            textBoxMensualites.BackColor = SystemColors.Control;
+            textBoxMensualites.BorderStyle = BorderStyle.None;
+            textBoxMensualites.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxMensualites.ForeColor = Color.Red;
+            textBoxMensualites.Location = new Point(552, 285);
+            textBoxMensualites.Name = "textBoxMensualites";
+            textBoxMensualites.Size = new Size(100, 20);
+            textBoxMensualites.TabIndex = 22;
+            textBoxMensualites.TextAlign = HorizontalAlignment.Center;
             // 
             // labelCapitalEmprunte
             // 
-            this.labelCapitalEmprunte.AutoSize = true;
-            this.labelCapitalEmprunte.Location = new System.Drawing.Point(44, 101);
-            this.labelCapitalEmprunte.Name = "labelCapitalEmprunte";
-            this.labelCapitalEmprunte.Size = new System.Drawing.Size(99, 15);
-            this.labelCapitalEmprunte.TabIndex = 25;
-            this.labelCapitalEmprunte.Text = "Capital Emprunté";
+            labelCapitalEmprunte.AutoSize = true;
+            labelCapitalEmprunte.Location = new Point(44, 101);
+            labelCapitalEmprunte.Name = "labelCapitalEmprunte";
+            labelCapitalEmprunte.Size = new Size(99, 15);
+            labelCapitalEmprunte.TabIndex = 25;
+            labelCapitalEmprunte.Text = "Capital Emprunté";
             // 
-            // listBox1
+            // listBoxPeriodicite
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Items.AddRange(new object[] {
-            "Mensuelle",
-            "Bimensuelle",
-            "Trimestrielle",
-            "Semestrielle",
-            "Annuelle"});
-            this.listBox1.Location = new System.Drawing.Point(44, 233);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(261, 79);
-            this.listBox1.TabIndex = 26;
+            listBoxPeriodicite.FormattingEnabled = true;
+            listBoxPeriodicite.ItemHeight = 15;
+            listBoxPeriodicite.Items.AddRange(new object[] { "Mensuelle", "Bimensuelle", "Trimestrielle", "Semestrielle", "Annuelle" });
+            listBoxPeriodicite.Location = new Point(44, 233);
+            listBoxPeriodicite.Name = "listBoxPeriodicite";
+            listBoxPeriodicite.Size = new Size(261, 79);
+            listBoxPeriodicite.TabIndex = 26;
             // 
             // hScrollBarDuree
             // 
-            this.hScrollBarDuree.Location = new System.Drawing.Point(229, 156);
-            this.hScrollBarDuree.Name = "hScrollBarDuree";
-            this.hScrollBarDuree.Size = new System.Drawing.Size(152, 19);
-            this.hScrollBarDuree.TabIndex = 27;
-            this.hScrollBarDuree.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBarDuree_Scroll);
+            hScrollBarDuree.Location = new Point(229, 156);
+            hScrollBarDuree.Name = "hScrollBarDuree";
+            hScrollBarDuree.Size = new Size(152, 19);
+            hScrollBarDuree.TabIndex = 27;
+            hScrollBarDuree.Scroll += hScrollBarDuree_Scroll;
             // 
             // Emprunts
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 327);
-            this.Controls.Add(this.hScrollBarDuree);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.labelCapitalEmprunte);
-            this.Controls.Add(this.textBoxMensualites);
-            this.Controls.Add(this.labelRemboursements);
-            this.Controls.Add(this.textBoxNbMensualites);
-            this.Controls.Add(this.labelPeriodicite);
-            this.Controls.Add(this.buttonAnnuler);
-            this.Controls.Add(this.buttonOk);
-            this.Controls.Add(this.groupBoxTaux);
-            this.Controls.Add(this.textBoxDuree);
-            this.Controls.Add(this.labelDureeMois);
-            this.Controls.Add(this.textBoxCapitalEmprunte);
-            this.Controls.Add(this.textBoxNom);
-            this.Controls.Add(this.labelNom);
-            this.Name = "Emprunts";
-            this.Text = "Emprunts";
-            this.groupBoxTaux.ResumeLayout(false);
-            this.groupBoxTaux.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(721, 327);
+            Controls.Add(hScrollBarDuree);
+            Controls.Add(listBoxPeriodicite);
+            Controls.Add(labelCapitalEmprunte);
+            Controls.Add(textBoxMensualites);
+            Controls.Add(labelRemboursements);
+            Controls.Add(textBoxNbMensualites);
+            Controls.Add(labelPeriodicite);
+            Controls.Add(buttonAnnuler);
+            Controls.Add(buttonOk);
+            Controls.Add(groupBoxTaux);
+            Controls.Add(textBoxDuree);
+            Controls.Add(labelDureeMois);
+            Controls.Add(textBoxCapitalEmprunte);
+            Controls.Add(textBoxNom);
+            Controls.Add(labelNom);
+            Name = "Emprunts";
+            Text = "Emprunts";
+            groupBoxTaux.ResumeLayout(false);
+            groupBoxTaux.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -279,7 +269,7 @@
         private Label labelRemboursements;
         private TextBox textBoxMensualites;
         private Label labelCapitalEmprunte;
-        private ListBox listBox1;
+        private ListBox listBoxPeriodicite;
         private HScrollBar hScrollBarDuree;
     }
 }
