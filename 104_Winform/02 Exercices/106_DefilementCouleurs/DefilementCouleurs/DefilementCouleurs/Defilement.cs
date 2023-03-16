@@ -12,6 +12,9 @@ namespace DefilementCouleurs
 {
     public partial class Defilement : Form
     {
+
+        private System.Drawing.Color maCouleur; 
+
         private int rouge;
         private int vert;
         private int bleu;
@@ -22,6 +25,16 @@ namespace DefilementCouleurs
             textBoxRouge.BackColor = Color.FromArgb(255, 0, 0);
             textBoxVert.BackColor = Color.FromArgb(0, 255, 0);
             textBoxBleu.BackColor = Color.FromArgb(0, 0, 255);
+
+            //mettre un macouleutParDefault
+            //MettreAJourIHM();
+        }
+
+        public Defilement(Color couleurAModifier)
+        {
+            InitializeComponent();
+            maCouleur = couleurAModifier;
+            //MettreAJourIHM();
         }
 
         private void initialisationTextBoxCouleur()
@@ -36,6 +49,9 @@ namespace DefilementCouleurs
         {
             hScrollBarRouge.Value = int.Parse(numericUpDownRouge.Text);
             initialisationTextBoxCouleur();
+
+            //macouleur= Color.FromRGB(hScrollBarRouge.Value,macouleur.G,macouleur.B);
+            //MettreAJourIHM();
         }
 
         private void numericUpDownVert_ValueChanged(object sender, EventArgs e)

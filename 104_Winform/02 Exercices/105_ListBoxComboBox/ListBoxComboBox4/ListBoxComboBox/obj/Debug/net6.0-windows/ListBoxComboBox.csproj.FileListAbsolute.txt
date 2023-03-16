@@ -1,0 +1,102 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.FormFormulaire.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\refint\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ref\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.FormFormulaire.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\refint\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox\ListBoxComboBox\obj\Debug\net6.0-windows\ref\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.FormFormulaire.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\refint\ListBoxComboBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ref\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.FormFormulaire.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\refint\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox - Copie\ListBoxComboBox\obj\Debug\net6.0-windows\ref\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.FormFormulaire.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\refint\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox3\ListBoxComboBox\obj\Debug\net6.0-windows\ref\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\bin\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.FormFormulaire.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\refint\ListBoxComboBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ListBoxComboBox.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\obj\Debug\net6.0-windows\ref\ListBoxComboBox.dll

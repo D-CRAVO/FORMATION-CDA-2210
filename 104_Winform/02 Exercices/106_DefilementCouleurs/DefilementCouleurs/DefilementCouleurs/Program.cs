@@ -12,6 +12,7 @@ namespace DefilementCouleurs
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Defilement());
+            //Application.Run(new Defilement(Color.Red));
         }
     }
 }
