@@ -8,7 +8,7 @@ namespace ClassLibraryCalculs
 {
     public class Calculs
     {
-        public static int calculMensualites(string _periodicite, int _nbMensualites)
+        public static int calculNbMensualites(string _periodicite, int _nbMensualites)
         {
             if (_periodicite == "Mensuelle")
             {
@@ -30,6 +30,11 @@ namespace ClassLibraryCalculs
             {
                 return _nbMensualites / 12;
             }
+        }
+
+        public static double calculMensualites(double _capitalEmprunte, double _tauxAnnuel, int _nbMensualites)
+        {
+            return _capitalEmprunte * (_tauxAnnuel / (1 - Math.Pow((1 + _tauxAnnuel), -_nbMensualites)));
         }
     }
 }

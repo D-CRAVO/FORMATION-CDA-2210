@@ -26,6 +26,7 @@ namespace Emprunts
             tauxAnnuel = 0.07;
             nbRemboursements = 1;
             periodicite = "Mensuelle";
+            IHM();
             //textBoxDuree.Text = hScrollBarDuree.Value.ToString();
         }
 
@@ -47,7 +48,8 @@ namespace Emprunts
 
         private void IHM()
         {
-            textBoxNbMensualites.Text = Calculs.calculMensualites(periodicite, hScrollBarDuree.Value).ToString();
+            textBoxNbMensualites.Text = Calculs.calculNbMensualites(periodicite, hScrollBarDuree.Value).ToString();
+            textBoxMensualites.Text = Calculs.calculMensualites(capitalEmprunte, tauxAnnuel, nbRemboursements).ToString();
         }
     }
 }

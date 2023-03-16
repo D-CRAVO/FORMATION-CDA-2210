@@ -11,8 +11,8 @@ namespace Emprunts
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            //Application.Run(new Emprunts());
-            Application.Run(new Emprunts(150000, 0.08, 120, "Trimestrielle"));
+            Application.Run(new Emprunts());
+            //Application.Run(new Emprunts(150000, 0.08, 120, "Trimestrielle"));
         }
     }
 }
