@@ -15,19 +15,12 @@ namespace DefilementCouleurs
 
         private System.Drawing.Color maCouleur; 
 
-        //private int rouge;
-        //private int vert;
-        //private int bleu;
         public Defilement()
         {
             InitializeComponent();
-            initialisationTextBoxCouleur();
             remplissageTextBoxReference();
             maCouleur = Color.Brown;
-            mettreAJourIHM();
-
-            //mettre un macouleutParDefault
-            //MettreAJourIHM();
+            mettreAJourIHM(maCouleur);
         }
 
         public Defilement(Color couleurAModifier)
@@ -35,73 +28,64 @@ namespace DefilementCouleurs
             InitializeComponent();
             remplissageTextBoxReference();
             maCouleur = couleurAModifier;
-            mettreAJourIHM();
+            mettreAJourIHM(maCouleur);
         }
 
         private void remplissageTextBoxReference()
         {
-            textBoxRouge.BackColor = Color.FromArgb(255, 0, 0);
-            textBoxVert.BackColor = Color.FromArgb(0, 255, 0);
-            textBoxBleu.BackColor = Color.FromArgb(0, 0, 255);
-        }
-
-
-
-        private void initialisationTextBoxCouleur()
-        {
-            rouge = int.Parse(numericUpDownRouge.Text);
-            vert = int.Parse(numericUpDownVert.Text);
-            bleu = int.Parse(numericUpDownBleu.Text);
-            //textBoxCouleur.BackColor = Color.FromArgb(rouge, vert, bleu);
-            textBoxCouleur.BackColor = Color.FromArgb((int)rouge, (int)vert, (int)bleu);
+            textBoxRouge.BackColor = Color.Red;
+            textBoxVert.BackColor = Color.Green;
+            textBoxBleu.BackColor = Color.Blue;
         }
 
         private void numericUpDownRouge_ValueChanged(object sender, EventArgs e)
         {
             hScrollBarRouge.Value = int.Parse(numericUpDownRouge.Text);
-            initialisationTextBoxCouleur();
-
-            maCouleur= Color.FromArgb(hScrollBarRouge.Value,maCouleur.G,maCouleur.B);
-            //MettreAJourIHM();
+            maCouleur = Color.FromArgb(int.Parse(numericUpDownRouge.Text), maCouleur.G,maCouleur.B);
+            mettreAJourIHM(maCouleur);
         }
 
         private void numericUpDownVert_ValueChanged(object sender, EventArgs e)
         {
             hScrollBarVert.Value = int.Parse(numericUpDownVert.Text);
-            initialisationTextBoxCouleur();
+            maCouleur = Color.FromArgb(maCouleur.R, int.Parse(numericUpDownVert.Text), maCouleur.B);
+            mettreAJourIHM(maCouleur);
         }
 
         private void numericUpDownBleu_ValueChanged(object sender, EventArgs e)
         {
             hScrollBarBleu.Value = int.Parse(numericUpDownBleu.Text);
-            initialisationTextBoxCouleur();
+            maCouleur = Color.FromArgb(maCouleur.R, maCouleur.G, int.Parse(numericUpDownBleu.Text));
+            mettreAJourIHM(maCouleur);
         }
 
         private void hScrollBarRouge_Scroll(object sender, ScrollEventArgs e)
         {
             numericUpDownRouge.Text = hScrollBarRouge.Value.ToString();
-            initialisationTextBoxCouleur();
+            maCouleur = Color.FromArgb(hScrollBarRouge.Value, maCouleur.G, maCouleur.B);
+            mettreAJourIHM(maCouleur);
         }
 
         private void hScrollBarVert_Scroll(object sender, ScrollEventArgs e)
         {
             numericUpDownVert.Text = hScrollBarVert.Value.ToString();
-            initialisationTextBoxCouleur();
+            maCouleur = Color.FromArgb(maCouleur.R, hScrollBarVert.Value, maCouleur.B);
+            mettreAJourIHM(maCouleur);
         }
 
         private void hScrollBarBleu_Scroll(object sender, ScrollEventArgs e)
         {
             numericUpDownBleu.Text = hScrollBarBleu.Value.ToString();
-            initialisationTextBoxCouleur();
+            maCouleur = Color.FromArgb(maCouleur.R, maCouleur.G, hScrollBarBleu.Value);
+            mettreAJourIHM(maCouleur);
         }
 
-        private void mettreAJourIHM()
+        private void mettreAJourIHM(Color _couleur)
         {
-            numericUpDownRouge.Text = maCouleur.R.ToString();
-            numericUpDownVert.Text = maCouleur.G.ToString();
-            numericUpDownBleu.Text = maCouleur.B.ToString();
-            
-            //MessageBox.Show(maCouleur.R.ToString());
+            //numericUpDownRouge.Text = maCouleur.R.ToString();
+            //numericUpDownVert.Text = maCouleur.G.ToString();
+            //numericUpDownBleu.Text = maCouleur.B.ToString();
+            textBoxCouleur.BackColor = Color.FromArgb((int)_couleur.R, (int)_couleur.G, (int)_couleur.B);
         }
     }
 }
