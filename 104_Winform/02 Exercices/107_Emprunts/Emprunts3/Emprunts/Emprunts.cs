@@ -20,7 +20,7 @@ namespace Emprunts
         private string periodicite;
         private int nbRemboursements;
         private double tauxSaisi;
-        private double tauxCalcul;
+        private double tauxRemboursements;
 
         public Emprunts()
         {
@@ -48,7 +48,12 @@ namespace Emprunts
             IHM();
         }
 
-        public void checkTauxSaisi()
+        private void determinationMontant()
+        {
+
+        }
+
+        private void checkTauxSaisi()
         {
             if (tauxAnnuel == 0.07)
             {
@@ -64,19 +69,19 @@ namespace Emprunts
             }
         }
 
-        public double determinationTauxSaisi()
+        public void determinationTauxSaisi()
         {
             if (radioButton7.Checked == true)
             {
-                return 0.07;
+                tauxSaisi = 0.07;
             }
             else if (radioButton8.Checked == true)
             {
-                return 0.08;
+                tauxSaisi = 0.08;
             }
             else
             {
-                return 0.09;
+                tauxSaisi = 0.09;
             }
         }
 
@@ -92,8 +97,9 @@ namespace Emprunts
             listBoxPeriodicite.SelectedItem = periodicite;
             nbRemboursements = Calculs.calculNbRemboursements(periodicite, hScrollBarDuree.Value);
             textBoxNbRemboursements.Text = nbRemboursements.ToString();
-            tauxSaisi = determinationTauxSaisi();
-            textBoxRemboursements.Text = Calculs.calculRemboursements(capitalEmprunte, tauxCalcul, nbRemboursements).ToString();
+            determinationTauxSaisi();
+            tauxRemboursements = Calculs.calculTauxRemboursements(tauxSaisi, periodicite);
+            textBoxRemboursements.Text = Math.Round(Calculs.calculRemboursements(capitalEmprunte, tauxRemboursements, nbRemboursements),2).ToString();
         }
     }
 }

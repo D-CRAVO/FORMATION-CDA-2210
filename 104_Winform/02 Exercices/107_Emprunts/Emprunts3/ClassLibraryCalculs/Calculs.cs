@@ -36,5 +36,29 @@ namespace ClassLibraryCalculs
         {
             return _capitalEmprunte * (_tauxCalcul / (1 - Math.Pow((1 + _tauxCalcul), -_nbMensualites)));
         }
+
+        public static double calculTauxRemboursements(double _tauxAnnuel, string _periodicite)
+        {
+            if (_periodicite == "Mensuelle")
+            {
+                return (_tauxAnnuel / 12);
+            }
+            else if (_periodicite == "Bimestrielle")
+            {
+                return (_tauxAnnuel / 6);
+            }
+            else if (_periodicite == "Trimestrielle")
+            {
+                return (_tauxAnnuel / 4);
+            }
+            else if (_periodicite == "Semestrielle")
+            {
+                return (_tauxAnnuel / 2);
+            }
+            else 
+            {
+                return _tauxAnnuel;
+            }
+        }
     }
 }
