@@ -121,6 +121,7 @@
             this.textBoxCapitalEmprunte.Name = "textBoxCapitalEmprunte";
             this.textBoxCapitalEmprunte.Size = new System.Drawing.Size(150, 23);
             this.textBoxCapitalEmprunte.TabIndex = 11;
+            this.textBoxCapitalEmprunte.TextChanged += new System.EventHandler(this.textBoxCapitalEmprunte_TextChanged);
             // 
             // textBoxNom
             // 
@@ -222,11 +223,12 @@
             this.listBoxPeriodicite.Name = "listBoxPeriodicite";
             this.listBoxPeriodicite.Size = new System.Drawing.Size(261, 79);
             this.listBoxPeriodicite.TabIndex = 26;
+            this.listBoxPeriodicite.SelectedIndexChanged += new System.EventHandler(this.listBoxPeriodicite_SelectedIndexChanged_1);
             // 
             // hScrollBarDuree
             // 
             this.hScrollBarDuree.Location = new System.Drawing.Point(229, 156);
-            this.hScrollBarDuree.Maximum = 360;
+            this.hScrollBarDuree.Maximum = 369;
             this.hScrollBarDuree.Name = "hScrollBarDuree";
             this.hScrollBarDuree.Size = new System.Drawing.Size(152, 19);
             this.hScrollBarDuree.TabIndex = 27;

@@ -22,6 +22,11 @@ namespace Emprunts
         private double tauxSaisi;
         private double tauxRemboursements;
 
+        #region Constructeurs
+
+        /// <summary>
+        /// Constructeur par défaut
+        /// </summary>
         public Emprunts()
         {
             InitializeComponent();
@@ -31,12 +36,20 @@ namespace Emprunts
             nbMois = 1;
             periodicite = "Mensuelle";
 
-            hScrollBarDuree.Value = nbMois;
+            //textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
+            //hScrollBarDuree.Value = nbMois;
             listBoxPeriodicite.SelectedItem = periodicite;
             checkTauxSaisi();
-            ihm();
+            ihm(capitalEmprunte, tauxAnnuel, nbMois, periodicite);
         }
 
+        /// <summary>
+        /// Constructeur classique
+        /// </summary>
+        /// <param name="_capitalEmprunte">Capital emprunté</param>
+        /// <param name="_tauxAnnuel">Taux d'intérêt annuel</param>
+        /// <param name="_nbMois">Nombre de mois de remboursements</param>
+        /// <param name="_periodicite">Périodicité de remboursement</param>
         public Emprunts(double _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
         {
             InitializeComponent();
@@ -46,16 +59,14 @@ namespace Emprunts
             nbMois = _nbMois;
             periodicite = _periodicite;
 
+            
             hScrollBarDuree.Value = nbMois;
             listBoxPeriodicite.SelectedItem = periodicite;
+            textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
             checkTauxSaisi();
-            ihm();
+            ihm(capitalEmprunte, tauxAnnuel, nbMois, periodicite);
         }
-
-        private void checkTauxInteret()
-        {
-            
-        }
+        #endregion
 
         #region Taux d'intérêt
 
@@ -133,13 +144,18 @@ namespace Emprunts
         }
         #endregion
 
-        private void ihm()
+        private void checkTauxInteret()
         {
-            textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
-            
+
+        }
+
+        private void ihm(double _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
+        {
             determinationTauxSaisi();
             determinationHScrollBarDureeSmallChange();
-            textBoxDuree.Text = hScrollBarDuree.Value.ToString();
+            hScrollBarDuree.Value = nbMois;
+            //textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
+            textBoxDuree.Text = nbMois.ToString();
             nbRemboursements = Calculs.calculNbRemboursements(periodicite, hScrollBarDuree.Value);
             textBoxNbRemboursements.Text = nbRemboursements.ToString();
             tauxRemboursements = Calculs.calculTauxRemboursements(tauxSaisi, periodicite);
@@ -148,16 +164,18 @@ namespace Emprunts
 
         private void hScrollBarDuree_Scroll(object sender, ScrollEventArgs e)
         {
-            //ihm();
+            nbMois = hScrollBarDuree.Value;
+            ihm();
         }
 
         private void listBoxPeriodicite_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //ihm();
+            ihm();
         }
 
         private void buttonOk_Click(object sender, EventArgs e)
         {
+
             ihm();
         }
 
@@ -173,6 +191,17 @@ namespace Emprunts
 
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
         {
+            ihm();
+        }
+
+        private void listBoxPeriodicite_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ihm();
+        }
+
+        private void textBoxCapitalEmprunte_TextChanged(object sender, EventArgs e)
+        {
+            capitalEmprunte = double.Parse(textBoxCapitalEmprunte.Text.ToString());
             ihm();
         }
     }
