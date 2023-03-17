@@ -223,7 +223,7 @@
             this.listBoxPeriodicite.Name = "listBoxPeriodicite";
             this.listBoxPeriodicite.Size = new System.Drawing.Size(261, 79);
             this.listBoxPeriodicite.TabIndex = 26;
-            this.listBoxPeriodicite.SelectedIndexChanged += new System.EventHandler(this.listBoxPeriodicite_SelectedIndexChanged_1);
+            this.listBoxPeriodicite.SelectedIndexChanged += new System.EventHandler(this.listBoxPeriodicite_SelectedIndexChanged);
             // 
             // hScrollBarDuree
             // 
