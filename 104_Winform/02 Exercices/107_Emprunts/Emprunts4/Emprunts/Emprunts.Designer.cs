@@ -209,7 +209,7 @@
             // 
             listBoxPeriodicite.FormattingEnabled = true;
             listBoxPeriodicite.ItemHeight = 15;
-            listBoxPeriodicite.Items.AddRange(new object[] { "Mensuelle", "Bimensuelle", "Trimestrielle", "Semestrielle", "Annuelle" });
+            listBoxPeriodicite.Items.AddRange(new object[] { "Mensuelle", "Bimestrielle", "Trimestrielle", "Semestrielle", "Annuelle" });
             listBoxPeriodicite.Location = new Point(44, 233);
             listBoxPeriodicite.Name = "listBoxPeriodicite";
             listBoxPeriodicite.Size = new Size(261, 79);

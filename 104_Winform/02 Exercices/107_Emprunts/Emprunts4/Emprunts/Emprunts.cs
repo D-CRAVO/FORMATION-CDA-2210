@@ -31,8 +31,10 @@ namespace Emprunts
             nbMois = 1;
             periodicite = "Mensuelle";
 
+            hScrollBarDuree.Value = nbMois;
+            listBoxPeriodicite.SelectedItem = periodicite;
             checkTauxSaisi();
-            IHM();
+            ihm();
         }
 
         public Emprunts(double _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
@@ -44,8 +46,10 @@ namespace Emprunts
             nbMois = _nbMois;
             periodicite = _periodicite;
 
+            hScrollBarDuree.Value = nbMois;
+            listBoxPeriodicite.SelectedItem = periodicite;
             checkTauxSaisi();
-            IHM();
+            ihm();
         }
 
         private void determinationCapitalEmprunte()
@@ -90,47 +94,52 @@ namespace Emprunts
             if (listBoxPeriodicite.SelectedItem.ToString() == "Mensuelle")
             {
                 hScrollBarDuree.SmallChange = 1;
+                periodicite = "Mensuelle";
             }
             else if (listBoxPeriodicite.SelectedItem.ToString() == "Bimestrielle")
             {
                 hScrollBarDuree.SmallChange = 2;
+                periodicite = "Bimestrielle";
             }
             else if (listBoxPeriodicite.SelectedItem.ToString() == "Trimestrielle")
             {
                 hScrollBarDuree.SmallChange = 3;
+                periodicite = "Trimestrielle";
             }
             else if (listBoxPeriodicite.SelectedItem.ToString() == "Semestrielle")
             {
                 hScrollBarDuree.SmallChange = 6;
+                periodicite = "Semestrielle";
             }
             else
             {
                 hScrollBarDuree.SmallChange = 12;
+                periodicite = "Annuelle";
             }
         }
 
-        private void IHM()
+        private void ihm()
         {
             textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
-            hScrollBarDuree.Value = nbMois;
             textBoxDuree.Text = hScrollBarDuree.Value.ToString();
-            listBoxPeriodicite.SelectedItem = periodicite;
-            nbRemboursements = Calculs.calculNbRemboursements(periodicite, hScrollBarDuree.Value);
             textBoxNbRemboursements.Text = nbRemboursements.ToString();
+
             determinationTauxSaisi();
+            determinationHScrollBarDureeSmallChange();
+
+            nbRemboursements = Calculs.calculNbRemboursements(periodicite, hScrollBarDuree.Value);
             tauxRemboursements = Calculs.calculTauxRemboursements(tauxSaisi, periodicite);
             textBoxRemboursements.Text = Math.Round(Calculs.calculRemboursements(capitalEmprunte, tauxRemboursements, nbRemboursements), 2).ToString();
         }
 
         private void hScrollBarDuree_Scroll(object sender, ScrollEventArgs e)
         {
-            IHM();
+            ihm();
         }
 
         private void listBoxPeriodicite_SelectedIndexChanged(object sender, EventArgs e)
         {
-            determinationHScrollBarDureeSmallChange();
-            IHM();
+            ihm();
         }
     }
 }
