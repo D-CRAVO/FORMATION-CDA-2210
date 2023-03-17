@@ -34,7 +34,7 @@ namespace Emprunts
             hScrollBarDuree.Value = nbMois;
             listBoxPeriodicite.SelectedItem = periodicite;
             checkTauxSaisi();
-            //ihm();
+            ihm();
         }
 
         public Emprunts(double _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
@@ -52,9 +52,9 @@ namespace Emprunts
             ihm();
         }
 
-        private void determinationCapitalEmprunte()
+        private void checkTauxInteret()
         {
-
+            
         }
 
         #region Taux d'intérêt
@@ -157,6 +157,21 @@ namespace Emprunts
         }
 
         private void buttonOk_Click(object sender, EventArgs e)
+        {
+            ihm();
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            ihm();
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            ihm();
+        }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
         {
             ihm();
         }
