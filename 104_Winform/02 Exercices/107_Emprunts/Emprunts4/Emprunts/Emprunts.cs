@@ -34,7 +34,7 @@ namespace Emprunts
             hScrollBarDuree.Value = nbMois;
             listBoxPeriodicite.SelectedItem = periodicite;
             checkTauxSaisi();
-            ihm();
+            //ihm();
         }
 
         public Emprunts(double _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
@@ -57,6 +57,11 @@ namespace Emprunts
 
         }
 
+        #region Taux d'intérêt
+
+        /// <summary>
+        /// Activation des checkBox des taux en fonction du constructeur;
+        /// </summary>
         private void checkTauxSaisi()
         {
             if (tauxAnnuel == 0.07)
@@ -73,6 +78,9 @@ namespace Emprunts
             }
         }
 
+        /// <summary>
+        /// Détermine le taux d'intérêt annuel en fonction de la checkBox activée
+        /// </summary>
         private void determinationTauxSaisi()
         {
             if (radioButton7.Checked == true)
@@ -88,7 +96,13 @@ namespace Emprunts
                 tauxSaisi = 0.09;
             }
         }
+        #endregion
 
+        #region Periodicite de remboursement
+
+        /// <summary>
+        /// Détermine la périodicité de remboursement
+        /// </summary>
         private void determinationHScrollBarDureeSmallChange()
         {
             if (listBoxPeriodicite.SelectedItem.ToString() == "Mensuelle")
@@ -117,27 +131,32 @@ namespace Emprunts
                 periodicite = "Annuelle";
             }
         }
+        #endregion
 
         private void ihm()
         {
             textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
-            textBoxDuree.Text = hScrollBarDuree.Value.ToString();
-            textBoxNbRemboursements.Text = nbRemboursements.ToString();
-
+            
             determinationTauxSaisi();
             determinationHScrollBarDureeSmallChange();
-
+            textBoxDuree.Text = hScrollBarDuree.Value.ToString();
             nbRemboursements = Calculs.calculNbRemboursements(periodicite, hScrollBarDuree.Value);
+            textBoxNbRemboursements.Text = nbRemboursements.ToString();
             tauxRemboursements = Calculs.calculTauxRemboursements(tauxSaisi, periodicite);
             textBoxRemboursements.Text = Math.Round(Calculs.calculRemboursements(capitalEmprunte, tauxRemboursements, nbRemboursements), 2).ToString();
         }
 
         private void hScrollBarDuree_Scroll(object sender, ScrollEventArgs e)
         {
-            ihm();
+            //ihm();
         }
 
         private void listBoxPeriodicite_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //ihm();
+        }
+
+        private void buttonOk_Click(object sender, EventArgs e)
         {
             ihm();
         }
