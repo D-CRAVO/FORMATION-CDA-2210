@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             groupBoxTaux = new GroupBox();
             radioButton9 = new RadioButton();
             radioButton8 = new RadioButton();
@@ -46,7 +47,11 @@
             labelCapitalEmprunte = new Label();
             listBoxPeriodicite = new ListBox();
             hScrollBarDuree = new HScrollBar();
+            errorProviderCapitalEmprunte = new ErrorProvider(components);
+            errorProviderNom = new ErrorProvider(components);
             groupBoxTaux.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)errorProviderCapitalEmprunte).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderNom).BeginInit();
             SuspendLayout();
             // 
             // groupBoxTaux
@@ -129,6 +134,7 @@
             textBoxNom.Name = "textBoxNom";
             textBoxNom.Size = new Size(150, 23);
             textBoxNom.TabIndex = 10;
+            textBoxNom.TextChanged += textBoxNom_TextChanged;
             // 
             // labelNom
             // 
@@ -156,6 +162,7 @@
             buttonAnnuler.TabIndex = 17;
             buttonAnnuler.Text = "Annuler";
             buttonAnnuler.UseVisualStyleBackColor = true;
+            buttonAnnuler.Click += buttonAnnuler_Click;
             // 
             // labelPeriodicite
             // 
@@ -229,6 +236,14 @@
             hScrollBarDuree.TabIndex = 29;
             hScrollBarDuree.Scroll += hScrollBar_Scroll;
             // 
+            // errorProviderCapitalEmprunte
+            // 
+            errorProviderCapitalEmprunte.ContainerControl = this;
+            // 
+            // errorProviderNom
+            // 
+            errorProviderNom.ContainerControl = this;
+            // 
             // Emprunts
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -253,6 +268,8 @@
             Text = "Emprunts";
             groupBoxTaux.ResumeLayout(false);
             groupBoxTaux.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)errorProviderCapitalEmprunte).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderNom).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -277,5 +294,7 @@
         private Label labelCapitalEmprunte;
         private ListBox listBoxPeriodicite;
         private HScrollBar hScrollBarDuree;
+        private ErrorProvider errorProviderCapitalEmprunte;
+        private ErrorProvider errorProviderNom;
     }
 }
