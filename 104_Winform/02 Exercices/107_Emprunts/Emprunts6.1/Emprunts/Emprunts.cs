@@ -250,7 +250,7 @@ namespace Emprunts
             sauvegardeValeursEtude(_nom, _capitalEmprunte, _tauxAnnuel, _nbMois, _periodicite);
             //Emprunts etude = new Emprunts(_capitalEmprunte, _tauxAnnuel, _nbMois, _periodicite);
         }
-        
+
         /// <summary>
         /// Controle la saisie du Nom en fonction des caractères saisis 
         /// lors des changements effectués dans le champs "Nom".
@@ -264,9 +264,9 @@ namespace Emprunts
             {
                 errorProviderNom.SetError(textBoxNom, string.Empty);
             }
-            else 
-            { 
-                errorProviderNom.SetError(textBoxNom, "Veuillez saisir un nom composé uniquement de caracrtères alphabétiques"); 
+            else
+            {
+                errorProviderNom.SetError(textBoxNom, "Veuillez saisir un nom composé uniquement de caracrtères alphabétiques");
             }
         }
 
@@ -392,6 +392,18 @@ namespace Emprunts
             initialisationDepart();
         }
 
-
+        /// <summary>
+        /// Demande une confirmation avant fermeture
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Emprunts_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialogResultYesNo = MessageBox.Show("Voulez-vous vraiment quitter ?", "Aurevoir !", MessageBoxButtons.YesNo);
+            if (dialogResultYesNo == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
