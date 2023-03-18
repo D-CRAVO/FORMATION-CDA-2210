@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            progressBar1 = new ProgressBar();
+            progressBarTraitement = new ProgressBar();
             label1 = new Label();
             SuspendLayout();
             // 
-            // progressBar1
+            // progressBarTraitement
             // 
-            progressBar1.Location = new Point(102, 88);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(100, 23);
-            progressBar1.TabIndex = 0;
+            progressBarTraitement.Location = new Point(88, 86);
+            progressBarTraitement.Name = "progressBarTraitement";
+            progressBarTraitement.Size = new Size(150, 23);
+            progressBarTraitement.TabIndex = 0;
+            progressBarTraitement.Click += progressBar1_Click;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(139, 41);
+            label1.Location = new Point(88, 35);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(150, 15);
             label1.TabIndex = 1;
-            label1.Text = "label1";
+            label1.Text = "Traitement en cours ...";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Traitement
             // 
@@ -54,16 +55,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(317, 150);
             Controls.Add(label1);
-            Controls.Add(progressBar1);
+            Controls.Add(progressBarTraitement);
             Name = "Traitement";
             Text = "Traitement";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private ProgressBar progressBar1;
+        private ProgressBar progressBarTraitement;
         private Label label1;
     }
 }

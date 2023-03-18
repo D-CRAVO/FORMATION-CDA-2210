@@ -17,6 +17,12 @@ namespace Emprunts
             InitializeComponent();
         }
 
-        
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 101; i++) 
+            { 
+                progressBarTraitement.Value = i;
+            }
+        }
     }
 }

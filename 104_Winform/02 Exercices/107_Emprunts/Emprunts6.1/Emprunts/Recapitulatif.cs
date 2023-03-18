@@ -30,7 +30,8 @@ namespace Emprunts
 
         private void buttonValidation_Click(object sender, EventArgs e)
         {
-            
+            Traitement monTraitement = new Traitement();
+            monTraitement.ShowDialog();
         }
 
         private void buttonAnnuler_Click(object sender, EventArgs e)
