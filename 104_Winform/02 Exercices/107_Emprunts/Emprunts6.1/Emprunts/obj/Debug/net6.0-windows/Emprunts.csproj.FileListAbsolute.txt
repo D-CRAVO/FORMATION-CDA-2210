@@ -190,3 +190,7 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\Emprunts.genruntimeconfig.cache
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\ref\Emprunts.dll
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\Emprunts.Traitement.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\Emprunts.Alors.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\Emprunts.Properties.Resources.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\Emprunts.Hourra.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts6.1\Emprunts\obj\Debug\net6.0-windows\Emprunts.Mince.resources

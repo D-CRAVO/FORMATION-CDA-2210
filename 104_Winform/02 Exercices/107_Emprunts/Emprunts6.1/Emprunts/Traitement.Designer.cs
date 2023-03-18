@@ -75,6 +75,7 @@
             Controls.Add(buttonFermer);
             Controls.Add(label1);
             Controls.Add(progressBarTraitement);
+            FormClosing += new FormClosingEventHandler(Traitement_FormClosing);
             Name = "Traitement";
             Text = "Traitement";
             ResumeLayout(false);

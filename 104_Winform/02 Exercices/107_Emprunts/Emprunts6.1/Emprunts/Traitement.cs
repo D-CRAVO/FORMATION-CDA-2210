@@ -35,5 +35,12 @@ namespace Emprunts
         {
             Close();
         }
+
+        private void Traitement_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+            Alors monAlors = new Alors();
+            monAlors.ShowDialog();
+        }
     }
 }
