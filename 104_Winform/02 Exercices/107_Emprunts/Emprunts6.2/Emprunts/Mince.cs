@@ -12,8 +12,18 @@ namespace Emprunts
 {
     public partial class Mince : Form
     {
+        /// <summary>
+        /// Variable qui va permettre l'affichage aléatoire de l'image
+        /// </summary>
         Random monRandom;
+        /// <summary>
+        /// Variable qui va servir pour le compte à rebours
+        /// </summary>
         int temps;
+
+        /// <summary>
+        /// Constructeur par défaut
+        /// </summary>
         public Mince()
         {
             temps = 15;
@@ -21,6 +31,11 @@ namespace Emprunts
             timerMince.Start();
         }
 
+        /// <summary>
+        /// Affiche uen image aléatoire le l'imageList à l'ouverture de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Mince_Load(object sender, EventArgs e)
         {
             var image = imageListMince.Images;
@@ -31,6 +46,11 @@ namespace Emprunts
             }
         }
 
+        /// <summary>
+        /// Effectue un compte à rebours afin de fermer automatiquement la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void timerMince_Tick(object sender, EventArgs e)
         {
             temps--;

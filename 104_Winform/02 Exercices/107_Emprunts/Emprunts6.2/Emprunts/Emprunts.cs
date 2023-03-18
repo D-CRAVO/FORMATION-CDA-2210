@@ -15,20 +15,58 @@ namespace Emprunts
 {
     public partial class Emprunts : Form
     {
+        /// <summary>
+        /// Nom et prénom du client
+        /// </summary>
         private string nom;
+        /// <summary>
+        /// Capital que veut emprunter le client
+        /// </summary>
         private uint capitalEmprunte;
+        /// <summary>
+        /// Taux annuel auquel se fera l'emprunt
+        /// </summary>
         private double tauxAnnuel;
+        /// <summary>
+        /// Durée en mois du remboursement
+        /// </summary>
         private int nbMois;
+        /// <summary>
+        /// Périodicité du remboursement
+        /// </summary>
         private string periodicite;
+        /// <summary>
+        /// Nombre de remboursements
+        /// </summary>
         private int nbRemboursements;
-        private double tauxSaisi;
+        /// <summary>
+        /// Taux adapté à la périodicité du remboursement
+        /// </summary>
         private double tauxRemboursements;
+        /// <summary>
+        /// Montant des remboursements
+        /// </summary>
         private double montantRemboursements;
 
+        /// <summary>
+        /// Nom du client (Utilisé pour l'étude)
+        /// </summary>
         private string nomEtude;
+        /// <summary>
+        /// Capital  que le client veut emprunter (Utilisé pour l'étude)
+        /// </summary>
         private uint capitalEmprunteEtude;
+        /// <summary>
+        /// Taux d'intérêt annuel (Utilisé pour l'étude)
+        /// </summary>
         private double tauxAnnuelEtude;
+        /// <summary>
+        /// durée en mois du remboursement (Utilisé pour l'étude)
+        /// </summary>
         private int nbMoisEtude;
+        /// <summary>
+        /// Périodicité du remboursement (Utilisé pour l'étude)
+        /// </summary>
         private string periodiciteEtude;
 
         #region Constructeurs
@@ -84,7 +122,7 @@ namespace Emprunts
         /// <summary>
         /// Activation des checkBox des taux en fonction du constructeur;
         /// </summary>
-        private void checkTauxSaisi(double _tauxAnnuel)
+        private void checkTauxInteret(double _tauxAnnuel)
         {
             if (_tauxAnnuel == 0.07)
             {
@@ -103,7 +141,7 @@ namespace Emprunts
         /// <summary>
         /// Détermine le taux d'intérêt annuel en fonction de la checkBox activée
         /// </summary>
-        private double determinationTauxSaisi()
+        private double determinationTauxInteret()
         {
             if (radioButton7.Checked == true)
             {
@@ -201,7 +239,7 @@ namespace Emprunts
             textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
             hScrollBarDuree.Value = nbMois;
             selectListBoxPeriodicite(periodicite);
-            checkTauxSaisi(tauxAnnuel);
+            checkTauxInteret(tauxAnnuel);
             textBoxDuree.Text = nbMois.ToString();
         }
         #endregion
@@ -327,7 +365,7 @@ namespace Emprunts
         /// <param name="e"></param>
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
-            double _tauxAnnuel = determinationTauxSaisi();
+            double _tauxAnnuel = determinationTauxInteret();
             ihm(nomEtude, capitalEmprunteEtude, _tauxAnnuel, nbMoisEtude, periodiciteEtude);
         }
 
@@ -340,7 +378,7 @@ namespace Emprunts
         /// <param name="e"></param>
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
-            double _tauxAnnuel = determinationTauxSaisi();
+            double _tauxAnnuel = determinationTauxInteret();
             ihm(nomEtude, capitalEmprunteEtude, _tauxAnnuel, nbMoisEtude, periodiciteEtude);
         }
 
@@ -353,7 +391,7 @@ namespace Emprunts
         /// <param name="e"></param>
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
         {
-            double _tauxAnnuel = determinationTauxSaisi();
+            double _tauxAnnuel = determinationTauxInteret();
             ihm(nomEtude, capitalEmprunteEtude, _tauxAnnuel, nbMoisEtude, periodiciteEtude);
         }
 
