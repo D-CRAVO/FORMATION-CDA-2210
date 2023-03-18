@@ -266,8 +266,9 @@
             Controls.Add(textBoxNom);
             Controls.Add(labelNom);
             Name = "Emprunts";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Emprunts";
-            FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Emprunts_FormClosing);
+            FormClosing += Emprunts_FormClosing;
             groupBoxTaux.ResumeLayout(false);
             groupBoxTaux.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)errorProviderCapitalEmprunte).EndInit();

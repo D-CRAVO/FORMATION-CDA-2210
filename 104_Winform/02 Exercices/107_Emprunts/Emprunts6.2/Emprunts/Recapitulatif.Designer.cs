@@ -190,6 +190,7 @@
             Controls.Add(labelCapitalEmprunte);
             Controls.Add(labelNom);
             Name = "Recapitulatif";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Recapitulatif";
             ResumeLayout(false);
             PerformLayout();

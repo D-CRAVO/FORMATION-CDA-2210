@@ -65,6 +65,7 @@
             ClientSize = new Size(268, 245);
             Controls.Add(pictureBoxMince);
             Name = "Mince";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Mince";
             Load += Mince_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxMince).EndInit();

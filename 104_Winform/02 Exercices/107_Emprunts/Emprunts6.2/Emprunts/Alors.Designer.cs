@@ -85,6 +85,7 @@
             Controls.Add(labelEmoji);
             Controls.Add(pictureBoxEmoji);
             Name = "Alors";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Alors";
             ((System.ComponentModel.ISupportInitialize)pictureBoxEmoji).EndInit();
             ResumeLayout(false);
