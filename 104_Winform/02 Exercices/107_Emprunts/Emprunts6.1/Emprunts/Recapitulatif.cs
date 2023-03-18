@@ -32,6 +32,7 @@ namespace Emprunts
         {
             Traitement monTraitement = new Traitement();
             monTraitement.ShowDialog();
+            Close();
         }
 
         private void buttonAnnuler_Click(object sender, EventArgs e)

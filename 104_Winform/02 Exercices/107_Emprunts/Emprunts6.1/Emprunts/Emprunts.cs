@@ -46,7 +46,7 @@ namespace Emprunts
             nbMois = 1;
             periodicite = "Mensuelle";
 
-            initialisationDepart(nom, capitalEmprunte, tauxAnnuel, nbMois, periodicite);
+            initialisationDepart();
 
             ihm(nom, capitalEmprunte, tauxAnnuel, nbMois, periodicite);
         }
@@ -73,7 +73,7 @@ namespace Emprunts
             nbMois = _nbMois;
             periodicite = _periodicite;
 
-            initialisationDepart(nom, capitalEmprunte, tauxAnnuel, nbMois, periodicite);
+            initialisationDepart();
 
             ihm(nom, capitalEmprunte, tauxAnnuel, nbMois, periodicite);
         }
@@ -195,14 +195,14 @@ namespace Emprunts
         /// <param name="_tauxAnnuel">Taux annuel fourni par le constructeur</param>
         /// <param name="_nbMois">Durée en mois du remboursement fourni par le constructeur</param>
         /// <param name="_periodicite">Périodicité de remboursement fourni par le constructeur</param>
-        private void initialisationDepart(string _nom, uint _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
+        private void initialisationDepart()
         {
-            textBoxNom.Text = _nom;
-            textBoxCapitalEmprunte.Text = _capitalEmprunte.ToString();
-            hScrollBarDuree.Value = _nbMois;
-            selectListBoxPeriodicite(_periodicite);
-            checkTauxSaisi(_tauxAnnuel);
-            textBoxDuree.Text = _nbMois.ToString();
+            textBoxNom.Text = nom;
+            textBoxCapitalEmprunte.Text = capitalEmprunte.ToString();
+            hScrollBarDuree.Value = nbMois;
+            selectListBoxPeriodicite(periodicite);
+            checkTauxSaisi(tauxAnnuel);
+            textBoxDuree.Text = nbMois.ToString();
         }
         #endregion
 
@@ -389,8 +389,7 @@ namespace Emprunts
         /// <param name="e"></param>
         private void buttonAnnuler_Click(object sender, EventArgs e)
         {
-            initialisationDepart(nom, capitalEmprunte, tauxAnnuel, nbMois, periodicite);
-            ihm(nom, capitalEmprunte, tauxAnnuel, nbMois, periodicite);
+            initialisationDepart();
         }
 
 

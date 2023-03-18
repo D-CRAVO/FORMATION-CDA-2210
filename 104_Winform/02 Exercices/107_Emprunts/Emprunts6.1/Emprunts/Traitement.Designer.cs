@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             progressBarTraitement = new ProgressBar();
             label1 = new Label();
+            timerTraitement = new System.Windows.Forms.Timer(components);
+            buttonFermer = new Button();
             SuspendLayout();
             // 
             // progressBarTraitement
             // 
-            progressBarTraitement.Location = new Point(88, 86);
+            progressBarTraitement.Location = new Point(88, 70);
             progressBarTraitement.Name = "progressBarTraitement";
             progressBarTraitement.Size = new Size(150, 23);
             progressBarTraitement.TabIndex = 0;
-            progressBarTraitement.Click += progressBar1_Click;
             // 
             // label1
             // 
@@ -49,11 +51,28 @@
             label1.Text = "Traitement en cours ...";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // timerTraitement
+            // 
+            timerTraitement.Interval = 30;
+            timerTraitement.Tick += timer1_Tick;
+            // 
+            // buttonFermer
+            // 
+            buttonFermer.Location = new Point(129, 115);
+            buttonFermer.Name = "buttonFermer";
+            buttonFermer.Size = new Size(75, 23);
+            buttonFermer.TabIndex = 2;
+            buttonFermer.Text = "Fermer";
+            buttonFermer.UseVisualStyleBackColor = true;
+            buttonFermer.Visible = false;
+            buttonFermer.Click += buttonFermer_Click;
+            // 
             // Traitement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(317, 150);
+            Controls.Add(buttonFermer);
             Controls.Add(label1);
             Controls.Add(progressBarTraitement);
             Name = "Traitement";
@@ -65,5 +84,7 @@
 
         private ProgressBar progressBarTraitement;
         private Label label1;
+        private System.Windows.Forms.Timer timerTraitement;
+        private Button buttonFermer;
     }
 }
