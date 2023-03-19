@@ -1,0 +1,17 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.Form4.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\refint\WinFormsApp4.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\01 Exercices Introduction Microsoft\MenuMDI\WinFormsApp4\WinFormsApp4\obj\Debug\net6.0-windows\ref\WinFormsApp4.dll
