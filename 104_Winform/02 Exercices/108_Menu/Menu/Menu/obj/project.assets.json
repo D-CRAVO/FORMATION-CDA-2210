@@ -1,11 +1,198 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "CheckBoxBoutonsRadio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CheckBoxBoutonsRadio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CheckBoxBoutonsRadio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ClassLibraryAdditionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryAdditionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryAdditionneur.dll": {}
+        }
+      },
+      "ClassLibraryControles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryControles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryControles.dll": {}
+        }
+      },
+      "ClassLibraryTransaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryTransaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryTransaction.dll": {}
+        }
+      },
+      "ClassLibraryValidationSaisie2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
+        }
+      },
+      "DefilementCouleurs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DefilementCouleurs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DefilementCouleurs.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ListBox2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryControles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ListBox2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListBox2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ListBoxComboBox/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ListBoxComboBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListBoxComboBox.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ValidationSaisie2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0",
+          "ClassLibraryValidationSaisie2": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ValidationSaisie2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationSaisie2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WinFormsAdditionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryAdditionneur": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinFormsAdditionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinFormsAdditionneur.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CheckBoxBoutonsRadio/1.0.0": {
+      "type": "project",
+      "path": "../../../103_CheckBoxBoutonsRadios/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio.csproj",
+      "msbuildProject": "../../../103_CheckBoxBoutonsRadios/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio.csproj"
+    },
+    "ClassLibraryAdditionneur/1.0.0": {
+      "type": "project",
+      "path": "../../../101_Additionneur/WinFormsAdditionneur/ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj",
+      "msbuildProject": "../../../101_Additionneur/WinFormsAdditionneur/ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj"
+    },
+    "ClassLibraryControles/1.0.0": {
+      "type": "project",
+      "path": "../../../104_ListBox/ListBox2/ClassLibraryControles/ClassLibraryControles.csproj",
+      "msbuildProject": "../../../104_ListBox/ListBox2/ClassLibraryControles/ClassLibraryControles.csproj"
+    },
+    "ClassLibraryTransaction/1.0.0": {
+      "type": "project",
+      "path": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryTransaction/ClassLibraryTransaction.csproj",
+      "msbuildProject": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryTransaction/ClassLibraryTransaction.csproj"
+    },
+    "ClassLibraryValidationSaisie2/1.0.0": {
+      "type": "project",
+      "path": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj",
+      "msbuildProject": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj"
+    },
+    "DefilementCouleurs/1.0.0": {
+      "type": "project",
+      "path": "../../../106_DefilementCouleurs/DefilementCouleurs3_MVC/DefilementCouleurs/DefilementCouleurs.csproj",
+      "msbuildProject": "../../../106_DefilementCouleurs/DefilementCouleurs3_MVC/DefilementCouleurs/DefilementCouleurs.csproj"
+    },
+    "ListBox2/1.0.0": {
+      "type": "project",
+      "path": "../../../104_ListBox/ListBox2/ListBox2/ListBox2.csproj",
+      "msbuildProject": "../../../104_ListBox/ListBox2/ListBox2/ListBox2.csproj"
+    },
+    "ListBoxComboBox/1.0.0": {
+      "type": "project",
+      "path": "../../../105_ListBoxComboBox/ListBoxComboBox4/ListBoxComboBox/ListBoxComboBox.csproj",
+      "msbuildProject": "../../../105_ListBoxComboBox/ListBoxComboBox4/ListBoxComboBox/ListBoxComboBox.csproj"
+    },
+    "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "path": "../../../102_ValidationSaisie/ValidationSaisie2/ValidationSaisie2/ValidationSaisie2.csproj",
+      "msbuildProject": "../../../102_ValidationSaisie/ValidationSaisie2/ValidationSaisie2/ValidationSaisie2.csproj"
+    },
+    "WinFormsAdditionneur/1.0.0": {
+      "type": "project",
+      "path": "../../../101_Additionneur/WinFormsAdditionneur/WinFormsAdditionneur/WinFormsAdditionneur.csproj",
+      "msbuildProject": "../../../101_Additionneur/WinFormsAdditionneur/WinFormsAdditionneur/WinFormsAdditionneur.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "CheckBoxBoutonsRadio >= 1.0.0",
+      "DefilementCouleurs >= 1.0.0",
+      "ListBox2 >= 1.0.0",
+      "ListBoxComboBox >= 1.0.0",
+      "ValidationSaisie2 >= 1.0.0",
+      "WinFormsAdditionneur >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
@@ -38,7 +225,26 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie2\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie2\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ListBox2\\ListBox2.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ListBox2\\ListBox2.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

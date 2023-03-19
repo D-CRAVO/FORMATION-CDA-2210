@@ -1,0 +1,141 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Menu/1.0.0": {
+        "dependencies": {
+          "CheckBoxBoutonsRadio": "1.0.0",
+          "DefilementCouleurs": "1.0.0",
+          "ListBox2": "1.0.0",
+          "ListBoxComboBox": "1.0.0",
+          "ValidationSaisie2": "1.0.0",
+          "WinFormsAdditionneur": "1.0.0"
+        },
+        "runtime": {
+          "Menu.dll": {}
+        }
+      },
+      "CheckBoxBoutonsRadio/1.0.0": {
+        "runtime": {
+          "CheckBoxBoutonsRadio.dll": {}
+        }
+      },
+      "ClassLibraryAdditionneur/1.0.0": {
+        "runtime": {
+          "ClassLibraryAdditionneur.dll": {}
+        }
+      },
+      "ClassLibraryControles/1.0.0": {
+        "runtime": {
+          "ClassLibraryControles.dll": {}
+        }
+      },
+      "ClassLibraryTransaction/1.0.0": {
+        "runtime": {
+          "ClassLibraryTransaction.dll": {}
+        }
+      },
+      "ClassLibraryValidationSaisie2/1.0.0": {
+        "runtime": {
+          "ClassLibraryValidationSaisie2.dll": {}
+        }
+      },
+      "DefilementCouleurs/1.0.0": {
+        "runtime": {
+          "DefilementCouleurs.dll": {}
+        }
+      },
+      "ListBox2/1.0.0": {
+        "dependencies": {
+          "ClassLibraryControles": "1.0.0"
+        },
+        "runtime": {
+          "ListBox2.dll": {}
+        }
+      },
+      "ListBoxComboBox/1.0.0": {
+        "runtime": {
+          "ListBoxComboBox.dll": {}
+        }
+      },
+      "ValidationSaisie2/1.0.0": {
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0",
+          "ClassLibraryValidationSaisie2": "1.0.0"
+        },
+        "runtime": {
+          "ValidationSaisie2.dll": {}
+        }
+      },
+      "WinFormsAdditionneur/1.0.0": {
+        "dependencies": {
+          "ClassLibraryAdditionneur": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsAdditionneur.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Menu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheckBoxBoutonsRadio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryAdditionneur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryTransaction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryValidationSaisie2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DefilementCouleurs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListBox2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListBoxComboBox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsAdditionneur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

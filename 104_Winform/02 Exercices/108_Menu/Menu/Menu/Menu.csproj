@@ -8,4 +8,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\101_Additionneur\WinFormsAdditionneur\WinFormsAdditionneur\WinFormsAdditionneur.csproj" />
+    <ProjectReference Include="..\..\..\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\ValidationSaisie2.csproj" />
+    <ProjectReference Include="..\..\..\103_CheckBoxBoutonsRadios\CheckBoxBoutonsRadio\CheckBoxBoutonsRadio\CheckBoxBoutonsRadio.csproj" />
+    <ProjectReference Include="..\..\..\104_ListBox\ListBox2\ListBox2\ListBox2.csproj" />
+    <ProjectReference Include="..\..\..\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\ListBoxComboBox.csproj" />
+    <ProjectReference Include="..\..\..\106_DefilementCouleurs\DefilementCouleurs3_MVC\DefilementCouleurs\DefilementCouleurs.csproj" />
+  </ItemGroup>
+
 </Project>
