@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Menu2/1.0.0": {
+        "dependencies": {
+          "ValidationSaisie2": "1.0.0",
+          "WinFormsAdditionneur": "1.0.0"
+        },
+        "runtime": {
+          "Menu2.dll": {}
+        }
+      },
+      "ClassLibraryAdditionneur/1.0.0": {
+        "runtime": {
+          "ClassLibraryAdditionneur.dll": {}
+        }
+      },
+      "ClassLibraryTransaction/1.0.0": {
+        "runtime": {
+          "ClassLibraryTransaction.dll": {}
+        }
+      },
+      "ClassLibraryValidationSaisie2/1.0.0": {
+        "runtime": {
+          "ClassLibraryValidationSaisie2.dll": {}
+        }
+      },
+      "ValidationSaisie2/1.0.0": {
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0",
+          "ClassLibraryValidationSaisie2": "1.0.0"
+        },
+        "runtime": {
+          "ValidationSaisie2.dll": {}
+        }
+      },
+      "WinFormsAdditionneur/1.0.0": {
+        "dependencies": {
+          "ClassLibraryAdditionneur": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsAdditionneur.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Menu2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryAdditionneur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryTransaction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryValidationSaisie2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsAdditionneur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

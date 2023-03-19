@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ClassLibraryAdditionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryAdditionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryAdditionneur.dll": {}
+        }
+      },
+      "ClassLibraryTransaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryTransaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryTransaction.dll": {}
+        }
+      },
+      "ClassLibraryValidationSaisie2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
+        }
+      },
+      "ValidationSaisie2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0",
+          "ClassLibraryValidationSaisie2": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ValidationSaisie2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationSaisie2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WinFormsAdditionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryAdditionneur": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinFormsAdditionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinFormsAdditionneur.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibraryAdditionneur/1.0.0": {
+      "type": "project",
+      "path": "../../../../02 Exercices/101_Additionneur/WinFormsAdditionneur/ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj",
+      "msbuildProject": "../../../../02 Exercices/101_Additionneur/WinFormsAdditionneur/ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj"
+    },
+    "ClassLibraryTransaction/1.0.0": {
+      "type": "project",
+      "path": "../../../../02 Exercices/102_ValidationSaisie/ValidationSaisie2/ClassLibraryTransaction/ClassLibraryTransaction.csproj",
+      "msbuildProject": "../../../../02 Exercices/102_ValidationSaisie/ValidationSaisie2/ClassLibraryTransaction/ClassLibraryTransaction.csproj"
+    },
+    "ClassLibraryValidationSaisie2/1.0.0": {
+      "type": "project",
+      "path": "../../../../02 Exercices/102_ValidationSaisie/ValidationSaisie2/ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj",
+      "msbuildProject": "../../../../02 Exercices/102_ValidationSaisie/ValidationSaisie2/ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj"
+    },
+    "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "path": "../../../../02 Exercices/102_ValidationSaisie/ValidationSaisie2/ValidationSaisie2/ValidationSaisie2.csproj",
+      "msbuildProject": "../../../../02 Exercices/102_ValidationSaisie/ValidationSaisie2/ValidationSaisie2/ValidationSaisie2.csproj"
+    },
+    "WinFormsAdditionneur/1.0.0": {
+      "type": "project",
+      "path": "../../../../02 Exercices/101_Additionneur/WinFormsAdditionneur/WinFormsAdditionneur/WinFormsAdditionneur.csproj",
+      "msbuildProject": "../../../../02 Exercices/101_Additionneur/WinFormsAdditionneur/WinFormsAdditionneur/WinFormsAdditionneur.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ValidationSaisie2 >= 1.0.0",
+      "WinFormsAdditionneur >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\01 Exercices Introduction Microsoft\\MenuMDI\\Menu2\\Menu2\\Menu2.csproj",
+      "projectName": "Menu2",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\01 Exercices Introduction Microsoft\\MenuMDI\\Menu2\\Menu2\\Menu2.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\01 Exercices Introduction Microsoft\\MenuMDI\\Menu2\\Menu2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie2\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie2\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
