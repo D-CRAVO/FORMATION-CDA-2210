@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "mYMVLbTkhRGCOz2nbBqept4R7Y+FxgrIN8xiA3L5t+pyFn/kJkEgi9r3PEfs0pv//YGdZh8ORHkILS+UDPLCvQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ListBox2\\ListBox2.csproj",
+  "dgSpecHash": "1LqE6RxIFep9HLuL69McaX/aLc7NxN6ue+wl4rlhVwC3g+2dkfP8sOK1jPO6jkRelD0auM2iKfSokHp0EA/0PA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ListBox2\\ListBox2.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ClassLibraryControles\\ClassLibraryControles.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ClassLibraryControles\\ClassLibraryControles.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

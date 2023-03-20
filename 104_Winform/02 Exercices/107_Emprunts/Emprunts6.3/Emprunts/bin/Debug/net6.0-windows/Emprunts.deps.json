@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Emprunts/1.0.0": {
+        "dependencies": {
+          "ClassLibraryCalculs": "1.0.0",
+          "ClassLibraryControles": "1.0.0",
+          "ClassLibraryValidation": "1.0.0"
+        },
+        "runtime": {
+          "Emprunts.dll": {}
+        }
+      },
+      "ClassLibraryCalculs/1.0.0": {
+        "runtime": {
+          "ClassLibraryCalculs.dll": {}
+        }
+      },
+      "ClassLibraryControles/1.0.0": {
+        "runtime": {
+          "ClassLibraryControles.dll": {}
+        }
+      },
+      "ClassLibraryValidation/1.0.0": {
+        "runtime": {
+          "ClassLibraryValidation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emprunts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryCalculs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryValidation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

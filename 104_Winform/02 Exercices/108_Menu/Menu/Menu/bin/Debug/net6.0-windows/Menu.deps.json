@@ -9,6 +9,10 @@
       "Menu/1.0.0": {
         "dependencies": {
           "CheckBoxBoutonsRadio": "1.0.0",
+          "ClassLibraryAdditionneur": "1.0.0",
+          "ClassLibraryControles": "1.0.0",
+          "ClassLibraryTransaction": "1.0.0",
+          "ClassLibraryValidationSaisie2": "1.0.0",
           "DefilementCouleurs": "1.0.0",
           "ListBox2": "1.0.0",
           "ListBoxComboBox": "1.0.0",
@@ -40,6 +44,9 @@
         }
       },
       "ClassLibraryValidationSaisie2/1.0.0": {
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0"
+        },
         "runtime": {
           "ClassLibraryValidationSaisie2.dll": {}
         }

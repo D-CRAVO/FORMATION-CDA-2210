@@ -48,6 +48,9 @@
       "ClassLibraryValidationSaisie2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
         },
@@ -140,23 +143,23 @@
     },
     "ClassLibraryAdditionneur/1.0.0": {
       "type": "project",
-      "path": "../../../101_Additionneur/WinFormsAdditionneur/ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj",
-      "msbuildProject": "../../../101_Additionneur/WinFormsAdditionneur/ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj"
+      "path": "../ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj",
+      "msbuildProject": "../ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj"
     },
     "ClassLibraryControles/1.0.0": {
       "type": "project",
-      "path": "../../../104_ListBox/ListBox2/ClassLibraryControles/ClassLibraryControles.csproj",
-      "msbuildProject": "../../../104_ListBox/ListBox2/ClassLibraryControles/ClassLibraryControles.csproj"
+      "path": "../ClassLibraryControles/ClassLibraryControles.csproj",
+      "msbuildProject": "../ClassLibraryControles/ClassLibraryControles.csproj"
     },
     "ClassLibraryTransaction/1.0.0": {
       "type": "project",
-      "path": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryTransaction/ClassLibraryTransaction.csproj",
-      "msbuildProject": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryTransaction/ClassLibraryTransaction.csproj"
+      "path": "../ClassLibraryTransaction/ClassLibraryTransaction.csproj",
+      "msbuildProject": "../ClassLibraryTransaction/ClassLibraryTransaction.csproj"
     },
     "ClassLibraryValidationSaisie2/1.0.0": {
       "type": "project",
-      "path": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj",
-      "msbuildProject": "../../../102_ValidationSaisie/ValidationSaisie2/ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj"
+      "path": "../ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj",
+      "msbuildProject": "../ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj"
     },
     "DefilementCouleurs/1.0.0": {
       "type": "project",
@@ -165,8 +168,8 @@
     },
     "ListBox2/1.0.0": {
       "type": "project",
-      "path": "../../../104_ListBox/ListBox2/ListBox2/ListBox2.csproj",
-      "msbuildProject": "../../../104_ListBox/ListBox2/ListBox2/ListBox2.csproj"
+      "path": "../ListBox2/ListBox2.csproj",
+      "msbuildProject": "../ListBox2/ListBox2.csproj"
     },
     "ListBoxComboBox/1.0.0": {
       "type": "project",
@@ -175,18 +178,22 @@
     },
     "ValidationSaisie2/1.0.0": {
       "type": "project",
-      "path": "../../../102_ValidationSaisie/ValidationSaisie2/ValidationSaisie2/ValidationSaisie2.csproj",
-      "msbuildProject": "../../../102_ValidationSaisie/ValidationSaisie2/ValidationSaisie2/ValidationSaisie2.csproj"
+      "path": "../ValidationSaisie2/ValidationSaisie2.csproj",
+      "msbuildProject": "../ValidationSaisie2/ValidationSaisie2.csproj"
     },
     "WinFormsAdditionneur/1.0.0": {
       "type": "project",
-      "path": "../../../101_Additionneur/WinFormsAdditionneur/WinFormsAdditionneur/WinFormsAdditionneur.csproj",
-      "msbuildProject": "../../../101_Additionneur/WinFormsAdditionneur/WinFormsAdditionneur/WinFormsAdditionneur.csproj"
+      "path": "../WinFormsAdditionneur/WinFormsAdditionneur.csproj",
+      "msbuildProject": "../WinFormsAdditionneur/WinFormsAdditionneur.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CheckBoxBoutonsRadio >= 1.0.0",
+      "ClassLibraryAdditionneur >= 1.0.0",
+      "ClassLibraryControles >= 1.0.0",
+      "ClassLibraryTransaction >= 1.0.0",
+      "ClassLibraryValidationSaisie2 >= 1.0.0",
       "DefilementCouleurs >= 1.0.0",
       "ListBox2 >= 1.0.0",
       "ListBoxComboBox >= 1.0.0",
@@ -195,23 +202,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dcravo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
       "projectName": "Menu",
-      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
-      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\obj\\",
+      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+      "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -226,23 +235,35 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie2\\ValidationSaisie2\\ValidationSaisie2.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie2\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ListBox2\\ListBox2.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\104_ListBox\\ListBox2\\ListBox2\\ListBox2.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
             }
           }
         }
@@ -275,7 +296,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
