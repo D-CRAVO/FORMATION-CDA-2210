@@ -16,16 +16,13 @@ namespace WinFormsEmprunts
     {
         private Emprunts empruntTest;
         private Emprunts empruntEtude;
-        private int nombreRemboursements;
-        private double montantRemboursements;
 
         public FormEmprunts()
         {
             InitializeComponent();
             empruntTest = new Emprunts("John Doe", 150000, 120, "Trimestrielle", 0.08);
             empruntEtude = new Emprunts(empruntTest);
-            initialisationDepart(empruntTest);
-
+            ihm(empruntTest);
         }
 
         #region Taux d'intérêt
@@ -33,13 +30,13 @@ namespace WinFormsEmprunts
         /// <summary>
         /// Activation des checkBox des taux en fonction du constructeur;
         /// </summary>
-        private void checkTauxInteret(double _tauxAnnuel)
+        private void checkTauxInteret(Emprunts _emprunt)
         {
-            if (_tauxAnnuel == 0.07)
+            if (_emprunt.TauxAnnuel == 0.07)
             {
                 radioButton7.Checked = true;
             }
-            else if (_tauxAnnuel == 0.08)
+            else if (_emprunt.TauxAnnuel == 0.08)
             {
                 radioButton8.Checked = true;
             }
@@ -74,60 +71,64 @@ namespace WinFormsEmprunts
         /// <summary>
         /// Détermine la périodicité de remboursement
         /// </summary>
-        private string determinationHScrollBarDureeSmallChange(string _periodicite)
+        private void determinationHScrollBarDureeSmallChange(Emprunts _emprunt)
         {
-            if (_periodicite == "Mensuelle")
+            if (_emprunt.Periodicite == "Mensuelle")
             {
                 hScrollBarDuree.SmallChange = 1;
-                return "Mensuelle";
+                //listBoxPeriodicite.SelectedItem = _emprunt.Mensuelle;
             }
-            else if (_periodicite == "Bimestrielle")
+            else if (_emprunt.Periodicite == "Bimestrielle")
             {
                 hScrollBarDuree.SmallChange = 2;
-                return "Bimestrielle";
+                //listBoxPeriodicite.SelectedItem = _emprunt.Bimestrielle;
             }
-            else if (_periodicite == "Trimestrielle")
+            else if (_emprunt.Periodicite == "Trimestrielle")
             {
                 hScrollBarDuree.SmallChange = 3;
-                return "Trimestrielle";
+                //listBoxPeriodicite.SelectedItem = _emprunt.Trimestrielle;
             }
-            else if (_periodicite == "Semestrielle")
+            else if (_emprunt.Periodicite == "Semestrielle")
             {
                 hScrollBarDuree.SmallChange = 6;
-                return "Semestrielle";
+                //listBoxPeriodicite.SelectedItem = _emprunt.Semestrielle;
             }
             else
             {
                 hScrollBarDuree.SmallChange = 12;
-                return "Annuelle";
+                //listBoxPeriodicite.SelectedItem = _emprunt.Annuelle;
             }
         }
-
 
         /// <summary>
         /// Met la sélection sur la périodicité récupérée du constructeur
         /// </summary>
         /// <param name="_periodicite">Périodicité du constructeur</param>
-        private void selectListBoxPeriodicite(string _periodicite)
+        private void selectListBoxPeriodicite(Emprunts _emprunt)
         {
-            if (_periodicite == "Mensuelle")
+            if (_emprunt.Periodicite == "Mensuelle")
             {
+                //return _emprunt.Mensuelle;
                 listBoxPeriodicite.SelectedItem = "Mensuelle";
             }
-            else if (_periodicite == "Bimestrielle")
+            else if (_emprunt.Periodicite == "Bimestrielle")
             {
+                //return _emprunt.Bimestrielle;
                 listBoxPeriodicite.SelectedItem = "Bimestrielle";
             }
-            else if (_periodicite == "Trimestrielle")
+            else if (_emprunt.Periodicite == "Trimestrielle")
             {
+                //return _emprunt.Trimestrielle;
                 listBoxPeriodicite.SelectedItem = "Trimestrielle";
             }
-            else if (_periodicite == "Semestrielle")
+            else if (_emprunt.Periodicite == "Semestrielle")
             {
+                //return _emprunt.Semestrielle;
                 listBoxPeriodicite.SelectedItem = "Semestrielle";
             }
             else
             {
+                //return _emprunt.Annuelle;
                 listBoxPeriodicite.SelectedItem = "Annuelle";
             }
         }
@@ -144,40 +145,17 @@ namespace WinFormsEmprunts
         /// <param name="_tauxAnnuel">Taux annuel fourni par le constructeur</param>
         /// <param name="_nbMois">Durée en mois du remboursement fourni par le constructeur</param>
         /// <param name="_periodicite">Périodicité de remboursement fourni par le constructeur</param>
-        private void initialisationDepart(Emprunts _emprunt)
-        {
-            textBoxNom.Text = _emprunt.NomClient;
-            textBoxCapitalEmprunte.Text = _emprunt.CapitalEmprunte.ToString();
-            hScrollBarDuree.Value = _emprunt.NbMois;
-            selectListBoxPeriodicite(_emprunt.PeriodiciteRemboursement);
-            checkTauxInteret(_emprunt.TauxAnnuel);
-            textBoxDuree.Text = _emprunt.NbMois.ToString();
-            ihm(empruntTest);
-        }
-        #endregion
-
-        #region sauvegarde Valeurs pour l'étude
-
-        /// <summary>
-        /// Effectue une copie des valeurs de départ fournies par le constructeur
-        /// pour permettre une réinitialisation du formulaire 
-        /// quand on click sur la touche "annuler" du formulaire.
-        /// </summary>
-        /// <param name="_nom">Nom du client</param>
-        /// <param name="_capitalEmprunte">Capital emprunté de départ</param>
-        /// <param name="_tauxAnnuel">Taux annuel de départ</param>
-        /// <param name="_nbMois">Durée en mois du remboursement de départ</param>
-        /// <param name="_periodicite">Périodicité de remboursement de départ</param>
-        //private void sauvegardeValeursEtude(string _nom, uint _capitalEmprunte, double _tauxAnnuel, int _nbMois, string _periodicite)
+        //private void initialisationDepart(Emprunts _emprunt)
         //{
-        //    nomEtude = _nom;
-        //    capitalEmprunteEtude = _capitalEmprunte;
-        //    tauxAnnuelEtude = _tauxAnnuel;
-        //    nbMoisEtude = _nbMois;
-        //    periodiciteEtude = _periodicite;
+        //    textBoxNom.Text = _emprunt.NomClient;
+        //    textBoxCapitalEmprunte.Text = _emprunt.CapitalEmprunte.ToString();
+        //    hScrollBarDuree.Value = _emprunt.NbMois;
+        //    selectListBoxPeriodicite(_emprunt.Periodicite);
+        //    checkTauxInteret(_emprunt.TauxAnnuel);
+        //    textBoxDuree.Text = _emprunt.NbMois.ToString();
+        //    ihm(empruntTest);
         //}
         #endregion
-
 
         /// <summary>
         /// Effectue l'actualisation des valeurs des différents champs
@@ -190,12 +168,17 @@ namespace WinFormsEmprunts
         /// <param name="_periodicite">Périodicité de remboursement fourni par le formulaire</param>
         private void ihm(Emprunts _emprunt)
         {
-
-            determinationHScrollBarDureeSmallChange(_emprunt.PeriodiciteRemboursement);
-            nombreRemboursements = Emprunts.calculNbRemboursements(_emprunt);
-            textBoxNbRemboursements.Text = nombreRemboursements.ToString();
-            montantRemboursements = Math.Round(Emprunts.calculRemboursements(_emprunt), 2);
-            textBoxRemboursements.Text = montantRemboursements.ToString();
+            checkTauxInteret(_emprunt);
+            determinationHScrollBarDureeSmallChange(_emprunt);
+            selectListBoxPeriodicite(_emprunt);
+            
+            textBoxNom.Text = _emprunt.NomClient;
+            textBoxCapitalEmprunte.Text = _emprunt.CapitalEmprunte.ToString();
+            textBoxDuree.Text = _emprunt.NbMois.ToString();
+            hScrollBarDuree.Value = _emprunt.NbMois;
+            listBoxPeriodicite.SelectedItem = _emprunt.Periodicite.ToString();
+            textBoxNbRemboursements.Text = _emprunt.calculNbRemboursements().ToString();
+            textBoxRemboursements.Text = Math.Round(_emprunt.calculRemboursements(), 2).ToString();
         }
 
         /// <summary>
@@ -210,6 +193,7 @@ namespace WinFormsEmprunts
             if (Controles.controleNom(textBoxNom.Text))
             {
                 errorProviderNom.SetError(textBoxNom, string.Empty);
+                ihm(empruntEtude);
             }
             else
             {
@@ -230,8 +214,8 @@ namespace WinFormsEmprunts
             if (Controles.controleCapitalEmprunte(textBoxCapitalEmprunte.Text))
             {
                 empruntEtude.CapitalEmprunte = uint.Parse(textBoxCapitalEmprunte.Text);
-                ihm(empruntEtude);
                 errorProviderCapitalEmprunte.SetError(textBoxCapitalEmprunte, string.Empty);
+                ihm(empruntEtude);
             }
             else
             {
@@ -261,7 +245,7 @@ namespace WinFormsEmprunts
         /// <param name="e"></param>
         private void listBoxPeriodicite_SelectedIndexChanged(object sender, EventArgs e)
         {
-            empruntEtude.PeriodiciteRemboursement = listBoxPeriodicite.SelectedItem.ToString();
+            empruntEtude.Periodicite = listBoxPeriodicite.SelectedItem.ToString();
             ihm(empruntEtude);
         }
 
@@ -324,7 +308,7 @@ namespace WinFormsEmprunts
             //    monRecapitulatif.ShowDialog(); 
             //}
             //Validation maValidation = new Validation(nom, capitalEmprunteEtude, periodiciteEtude, tauxAnnuelEtude, nbRemboursements, montantRemboursements);
-            FormRecapitulatif monRecapitulatif = new FormRecapitulatif(empruntEtude, nombreRemboursements, montantRemboursements);
+            FormRecapitulatif monRecapitulatif = new FormRecapitulatif(empruntEtude);
             monRecapitulatif.ShowDialog();
         }
 
@@ -336,7 +320,7 @@ namespace WinFormsEmprunts
         /// <param name="e"></param>
         private void buttonAnnuler_Click(object sender, EventArgs e)
         {
-            initialisationDepart(empruntTest);
+            ihm(empruntTest);
         }
 
         /// <summary>

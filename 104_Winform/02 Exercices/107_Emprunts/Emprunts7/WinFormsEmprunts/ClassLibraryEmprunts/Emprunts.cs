@@ -9,20 +9,38 @@ namespace ClassLibraryEmprunts
 {
     public class Emprunts
     {
-        private string nomClient;
+        private string? nomClient;
         private uint capitalEmprunte;
         private int nbMois;
-        private string periodiciteRemboursement;
+        private string periodicite;
         private double tauxAnnuel;
-        private static int nombreRemboursements;
-        
 
-        public string NomClient { get { return nomClient; } set { nomClient = value; } }
+        public static readonly string mensuelle = "Mensuelle";
+        public static string bimestrielle = "Bimestrielle";
+        public static string trimestrielle = "Trimestrielle";
+        public static string semestrielle = "Semestrielle";
+        public static string annuelle = "Annuelle";
+
+        //public enum Periodicite
+        //{
+        //    mensuelle,
+        //    bimestrielle,
+        //    trimestrielle,
+        //    semestrielle,
+        //    annuelle
+        //}
+
+        public string? NomClient { get { return nomClient; } set { nomClient = value; } }
         public uint CapitalEmprunte { get { return capitalEmprunte; } set { capitalEmprunte = value; } }
         public int NbMois { get { return nbMois; } set { nbMois = value; } }
-        public string PeriodiciteRemboursement { get { return periodiciteRemboursement; } set { periodiciteRemboursement = value; } }
+        public string Periodicite { get { return periodicite; } set { periodicite = value; } }
         public double TauxAnnuel { get { return tauxAnnuel; } set { tauxAnnuel = value; } }
-        public int NombreRemboursements { get { return nombreRemboursements; } set { nombreRemboursements = value; } }
+
+        //public string Mensuelle { get { return mensuelle; } }
+        //public string Bimestrielle { get { return bimestrielle; } }
+        //public string Trimestrielle { get {  return trimestrielle; } }
+        //public string Semestrielle { get { return semestrielle; } }
+        //public string Annuelle { get { return annuelle; } }
 
         /// <summary>
         /// Constructeur classique
@@ -30,9 +48,9 @@ namespace ClassLibraryEmprunts
         /// <param name="_nomClient"></param>
         /// <param name="_capitalEmprunte"></param>
         /// <param name="_nbMois"></param>
-        /// <param name="_periodiciteRemboursement"></param>
+        /// <param name="_periodicite"></param>
         /// <param name="_tauxAnnuel"></param>
-        public Emprunts(string _nomClient, uint _capitalEmprunte, int _nbMois, string _periodiciteRemboursement, double _tauxAnnuel)
+        public Emprunts(string? _nomClient, uint _capitalEmprunte, int _nbMois, string _periodicite, double _tauxAnnuel)
         {
             if (Controles.controleNom(_nomClient))
             {
@@ -43,7 +61,7 @@ namespace ClassLibraryEmprunts
                 capitalEmprunte = _capitalEmprunte;
             }
             nbMois = _nbMois;
-            periodiciteRemboursement = _periodiciteRemboursement;
+            periodicite = _periodicite;
             tauxAnnuel = _tauxAnnuel;
         }
 
@@ -61,7 +79,7 @@ namespace ClassLibraryEmprunts
                 _nouvelEmprunt.nomClient,
                 _nouvelEmprunt.capitalEmprunte,
                 _nouvelEmprunt.nbMois,
-                _nouvelEmprunt.periodiciteRemboursement,
+                _nouvelEmprunt.periodicite,
                 _nouvelEmprunt.tauxAnnuel
             )
         { 
@@ -70,23 +88,22 @@ namespace ClassLibraryEmprunts
         /// <summary>
         /// Calcule le nombre de remboursements en fonction de la périodicité de remboursement
         /// </summary>
-        /// <param name="_emprunt"></param>
-        /// <returns>Le nombre de remboursements</returns>
+        /// <returns>Nombre de remboursements</returns>
         public int calculNbRemboursements()
         {
-            if (periodiciteRemboursement == "Mensuelle")
+            if (periodicite == mensuelle)
             {
                 return nbMois;
             }
-            else if (periodiciteRemboursement == "Bimestrielle")
+            else if (periodicite == bimestrielle)
             {
                 return nbMois / 2;
             }
-            else if (periodiciteRemboursement == "Trimestrielle")
+            else if (periodicite == trimestrielle)
             {
                 return nbMois / 3;
             }
-            else if (periodiciteRemboursement == "Semestrielle")
+            else if (periodicite == semestrielle)
             {
                 return nbMois / 6;
             }
@@ -97,37 +114,24 @@ namespace ClassLibraryEmprunts
         }
 
         /// <summary>
-        /// Calcule le montant des remboursements
-        /// </summary>
-        /// <param name="_emprunt"></param>
-        /// <returns>Le montant des remboursements</returns>
-        public double calculRemboursements()
-        {
-            nombreRemboursements = calculNbRemboursements();
-            double tauxCalcul = calculTauxRemboursements();
-            return capitalEmprunte * (tauxCalcul / (1 - Math.Pow((1 + tauxCalcul), -nombreRemboursements)));
-        }
-
-        /// <summary>
         /// Calcul le taux d'intérêt en fonction de la périodicité de remboursement
         /// </summary>
-        /// <param name="_emprunt"></param>
-        /// <returns>Le taux calculé</returns>
+        /// <returns>Le taux pour le calcul du montant des remboursements</returns>
         private double calculTauxRemboursements()
         {
-            if (periodiciteRemboursement == "Mensuelle")
+            if (periodicite == mensuelle)
             {
                 return (tauxAnnuel / 12);
             }
-            else if (periodiciteRemboursement == "Bimestrielle")
+            else if (periodicite == bimestrielle)
             {
                 return (tauxAnnuel / 6);
             }
-            else if (periodiciteRemboursement == "Trimestrielle")
+            else if (periodicite == trimestrielle)
             {
                 return (tauxAnnuel / 4);
             }
-            else if (periodiciteRemboursement == "Semestrielle")
+            else if (periodicite == semestrielle)
             {
                 return (tauxAnnuel / 2);
             }
@@ -135,6 +139,15 @@ namespace ClassLibraryEmprunts
             {
                 return tauxAnnuel;
             }
+        }
+
+        /// <summary>
+        /// Calcule le montant des remboursements
+        /// </summary>
+        /// <returns>Le montant des remboursements</returns>
+        public double calculRemboursements()
+        {
+            return capitalEmprunte * (calculTauxRemboursements() / (1 - Math.Pow((1 + calculTauxRemboursements()), -calculNbRemboursements())));
         }
     }
 }

@@ -25,15 +25,15 @@ namespace WinFormsEmprunts
         /// Constructeur classique
         /// </summary>
         /// <param name="validation"></param>
-        public FormRecapitulatif(Emprunts _emprunt, int _nombreRemboursements, double _montantRemboursements)
+        public FormRecapitulatif(Emprunts _emprunt)
         {
             InitializeComponent();
             textBoxNom.Text = _emprunt.NomClient.ToString();
             textBoxCapitalEmprunte.Text = _emprunt.CapitalEmprunte.ToString();
             textBoxTauxAnnuel.Text = _emprunt.TauxAnnuel.ToString();
-            textBoxPeriodiciteRemboursement.Text = _emprunt.PeriodiciteRemboursement.ToString();
-            textBoxNombreRemboursements.Text = _nombreRemboursements.ToString();
-            textBoxMontantRemboursements.Text = _montantRemboursements.ToString();
+            textBoxPeriodiciteRemboursement.Text = _emprunt.Periodicite.ToString();
+            textBoxNombreRemboursements.Text = _emprunt.calculNbRemboursements().ToString();
+            textBoxMontantRemboursements.Text = Math.Round(_emprunt.calculRemboursements(), 2).ToString();
         }
 
         /// <summary>
@@ -59,16 +59,6 @@ namespace WinFormsEmprunts
         private void buttonAnnuler_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void buttonValidation_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonAnnuler_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

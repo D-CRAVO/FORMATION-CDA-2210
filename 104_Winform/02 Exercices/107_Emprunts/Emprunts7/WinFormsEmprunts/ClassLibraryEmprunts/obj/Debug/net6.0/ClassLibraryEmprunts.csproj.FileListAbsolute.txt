@@ -13,3 +13,18 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\refint\ClassLibraryEmprunts.dll
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ref\ClassLibraryEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\bin\Debug\net6.0\ClassLibraryEmprunts.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\bin\Debug\net6.0\ClassLibraryEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\bin\Debug\net6.0\ClassLibraryEmprunts.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\bin\Debug\net6.0\ClassLibraryEmpruntsControles.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\bin\Debug\net6.0\ClassLibraryEmpruntsControles.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\refint\ClassLibraryEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ClassLibraryEmprunts.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\107_Emprunts\Emprunts7\WinFormsEmprunts\ClassLibraryEmprunts\obj\Debug\net6.0\ref\ClassLibraryEmprunts.dll
