@@ -21,14 +21,14 @@ namespace ClassLibraryEmprunts
         public static readonly string semestrielle = "Semestrielle";
         public static readonly string annuelle = "Annuelle";
 
-        public enum enumPeriodicite
-        {
-            mensuelle = 1,
-            bimestrielle = 2,
-            trimestrielle = 3,
-            semestrielle = 6,
-            annuelle = 12
-        }
+        //public enum enumPeriodicite
+        //{
+        //    mensuelle = 1,
+        //    bimestrielle = 2,
+        //    trimestrielle = 3,
+        //    semestrielle = 6,
+        //    annuelle = 12
+        //}
 
         public string? NomClient { get { return nomClient; } set { nomClient = value; } }
         public uint CapitalEmprunte { get { return capitalEmprunte; } set { capitalEmprunte = value; } }
