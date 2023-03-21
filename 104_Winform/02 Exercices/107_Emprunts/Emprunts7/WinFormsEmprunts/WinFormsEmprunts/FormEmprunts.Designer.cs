@@ -270,6 +270,7 @@
             Controls.Add(labelNom);
             Name = "FormEmprunts";
             Text = "FormEmprunts";
+            FormClosing += FormEmprunts_FormClosing;
             groupBoxTaux.ResumeLayout(false);
             groupBoxTaux.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)errorProviderCapitalEmprunte).EndInit();
