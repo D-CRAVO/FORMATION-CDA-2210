@@ -16,18 +16,18 @@ namespace ClassLibraryEmprunts
         private double tauxAnnuel;
 
         public static readonly string mensuelle = "Mensuelle";
-        public static string bimestrielle = "Bimestrielle";
-        public static string trimestrielle = "Trimestrielle";
-        public static string semestrielle = "Semestrielle";
-        public static string annuelle = "Annuelle";
+        public static readonly string bimestrielle = "Bimestrielle";
+        public static readonly string trimestrielle = "Trimestrielle";
+        public static readonly string semestrielle = "Semestrielle";
+        public static readonly string annuelle = "Annuelle";
 
-        //public enum Periodicite
+        //public enum enumPeriodicite
         //{
-        //    mensuelle,
-        //    bimestrielle,
-        //    trimestrielle,
-        //    semestrielle,
-        //    annuelle
+        //    mensuelle = 1,
+        //    bimestrielle = 2,
+        //    trimestrielle = 3,
+        //    semestrielle = 6,
+        //    annuelle = 12
         //}
 
         public string? NomClient { get { return nomClient; } set { nomClient = value; } }

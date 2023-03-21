@@ -297,17 +297,6 @@ namespace WinFormsEmprunts
         /// <param name="e"></param>
         private void buttonOk_Click(object sender, EventArgs e)
         {
-            //if (textBoxCapitalEmprunte.Text == string.Empty)
-            //{
-            //    MessageBox.Show("Veuillez remplir le champs \"Capital Emprunté\"");
-            //}
-            //else
-            //{
-            //    Validation maValidation = new Validation(nom, capitalEmprunteEtude, periodiciteEtude, tauxAnnuelEtude, nbRemboursements, montantRemboursements);
-            //    Recapitulatif monRecapitulatif = new Recapitulatif(maValidation);
-            //    monRecapitulatif.ShowDialog(); 
-            //}
-            //Validation maValidation = new Validation(nom, capitalEmprunteEtude, periodiciteEtude, tauxAnnuelEtude, nbRemboursements, montantRemboursements);
             FormRecapitulatif monRecapitulatif = new FormRecapitulatif(empruntEtude);
             monRecapitulatif.ShowDialog();
         }
