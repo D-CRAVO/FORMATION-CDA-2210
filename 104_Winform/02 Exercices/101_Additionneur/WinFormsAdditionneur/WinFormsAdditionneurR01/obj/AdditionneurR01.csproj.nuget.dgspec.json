@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\WinFormsAdditionneurR01.csproj": {}
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\AdditionneurR01.csproj": {}
   },
   "projects": {
     "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAddition\\ClassLibraryAddition.csproj": {
@@ -63,12 +63,12 @@
         }
       }
     },
-    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\WinFormsAdditionneurR01.csproj": {
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\AdditionneurR01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\WinFormsAdditionneurR01.csproj",
-        "projectName": "WinFormsAdditionneurR01",
-        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\WinFormsAdditionneurR01.csproj",
+        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\AdditionneurR01.csproj",
+        "projectName": "AdditionneurR01",
+        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\AdditionneurR01.csproj",
         "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\WinFormsAdditionneurR01\\obj\\",
         "projectStyle": "PackageReference",
