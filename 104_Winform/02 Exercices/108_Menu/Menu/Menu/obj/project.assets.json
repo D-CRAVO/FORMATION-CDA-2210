@@ -117,6 +117,35 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "WFIdentification/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WFIdentification.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFIdentification.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WFSaisie/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CheckBoxBoutonsRadio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WFSaisie.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFSaisie.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "WinFormsAdditionneur/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -181,6 +210,16 @@
       "path": "../ValidationSaisie2/ValidationSaisie2.csproj",
       "msbuildProject": "../ValidationSaisie2/ValidationSaisie2.csproj"
     },
+    "WFIdentification/1.0.0": {
+      "type": "project",
+      "path": "../WFIdentification/WFIdentification.csproj",
+      "msbuildProject": "../WFIdentification/WFIdentification.csproj"
+    },
+    "WFSaisie/1.0.0": {
+      "type": "project",
+      "path": "../WFSaisie/WFSaisie.csproj",
+      "msbuildProject": "../WFSaisie/WFSaisie.csproj"
+    },
     "WinFormsAdditionneur/1.0.0": {
       "type": "project",
       "path": "../WinFormsAdditionneur/WinFormsAdditionneur.csproj",
@@ -198,6 +237,8 @@
       "ListBox2 >= 1.0.0",
       "ListBoxComboBox >= 1.0.0",
       "ValidationSaisie2 >= 1.0.0",
+      "WFIdentification >= 1.0.0",
+      "WFSaisie >= 1.0.0",
       "WinFormsAdditionneur >= 1.0.0"
     ]
   },
@@ -261,6 +302,12 @@
             },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj"
             },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"

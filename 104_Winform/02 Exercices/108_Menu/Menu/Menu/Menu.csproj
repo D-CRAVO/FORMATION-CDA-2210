@@ -18,6 +18,8 @@
     <ProjectReference Include="..\ClassLibraryValidationSaisie2\ClassLibraryValidationSaisie2.csproj" />
     <ProjectReference Include="..\ListBox2\ListBox2.csproj" />
     <ProjectReference Include="..\ValidationSaisie2\ValidationSaisie2.csproj" />
+    <ProjectReference Include="..\WFIdentification\WFIdentification.csproj" />
+    <ProjectReference Include="..\WFSaisie\WFSaisie.csproj" />
     <ProjectReference Include="..\WinFormsAdditionneur\WinFormsAdditionneur.csproj" />
   </ItemGroup>
 

@@ -13,23 +13,27 @@ using CheckBoxBoutonsRadio;
 using ListBox2;
 using ListBoxComboBox;
 using DefilementCouleurs;
+using WFSaisie;
 
 namespace Menu
 {
     public partial class FormMenu : Form
     {
+        private int compteur;
         public FormMenu()
         {
             InitializeComponent();
-
+            compteur = 1;
             toolStripStatusLabelDate.Text = DateTime.Now.ToString();
         }
 
         private void additionneurToolStripMenuItem_Click(object sender, EventArgs e)
         {
             toolStripStatusLabelIdentification.Text = additionneurToolStripMenuItem.Text;
+            compteur++;
 
             FormAdditionneur formAdditionneur = new FormAdditionneur();
+            formAdditionneur.Text += $" N°{compteur}";
             formAdditionneur.MdiParent = this;
             formAdditionneur.Show();
         }
@@ -47,9 +51,13 @@ namespace Menu
         {
             toolStripStatusLabelIdentification.Text = checkBoxRadioButtonToolStripMenuItem.Text;
 
-            FormCheckBoxRadioButton radioButton = new FormCheckBoxRadioButton();
-            radioButton.MdiParent = this;
-            radioButton.Show();
+            //FormCheckBoxRadioButton radioButton = new FormCheckBoxRadioButton();
+            //radioButton.MdiParent = this;
+            //radioButton.Show();
+
+            FormSaisie formSaisie = new FormSaisie();
+            formSaisie.MdiParent = this;
+            formSaisie.Show();
         }
 
         private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)

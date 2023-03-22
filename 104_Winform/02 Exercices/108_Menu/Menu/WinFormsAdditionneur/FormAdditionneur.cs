@@ -13,7 +13,7 @@ namespace WinFormsAdditionneur
 {
     public partial class FormAdditionneur : Form
     {
-
+        
         Addition monAddition;
 
         public FormAdditionneur()

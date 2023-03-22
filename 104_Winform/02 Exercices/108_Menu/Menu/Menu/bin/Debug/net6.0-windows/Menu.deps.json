@@ -17,6 +17,7 @@
           "ListBox2": "1.0.0",
           "ListBoxComboBox": "1.0.0",
           "ValidationSaisie2": "1.0.0",
+          "WFSaisie": "1.0.0",
           "WinFormsAdditionneur": "1.0.0"
         },
         "runtime": {
@@ -78,6 +79,14 @@
           "ValidationSaisie2.dll": {}
         }
       },
+      "WFSaisie/1.0.0": {
+        "dependencies": {
+          "CheckBoxBoutonsRadio": "1.0.0"
+        },
+        "runtime": {
+          "WFSaisie.dll": {}
+        }
+      },
       "WinFormsAdditionneur/1.0.0": {
         "dependencies": {
           "ClassLibraryAdditionneur": "1.0.0"
@@ -135,6 +144,11 @@
       "sha512": ""
     },
     "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFSaisie/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

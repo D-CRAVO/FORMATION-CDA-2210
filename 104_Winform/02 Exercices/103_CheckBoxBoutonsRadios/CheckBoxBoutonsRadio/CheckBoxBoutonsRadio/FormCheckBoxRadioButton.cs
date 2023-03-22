@@ -21,6 +21,17 @@ namespace CheckBoxBoutonsRadio
 
         }
 
+        public FormCheckBoxRadioButton(string _texte)
+        {
+            InitializeComponent();
+            InitializeComponent2(_texte);
+        }
+
+        public void InitializeComponent2(string _texte)
+        {
+            textBoxOrigine.Text = _texte;
+        }
+
         private void textBoxOrigine_TextChanged(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(textBoxOrigine.Text))
