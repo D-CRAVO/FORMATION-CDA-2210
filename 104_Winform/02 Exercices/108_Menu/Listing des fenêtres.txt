@@ -1,0 +1,3 @@
+Cliquer sur la barre des menus avec connection
+dans les propriétés aller sur MdiWindowListItem
+selectionner fenêtres

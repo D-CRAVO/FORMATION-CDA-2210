@@ -64,6 +64,7 @@
             // 
             menuStrip1.Items.AddRange(new ToolStripItem[] { connectionToolStripMenuItem, phase1, phase2, phase3, fenêtres });
             menuStrip1.Location = new Point(0, 0);
+            menuStrip1.MdiWindowListItem = fenêtres;
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 1;
@@ -214,9 +215,11 @@
             // toolStripStatusLabelIdentification
             // 
             toolStripStatusLabelIdentification.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            toolStripStatusLabelIdentification.LinkVisited = true;
             toolStripStatusLabelIdentification.Name = "toolStripStatusLabelIdentification";
             toolStripStatusLabelIdentification.Size = new Size(87, 17);
             toolStripStatusLabelIdentification.Text = "Dernière action";
+            toolStripStatusLabelIdentification.Click += toolStripStatusLabelIdentification_Click;
             // 
             // toolStrip1
             // 
@@ -226,9 +229,12 @@
             toolStrip1.Size = new Size(800, 25);
             toolStrip1.TabIndex = 4;
             toolStrip1.Text = "toolStrip1";
+            toolStrip1.ItemClicked += toolStrip1_ItemClicked;
             // 
             // toolStripLabelIdentification
             // 
+            toolStripLabelIdentification.AccessibleDescription = "Description";
+            toolStripLabelIdentification.AccessibleName = "Name";
             toolStripLabelIdentification.Name = "toolStripLabelIdentification";
             toolStripLabelIdentification.Size = new Size(63, 22);
             toolStripLabelIdentification.Text = "S'identifier";
@@ -263,6 +269,7 @@
             Name = "FormMenu";
             Text = "FormMenu";
             WindowState = FormWindowState.Maximized;
+            Load += FormMenu_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             statusStrip1.ResumeLayout(false);

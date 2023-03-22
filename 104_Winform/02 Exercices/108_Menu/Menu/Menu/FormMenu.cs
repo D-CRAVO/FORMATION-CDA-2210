@@ -27,6 +27,8 @@ namespace Menu
 
         private void additionneurToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            toolStripStatusLabelIdentification.Text = additionneurToolStripMenuItem.Text;
+
             FormAdditionneur formAdditionneur = new FormAdditionneur();
             formAdditionneur.MdiParent = this;
             formAdditionneur.Show();
@@ -34,6 +36,8 @@ namespace Menu
 
         private void validationSaisieToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            toolStripStatusLabelIdentification.Text = validationSaisieToolStripMenuItem.Text;
+
             //FormulaireSaisie formulaireSaisie = new FormulaireSaisie();
             //formulaireSaisie.MdiParent = this;
             //formulaireSaisie.Show();
@@ -41,6 +45,8 @@ namespace Menu
 
         private void checkBoxRadioButtonToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            toolStripStatusLabelIdentification.Text = checkBoxRadioButtonToolStripMenuItem.Text;
+
             FormCheckBoxRadioButton radioButton = new FormCheckBoxRadioButton();
             radioButton.MdiParent = this;
             radioButton.Show();
@@ -48,6 +54,8 @@ namespace Menu
 
         private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            toolStripStatusLabelIdentification.Text = toolStripStatusLabelIdentification.Text;
+
             ListBox2.ListBox listBox = new ListBox2.ListBox();
             listBox.MdiParent = this;
             listBox.Show();
@@ -79,6 +87,10 @@ namespace Menu
 
         private void sidentifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //toolStripStatusLabelIdentification.Text = FormMenu.GetForegroundWindow();
+            //toolStripStatusLabelIdentification.Text = this.MainMenuStrip.Text;
+            toolStripStatusLabelIdentification.Text = this.MainMenuStrip.AccessibleDefaultActionDescription;
+
             MessageBox.Show("Bienvenue !");
             phase1.Enabled = true;
             phase2.Enabled = true;
@@ -104,6 +116,22 @@ namespace Menu
         private void toolStripLabel1_Click(object sender, EventArgs e)
         {
             sidentifierToolStripMenuItem_Click(sender, e);
+        }
+
+        private void toolStripStatusLabelIdentification_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+            //toolStripStatusLabelIdentification.Text = FormMenu.ActiveForm.Name;
+            //toolStripStatusLabelIdentification.Text = ActiveForm.Name;
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
