@@ -15,11 +15,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneurR01\\ClassLibraryAddition\\ClassLibraryAddition.csproj",
-      "projectName": "ClassLibraryAddition",
-      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneurR01\\ClassLibraryAddition\\ClassLibraryAddition.csproj",
+<<<<<<<< HEAD:104_Winform/02 Exercices/101_Additionneur/WinFormsAdditionneur1/ClassLibraryAdditionneur/obj/project.assets.json
+      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj",
+      "projectName": "ClassLibraryAdditionneur",
+      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj",
       "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneurR01\\ClassLibraryAddition\\obj\\",
+      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAdditionneur\\obj\\",
+========
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAddition\\ClassLibraryAddition.csproj",
+      "projectName": "ClassLibraryAddition",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAddition\\ClassLibraryAddition.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\101_Additionneur\\WinFormsAdditionneur\\ClassLibraryAddition\\obj\\",
+>>>>>>>> 930065f2d5a0715a15e2f3863df18d6edd127150:104_Winform/02 Exercices/101_Additionneur/WinFormsAdditionneur/ClassLibraryAddition/obj/project.assets.json
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
