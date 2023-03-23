@@ -18,7 +18,7 @@ namespace ClassLibraryValidationSaisie2
 
         public static bool ValideDate(string _date)
         {
-            Regex myRegex = new Regex(@"^[0-9]{2}/[0-9]{2}/[0-9]{4}");
+            Regex myRegex = new Regex(@"^[0-9]{2}/[0-9]{2}/[0-9]{4}$");
             if (DateTime.TryParse(_date, out DateTime temp) && myRegex.IsMatch(_date))
             {
                 DateOnly dateCourante = DateOnly.FromDateTime(DateTime.Now);

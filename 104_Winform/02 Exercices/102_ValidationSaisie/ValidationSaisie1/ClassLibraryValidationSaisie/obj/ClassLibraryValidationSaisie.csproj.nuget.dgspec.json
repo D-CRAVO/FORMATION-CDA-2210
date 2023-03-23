@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj": {}
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie1\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj": {
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie1\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj",
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie1\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj",
         "projectName": "ClassLibraryValidationSaisie",
-        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie1\\ClassLibraryValidationSaisie\\ClassLibraryValidationSaisie.csproj",
         "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie\\ClassLibraryValidationSaisie\\obj\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\102_ValidationSaisie\\ValidationSaisie1\\ClassLibraryValidationSaisie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
