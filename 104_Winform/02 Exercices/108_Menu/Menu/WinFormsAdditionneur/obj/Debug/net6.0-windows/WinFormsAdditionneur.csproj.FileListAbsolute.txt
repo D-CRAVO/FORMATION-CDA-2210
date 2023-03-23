@@ -40,3 +40,24 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\ref\WinFormsAdditionneur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\WinFormsAdditionneur.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\WinFormsAdditionneur.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\WinFormsAdditionneur.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\WinFormsAdditionneur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\WinFormsAdditionneur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\ClassLibraryAdditionneur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\bin\Debug\net6.0-windows\ClassLibraryAdditionneur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.FormAdditionneur.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.Properties.Resources.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\refint\WinFormsAdditionneur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\WinFormsAdditionneur.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WinFormsAdditionneur\obj\Debug\net6.0-windows\ref\WinFormsAdditionneur.dll
