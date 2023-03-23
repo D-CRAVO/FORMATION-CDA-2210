@@ -1,0 +1,357 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CheckBoxBoutonsRadio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CheckBoxBoutonsRadio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CheckBoxBoutonsRadio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ClassLibraryAdditionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryAdditionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryAdditionneur.dll": {}
+        }
+      },
+      "ClassLibraryControles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryControles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryControles.dll": {}
+        }
+      },
+      "ClassLibraryTransaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryTransaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryTransaction.dll": {}
+        }
+      },
+      "ClassLibraryValidationSaisie2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
+        }
+      },
+      "DefilementCouleurs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DefilementCouleurs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DefilementCouleurs.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ListBox2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryControles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ListBox2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListBox2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ListBoxComboBox/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ListBoxComboBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListBoxComboBox.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ValidationSaisie2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryTransaction": "1.0.0",
+          "ClassLibraryValidationSaisie2": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ValidationSaisie2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationSaisie2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WFIdentification/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WFIdentification.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFIdentification.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WFSaisie/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CheckBoxBoutonsRadio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WFSaisie.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFSaisie.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WinFormsAdditionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryAdditionneur": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinFormsAdditionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinFormsAdditionneur.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "CheckBoxBoutonsRadio/1.0.0": {
+      "type": "project",
+      "path": "../../../103_CheckBoxBoutonsRadios/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio.csproj",
+      "msbuildProject": "../../../103_CheckBoxBoutonsRadios/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio/CheckBoxBoutonsRadio.csproj"
+    },
+    "ClassLibraryAdditionneur/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj",
+      "msbuildProject": "../ClassLibraryAdditionneur/ClassLibraryAdditionneur.csproj"
+    },
+    "ClassLibraryControles/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryControles/ClassLibraryControles.csproj",
+      "msbuildProject": "../ClassLibraryControles/ClassLibraryControles.csproj"
+    },
+    "ClassLibraryTransaction/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryTransaction/ClassLibraryTransaction.csproj",
+      "msbuildProject": "../ClassLibraryTransaction/ClassLibraryTransaction.csproj"
+    },
+    "ClassLibraryValidationSaisie2/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj",
+      "msbuildProject": "../ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj"
+    },
+    "DefilementCouleurs/1.0.0": {
+      "type": "project",
+      "path": "../../../106_DefilementCouleurs/DefilementCouleurs3_MVC/DefilementCouleurs/DefilementCouleurs.csproj",
+      "msbuildProject": "../../../106_DefilementCouleurs/DefilementCouleurs3_MVC/DefilementCouleurs/DefilementCouleurs.csproj"
+    },
+    "ListBox2/1.0.0": {
+      "type": "project",
+      "path": "../ListBox2/ListBox2.csproj",
+      "msbuildProject": "../ListBox2/ListBox2.csproj"
+    },
+    "ListBoxComboBox/1.0.0": {
+      "type": "project",
+      "path": "../../../105_ListBoxComboBox/ListBoxComboBox4/ListBoxComboBox/ListBoxComboBox.csproj",
+      "msbuildProject": "../../../105_ListBoxComboBox/ListBoxComboBox4/ListBoxComboBox/ListBoxComboBox.csproj"
+    },
+    "ValidationSaisie2/1.0.0": {
+      "type": "project",
+      "path": "../ValidationSaisie2/ValidationSaisie2.csproj",
+      "msbuildProject": "../ValidationSaisie2/ValidationSaisie2.csproj"
+    },
+    "WFIdentification/1.0.0": {
+      "type": "project",
+      "path": "../WFIdentification/WFIdentification.csproj",
+      "msbuildProject": "../WFIdentification/WFIdentification.csproj"
+    },
+    "WFSaisie/1.0.0": {
+      "type": "project",
+      "path": "../WFSaisie/WFSaisie.csproj",
+      "msbuildProject": "../WFSaisie/WFSaisie.csproj"
+    },
+    "WinFormsAdditionneur/1.0.0": {
+      "type": "project",
+      "path": "../WinFormsAdditionneur/WinFormsAdditionneur.csproj",
+      "msbuildProject": "../WinFormsAdditionneur/WinFormsAdditionneur.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CheckBoxBoutonsRadio >= 1.0.0",
+      "ClassLibraryAdditionneur >= 1.0.0",
+      "ClassLibraryControles >= 1.0.0",
+      "ClassLibraryTransaction >= 1.0.0",
+      "ClassLibraryValidationSaisie2 >= 1.0.0",
+      "DefilementCouleurs >= 1.0.0",
+      "ListBox2 >= 1.0.0",
+      "ListBoxComboBox >= 1.0.0",
+      "ValidationSaisie2 >= 1.0.0",
+      "WFIdentification >= 1.0.0",
+      "WFSaisie >= 1.0.0",
+      "WinFormsAdditionneur >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+      "projectName": "Menu",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            },
+<<<<<<< HEAD
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
+=======
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
+>>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+>>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\103_CheckBoxBoutonsRadios\CheckBoxBoutonsRadio\CheckBoxBoutonsRadio\CheckBoxBoutonsRadio.csproj" />
+    <ProjectReference Include="..\..\..\105_ListBoxComboBox\ListBoxComboBox4\ListBoxComboBox\ListBoxComboBox.csproj" />
+    <ProjectReference Include="..\..\..\106_DefilementCouleurs\DefilementCouleurs3_MVC\DefilementCouleurs\DefilementCouleurs.csproj" />
+    <ProjectReference Include="..\ClassLibraryAdditionneur\ClassLibraryAdditionneur.csproj" />
+    <ProjectReference Include="..\ClassLibraryControles\ClassLibraryControles.csproj" />
+    <ProjectReference Include="..\ClassLibraryTransaction\ClassLibraryTransaction.csproj" />
+    <ProjectReference Include="..\ClassLibraryValidationSaisie2\ClassLibraryValidationSaisie2.csproj" />
+    <ProjectReference Include="..\ListBox2\ListBox2.csproj" />
+    <ProjectReference Include="..\ValidationSaisie2\ValidationSaisie2.csproj" />
+    <ProjectReference Include="..\WFIdentification\WFIdentification.csproj" />
+    <ProjectReference Include="..\WFSaisie\WFSaisie.csproj" />
+    <ProjectReference Include="..\WinFormsAdditionneur\WinFormsAdditionneur.csproj" />
+  </ItemGroup>
+
+</Project>

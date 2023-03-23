@@ -1,0 +1,12 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "P2sJ5lpm634QGBMycKjnkLcdW/U5irwZfWMu11tN2alqC1dLedbrmGoLJuk5fN1ShqLZy+1Qo6GApozgl2yCNg==",
+=======
+  "dgSpecHash": "dziH2pL7b5rLaj9rMtzDalfxL+38QC3IGyDB5WI24UMloQAh4fP6xsw7/lyhVQ5yELTrjgcmvJ6ND4g3aTLRtw==",
+>>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+  "success": true,
+  "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}

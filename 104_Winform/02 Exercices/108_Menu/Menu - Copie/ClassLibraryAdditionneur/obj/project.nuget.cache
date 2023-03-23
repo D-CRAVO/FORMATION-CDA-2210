@@ -1,0 +1,12 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "CBOBMTUWeu+qy5o7Rxrn1ZaVZUF7hRG8gBA/7bNAw0pfVJf32mIqCHHu9p6gq2IP7E0wPPsZk67ZayGMnGO/3g==",
+=======
+  "dgSpecHash": "Bd11gguFMVbhl4HmUqA9rLUktK9KHYcRMTl9YvNl9+nB2iOgLjhBbHEPxTqGOtH0x3rM/LpIFO0qqTpd07ZhTw==",
+>>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+  "success": true,
+  "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}

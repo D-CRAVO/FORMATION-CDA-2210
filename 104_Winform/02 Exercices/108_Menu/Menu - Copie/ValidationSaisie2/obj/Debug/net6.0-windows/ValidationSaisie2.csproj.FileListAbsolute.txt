@@ -1,0 +1,69 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormulaireSaisie2.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryValidationSaisie2.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\refint\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ref\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\102_ValidationSaisie\ValidationSaisie2\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormRecapTransaction.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryValidationSaisie2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryValidationSaisie2.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormRecapTransaction.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormulaireSaisie2.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.CopyComplete
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\refint\ValidationSaisie2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ref\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ValidationSaisie2.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryTransaction.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\bin\Debug\net6.0-windows\ClassLibraryValidationSaisie2.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormRecapTransaction.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.FormulaireSaisie2.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\refint\ValidationSaisie2.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ValidationSaisie2.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\ValidationSaisie2\obj\Debug\net6.0-windows\ref\ValidationSaisie2.dll
