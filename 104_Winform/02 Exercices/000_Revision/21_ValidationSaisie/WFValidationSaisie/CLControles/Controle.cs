@@ -17,19 +17,19 @@ namespace CLControles
 
         public static bool ControleDate(string _date)
         {
-            Regex maRegex = new Regex(@"[0-9]{2}/[0-9]{2}/[0-9]{4}");
+            Regex maRegex = new Regex(@"[0-9]{2}/[0-9]{2}/[0-9]{4}$");
             return maRegex.IsMatch(_date);
         }
 
         public static bool ControleMontant(string _montant)
         {
-            Regex maRegex = new Regex(@"^[0-9]{1,11}(?:(?:[.]|,)[0-9]{0,2})?$");
+            Regex maRegex = new Regex(@"^[0-9]{1,11}(?:(?:[.]|,)[0-9]{1,2})?$");
             return maRegex.IsMatch(_montant);
         }
 
         public static bool ControleCp(string _cp)
         {
-            Regex maRegex = new Regex(@"^[1-9]{5}$");
+            Regex maRegex = new Regex(@"^[0-9]{5}$");
             return maRegex.IsMatch(_cp);
         }
     }
