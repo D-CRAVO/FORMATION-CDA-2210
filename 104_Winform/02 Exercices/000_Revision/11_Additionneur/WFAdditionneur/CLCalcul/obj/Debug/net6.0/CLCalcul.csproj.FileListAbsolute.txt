@@ -1,0 +1,12 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\bin\Debug\net6.0\CLCalcul.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\bin\Debug\net6.0\CLCalcul.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\bin\Debug\net6.0\CLCalcul.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\refint\CLCalcul.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\CLCalcul.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\11_Additionneur\WFAdditionneur\CLCalcul\obj\Debug\net6.0\ref\CLCalcul.dll
