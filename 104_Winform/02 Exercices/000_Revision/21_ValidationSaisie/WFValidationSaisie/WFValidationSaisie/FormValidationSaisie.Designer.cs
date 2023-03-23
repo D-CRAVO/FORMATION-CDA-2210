@@ -136,6 +136,7 @@
             buttonEffacer.TabIndex = 9;
             buttonEffacer.Text = "Effacer";
             buttonEffacer.UseVisualStyleBackColor = true;
+            buttonEffacer.Click += buttonEffacer_Click;
             // 
             // labelCommentaires
             // 
@@ -180,6 +181,7 @@
             Controls.Add(labelNom);
             Name = "FormValidationSaisie";
             Text = "FormValidationSaisie";
+            FormClosing += WFValidationSaisie_FormClosing;
             ((System.ComponentModel.ISupportInitialize)errorProviderNom).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderDate).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderMontant).EndInit();

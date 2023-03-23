@@ -32,6 +32,7 @@
             labelDate = new Label();
             labelMontant = new Label();
             labelCp = new Label();
+            buttonOk = new Button();
             SuspendLayout();
             // 
             // labelNom
@@ -70,11 +71,22 @@
             labelCp.TabIndex = 3;
             labelCp.Text = "Code Postal : ";
             // 
+            // buttonOk
+            // 
+            buttonOk.Location = new Point(66, 177);
+            buttonOk.Name = "buttonOk";
+            buttonOk.Size = new Size(75, 23);
+            buttonOk.TabIndex = 4;
+            buttonOk.Text = "Ok";
+            buttonOk.UseVisualStyleBackColor = true;
+            buttonOk.Click += buttonOk_Click;
+            // 
             // FormRecapTransaction
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(221, 212);
+            Controls.Add(buttonOk);
             Controls.Add(labelCp);
             Controls.Add(labelMontant);
             Controls.Add(labelDate);
@@ -91,5 +103,6 @@
         private Label labelDate;
         private Label labelMontant;
         private Label labelCp;
+        private Button buttonOk;
     }
 }

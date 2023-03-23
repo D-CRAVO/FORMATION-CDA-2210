@@ -77,7 +77,7 @@ namespace WFValidationSaisie
 
         private void buttonValider_Click(object sender, EventArgs e)
         {
-            if  (
+            if (
                     Controle.ControleNom(textBoxNom.Text)
                     && Controle.ControleDate(textBoxDate.Text)
                     && DateTime.Parse(textBoxDate.Text) > DateTime.Now
@@ -93,12 +93,12 @@ namespace WFValidationSaisie
                         , textBoxCp.Text
                     );
                 FormRecapTransaction formRecapTransaction = new FormRecapTransaction(maTransaction);
-                ShowDialog( formRecapTransaction );
+                formRecapTransaction.ShowDialog();
             }
             else
             {
-                SystemSounds.Exclamation.Play(); 
-                if (!Controle.ControleNom(textBoxNom.Text) )
+                SystemSounds.Exclamation.Play();
+                if (!Controle.ControleNom(textBoxNom.Text))
                 {
                     textBoxNom.Focus();
                 }
@@ -114,6 +114,27 @@ namespace WFValidationSaisie
                 {
                     textBoxCp.Focus();
                 }
+            }
+        }
+
+        private void buttonEffacer_Click(object sender, EventArgs e)
+        {
+            textBoxNom.Clear();
+            textBoxDate.Clear();
+            textBoxMontant.Clear();
+            textBoxCp.Clear();
+            errorProviderNom.SetError(textBoxNom, string.Empty);
+            errorProviderDate.SetError(textBoxDate, string.Empty);
+            errorProviderMontant.SetError(textBoxMontant, string.Empty);
+            errorProviderCp.SetError(textBoxCp, string.Empty);
+        }
+
+        private void WFValidationSaisie_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Fin de l'application", "Fin", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }

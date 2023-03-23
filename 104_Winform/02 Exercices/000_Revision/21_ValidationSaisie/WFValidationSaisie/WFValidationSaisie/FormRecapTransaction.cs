@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 using System.Windows.Forms;
 
 namespace WFValidationSaisie
@@ -18,12 +19,23 @@ namespace WFValidationSaisie
             InitializeComponent();
         }
 
-        public FormRecapTransaction(Transaction _transaction)
+        public FormRecapTransaction(CLTransactions.Transaction _transaction)
         {
-            labelNom.Text = $"{labelNom}{_transaction.Nom}{Environment.NewLine}";
-            labelDate.Text = $"{labelDate}{_transaction.Date}{Environment.NewLine}";
-            labelMontant.Text = $"{labelMontant}{_transaction.Montant}{Environment.NewLine}";
-            labelCp.Text = $"{labelCp}{_transaction.Cp}{Environment.NewLine}";
+            InitializeComponent();
+            Ihm(_transaction);
+        }
+
+        public void Ihm(CLTransactions.Transaction _transaction)
+        {
+            labelNom.Text = $"{labelNom.Text}{_transaction.Nom}{Environment.NewLine}";
+            labelDate.Text = $"{labelDate.Text}{_transaction.Date}{Environment.NewLine}";
+            labelMontant.Text = $"{labelMontant.Text}{_transaction.Montant}{Environment.NewLine}";
+            labelCp.Text = $"{labelCp.Text}{_transaction.Cp}{Environment.NewLine}";
+        }
+
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
