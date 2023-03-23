@@ -14,12 +14,19 @@ using ListBox2;
 using ListBoxComboBox;
 using DefilementCouleurs;
 using WFSaisie;
+using WFIdentification;
 
 namespace Menu
 {
     public partial class FormMenu : Form
     {
         private int compteur;
+
+        public ToolStripMenuItem Phase1 { get { return phase1; } set { phase1 = value; } }
+        public ToolStripMenuItem Phase2 { get { return phase2; } set { phase2 = value; } }
+        public ToolStripMenuItem Phase3 { get { return Phase3; } set { Phase3 = value; } }
+        public ToolStripMenuItem Fenetres { get { return fenetres; } set { fenetres = value; } } 
+
         public FormMenu()
         {
             InitializeComponent();
@@ -97,13 +104,17 @@ namespace Menu
         {
             //toolStripStatusLabelIdentification.Text = FormMenu.GetForegroundWindow();
             //toolStripStatusLabelIdentification.Text = this.MainMenuStrip.Text;
-            toolStripStatusLabelIdentification.Text = this.MainMenuStrip.AccessibleDefaultActionDescription;
+            //toolStripStatusLabelIdentification.Text = this.MainMenuStrip.AccessibleDefaultActionDescription;
 
-            MessageBox.Show("Bienvenue !");
+            FormSaisie saisie = new FormSaisie();
+            saisie.MdiParent = this;
+            saisie.Show();
+
+            //MessageBox.Show("Bienvenue !");
             phase1.Enabled = true;
             phase2.Enabled = true;
             phase3.Enabled = true;
-            fenêtres.Enabled = true;
+            fenetres.Enabled = true;
         }
 
         private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)

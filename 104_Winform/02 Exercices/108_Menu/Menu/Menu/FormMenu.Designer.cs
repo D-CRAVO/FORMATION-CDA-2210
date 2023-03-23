@@ -43,7 +43,7 @@
             defilementCouleursToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
             empruntsToolStripMenuItem = new ToolStripMenuItem();
-            fenêtres = new ToolStripMenuItem();
+            fenetres = new ToolStripMenuItem();
             cascadeToolStripMenuItem = new ToolStripMenuItem();
             horizontalToolStripMenuItem = new ToolStripMenuItem();
             verticalToolStripMenuItem = new ToolStripMenuItem();
@@ -62,9 +62,9 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { connectionToolStripMenuItem, phase1, phase2, phase3, fenêtres });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { connectionToolStripMenuItem, phase1, phase2, phase3, fenetres });
             menuStrip1.Location = new Point(0, 0);
-            menuStrip1.MdiWindowListItem = fenêtres;
+            menuStrip1.MdiWindowListItem = fenetres;
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 1;
@@ -168,32 +168,32 @@
             empruntsToolStripMenuItem.Size = new Size(196, 22);
             empruntsToolStripMenuItem.Text = "Emprunts";
             // 
-            // fenêtres
+            // fenetres
             // 
-            fenêtres.DropDownItems.AddRange(new ToolStripItem[] { cascadeToolStripMenuItem, horizontalToolStripMenuItem, verticalToolStripMenuItem });
-            fenêtres.Enabled = false;
-            fenêtres.Name = "fenêtres";
-            fenêtres.Size = new Size(63, 20);
-            fenêtres.Text = "Fenêtres";
+            fenetres.DropDownItems.AddRange(new ToolStripItem[] { cascadeToolStripMenuItem, horizontalToolStripMenuItem, verticalToolStripMenuItem });
+            fenetres.Enabled = false;
+            fenetres.Name = "fenetres";
+            fenetres.Size = new Size(63, 20);
+            fenetres.Text = "Fenêtres";
             // 
             // cascadeToolStripMenuItem
             // 
             cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            cascadeToolStripMenuItem.Size = new Size(129, 22);
+            cascadeToolStripMenuItem.Size = new Size(180, 22);
             cascadeToolStripMenuItem.Text = "Cascade";
             cascadeToolStripMenuItem.Click += cascadeToolStripMenuItem_Click;
             // 
             // horizontalToolStripMenuItem
             // 
             horizontalToolStripMenuItem.Name = "horizontalToolStripMenuItem";
-            horizontalToolStripMenuItem.Size = new Size(129, 22);
+            horizontalToolStripMenuItem.Size = new Size(180, 22);
             horizontalToolStripMenuItem.Text = "Horizontal";
             horizontalToolStripMenuItem.Click += horizontalToolStripMenuItem_Click;
             // 
             // verticalToolStripMenuItem
             // 
             verticalToolStripMenuItem.Name = "verticalToolStripMenuItem";
-            verticalToolStripMenuItem.Size = new Size(129, 22);
+            verticalToolStripMenuItem.Size = new Size(180, 22);
             verticalToolStripMenuItem.Text = "Vertical";
             verticalToolStripMenuItem.Click += verticalToolStripMenuItem_Click;
             // 
@@ -297,7 +297,7 @@
         private ToolStripMenuItem defilementCouleursToolStripMenuItem;
         private ToolStripMenuItem empruntsToolStripMenuItem;
         private ToolStripSeparator toolStripSeparator1;
-        private ToolStripMenuItem fenêtres;
+        private ToolStripMenuItem fenetres;
         private ToolStripMenuItem cascadeToolStripMenuItem;
         private ToolStripMenuItem horizontalToolStripMenuItem;
         private ToolStripMenuItem verticalToolStripMenuItem;

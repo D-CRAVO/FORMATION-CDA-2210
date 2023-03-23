@@ -16,6 +16,7 @@
     <ProjectReference Include="..\ClassLibraryControles\ClassLibraryControles.csproj" />
     <ProjectReference Include="..\ClassLibraryTransaction\ClassLibraryTransaction.csproj" />
     <ProjectReference Include="..\ClassLibraryValidationSaisie2\ClassLibraryValidationSaisie2.csproj" />
+    <ProjectReference Include="..\CLIdentification\CLIdentification.csproj" />
     <ProjectReference Include="..\ListBox2\ListBox2.csproj" />
     <ProjectReference Include="..\ValidationSaisie2\ValidationSaisie2.csproj" />
     <ProjectReference Include="..\WFIdentification\WFIdentification.csproj" />

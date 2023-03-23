@@ -34,8 +34,12 @@ namespace CLCalcul
 
         public void initialiserValeurs()
         {
-            //somme = 0;
             valeurs = new List<int>();
+        }
+
+        public void initialiserSomme()
+        {
+            somme = 0;
         }
     }
 }

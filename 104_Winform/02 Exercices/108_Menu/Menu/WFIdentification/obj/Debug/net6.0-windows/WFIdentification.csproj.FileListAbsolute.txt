@@ -1,0 +1,7 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.FormIdentification.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.CoreCompileInputs.cache

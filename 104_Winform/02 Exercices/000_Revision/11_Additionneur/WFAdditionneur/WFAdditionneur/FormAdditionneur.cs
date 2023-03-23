@@ -15,7 +15,7 @@ namespace WFAdditionneur
 {
     public partial class FormAdditionneur : Form
     {
-        Calcul? monAddition;
+        Calcul monAddition;
         int nb;
         string str;
 
@@ -36,13 +36,15 @@ namespace WFAdditionneur
 
         private void buttonVider_Click(object sender, EventArgs e)
         {
-            monAddition.initialiserValeurs();
             textBoxAffichage.Clear();
+            monAddition.initialiserValeurs();
+            monAddition.initialiserSomme();
         }
 
         private void buttonCalculer_Click(object sender, EventArgs e)
         {
             affichage($" = {monAddition.addition()}+");
+            monAddition.initialiserValeurs();
         }
 
         private void affichage(string _str)

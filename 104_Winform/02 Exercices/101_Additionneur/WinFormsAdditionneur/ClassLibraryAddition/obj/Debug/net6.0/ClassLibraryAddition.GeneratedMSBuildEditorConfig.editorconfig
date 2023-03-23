@@ -5,11 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-<<<<<<<< HEAD:104_Winform/02 Exercices/101_Additionneur/WinFormsAdditionneur1/ClassLibraryAdditionneur/obj/Debug/net6.0/ClassLibraryAdditionneur.GeneratedMSBuildEditorConfig.editorconfig
-build_property.RootNamespace = ClassLibraryAdditionneur
-build_property.ProjectDir = C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\ClassLibraryAdditionneur\
-========
 build_property.RootNamespace = ClassLibraryAddition
-build_property.ProjectDir = C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\ClassLibraryAddition\
->>>>>>>> 930065f2d5a0715a15e2f3863df18d6edd127150:104_Winform/02 Exercices/101_Additionneur/WinFormsAdditionneur/ClassLibraryAddition/obj/Debug/net6.0/ClassLibraryAddition.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WinFormsAdditionneur\ClassLibraryAddition\
