@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\WFValidationSaisie\\WFValidationSaisie.csproj",
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\WFValidationSaisie\\WFValidationSaisie.csproj",
       "projectName": "WFValidationSaisie",
-      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\WFValidationSaisie\\WFValidationSaisie.csproj",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\WFValidationSaisie\\WFValidationSaisie.csproj",
       "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\WFValidationSaisie\\obj\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\WFValidationSaisie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,11 +74,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\CLControles.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\CLControles.csproj"
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLTransactions\\CLTransactions.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLTransactions\\CLTransactions.csproj"
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLTransactions\\CLTransactions.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLTransactions\\CLTransactions.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\CLControles.csproj": {}
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\CLControles.csproj": {
+    "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\CLControles.csproj",
+        "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj",
         "projectName": "CLControles",
-        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\CLControles.csproj",
+        "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj",
         "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\21_ValidationSaisie\\WFValidationSaisie\\CLControles\\obj\\",
+        "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
