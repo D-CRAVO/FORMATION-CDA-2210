@@ -1,0 +1,938 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj",
+        "projectName": "CheckBoxBoutonsRadio",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj",
+        "projectName": "ListBoxComboBox",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj",
+        "projectName": "DefilementCouleurs",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj",
+        "projectName": "ClassLibraryAdditionneur",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj",
+        "projectName": "ClassLibraryControles",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj",
+        "projectName": "ClassLibraryTransaction",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj",
+        "projectName": "ClassLibraryValidationSaisie2",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj",
+        "projectName": "CLIdentification",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj",
+        "projectName": "ListBox2",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+        "projectName": "Menu",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj",
+        "projectName": "ValidationSaisie2",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
+              },
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj",
+        "projectName": "WFIdentification",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj",
+        "projectName": "WFSaisie",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj",
+        "projectName": "WinFormsAdditionneur",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

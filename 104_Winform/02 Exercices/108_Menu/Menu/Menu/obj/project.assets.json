@@ -58,16 +58,6 @@
           "bin/placeholder/ClassLibraryValidationSaisie2.dll": {}
         }
       },
-      "CLIdentification/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/CLIdentification.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CLIdentification.dll": {}
-        }
-      },
       "DefilementCouleurs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -200,11 +190,6 @@
       "path": "../ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj",
       "msbuildProject": "../ClassLibraryValidationSaisie2/ClassLibraryValidationSaisie2.csproj"
     },
-    "CLIdentification/1.0.0": {
-      "type": "project",
-      "path": "../CLIdentification/CLIdentification.csproj",
-      "msbuildProject": "../CLIdentification/CLIdentification.csproj"
-    },
     "DefilementCouleurs/1.0.0": {
       "type": "project",
       "path": "../../../106_DefilementCouleurs/DefilementCouleurs3_MVC/DefilementCouleurs/DefilementCouleurs.csproj",
@@ -243,7 +228,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "CLIdentification >= 1.0.0",
       "CheckBoxBoutonsRadio >= 1.0.0",
       "ClassLibraryAdditionneur >= 1.0.0",
       "ClassLibraryControles >= 1.0.0",
@@ -312,9 +296,6 @@
             },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
-            },
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\CLIdentification\\CLIdentification.csproj"
             },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj"

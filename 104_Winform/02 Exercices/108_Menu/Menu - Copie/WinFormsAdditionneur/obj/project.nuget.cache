@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "AoEK3v7SvCKJIO50D0GTri+fJciI4NSI2NCOuzx29fTbOzDcwtMebk0oslKC0a5iycNWljidtvUEQ73FxisgVg==",
-=======
-  "dgSpecHash": "L6F/1ej4YLmpCZrTe4pQ4v+VaCjaHQijTlzabSR837RdyekUtmKL7ODRsc072KYfqg++1MPL7cGmnxi+zrJbfQ==",
->>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+  "dgSpecHash": "0z9+pLbDyPrGbXGZYzEVR/QwyqQPCc+Zx0B/xZYcpOhiVSSiacLTumW7cXaamfgbaiXovq3o359bIqgmsrVNuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj",
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WinFormsAdditionneur\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

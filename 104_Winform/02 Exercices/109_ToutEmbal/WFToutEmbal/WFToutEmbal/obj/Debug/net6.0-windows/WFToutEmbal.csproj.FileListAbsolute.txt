@@ -1,0 +1,17 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\bin\Debug\net6.0-windows\WFToutEmbal.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\bin\Debug\net6.0-windows\WFToutEmbal.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\bin\Debug\net6.0-windows\WFToutEmbal.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\bin\Debug\net6.0-windows\WFToutEmbal.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\bin\Debug\net6.0-windows\WFToutEmbal.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.FormToutEmbal.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\refint\WFToutEmbal.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\WFToutEmbal.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\109_ToutEmbal\WFToutEmbal\WFToutEmbal\obj\Debug\net6.0-windows\ref\WFToutEmbal.dll

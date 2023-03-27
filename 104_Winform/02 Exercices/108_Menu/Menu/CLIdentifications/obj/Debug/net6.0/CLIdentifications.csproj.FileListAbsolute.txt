@@ -1,0 +1,5 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\CLIdentifications\obj\Debug\net6.0\CLIdentifications.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\CLIdentifications\obj\Debug\net6.0\CLIdentifications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\CLIdentifications\obj\Debug\net6.0\CLIdentifications.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\CLIdentifications\obj\Debug\net6.0\CLIdentifications.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu\CLIdentifications\obj\Debug\net6.0\CLIdentifications.csproj.CoreCompileInputs.cache

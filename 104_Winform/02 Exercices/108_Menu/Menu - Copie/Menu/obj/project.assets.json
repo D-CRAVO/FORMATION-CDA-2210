@@ -243,23 +243,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dcravo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
+      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\Menu\\Menu.csproj",
       "projectName": "Menu",
-      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\Menu.csproj",
-      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\Menu\\obj\\",
+      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\Menu\\Menu.csproj",
+      "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\Menu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -274,46 +276,41 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\103_CheckBoxBoutonsRadios\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio\\CheckBoxBoutonsRadio.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\105_ListBoxComboBox\\ListBoxComboBox4\\ListBoxComboBox\\ListBoxComboBox.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\106_DefilementCouleurs\\DefilementCouleurs3_MVC\\DefilementCouleurs\\DefilementCouleurs.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryAdditionneur\\ClassLibraryAdditionneur.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryControles\\ClassLibraryControles.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryControles\\ClassLibraryControles.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryTransaction\\ClassLibraryTransaction.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryValidationSaisie2\\ClassLibraryValidationSaisie2.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ListBox2\\ListBox2.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ListBox2\\ListBox2.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ListBox2\\ListBox2.csproj"
             },
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ValidationSaisie2\\ValidationSaisie2.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ValidationSaisie2\\ValidationSaisie2.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ValidationSaisie2\\ValidationSaisie2.csproj"
             },
-<<<<<<< HEAD
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFIdentification\\WFIdentification.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WFIdentification\\WFIdentification.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WFIdentification\\WFIdentification.csproj"
             },
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WFSaisie\\WFSaisie.csproj"
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WFSaisie\\WFSaisie.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WFSaisie\\WFSaisie.csproj"
             },
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
-=======
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
->>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\WinFormsAdditionneur\\WinFormsAdditionneur.csproj"
             }
           }
         }
@@ -346,12 +343,16 @@
             "privateAssets": "none"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
->>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\Menu\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

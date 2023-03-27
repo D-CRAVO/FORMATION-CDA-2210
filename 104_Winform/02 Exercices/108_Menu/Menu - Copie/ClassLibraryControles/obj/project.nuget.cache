@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "5yg2teyxh+fpPZNQG0RH3HKpHECUBDj7uUEdJzjfLf7NmMne29skCwikMgZgYMFhuYfdT4vLHLW7FaouvcJB4w==",
-=======
-  "dgSpecHash": "f2Om38iNtcEsYjKv9iQTROEwUbRZHN2eUenhxJHc93zDopK0LHcEz5kZuHbUe9reMbiBkUbPiSvZnVkCkC8vHA==",
->>>>>>> 8f6871e02fba7d1a573db6b74c2c1a6969c11e5b
+  "dgSpecHash": "mvbdQNg81pTEZMeTxasmQhryd3T5WH5rgd8wTI2peG7TcvdYryXyRUDNHlfQAwYZq6NYsurwNA8VQoCv7HEiow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu\\ClassLibraryControles\\ClassLibraryControles.csproj",
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryControles\\ClassLibraryControles.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu - Copie\\ClassLibraryControles\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

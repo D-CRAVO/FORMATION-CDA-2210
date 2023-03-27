@@ -111,10 +111,11 @@ namespace Menu
             saisie.Show();
 
             //MessageBox.Show("Bienvenue !");
-            phase1.Enabled = true;
-            phase2.Enabled = true;
-            phase3.Enabled = true;
-            fenetres.Enabled = true;
+            //phase1.Enabled = true;
+            //phase2.Enabled = true;
+            //phase3.Enabled = true;
+            //fenetres.Enabled = true;
+            EnableMenuStripFormMenu();
         }
 
         private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -151,6 +152,14 @@ namespace Menu
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        public void EnableMenuStripFormMenu()
+        {
+            phase1.Enabled = true;
+            phase2.Enabled = true;
+            phase3.Enabled = true;
+            fenetres.Enabled = true;
         }
     }
 }
