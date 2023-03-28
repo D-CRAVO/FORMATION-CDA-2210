@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             labelNouvelElement = new Label();
             textBoxNouvelElement = new TextBox();
             buttonAjoutListe = new Button();
@@ -44,6 +45,12 @@
             textBoxItemsCount = new TextBox();
             textBoxSelectedIndex = new TextBox();
             textBoxText = new TextBox();
+            errorProviderNouvelElement = new ErrorProvider(components);
+            errorProviderIndexInvalide = new ErrorProvider(components);
+            errorProviderHorsLimite = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)errorProviderNouvelElement).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderIndexInvalide).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderHorsLimite).BeginInit();
             SuspendLayout();
             // 
             // labelNouvelElement
@@ -62,6 +69,7 @@
             textBoxNouvelElement.Name = "textBoxNouvelElement";
             textBoxNouvelElement.Size = new Size(150, 23);
             textBoxNouvelElement.TabIndex = 1;
+            textBoxNouvelElement.TextChanged += textBoxNouvelElement_TextChanged;
             // 
             // buttonAjoutListe
             // 
@@ -99,6 +107,7 @@
             textBoxIndexElement.Name = "textBoxIndexElement";
             textBoxIndexElement.Size = new Size(50, 23);
             textBoxIndexElement.TabIndex = 5;
+            textBoxIndexElement.TextChanged += textBoxIndexElement_TextChanged;
             // 
             // labelIndexElement
             // 
@@ -191,6 +200,18 @@
             textBoxText.Size = new Size(107, 23);
             textBoxText.TabIndex = 15;
             // 
+            // errorProviderNouvelElement
+            // 
+            errorProviderNouvelElement.ContainerControl = this;
+            // 
+            // errorProviderIndexInvalide
+            // 
+            errorProviderIndexInvalide.ContainerControl = this;
+            // 
+            // errorProviderHorsLimite
+            // 
+            errorProviderHorsLimite.ContainerControl = this;
+            // 
             // FormListBox
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -214,6 +235,9 @@
             Controls.Add(labelNouvelElement);
             Name = "FormListBox";
             Text = "FormListBox";
+            ((System.ComponentModel.ISupportInitialize)errorProviderNouvelElement).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderIndexInvalide).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderHorsLimite).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -236,5 +260,8 @@
         private TextBox textBoxItemsCount;
         private TextBox textBoxSelectedIndex;
         private TextBox textBoxText;
+        private ErrorProvider errorProviderNouvelElement;
+        private ErrorProvider errorProviderIndexInvalide;
+        private ErrorProvider errorProviderHorsLimite;
     }
 }

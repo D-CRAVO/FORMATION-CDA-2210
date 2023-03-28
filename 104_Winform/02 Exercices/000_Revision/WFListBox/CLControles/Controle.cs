@@ -9,10 +9,16 @@ namespace CLControles
 {
     public class Controle
     {
-        public bool ControleNouvelElement(string _nom)
+        public static bool ControleNouvelElement(string _nom)
         {
-            Regex maRegex = new Regex(@"^[a-zA-Z](?:(?:-)[a-zA-Z]");
+            Regex maRegex = new Regex(@"^[a-zA-Z]{0,25}(?:(?:-)[a-zA-Z]{1,25})?$");
             return maRegex.IsMatch(_nom);
+        }
+
+        public static bool ControleIndexSelection(string _index)
+        {
+            Regex maRegex = new Regex(@"^[0-9]$");
+            return maRegex.IsMatch(_index);
         }
     }
 }
