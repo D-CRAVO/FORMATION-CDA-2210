@@ -48,9 +48,11 @@
             errorProviderNouvelElement = new ErrorProvider(components);
             errorProviderIndexInvalide = new ErrorProvider(components);
             errorProviderHorsLimite = new ErrorProvider(components);
+            errorProviderAjoutListe = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)errorProviderNouvelElement).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderIndexInvalide).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderHorsLimite).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderAjoutListe).BeginInit();
             SuspendLayout();
             // 
             // labelNouvelElement
@@ -212,6 +214,10 @@
             // 
             errorProviderHorsLimite.ContainerControl = this;
             // 
+            // errorProviderAjoutListe
+            // 
+            errorProviderAjoutListe.ContainerControl = this;
+            // 
             // FormListBox
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -238,6 +244,7 @@
             ((System.ComponentModel.ISupportInitialize)errorProviderNouvelElement).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderIndexInvalide).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderHorsLimite).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderAjoutListe).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -263,5 +270,6 @@
         private ErrorProvider errorProviderNouvelElement;
         private ErrorProvider errorProviderIndexInvalide;
         private ErrorProvider errorProviderHorsLimite;
+        private ErrorProvider errorProviderAjoutListe;
     }
 }

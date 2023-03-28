@@ -15,6 +15,7 @@ namespace WFListBox
     {
 
         public string[] list;
+        private string nouvelElement;
 
         public FormListBox()
         {
@@ -52,25 +53,37 @@ namespace WFListBox
             textBoxText.Text = listBoxLstListe.SelectedItem.ToString();
         }
 
-        private void buttonAjoutListe_Click(object sender, EventArgs e)
-        {
-            if (Controle.ControleNouvelElement((string)textBoxNouvelElement.Text))
-            {
-                listBoxLstListe.Items.Add(textBoxNouvelElement.Text);
-                textBoxNouvelElement.Clear();
-                initializeTextBoxItemsCount();
-            }
-        }
-
         private void textBoxNouvelElement_TextChanged(object sender, EventArgs e)
         {
-            if (Controle.ControleNouvelElement((string)textBoxNouvelElement.Text))
+            nouvelElement = textBoxNouvelElement.Text.Trim();
+            if (nouvelElement!= null)
             {
-                errorProviderNouvelElement.SetError(textBoxNouvelElement, string.Empty);
+                if (Controle.ControleNouvelElement(nouvelElement)
+                    && !ExistenceDoublons(nouvelElement))
+                {
+                    errorProviderNouvelElement.SetError(textBoxNouvelElement, string.Empty);
+                    errorProviderAjoutListe.SetError(textBoxNouvelElement, string.Empty);
+                }
+                else
+                {
+                    errorProviderNouvelElement.SetError(textBoxNouvelElement, "Veuillez ne saisir que des prénoms valides");
+                }
             }
-            else
+           
+        }
+
+        private void buttonAjoutListe_Click(object sender, EventArgs e)
+        {
+            if (nouvelElement != null)
             {
-                errorProviderNouvelElement.SetError(textBoxNouvelElement, "Veuillez ne saisir que des prénoms valides");
+                if (Controle.ControleNouvelElement(nouvelElement)
+                    && !ExistenceDoublons(nouvelElement))
+                {
+                    listBoxLstListe.Items.Add(nouvelElement);
+                    textBoxNouvelElement.Clear();
+                    textBoxNouvelElement.Focus();
+                    initializeTextBoxItemsCount();
+                }
             }
         }
 
@@ -88,14 +101,14 @@ namespace WFListBox
 
         private void textBoxIndexElement_TextChanged(object sender, EventArgs e)
         {
-            if (textBoxIndexElement.Text == string.Empty) 
+            if (textBoxIndexElement.Text == string.Empty)
             {
                 errorProviderIndexInvalide.SetError(textBoxIndexElement, string.Empty);
                 errorProviderHorsLimite.SetError(textBoxIndexElement, string.Empty);
             }
             else if (Controle.ControleIndexSelection(textBoxIndexElement.Text))
             {
-                errorProviderIndexInvalide.SetError(textBoxIndexElement, string.Empty); 
+                errorProviderIndexInvalide.SetError(textBoxIndexElement, string.Empty);
                 int indexElement = int.Parse((string)textBoxIndexElement.Text);
                 if (indexElement < listBoxLstListe.Items.Count && indexElement >= 0)
                 {
@@ -112,5 +125,21 @@ namespace WFListBox
             }
         }
 
+        private bool ExistenceDoublons(string _str)
+        {
+            bool result = false;
+            foreach (string item in listBoxLstListe.Items)
+            {
+                if (item == _str)
+                {
+                    result = true;
+                }
+            }
+            if (result)
+            {
+                errorProviderAjoutListe.SetError(textBoxNouvelElement, "Existe déjà dans la liste");
+            }
+            return result;
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace CLControles
     {
         public static bool ControleNouvelElement(string _nom)
         {
-            Regex maRegex = new Regex(@"^[a-zA-Z]{0,25}(?:(?:-)[a-zA-Z]{1,25})?$");
+            Regex maRegex = new Regex(@"^[a-zA-Z]{0,50}(?:(?:-)[a-zA-Z]{1,25})?$");
             return maRegex.IsMatch(_nom);
         }
 

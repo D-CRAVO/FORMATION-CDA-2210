@@ -35,3 +35,6 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.genruntimeconfig.cache
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\ref\WFListBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\CLControles.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\CLControles.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.CopyComplete
