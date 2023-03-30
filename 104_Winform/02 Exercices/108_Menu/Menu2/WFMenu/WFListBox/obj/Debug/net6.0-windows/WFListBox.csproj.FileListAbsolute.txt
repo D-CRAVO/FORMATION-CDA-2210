@@ -1,0 +1,40 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.FormListBox.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\refint\WFListBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\ref\WFListBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\WFListBox.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\CLControles.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\CLControles.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.FormListBox.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\refint\WFListBox.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\ref\WFListBox.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\CLControles.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\bin\Debug\net6.0-windows\CLControles.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFListBox\WFListBox\obj\Debug\net6.0-windows\WFListBox.csproj.CopyComplete

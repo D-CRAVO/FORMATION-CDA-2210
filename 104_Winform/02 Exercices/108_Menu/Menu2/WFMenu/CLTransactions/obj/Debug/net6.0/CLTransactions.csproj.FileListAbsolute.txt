@@ -1,0 +1,24 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\bin\Debug\net6.0\CLTransactions.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\bin\Debug\net6.0\CLTransactions.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\bin\Debug\net6.0\CLTransactions.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\refint\CLTransactions.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\ref\CLTransactions.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\bin\Debug\net6.0\CLTransactions.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\bin\Debug\net6.0\CLTransactions.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\bin\Debug\net6.0\CLTransactions.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\refint\CLTransactions.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\CLTransactions.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\21_ValidationSaisie\WFValidationSaisie\CLTransactions\obj\Debug\net6.0\ref\CLTransactions.dll

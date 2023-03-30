@@ -1,0 +1,85 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WFMenu/1.0.0": {
+        "dependencies": {
+          "WFAdditionneur": "1.0.0",
+          "WFCheckBoxRadioButton": "1.0.0",
+          "WFIdentification": "1.0.0",
+          "WFSaisieTexte": "1.0.0"
+        },
+        "runtime": {
+          "WFMenu.dll": {}
+        }
+      },
+      "CLCalcul/1.0.0": {
+        "runtime": {
+          "CLCalcul.dll": {}
+        }
+      },
+      "WFAdditionneur/1.0.0": {
+        "dependencies": {
+          "CLCalcul": "1.0.0"
+        },
+        "runtime": {
+          "WFAdditionneur.dll": {}
+        }
+      },
+      "WFCheckBoxRadioButton/1.0.0": {
+        "runtime": {
+          "WFCheckBoxRadioButton.dll": {}
+        }
+      },
+      "WFIdentification/1.0.0": {
+        "runtime": {
+          "WFIdentification.dll": {}
+        }
+      },
+      "WFSaisieTexte/1.0.0": {
+        "dependencies": {
+          "WFCheckBoxRadioButton": "1.0.0"
+        },
+        "runtime": {
+          "WFSaisieTexte.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WFMenu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLCalcul/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFAdditionneur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFCheckBoxRadioButton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFIdentification/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFSaisieTexte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

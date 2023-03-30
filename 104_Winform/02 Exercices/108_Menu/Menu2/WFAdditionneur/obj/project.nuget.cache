@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "btqwH9qs/TIxKB6e8G+JtTdE0Y+p0ADWphRwzA0CdVoNGhZCof/+alx1RCnrWNbBWHrPtMJq2zt20kE3b0RQEQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFAdditionneur\\WFAdditionneur.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Projet 'C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\CLCalcul\\CLCalcul.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
+      "libraryId": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\CLCalcul\\CLCalcul.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

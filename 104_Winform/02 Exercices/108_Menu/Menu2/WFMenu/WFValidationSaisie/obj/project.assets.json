@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CLControles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLControles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLControles.dll": {}
+        }
+      },
+      "CLTransactions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLTransactions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLTransactions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CLControles/1.0.0": {
+      "type": "project",
+      "path": "../CLControles/CLControles.csproj",
+      "msbuildProject": "../CLControles/CLControles.csproj"
+    },
+    "CLTransactions/1.0.0": {
+      "type": "project",
+      "path": "../CLTransactions/CLTransactions.csproj",
+      "msbuildProject": "../CLTransactions/CLTransactions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CLControles >= 1.0.0",
+      "CLTransactions >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\WFValidationSaisie\\WFValidationSaisie.csproj",
+      "projectName": "WFValidationSaisie",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\WFValidationSaisie\\WFValidationSaisie.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\WFValidationSaisie\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLTransactions\\CLTransactions.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\000_Revision\\WFValidationSaisie\\CLTransactions\\CLTransactions.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
