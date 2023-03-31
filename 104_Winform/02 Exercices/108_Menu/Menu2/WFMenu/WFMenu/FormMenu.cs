@@ -19,12 +19,15 @@ namespace WFMenu
         //private int compteurAdditionneur;
         private int compteur;
         private string texte;
+
+        //public ToolStripMenuItem Phase1ToolStripMenuItem { get {  return phase1ToolStripMenuItem; } set { phase1ToolStripMenuItem.Enabled = value; }
+
         public FormMenu()
         {
             InitializeComponent();
             compteur = 0;
             FigerVolets();
-            OuvrirFormulaire(new FormIdentification());
+            Authentification();
         }
 
         public void FigerVolets()
@@ -68,12 +71,29 @@ namespace WFMenu
 
         private void sidentifierToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OuvrirFormulaire(new FormIdentification());
+            Authentification();
+        }
+
+        private void F_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormIdentification formIdentification = sender as FormIdentification;
+            bool verif = formIdentification.CheckLoginPassword();
+            if (verif)
+            {
+                LiberationVolets();
+            }
         }
 
         private void toolStripLabelIdentification_Click(object sender, EventArgs e)
         {
-            OuvrirFormulaire(new FormIdentification());
+            Authentification();
+        }
+
+        private void Authentification()
+        {
+            FormIdentification formIdentification = new FormIdentification();
+            formIdentification.FormClosing += F_FormClosing;
+            OuvrirFormulaire(formIdentification);
         }
     }
 }

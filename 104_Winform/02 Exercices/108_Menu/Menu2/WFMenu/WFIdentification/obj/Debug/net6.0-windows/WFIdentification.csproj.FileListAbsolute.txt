@@ -35,3 +35,6 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\CLVerification.dll
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\CLVerification.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.CopyComplete
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\CLVerification.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\CLVerification.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.CopyComplete

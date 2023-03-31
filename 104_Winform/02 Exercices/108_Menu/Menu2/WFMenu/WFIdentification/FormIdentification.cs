@@ -15,9 +15,10 @@ namespace WFIdentification
     {
         private string login;
         private string password;
+        private Verification verification;
 
-        public string Login { get { return login; } }
-        public string Password { get { return password; } }
+        //public string Login { get { return login; } }
+        //public string Password { get { return password; } }
 
         public FormIdentification()
         {
@@ -33,21 +34,27 @@ namespace WFIdentification
         {
             login = textBoxLogin.Text;  
             password = textBoxPassword.Text;
-
-            Verification verification = new Verification(login, password);
-            if (verification.CheckLoginPassword())
-            {
-                Close();
-            }
         }
 
-        private bool CheckLoginPassword(string _login, string _password)
+        //public bool CheckLoginPassword(string _login, string _password)
+        //{
+        //    if (_login == _password)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
+
+        public bool CheckLoginPassword()
         {
-            if (_login == _password)
+            verification = new Verification(login, password);
+            if (verification.CheckLoginPassword())
             {
+                //Close();
                 return true;
             }
             return false;
+            
         }
     }
 }

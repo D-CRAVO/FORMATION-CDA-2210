@@ -10,3 +10,15 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\refint\CLVerification.dll
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\ref\CLVerification.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\bin\Debug\net6.0\CLVerification.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\bin\Debug\net6.0\CLVerification.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\bin\Debug\net6.0\CLVerification.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\refint\CLVerification.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\CLVerification.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\CLVerification\obj\Debug\net6.0\ref\CLVerification.dll
