@@ -39,3 +39,46 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.dll
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.Properties.Resources.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFAdditionneur.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFAdditionneur.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFAdditionneur.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFCheckBoxRadioButton.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFCheckBoxRadioButton.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFCheckBoxRadioButton.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFSaisieTexte.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFSaisieTexte.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFSaisieTexte.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFMenu.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFMenu.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFMenu.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFMenu.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFMenu.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\CLCalcul.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFAdditionneur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFCheckBoxRadioButton.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFSaisieTexte.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFAdditionneur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFCheckBoxRadioButton.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFIdentification.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFSaisieTexte.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\CLCalcul.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.FormMenu.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.Properties.Resources.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\refint\WFMenu.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\WFMenu.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\obj\Debug\net6.0-windows\ref\WFMenu.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\CLVerification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\CLVerification.pdb

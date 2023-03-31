@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "WFIdentification/1.0.0": {
+        "dependencies": {
+          "CLVerification": "1.0.0"
+        },
         "runtime": {
           "WFIdentification.dll": {}
+        }
+      },
+      "CLVerification/1.0.0": {
+        "runtime": {
+          "CLVerification.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WFIdentification/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLVerification/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

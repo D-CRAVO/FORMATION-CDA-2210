@@ -23,11 +23,16 @@ namespace WFMenu
         {
             InitializeComponent();
             compteur = 0;
+            FigerVolets();
+            OuvrirFormulaire(new FormIdentification());
+        }
+
+        public void FigerVolets()
+        {
             phase1ToolStripMenuItem.Enabled = false;
             phase2ToolStripMenuItem.Enabled = false;
             phase3ToolStripMenuItem.Enabled = false;
-            fenêtresToolStripMenuItem.Enabled = false;  
-            OuvrirFormulaire(new FormIdentification());
+            fenêtresToolStripMenuItem.Enabled = false;
         }
 
         public void LiberationVolets()

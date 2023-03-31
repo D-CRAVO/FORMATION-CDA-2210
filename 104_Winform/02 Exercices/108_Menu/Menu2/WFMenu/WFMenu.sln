@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLCalcul", "CLCalcul\CLCalc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFCheckBoxRadioButton", "WFCheckBoxRadioButton\WFCheckBoxRadioButton.csproj", "{6E1AC4AE-5602-4D7F-A21E-3BEF8A80A512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFSaisieTexte", "WFSaisieTexte\WFSaisieTexte.csproj", "{73EC6701-A3DF-4D34-B296-6F775B417FCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFSaisieTexte", "WFSaisieTexte\WFSaisieTexte.csproj", "{73EC6701-A3DF-4D34-B296-6F775B417FCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFIdentification", "WFIdentification\WFIdentification.csproj", "{25FDB755-0D94-4AC1-A10A-72347734C8BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFIdentification", "WFIdentification\WFIdentification.csproj", "{25FDB755-0D94-4AC1-A10A-72347734C8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLVerification", "CLVerification\CLVerification.csproj", "{B878166C-BB48-49F3-8FC3-25118F31A625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{25FDB755-0D94-4AC1-A10A-72347734C8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25FDB755-0D94-4AC1-A10A-72347734C8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25FDB755-0D94-4AC1-A10A-72347734C8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B878166C-BB48-49F3-8FC3-25118F31A625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B878166C-BB48-49F3-8FC3-25118F31A625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B878166C-BB48-49F3-8FC3-25118F31A625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B878166C-BB48-49F3-8FC3-25118F31A625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

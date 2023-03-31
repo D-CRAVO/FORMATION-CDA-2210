@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WFMenu;
+using CLVerification;
 
 namespace WFIdentification
 {
@@ -15,6 +15,9 @@ namespace WFIdentification
     {
         private string login;
         private string password;
+
+        public string Login { get { return login; } }
+        public string Password { get { return password; } }
 
         public FormIdentification()
         {
@@ -30,11 +33,21 @@ namespace WFIdentification
         {
             login = textBoxLogin.Text;  
             password = textBoxPassword.Text;
-            if (login == password) 
-            {
-                FormMenu.LiberationVolets();
-            }
 
+            Verification verification = new Verification(login, password);
+            if (verification.CheckLoginPassword())
+            {
+                Close();
+            }
+        }
+
+        private bool CheckLoginPassword(string _login, string _password)
+        {
+            if (_login == _password)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

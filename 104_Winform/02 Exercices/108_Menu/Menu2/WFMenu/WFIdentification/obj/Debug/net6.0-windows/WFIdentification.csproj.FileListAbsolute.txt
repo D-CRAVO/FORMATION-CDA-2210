@@ -15,3 +15,23 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\ref\WFIdentification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\WFIdentification.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\WFIdentification.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\WFIdentification.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\WFIdentification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\WFIdentification.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.FormIdentification.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\refint\WFIdentification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\ref\WFIdentification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\CLVerification.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\bin\Debug\net6.0-windows\CLVerification.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFIdentification\obj\Debug\net6.0-windows\WFIdentification.csproj.CopyComplete
