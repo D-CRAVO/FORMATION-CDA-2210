@@ -16,9 +16,9 @@ namespace WFMenu
 {
     public partial class FormMenu : Form
     {
-        //private int compteurAdditionneur;
         private int compteur;
         private string texte;
+        FormIdentification formIdentification;
 
         //public ToolStripMenuItem Phase1ToolStripMenuItem { get {  return phase1ToolStripMenuItem; } set { phase1ToolStripMenuItem.Enabled = value; }
 
@@ -76,9 +76,8 @@ namespace WFMenu
 
         private void F_FormClosing(object sender, FormClosingEventArgs e)
         {
-            FormIdentification formIdentification = sender as FormIdentification;
-            bool verif = formIdentification.CheckLoginPassword();
-            if (verif)
+            formIdentification = sender as FormIdentification;
+            if (formIdentification.CheckLoginPassword())
             {
                 LiberationVolets();
             }
@@ -91,9 +90,9 @@ namespace WFMenu
 
         private void Authentification()
         {
-            FormIdentification formIdentification = new FormIdentification();
+            formIdentification = new FormIdentification();
             formIdentification.FormClosing += F_FormClosing;
-            OuvrirFormulaire(formIdentification);
+            formIdentification.ShowDialog();
         }
     }
 }

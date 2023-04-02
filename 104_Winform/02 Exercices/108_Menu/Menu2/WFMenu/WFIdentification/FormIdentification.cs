@@ -50,7 +50,6 @@ namespace WFIdentification
             verification = new Verification(login, password);
             if (verification.CheckLoginPassword())
             {
-                //Close();
                 return true;
             }
             return false;
