@@ -60,8 +60,8 @@
             wFListBoxToolStripMenuItem = new ToolStripMenuItem();
             wFListBoxComboBoxToolStripMenuItem = new ToolStripMenuItem();
             wFDefilementCouleursToolStripMenuItem = new ToolStripMenuItem();
-            wFEmpruntsToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator4 = new ToolStripSeparator();
+            wFEmpruntsToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
             toolStrip1.SuspendLayout();
@@ -73,7 +73,7 @@
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.MdiWindowListItem = fenêtresToolStripMenuItem;
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(776, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -101,6 +101,7 @@
             quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
             quitterToolStripMenuItem.Size = new Size(130, 22);
             quitterToolStripMenuItem.Text = "Quitter";
+            quitterToolStripMenuItem.Click += quitterToolStripMenuItem_Click;
             // 
             // phase1ToolStripMenuItem
             // 
@@ -112,7 +113,7 @@
             // additionneurToolStripMenuItem
             // 
             additionneurToolStripMenuItem.Name = "additionneurToolStripMenuItem";
-            additionneurToolStripMenuItem.Size = new Size(144, 22);
+            additionneurToolStripMenuItem.Size = new Size(180, 22);
             additionneurToolStripMenuItem.Text = "Additionneur";
             additionneurToolStripMenuItem.Click += additionneurToolStripMenuItem_Click;
             // 
@@ -205,9 +206,9 @@
             // statusStrip1
             // 
             statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabelDate, toolStripStatusLabelDernierEvenemnt });
-            statusStrip1.Location = new Point(0, 428);
+            statusStrip1.Location = new Point(0, 370);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(800, 22);
+            statusStrip1.Size = new Size(776, 22);
             statusStrip1.TabIndex = 4;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -228,7 +229,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabelIdentification, toolStripSplitButtonPhase3 });
             toolStrip1.Location = new Point(0, 24);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(800, 25);
+            toolStrip1.Size = new Size(776, 25);
             toolStrip1.TabIndex = 6;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -273,22 +274,22 @@
             wFDefilementCouleursToolStripMenuItem.Size = new Size(215, 22);
             wFDefilementCouleursToolStripMenuItem.Text = "WFDefilementCouleurs";
             // 
+            // toolStripSeparator4
+            // 
+            toolStripSeparator4.Name = "toolStripSeparator4";
+            toolStripSeparator4.Size = new Size(212, 6);
+            // 
             // wFEmpruntsToolStripMenuItem
             // 
             wFEmpruntsToolStripMenuItem.Name = "wFEmpruntsToolStripMenuItem";
             wFEmpruntsToolStripMenuItem.Size = new Size(215, 22);
             wFEmpruntsToolStripMenuItem.Text = "WFEmprunts";
             // 
-            // toolStripSeparator4
-            // 
-            toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(212, 6);
-            // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(776, 392);
             Controls.Add(toolStrip1);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);

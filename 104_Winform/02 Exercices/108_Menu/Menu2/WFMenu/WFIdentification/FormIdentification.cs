@@ -32,18 +32,10 @@ namespace WFIdentification
 
         private void buttonOk_Click(object sender, EventArgs e)
         {
-            login = textBoxLogin.Text;  
+            login = textBoxLogin.Text;
             password = textBoxPassword.Text;
+            Close();
         }
-
-        //public bool CheckLoginPassword(string _login, string _password)
-        //{
-        //    if (_login == _password)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
 
         public bool CheckLoginPassword()
         {
@@ -53,7 +45,7 @@ namespace WFIdentification
                 return true;
             }
             return false;
-            
+
         }
     }
 }
