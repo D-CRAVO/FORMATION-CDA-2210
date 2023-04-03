@@ -113,7 +113,7 @@
             // additionneurToolStripMenuItem
             // 
             additionneurToolStripMenuItem.Name = "additionneurToolStripMenuItem";
-            additionneurToolStripMenuItem.Size = new Size(180, 22);
+            additionneurToolStripMenuItem.Size = new Size(144, 22);
             additionneurToolStripMenuItem.Text = "Additionneur";
             additionneurToolStripMenuItem.Click += additionneurToolStripMenuItem_Click;
             // 
@@ -183,25 +183,28 @@
             // cascadeToolStripMenuItem
             // 
             cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            cascadeToolStripMenuItem.Size = new Size(129, 22);
+            cascadeToolStripMenuItem.Size = new Size(180, 22);
             cascadeToolStripMenuItem.Text = "Cascade";
+            cascadeToolStripMenuItem.Click += cascadeToolStripMenuItem_Click;
             // 
             // horizontalToolStripMenuItem
             // 
             horizontalToolStripMenuItem.Name = "horizontalToolStripMenuItem";
-            horizontalToolStripMenuItem.Size = new Size(129, 22);
+            horizontalToolStripMenuItem.Size = new Size(180, 22);
             horizontalToolStripMenuItem.Text = "Horizontal";
+            horizontalToolStripMenuItem.Click += horizontalToolStripMenuItem_Click;
             // 
             // verticalToolStripMenuItem
             // 
             verticalToolStripMenuItem.Name = "verticalToolStripMenuItem";
-            verticalToolStripMenuItem.Size = new Size(129, 22);
+            verticalToolStripMenuItem.Size = new Size(180, 22);
             verticalToolStripMenuItem.Text = "Vertical";
+            verticalToolStripMenuItem.Click += verticalToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(126, 6);
+            toolStripSeparator3.Size = new Size(177, 6);
             // 
             // statusStrip1
             // 
