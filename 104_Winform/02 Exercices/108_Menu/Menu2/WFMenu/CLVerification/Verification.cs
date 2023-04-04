@@ -20,7 +20,7 @@ namespace CLVerification
 
         public bool CheckLoginPassword()
         {
-            if (login == "a" && password == "a")
+            if (login == "" && password == "")
             {
                 return true;
             }

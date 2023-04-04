@@ -1,0 +1,14 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\bin\Debug\net6.0-windows\CLUsersControls.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\bin\Debug\net6.0-windows\CLUsersControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\bin\Debug\net6.0-windows\CLUsersControls.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.UCProgressBar.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\refint\CLUsersControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\CLUsersControls.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\00 Tutoriels Cours\WFCoursUsersControles\CLUsersControls\obj\Debug\net6.0-windows\ref\CLUsersControls.dll

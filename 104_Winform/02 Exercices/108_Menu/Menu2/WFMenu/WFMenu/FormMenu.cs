@@ -11,6 +11,8 @@ using WFAdditionneur;
 using WFCheckBoxRadioButton;
 using WFSaisieTexte;
 using WFIdentification;
+using WFValidationSaisie;
+using WFListBox;
 
 namespace WFMenu
 {
@@ -28,7 +30,7 @@ namespace WFMenu
             toolStripSplitButtonPhase3.DropDown = phase3ToolStripMenuItem.DropDown;
         }
 
-        
+
 
         public void FigerVolets()
         {
@@ -113,6 +115,16 @@ namespace WFMenu
         private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void validationSaisieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FormValidationSaisie());
+        }
+
+        private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FormListBox());
         }
     }
 }

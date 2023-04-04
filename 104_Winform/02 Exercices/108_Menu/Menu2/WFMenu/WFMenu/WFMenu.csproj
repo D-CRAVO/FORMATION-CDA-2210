@@ -12,7 +12,9 @@
     <ProjectReference Include="..\WFAdditionneur\WFAdditionneur.csproj" />
     <ProjectReference Include="..\WFCheckBoxRadioButton\WFCheckBoxRadioButton.csproj" />
     <ProjectReference Include="..\WFIdentification\WFIdentification.csproj" />
+    <ProjectReference Include="..\WFListBox\WFListBox.csproj" />
     <ProjectReference Include="..\WFSaisieTexte\WFSaisieTexte.csproj" />
+    <ProjectReference Include="..\WFValidationSaisie\WFValidationSaisie.csproj" />
   </ItemGroup>
 
   <ItemGroup>

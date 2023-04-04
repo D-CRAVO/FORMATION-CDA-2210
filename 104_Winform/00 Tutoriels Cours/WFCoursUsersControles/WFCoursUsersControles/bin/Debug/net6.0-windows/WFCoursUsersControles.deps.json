@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WFCoursUsersControles/1.0.0": {
+        "dependencies": {
+          "CLUsersControls": "1.0.0"
+        },
+        "runtime": {
+          "WFCoursUsersControles.dll": {}
+        }
+      },
+      "CLUsersControls/1.0.0": {
+        "runtime": {
+          "CLUsersControls.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WFCoursUsersControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLUsersControls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

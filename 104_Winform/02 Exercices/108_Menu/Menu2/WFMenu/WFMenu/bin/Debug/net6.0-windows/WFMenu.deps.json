@@ -11,7 +11,9 @@
           "WFAdditionneur": "1.0.0",
           "WFCheckBoxRadioButton": "1.0.0",
           "WFIdentification": "1.0.0",
-          "WFSaisieTexte": "1.0.0"
+          "WFListBox": "1.0.0",
+          "WFSaisieTexte": "1.0.0",
+          "WFValidationSaisie": "1.0.0"
         },
         "runtime": {
           "WFMenu.dll": {}
@@ -20,6 +22,16 @@
       "CLCalcul/1.0.0": {
         "runtime": {
           "CLCalcul.dll": {}
+        }
+      },
+      "CLControles/1.0.0": {
+        "runtime": {
+          "CLControles.dll": {}
+        }
+      },
+      "CLTransactions/1.0.0": {
+        "runtime": {
+          "CLTransactions.dll": {}
         }
       },
       "CLVerification/1.0.0": {
@@ -48,12 +60,29 @@
           "WFIdentification.dll": {}
         }
       },
+      "WFListBox/1.0.0": {
+        "dependencies": {
+          "CLControles": "1.0.0"
+        },
+        "runtime": {
+          "WFListBox.dll": {}
+        }
+      },
       "WFSaisieTexte/1.0.0": {
         "dependencies": {
           "WFCheckBoxRadioButton": "1.0.0"
         },
         "runtime": {
           "WFSaisieTexte.dll": {}
+        }
+      },
+      "WFValidationSaisie/1.0.0": {
+        "dependencies": {
+          "CLControles": "1.0.0",
+          "CLTransactions": "1.0.0"
+        },
+        "runtime": {
+          "WFValidationSaisie.dll": {}
         }
       }
     }
@@ -65,6 +94,16 @@
       "sha512": ""
     },
     "CLCalcul/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLTransactions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -89,7 +128,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "WFListBox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "WFSaisieTexte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WFValidationSaisie/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -114,6 +114,7 @@
             buttonUp.TabIndex = 8;
             buttonUp.Text = "Up";
             buttonUp.UseVisualStyleBackColor = true;
+            buttonUp.Click += buttonUp_Click;
             // 
             // labelCible
             // 
@@ -132,6 +133,7 @@
             listBoxCible.Name = "listBoxCible";
             listBoxCible.Size = new Size(135, 154);
             listBoxCible.TabIndex = 10;
+            listBoxCible.SelectedIndexChanged += listBoxCible_SelectedIndexChanged;
             // 
             // FormListBoxComboBox
             // 

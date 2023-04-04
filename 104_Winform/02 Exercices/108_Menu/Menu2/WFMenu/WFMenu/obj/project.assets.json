@@ -12,6 +12,26 @@
           "bin/placeholder/CLCalcul.dll": {}
         }
       },
+      "CLControles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLControles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLControles.dll": {}
+        }
+      },
+      "CLTransactions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLTransactions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLTransactions.dll": {}
+        }
+      },
       "CLVerification/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -67,6 +87,22 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "WFListBox/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CLControles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WFListBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFListBox.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "WFSaisieTexte/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -82,6 +118,23 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "WFValidationSaisie/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CLControles": "1.0.0",
+          "CLTransactions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WFValidationSaisie.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFValidationSaisie.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -90,6 +143,16 @@
       "type": "project",
       "path": "../CLCalcul/CLCalcul.csproj",
       "msbuildProject": "../CLCalcul/CLCalcul.csproj"
+    },
+    "CLControles/1.0.0": {
+      "type": "project",
+      "path": "../CLControles/CLControles.csproj",
+      "msbuildProject": "../CLControles/CLControles.csproj"
+    },
+    "CLTransactions/1.0.0": {
+      "type": "project",
+      "path": "../CLTransactions/CLTransactions.csproj",
+      "msbuildProject": "../CLTransactions/CLTransactions.csproj"
     },
     "CLVerification/1.0.0": {
       "type": "project",
@@ -111,10 +174,20 @@
       "path": "../WFIdentification/WFIdentification.csproj",
       "msbuildProject": "../WFIdentification/WFIdentification.csproj"
     },
+    "WFListBox/1.0.0": {
+      "type": "project",
+      "path": "../WFListBox/WFListBox.csproj",
+      "msbuildProject": "../WFListBox/WFListBox.csproj"
+    },
     "WFSaisieTexte/1.0.0": {
       "type": "project",
       "path": "../WFSaisieTexte/WFSaisieTexte.csproj",
       "msbuildProject": "../WFSaisieTexte/WFSaisieTexte.csproj"
+    },
+    "WFValidationSaisie/1.0.0": {
+      "type": "project",
+      "path": "../WFValidationSaisie/WFValidationSaisie.csproj",
+      "msbuildProject": "../WFValidationSaisie/WFValidationSaisie.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -122,7 +195,9 @@
       "WFAdditionneur >= 1.0.0",
       "WFCheckBoxRadioButton >= 1.0.0",
       "WFIdentification >= 1.0.0",
-      "WFSaisieTexte >= 1.0.0"
+      "WFListBox >= 1.0.0",
+      "WFSaisieTexte >= 1.0.0",
+      "WFValidationSaisie >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -168,8 +243,14 @@
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFIdentification\\WFIdentification.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFIdentification\\WFIdentification.csproj"
             },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFListBox\\WFListBox.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFListBox\\WFListBox.csproj"
+            },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFSaisieTexte\\WFSaisieTexte.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFSaisieTexte\\WFSaisieTexte.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFValidationSaisie\\WFValidationSaisie.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFValidationSaisie\\WFValidationSaisie.csproj"
             }
           }
         }

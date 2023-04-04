@@ -127,8 +127,9 @@
             // validationSaisieToolStripMenuItem
             // 
             validationSaisieToolStripMenuItem.Name = "validationSaisieToolStripMenuItem";
-            validationSaisieToolStripMenuItem.Size = new Size(155, 22);
+            validationSaisieToolStripMenuItem.Size = new Size(180, 22);
             validationSaisieToolStripMenuItem.Text = "ValidationSaisie";
+            validationSaisieToolStripMenuItem.Click += validationSaisieToolStripMenuItem_Click;
             // 
             // phase3ToolStripMenuItem
             // 
@@ -149,6 +150,7 @@
             listBoxToolStripMenuItem.Name = "listBoxToolStripMenuItem";
             listBoxToolStripMenuItem.Size = new Size(198, 22);
             listBoxToolStripMenuItem.Text = "ListBox";
+            listBoxToolStripMenuItem.Click += listBoxToolStripMenuItem_Click;
             // 
             // listBoxComboBoxToolStripMenuItem
             // 
@@ -183,28 +185,28 @@
             // cascadeToolStripMenuItem
             // 
             cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            cascadeToolStripMenuItem.Size = new Size(180, 22);
+            cascadeToolStripMenuItem.Size = new Size(129, 22);
             cascadeToolStripMenuItem.Text = "Cascade";
             cascadeToolStripMenuItem.Click += cascadeToolStripMenuItem_Click;
             // 
             // horizontalToolStripMenuItem
             // 
             horizontalToolStripMenuItem.Name = "horizontalToolStripMenuItem";
-            horizontalToolStripMenuItem.Size = new Size(180, 22);
+            horizontalToolStripMenuItem.Size = new Size(129, 22);
             horizontalToolStripMenuItem.Text = "Horizontal";
             horizontalToolStripMenuItem.Click += horizontalToolStripMenuItem_Click;
             // 
             // verticalToolStripMenuItem
             // 
             verticalToolStripMenuItem.Name = "verticalToolStripMenuItem";
-            verticalToolStripMenuItem.Size = new Size(180, 22);
+            verticalToolStripMenuItem.Size = new Size(129, 22);
             verticalToolStripMenuItem.Text = "Vertical";
             verticalToolStripMenuItem.Click += verticalToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(177, 6);
+            toolStripSeparator3.Size = new Size(126, 6);
             // 
             // statusStrip1
             // 

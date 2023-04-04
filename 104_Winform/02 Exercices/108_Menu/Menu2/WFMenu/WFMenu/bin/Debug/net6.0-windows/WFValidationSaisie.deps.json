@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WFValidationSaisie/1.0.0": {
+        "dependencies": {
+          "CLControles": "1.0.0",
+          "CLTransactions": "1.0.0"
+        },
+        "runtime": {
+          "WFValidationSaisie.dll": {}
+        }
+      },
+      "CLControles/1.0.0": {
+        "runtime": {
+          "CLControles.dll": {}
+        }
+      },
+      "CLTransactions/1.0.0": {
+        "runtime": {
+          "CLTransactions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WFValidationSaisie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLTransactions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

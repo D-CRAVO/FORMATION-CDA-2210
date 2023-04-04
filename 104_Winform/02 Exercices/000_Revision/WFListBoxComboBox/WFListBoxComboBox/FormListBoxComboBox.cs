@@ -18,12 +18,14 @@ namespace WFListBoxComboBox
         public FormListBoxComboBox()
         {
             InitializeComponent();
+            buttonUp_Enable();
         }
 
         public FormListBoxComboBox(List<string> list)
         {
             InitializeComponent();
             InitializeComponent2(list);
+            buttonUp_Enable();
         }
 
         private void InitializeComponent2(List<string> list)
@@ -42,18 +44,19 @@ namespace WFListBoxComboBox
                 comboBoxSource.Items.Remove(comboBoxSource.SelectedItem);
                 listBoxCible.SetSelected(listBoxCible.Items.Count - 1, true);
             }
-
         }
 
         private void buttonAjouterTout_Click(object sender, EventArgs e)
         {
-            foreach (object item in comboBoxSource.Items)
+            do
             {
-                listBoxCible.Items.Add(item);
-                comboBoxSource.Items.Remove(item);
-                listBoxCible.SetSelected(0, true);
-            }
-
+                foreach (object item in comboBoxSource.Items)
+                {
+                    listBoxCible.Items.Add(item);
+                    comboBoxSource.Items.Remove(item);
+                }
+            } while (comboBoxSource.Items.Count > 0);
+            listBoxCible.SetSelected(0, true);
         }
 
         private void buttonSupprimer_Click(object sender, EventArgs e)
@@ -68,17 +71,45 @@ namespace WFListBoxComboBox
                 {
                     listBoxCible.SetSelected(listBoxCible.SelectedIndex + 1, true);
                 }
-
             }
         }
 
         private void buttonToutSupprimer_Click(object sender, EventArgs e)
         {
-            for(int i = listBoxCible.Items.Count; i > 0; i--)
+            while (listBoxCible.Items.Count > 0)
             {
-                comboBoxSource.Items.Add(listBoxCible.SelectedItems[i]);
+                listBoxCible.SetSelected(0, true);
+                comboBoxSource.Items.Add(listBoxCible.SelectedItem);
+                listBoxCible.Items.Remove(listBoxCible.SelectedItem);
             }
-            listBoxCible.Items.Clear();
+        }
+
+        private void buttonUp_Click(object sender, EventArgs e)
+        {
+            if (listBoxCible.Items.Count > 0
+                && listBoxCible.SelectedIndex != -1)
+            {
+                int nb = listBoxCible.SelectedIndex;
+                object itemTemp = listBoxCible.Items[nb - 1];
+                listBoxCible.Items[nb - 1] = listBoxCible.Items[nb];
+                listBoxCible.Items[nb] = itemTemp;
+                listBoxCible.SetSelected(nb - 1, true);
+            }
+        }
+
+        private void buttonUp_Enable()
+        {
+            if (listBoxCible.Items.Count == 0
+                || listBoxCible.SelectedIndex == -1
+                || listBoxCible.SelectedIndex == 0)
+            {
+                buttonAjouter.Enabled = false;
+            }
+        }
+
+        private void listBoxCible_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            buttonUp_Enable();
         }
     }
 }
