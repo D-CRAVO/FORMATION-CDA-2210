@@ -1,0 +1,17 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.FormDefilementCouleurs.resources
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.csproj.GenerateResource.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\bin\Debug\net6.0-windows\WFDefilementCouleurs.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\bin\Debug\net6.0-windows\WFDefilementCouleurs.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\bin\Debug\net6.0-windows\WFDefilementCouleurs.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\bin\Debug\net6.0-windows\WFDefilementCouleurs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\bin\Debug\net6.0-windows\WFDefilementCouleurs.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\refint\WFDefilementCouleurs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\WFDefilementCouleurs.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\000_Revision\WFDefilementCouleurs\WFDefilementCouleurs\obj\Debug\net6.0-windows\ref\WFDefilementCouleurs.dll
