@@ -47,6 +47,7 @@
             comboBoxSource.Name = "comboBoxSource";
             comboBoxSource.Size = new Size(121, 23);
             comboBoxSource.TabIndex = 0;
+            comboBoxSource.DropDown += ComboBoxSource_AjouterElement;
             // 
             // labelSource
             // 
@@ -59,7 +60,7 @@
             // 
             // buttonAjouter
             // 
-            buttonAjouter.Location = new Point(180, 64);
+            buttonAjouter.Location = new Point(196, 63);
             buttonAjouter.Name = "buttonAjouter";
             buttonAjouter.Size = new Size(75, 23);
             buttonAjouter.TabIndex = 2;
@@ -69,7 +70,7 @@
             // 
             // buttonToutSupprimer
             // 
-            buttonToutSupprimer.Location = new Point(180, 194);
+            buttonToutSupprimer.Location = new Point(196, 193);
             buttonToutSupprimer.Name = "buttonToutSupprimer";
             buttonToutSupprimer.Size = new Size(75, 23);
             buttonToutSupprimer.TabIndex = 3;
@@ -79,7 +80,7 @@
             // 
             // buttonSupprimer
             // 
-            buttonSupprimer.Location = new Point(180, 165);
+            buttonSupprimer.Location = new Point(196, 164);
             buttonSupprimer.Name = "buttonSupprimer";
             buttonSupprimer.Size = new Size(75, 23);
             buttonSupprimer.TabIndex = 4;
@@ -89,7 +90,7 @@
             // 
             // buttonAjouterTout
             // 
-            buttonAjouterTout.Location = new Point(180, 93);
+            buttonAjouterTout.Location = new Point(196, 92);
             buttonAjouterTout.Name = "buttonAjouterTout";
             buttonAjouterTout.Size = new Size(75, 23);
             buttonAjouterTout.TabIndex = 5;
@@ -99,16 +100,17 @@
             // 
             // buttonDown
             // 
-            buttonDown.Location = new Point(365, 223);
+            buttonDown.Location = new Point(381, 222);
             buttonDown.Name = "buttonDown";
             buttonDown.Size = new Size(47, 40);
             buttonDown.TabIndex = 7;
             buttonDown.Text = "Down";
             buttonDown.UseVisualStyleBackColor = true;
+            buttonDown.Click += buttonDown_Click;
             // 
             // buttonUp
             // 
-            buttonUp.Location = new Point(277, 223);
+            buttonUp.Location = new Point(293, 222);
             buttonUp.Name = "buttonUp";
             buttonUp.Size = new Size(47, 40);
             buttonUp.TabIndex = 8;
@@ -119,7 +121,7 @@
             // labelCible
             // 
             labelCible.AutoSize = true;
-            labelCible.Location = new Point(277, 38);
+            labelCible.Location = new Point(293, 38);
             labelCible.Name = "labelCible";
             labelCible.Size = new Size(34, 15);
             labelCible.TabIndex = 9;
@@ -129,7 +131,7 @@
             // 
             listBoxCible.FormattingEnabled = true;
             listBoxCible.ItemHeight = 15;
-            listBoxCible.Location = new Point(277, 64);
+            listBoxCible.Location = new Point(293, 63);
             listBoxCible.Name = "listBoxCible";
             listBoxCible.Size = new Size(135, 154);
             listBoxCible.TabIndex = 10;
