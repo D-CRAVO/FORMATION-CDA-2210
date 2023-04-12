@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "ClassLibraryEmprunts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryEmpruntsControles": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibraryEmprunts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryEmprunts.dll": {}
+        }
+      },
+      "ClassLibraryEmpruntsControles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibraryEmpruntsControles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibraryEmpruntsControles.dll": {}
+        }
+      },
       "CLCalcul/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -71,6 +94,19 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "WFDefilementCouleurs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WFDefilementCouleurs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WFDefilementCouleurs.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "WFIdentification/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -135,10 +171,36 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "WinFormsEmprunts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibraryEmprunts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinFormsEmprunts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinFormsEmprunts.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
   "libraries": {
+    "ClassLibraryEmprunts/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryEmprunts/ClassLibraryEmprunts.csproj",
+      "msbuildProject": "../ClassLibraryEmprunts/ClassLibraryEmprunts.csproj"
+    },
+    "ClassLibraryEmpruntsControles/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibraryEmpruntsControles/ClassLibraryEmpruntsControles.csproj",
+      "msbuildProject": "../ClassLibraryEmpruntsControles/ClassLibraryEmpruntsControles.csproj"
+    },
     "CLCalcul/1.0.0": {
       "type": "project",
       "path": "../CLCalcul/CLCalcul.csproj",
@@ -169,6 +231,11 @@
       "path": "../WFCheckBoxRadioButton/WFCheckBoxRadioButton.csproj",
       "msbuildProject": "../WFCheckBoxRadioButton/WFCheckBoxRadioButton.csproj"
     },
+    "WFDefilementCouleurs/1.0.0": {
+      "type": "project",
+      "path": "../WFDefilementCouleurs/WFDefilementCouleurs.csproj",
+      "msbuildProject": "../WFDefilementCouleurs/WFDefilementCouleurs.csproj"
+    },
     "WFIdentification/1.0.0": {
       "type": "project",
       "path": "../WFIdentification/WFIdentification.csproj",
@@ -188,16 +255,23 @@
       "type": "project",
       "path": "../WFValidationSaisie/WFValidationSaisie.csproj",
       "msbuildProject": "../WFValidationSaisie/WFValidationSaisie.csproj"
+    },
+    "WinFormsEmprunts/1.0.0": {
+      "type": "project",
+      "path": "../WinFormsEmprunts/WinFormsEmprunts.csproj",
+      "msbuildProject": "../WinFormsEmprunts/WinFormsEmprunts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "WFAdditionneur >= 1.0.0",
       "WFCheckBoxRadioButton >= 1.0.0",
+      "WFDefilementCouleurs >= 1.0.0",
       "WFIdentification >= 1.0.0",
       "WFListBox >= 1.0.0",
       "WFSaisieTexte >= 1.0.0",
-      "WFValidationSaisie >= 1.0.0"
+      "WFValidationSaisie >= 1.0.0",
+      "WinFormsEmprunts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -240,6 +314,9 @@
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFCheckBoxRadioButton\\WFCheckBoxRadioButton.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFCheckBoxRadioButton\\WFCheckBoxRadioButton.csproj"
             },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFDefilementCouleurs\\WFDefilementCouleurs.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFDefilementCouleurs\\WFDefilementCouleurs.csproj"
+            },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFIdentification\\WFIdentification.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFIdentification\\WFIdentification.csproj"
             },
@@ -251,6 +328,9 @@
             },
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFValidationSaisie\\WFValidationSaisie.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WFValidationSaisie\\WFValidationSaisie.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WinFormsEmprunts\\WinFormsEmprunts.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\108_Menu\\Menu2\\WFMenu\\WinFormsEmprunts\\WinFormsEmprunts.csproj"
             }
           }
         }

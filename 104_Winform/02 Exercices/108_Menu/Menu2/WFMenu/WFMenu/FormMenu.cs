@@ -13,6 +13,8 @@ using WFSaisieTexte;
 using WFIdentification;
 using WFValidationSaisie;
 using WFListBox;
+using WFDefilementCouleurs;
+using WinFormsEmprunts;
 
 namespace WFMenu
 {
@@ -28,6 +30,7 @@ namespace WFMenu
             FigerVolets();
             Authentification();
             toolStripSplitButtonPhase3.DropDown = phase3ToolStripMenuItem.DropDown;
+            toolStripStatusLabelDate.Text = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
 
@@ -61,7 +64,7 @@ namespace WFMenu
         private void OuvrirFormulaire(Form form)
         {
             compteur++;
-            form.Text += $"N°{compteur}";
+            form.Text += $" N°{compteur}";
             form.MdiParent = this;
             form.Show();
         }
@@ -125,6 +128,16 @@ namespace WFMenu
         private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OuvrirFormulaire(new FormListBox());
+        }
+
+        private void defilementCouleursToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FormDefilementCouleurs());
+        }
+
+        private void empruntsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OuvrirFormulaire(new FormEmprunts());
         }
     }
 }

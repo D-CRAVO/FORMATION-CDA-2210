@@ -10,13 +10,28 @@
         "dependencies": {
           "WFAdditionneur": "1.0.0",
           "WFCheckBoxRadioButton": "1.0.0",
+          "WFDefilementCouleurs": "1.0.0",
           "WFIdentification": "1.0.0",
           "WFListBox": "1.0.0",
           "WFSaisieTexte": "1.0.0",
-          "WFValidationSaisie": "1.0.0"
+          "WFValidationSaisie": "1.0.0",
+          "WinFormsEmprunts": "1.0.0"
         },
         "runtime": {
           "WFMenu.dll": {}
+        }
+      },
+      "ClassLibraryEmprunts/1.0.0": {
+        "dependencies": {
+          "ClassLibraryEmpruntsControles": "1.0.0"
+        },
+        "runtime": {
+          "ClassLibraryEmprunts.dll": {}
+        }
+      },
+      "ClassLibraryEmpruntsControles/1.0.0": {
+        "runtime": {
+          "ClassLibraryEmpruntsControles.dll": {}
         }
       },
       "CLCalcul/1.0.0": {
@@ -52,6 +67,11 @@
           "WFCheckBoxRadioButton.dll": {}
         }
       },
+      "WFDefilementCouleurs/1.0.0": {
+        "runtime": {
+          "WFDefilementCouleurs.dll": {}
+        }
+      },
       "WFIdentification/1.0.0": {
         "dependencies": {
           "CLVerification": "1.0.0"
@@ -84,11 +104,29 @@
         "runtime": {
           "WFValidationSaisie.dll": {}
         }
+      },
+      "WinFormsEmprunts/1.0.0": {
+        "dependencies": {
+          "ClassLibraryEmprunts": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsEmprunts.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "WFMenu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryEmprunts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryEmpruntsControles/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -123,6 +161,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "WFDefilementCouleurs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "WFIdentification/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -139,6 +182,11 @@
       "sha512": ""
     },
     "WFValidationSaisie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsEmprunts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

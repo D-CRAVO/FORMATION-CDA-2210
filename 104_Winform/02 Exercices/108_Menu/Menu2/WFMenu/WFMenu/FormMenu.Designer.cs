@@ -127,7 +127,7 @@
             // validationSaisieToolStripMenuItem
             // 
             validationSaisieToolStripMenuItem.Name = "validationSaisieToolStripMenuItem";
-            validationSaisieToolStripMenuItem.Size = new Size(180, 22);
+            validationSaisieToolStripMenuItem.Size = new Size(155, 22);
             validationSaisieToolStripMenuItem.Text = "ValidationSaisie";
             validationSaisieToolStripMenuItem.Click += validationSaisieToolStripMenuItem_Click;
             // 
@@ -163,6 +163,7 @@
             defilementCouleursToolStripMenuItem.Name = "defilementCouleursToolStripMenuItem";
             defilementCouleursToolStripMenuItem.Size = new Size(198, 22);
             defilementCouleursToolStripMenuItem.Text = "DefilementCouleurs";
+            defilementCouleursToolStripMenuItem.Click += defilementCouleursToolStripMenuItem_Click;
             // 
             // toolStripSeparator2
             // 
@@ -174,6 +175,7 @@
             empruntsToolStripMenuItem.Name = "empruntsToolStripMenuItem";
             empruntsToolStripMenuItem.Size = new Size(198, 22);
             empruntsToolStripMenuItem.Text = "Emprunts";
+            empruntsToolStripMenuItem.Click += empruntsToolStripMenuItem_Click;
             // 
             // fenêtresToolStripMenuItem
             // 

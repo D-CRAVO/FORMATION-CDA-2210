@@ -146,7 +146,7 @@ namespace Menu
         private void FormMenu_Load(object sender, EventArgs e)
         {
             //toolStripStatusLabelIdentification.Text = FormMenu.ActiveForm.Name;
-            //toolStripStatusLabelIdentification.Text = ActiveForm.Name;
+            toolStripStatusLabelIdentification.Text = ActiveForm.Name.ToString();
         }
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

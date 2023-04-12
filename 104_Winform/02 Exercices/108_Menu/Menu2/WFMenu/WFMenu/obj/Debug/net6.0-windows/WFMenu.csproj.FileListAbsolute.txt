@@ -98,3 +98,17 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFListBox.exe
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFListBox.dll
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFListBox.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFDefilementCouleurs.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFDefilementCouleurs.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFDefilementCouleurs.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WinFormsEmprunts.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WinFormsEmprunts.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WinFormsEmprunts.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\ClassLibraryEmprunts.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\ClassLibraryEmpruntsControles.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFDefilementCouleurs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WinFormsEmprunts.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WFDefilementCouleurs.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\WinFormsEmprunts.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\ClassLibraryEmprunts.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\108_Menu\Menu2\WFMenu\WFMenu\bin\Debug\net6.0-windows\ClassLibraryEmpruntsControles.pdb
