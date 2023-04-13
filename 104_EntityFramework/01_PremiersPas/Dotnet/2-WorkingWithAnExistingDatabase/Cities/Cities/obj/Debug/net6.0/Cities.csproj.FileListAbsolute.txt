@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\bin\Debug\net6.0\Cities.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\bin\Debug\net6.0\Cities.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\bin\Debug\net6.0\Cities.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\bin\Debug\net6.0\Cities.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\bin\Debug\net6.0\Cities.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\refint\Cities.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\Cities.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Dotnet\2-WorkingWithAnExistingDatabase\Cities\Cities\obj\Debug\net6.0\ref\Cities.dll

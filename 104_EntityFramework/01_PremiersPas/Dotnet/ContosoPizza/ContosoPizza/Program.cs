@@ -7,7 +7,8 @@ using ContosoPizzaContext context = new ContosoPizzaContext();
 //Product veggieSpecial = new Product()
 //{
 //    Name = "Veggie Special Pizza"
-//    ,Price = 9.99M
+//    ,
+//    Price = 9.99M
 //};
 //context.Products.Add(veggieSpecial);
 
@@ -23,17 +24,17 @@ using ContosoPizzaContext context = new ContosoPizzaContext();
 #endregion
 
 #region Lecture version 1
-//var products = context.Products
-//                    .Where(p => p.Price > 10.00M)
-//                    .OrderBy(p => p.Name);
+var products = context.Products
+                    .Where(p => p.Price > 10.00M)
+                    .OrderBy(p => p.Name);
 
-//foreach (Product p in products)
-//{
-//    Console.WriteLine($"Id:     {p.Id}");
-//    Console.WriteLine($"Name:   {p.Name}");
-//    Console.WriteLine($"Price:  {p.Price}");
-//    Console.WriteLine(new string('-', 20));
-//}
+foreach (Product p in products)
+{
+    Console.WriteLine($"Id:     {p.Id}");
+    Console.WriteLine($"Name:   {p.Name}");
+    Console.WriteLine($"Price:  {p.Price}");
+    Console.WriteLine(new string('-', 20));
+}
 #endregion
 
 #region Lecture version 2
@@ -78,27 +79,27 @@ using ContosoPizzaContext context = new ContosoPizzaContext();
 #endregion
 
 #region Suppression et lecture
-var veggieSpecial = context.Products
-                        .Where(p => p.Name == "Veggie Special Pizza")
-                        .FirstOrDefault();
+//var veggieSpecial = context.Products
+//                        .Where(p => p.Name == "Veggie Special Pizza")
+//                        .FirstOrDefault();
 
-if (veggieSpecial is Product)
-{
-    context.Remove(veggieSpecial);
-}
+//if (veggieSpecial is Product)
+//{
+//    context.Remove(veggieSpecial);
+//}
 
-context.SaveChanges();
+//context.SaveChanges();
 
-var products = from product in context.Products
-               where product.Price > 10.00M
-               orderby product.Name
-               select product;
+//var products = from product in context.Products
+//               where product.Price > 10.00M
+//               orderby product.Name
+//               select product;
 
-foreach (Product p in products)
-{
-    Console.WriteLine($"Id:     {p.Id}");
-    Console.WriteLine($"Name:   {p.Name}");
-    Console.WriteLine($"Price:  {p.Price}");
-    Console.WriteLine(new string('-', 20));
-}
+//foreach (Product p in products)
+//{
+//    Console.WriteLine($"Id:     {p.Id}");
+//    Console.WriteLine($"Name:   {p.Name}");
+//    Console.WriteLine($"Price:  {p.Price}");
+//    Console.WriteLine(new string('-', 20));
+//}
 #endregion
