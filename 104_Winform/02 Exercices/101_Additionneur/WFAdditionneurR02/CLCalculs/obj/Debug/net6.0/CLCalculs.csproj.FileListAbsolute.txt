@@ -1,0 +1,12 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\bin\Debug\net6.0\CLCalculs.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\bin\Debug\net6.0\CLCalculs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\bin\Debug\net6.0\CLCalculs.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\refint\CLCalculs.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\CLCalculs.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\101_Additionneur\WFAdditionneurR02\CLCalculs\obj\Debug\net6.0\ref\CLCalculs.dll

@@ -1,0 +1,15 @@
+VERSION MOSH
+Dans Visual Studio
+Outils --> Gestionnaire de packages NuGet --> Console du gestionnaire de packages
+Dans la fenêtre qui s'ouvre en bas taper :
+PM> install-package EntityFramework
+
+VERSION DOTNET
+Outils --> Gestionnaire de packages NuGet --> Gérer les packages NuGet pour la solution ...
+Dans l'onglet Parcourir rechercher et installer :
+- Microsoft.EntityFrameworkCore.Design
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+Outils --> Gestionnaire de packages NuGet --> Console du gestionnaire de packages
+Dans la fenêtre qui s'ouvre en bas taper :
+PM> Scaffold-DbContext "Data Source = ...; Initial Catalog = ...; Integrated Security = ..." Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
