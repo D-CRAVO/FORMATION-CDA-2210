@@ -1,4 +1,4 @@
-use db303_carsowners_v2;
+/*use db303_carsowners_v2;*/
 
 drop table if exists registrations;
 drop table if exists cars;

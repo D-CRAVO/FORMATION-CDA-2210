@@ -39,6 +39,7 @@
             buttonClear = new Button();
             dataGridView1 = new DataGridView();
             textBoxConsole = new TextBox();
+            labelIdCity = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewCities).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -80,10 +81,11 @@
             buttonDeleteCity2.TabIndex = 3;
             buttonDeleteCity2.Text = "DeleteCity method 2";
             buttonDeleteCity2.UseVisualStyleBackColor = true;
+            buttonDeleteCity2.Click += buttonDeleteCity2_Click;
             // 
             // textBoxId
             // 
-            textBoxId.Location = new Point(621, 41);
+            textBoxId.Location = new Point(621, 56);
             textBoxId.Name = "textBoxId";
             textBoxId.Size = new Size(28, 23);
             textBoxId.TabIndex = 4;
@@ -141,11 +143,21 @@
             textBoxConsole.Size = new Size(389, 355);
             textBoxConsole.TabIndex = 10;
             // 
+            // labelIdCity
+            // 
+            labelIdCity.AutoSize = true;
+            labelIdCity.Location = new Point(655, 59);
+            labelIdCity.Name = "labelIdCity";
+            labelIdCity.Size = new Size(38, 15);
+            labelIdCity.TabIndex = 11;
+            labelIdCity.Text = "IdCity";
+            // 
             // FormCity
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(860, 617);
+            Controls.Add(labelIdCity);
             Controls.Add(textBoxConsole);
             Controls.Add(dataGridView1);
             Controls.Add(buttonClear);
@@ -178,5 +190,6 @@
         private Button buttonClear;
         private DataGridView dataGridView1;
         private TextBox textBoxConsole;
+        private Label labelIdCity;
     }
 }

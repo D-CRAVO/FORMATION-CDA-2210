@@ -1,4 +1,4 @@
-use db303_carsowners_v2;
+/*use db303_carsowners_v2;*/
 /*
 delete from registrations;
 
