@@ -1155,6 +1155,16 @@
             "rid": "win"
           }
         }
+      },
+      "CLEmployees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLEmployees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLEmployees.dll": {}
+        }
       }
     }
   },
@@ -3492,10 +3502,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CLEmployees/1.0.0": {
+      "type": "project",
+      "path": "../CLEmployees/CLEmployees.csproj",
+      "msbuildProject": "../CLEmployees/CLEmployees.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "CLEmployees >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5"
@@ -3534,7 +3550,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFEmployees\\CLEmployees\\CLEmployees.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFEmployees\\CLEmployees\\CLEmployees.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

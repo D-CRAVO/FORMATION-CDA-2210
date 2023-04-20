@@ -4,5 +4,8 @@
     <Compile Update="FormEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormNewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -28,19 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             dataGridViewEmployees = new DataGridView();
             buttonAdd = new Button();
             buttonDelete = new Button();
             buttonModify = new Button();
             textBoxId = new TextBox();
-            labelFisrtName = new Label();
+            labelFirstName = new Label();
             textBoxFirstName = new TextBox();
-            textBox1 = new TextBox();
-            label1 = new Label();
+            textBoxLastName = new TextBox();
+            labelLastName = new Label();
             labelId = new Label();
-            labelIdManager = new Label();
-            textBox2 = new TextBox();
+            labelManagerId = new Label();
+            textBoxManagerId = new TextBox();
+            errorProviderAddEmployee = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)dataGridViewEmployees).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderAddEmployee).BeginInit();
             SuspendLayout();
             // 
             // dataGridViewEmployees
@@ -87,14 +90,14 @@
             textBoxId.Size = new Size(40, 23);
             textBoxId.TabIndex = 4;
             // 
-            // labelFisrtName
+            // labelFirstName
             // 
-            labelFisrtName.AutoSize = true;
-            labelFisrtName.Location = new Point(615, 49);
-            labelFisrtName.Name = "labelFisrtName";
-            labelFisrtName.Size = new Size(61, 15);
-            labelFisrtName.TabIndex = 5;
-            labelFisrtName.Text = "FisrtName";
+            labelFirstName.AutoSize = true;
+            labelFirstName.Location = new Point(615, 49);
+            labelFirstName.Name = "labelFirstName";
+            labelFirstName.Size = new Size(61, 15);
+            labelFirstName.TabIndex = 5;
+            labelFirstName.Text = "FirstName";
             // 
             // textBoxFirstName
             // 
@@ -103,21 +106,21 @@
             textBoxFirstName.Size = new Size(100, 23);
             textBoxFirstName.TabIndex = 6;
             // 
-            // textBox1
+            // textBoxLastName
             // 
-            textBox1.Location = new Point(682, 75);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 8;
+            textBoxLastName.Location = new Point(682, 75);
+            textBoxLastName.Name = "textBoxLastName";
+            textBoxLastName.Size = new Size(100, 23);
+            textBoxLastName.TabIndex = 8;
             // 
-            // label1
+            // labelLastName
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(615, 78);
-            label1.Name = "label1";
-            label1.Size = new Size(61, 15);
-            label1.TabIndex = 7;
-            label1.Text = "FisrtName";
+            labelLastName.AutoSize = true;
+            labelLastName.Location = new Point(615, 78);
+            labelLastName.Name = "labelLastName";
+            labelLastName.Size = new Size(60, 15);
+            labelLastName.TabIndex = 7;
+            labelLastName.Text = "LastName";
             // 
             // labelId
             // 
@@ -128,34 +131,38 @@
             labelId.TabIndex = 9;
             labelId.Text = "Id";
             // 
-            // labelIdManager
+            // labelManagerId
             // 
-            labelIdManager.AutoSize = true;
-            labelIdManager.Location = new Point(615, 107);
-            labelIdManager.Name = "labelIdManager";
-            labelIdManager.Size = new Size(64, 15);
-            labelIdManager.TabIndex = 11;
-            labelIdManager.Text = "IdManager";
+            labelManagerId.AutoSize = true;
+            labelManagerId.Location = new Point(615, 107);
+            labelManagerId.Name = "labelManagerId";
+            labelManagerId.Size = new Size(64, 15);
+            labelManagerId.TabIndex = 11;
+            labelManagerId.Text = "ManagerId";
             // 
-            // textBox2
+            // textBoxManagerId
             // 
-            textBox2.Location = new Point(682, 104);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(40, 23);
-            textBox2.TabIndex = 10;
+            textBoxManagerId.Location = new Point(682, 104);
+            textBoxManagerId.Name = "textBoxManagerId";
+            textBoxManagerId.Size = new Size(40, 23);
+            textBoxManagerId.TabIndex = 10;
+            // 
+            // errorProviderAddEmployee
+            // 
+            errorProviderAddEmployee.ContainerControl = this;
             // 
             // FormEmployees
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(labelIdManager);
-            Controls.Add(textBox2);
+            Controls.Add(labelManagerId);
+            Controls.Add(textBoxManagerId);
             Controls.Add(labelId);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(textBoxLastName);
+            Controls.Add(labelLastName);
             Controls.Add(textBoxFirstName);
-            Controls.Add(labelFisrtName);
+            Controls.Add(labelFirstName);
             Controls.Add(textBoxId);
             Controls.Add(buttonModify);
             Controls.Add(buttonDelete);
@@ -164,6 +171,7 @@
             Name = "FormEmployees";
             Text = "FormEmployees";
             ((System.ComponentModel.ISupportInitialize)dataGridViewEmployees).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderAddEmployee).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -175,12 +183,13 @@
         private Button buttonDelete;
         private Button buttonModify;
         private TextBox textBoxId;
-        private Label labelFisrtName;
+        private Label labelFirstName;
         private TextBox textBoxFirstName;
-        private TextBox textBox1;
-        private Label label1;
+        private TextBox textBoxLastName;
+        private Label labelLastName;
         private Label labelId;
-        private Label labelIdManager;
-        private TextBox textBox2;
+        private Label labelManagerId;
+        private TextBox textBoxManagerId;
+        private ErrorProvider errorProviderAddEmployee;
     }
 }
