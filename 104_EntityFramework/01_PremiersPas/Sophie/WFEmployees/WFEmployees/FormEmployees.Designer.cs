@@ -82,6 +82,7 @@
             buttonModify.TabIndex = 3;
             buttonModify.Text = "ModifyEmployee";
             buttonModify.UseVisualStyleBackColor = true;
+            buttonModify.Click += buttonModify_Click;
             // 
             // textBoxId
             // 
@@ -89,6 +90,7 @@
             textBoxId.Name = "textBoxId";
             textBoxId.Size = new Size(40, 23);
             textBoxId.TabIndex = 4;
+            textBoxId.Visible = false;
             // 
             // labelFirstName
             // 
@@ -98,6 +100,7 @@
             labelFirstName.Size = new Size(61, 15);
             labelFirstName.TabIndex = 5;
             labelFirstName.Text = "FirstName";
+            labelFirstName.Visible = false;
             // 
             // textBoxFirstName
             // 
@@ -105,6 +108,7 @@
             textBoxFirstName.Name = "textBoxFirstName";
             textBoxFirstName.Size = new Size(100, 23);
             textBoxFirstName.TabIndex = 6;
+            textBoxFirstName.Visible = false;
             // 
             // textBoxLastName
             // 
@@ -112,6 +116,7 @@
             textBoxLastName.Name = "textBoxLastName";
             textBoxLastName.Size = new Size(100, 23);
             textBoxLastName.TabIndex = 8;
+            textBoxLastName.Visible = false;
             // 
             // labelLastName
             // 
@@ -121,6 +126,7 @@
             labelLastName.Size = new Size(60, 15);
             labelLastName.TabIndex = 7;
             labelLastName.Text = "LastName";
+            labelLastName.Visible = false;
             // 
             // labelId
             // 
@@ -130,6 +136,7 @@
             labelId.Size = new Size(17, 15);
             labelId.TabIndex = 9;
             labelId.Text = "Id";
+            labelId.Visible = false;
             // 
             // labelManagerId
             // 
@@ -139,6 +146,7 @@
             labelManagerId.Size = new Size(64, 15);
             labelManagerId.TabIndex = 11;
             labelManagerId.Text = "ManagerId";
+            labelManagerId.Visible = false;
             // 
             // textBoxManagerId
             // 
@@ -146,6 +154,7 @@
             textBoxManagerId.Name = "textBoxManagerId";
             textBoxManagerId.Size = new Size(40, 23);
             textBoxManagerId.TabIndex = 10;
+            textBoxManagerId.Visible = false;
             // 
             // errorProviderAddEmployee
             // 

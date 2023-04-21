@@ -123,3 +123,4 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_Premi
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Sophie\WFEmployees\WFEmployees\obj\Debug\net6.0-windows\WFEmployees.FormNewEmployee.resources
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Sophie\WFEmployees\WFEmployees\bin\Debug\net6.0-windows\CLEmployees.dll
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Sophie\WFEmployees\WFEmployees\bin\Debug\net6.0-windows\CLEmployees.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\01_PremiersPas\Sophie\WFEmployees\WFEmployees\obj\Debug\net6.0-windows\WFEmployees.FormModifyEmployee.resources

@@ -30,7 +30,7 @@ namespace WFEmployees
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             FormNewEmployee form = new FormNewEmployee();
-            Employee employee = new Employee();
+            form.ShowDialog();
 
             //Employee employee = new Employee();
             //if (textBoxFirstName != null && textBoxLastName != null)
@@ -56,12 +56,33 @@ namespace WFEmployees
 
         private bool IdVerification(int _id)
         {
-            foreach (var item in dbContext.Employees) 
+            foreach (var item in dbContext.Employees)
             {
                 if (item.EmpId == _id)
                 { return true; }
             }
             return false;
+        }
+
+        private void buttonModify_Click(object sender, EventArgs e)
+        {
+            Employee employee = SelectEmployee();
+
+            FormModifyEmployee form = new FormModifyEmployee(employee, dbContext);
+            form.ShowDialog();
+            dataGridViewEmployees.Refresh();
+        }
+
+        private Employee SelectEmployee()
+        {
+            Employee employee = new Employee();
+            employee.EmpId = int.Parse(dataGridViewEmployees[0, dataGridViewEmployees.CurrentRow.Index].Value.ToString());
+            employee.EmpLastname = dataGridViewEmployees[1, dataGridViewEmployees.CurrentRow.Index].Value.ToString();
+            employee.EmpFirstname = dataGridViewEmployees[2, dataGridViewEmployees.CurrentRow.Index].Value.ToString();
+            employee.EmpSalary = int.Parse(dataGridViewEmployees[3, dataGridViewEmployees.CurrentRow.Index].Value.ToString());
+            employee.EmpHiredate = DateTime.Parse(dataGridViewEmployees[4, dataGridViewEmployees.CurrentRow.Index].Value.ToString());
+            employee.EmpManagerId = int.Parse(dataGridViewEmployees[5, dataGridViewEmployees.CurrentRow.Index].Value.ToString());
+            return employee;
         }
     }
 }

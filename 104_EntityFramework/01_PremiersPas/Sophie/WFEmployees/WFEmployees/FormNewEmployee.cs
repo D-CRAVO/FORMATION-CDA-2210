@@ -10,16 +10,19 @@ using System.Windows.Forms;
 using CLEmployees;
 using Microsoft.EntityFrameworkCore;
 using WFEmployees.Data;
+using WFEmployees.Models;
 
 namespace WFEmployees
 {
     public partial class FormNewEmployee : Form
     {
         private WorkEmployee workEmployee;
+        private Db302EmployeesContext dbContext;
 
         public FormNewEmployee()
         {
             InitializeComponent();
+            dbContext = new Db302EmployeesContext();
         }
 
         private void buttonClear_Click(object sender, EventArgs e)
@@ -33,14 +36,25 @@ namespace WFEmployees
 
         private void buttonValidate_Click(object sender, EventArgs e)
         {
+            Employee employee = new Employee();
             workEmployee = new WorkEmployee
                 (
                     textBoxLastName.Text,
                     textBoxFirstName.Text,
                     int.Parse(textBoxSalary.Text),
-                    DateOnly.Parse(textBoxHireDate.Text),
+                    DateTime.Parse(textBoxHireDate.Text),
                     int.Parse(textBoxManagerId.Text)
                 );
+
+            employee.EmpFirstname = workEmployee.WorkEmpFirstName;
+            employee.EmpLastname = workEmployee.WorkEmpLastName;
+            employee.EmpSalary = workEmployee.WorkEmpSalary;
+            employee.EmpHiredate = workEmployee.WorkEmpHireDate;
+            employee.EmpManagerId = workEmployee.WorkEmpManagerId;
+
+            dbContext.Add(employee);
+            dbContext.SaveChanges();
+            Close();
         }
     }
 }
