@@ -30,5 +30,15 @@ namespace CLEmployees
             hiredate = _hiredate;
             managerId = _managerId;
         }
+
+        public WorkEmployee(int _id, string _lastname, string _firstname, int _salary, DateTime _hiredate, int _managerId) 
+        {
+            id = _id;
+            lastname = _lastname;
+            firstname = _firstname;
+            salary = _salary;
+            hiredate = _hiredate;
+            managerId = _managerId;
+        }
     }
 }
