@@ -31,37 +31,6 @@ namespace WFEmployees
         {
             FormNewEmployee form = new FormNewEmployee(dbContext);
             form.ShowDialog();
-
-            //Employee employee = new Employee();
-            //if (textBoxFirstName != null && textBoxLastName != null)
-            //{
-            //    employee.EmpLastname = textBoxLastName.Text;
-            //    employee.EmpFirstname = textBoxFirstName.Text;
-
-            //    if (textBoxManagerId != null)
-            //    {
-            //        int id;
-            //        bool idOk = int.TryParse(textBoxManagerId.Text, out id);
-            //        if (idOk)
-            //        {
-            //            if (IdVerification(id))
-            //            {
-            //                employee.EmpManagerId = id;
-            //            }
-            //        }
-            //    }
-            //    dbContext.Employees.Add(employee);
-            //}
-        }
-
-        private bool IdVerification(int _id)
-        {
-            foreach (var item in dbContext.Employees)
-            {
-                if (item.EmpId == _id)
-                { return true; }
-            }
-            return false;
         }
 
         private void buttonModify_Click(object sender, EventArgs e)
@@ -76,6 +45,7 @@ namespace WFEmployees
         private Employee SelectEmployee()
         {
             Employee employee = new Employee();
+
             employee.EmpId = int.Parse(dataGridViewEmployees[0, dataGridViewEmployees.CurrentRow.Index].Value.ToString());
             employee.EmpLastname = dataGridViewEmployees[1, dataGridViewEmployees.CurrentRow.Index].Value.ToString();
             employee.EmpFirstname = dataGridViewEmployees[2, dataGridViewEmployees.CurrentRow.Index].Value.ToString();

@@ -12,4 +12,9 @@ Dans l'onglet Parcourir rechercher et installer :
 - Microsoft.EntityFrameworkCore.Tools
 Outils --> Gestionnaire de packages NuGet --> Console du gestionnaire de packages
 Dans la fenêtre qui s'ouvre en bas taper :
+
+PM> Install-Package MySql.EntityFrameworkCore -Version 6.0.4
+
 PM> Scaffold-DbContext "Data Source = ...; Initial Catalog = ...; Integrated Security = ..." Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
+
+Scaffold-DbContext "Data Source=CRM-UC-3914\SQLEXPRESS;Initial Catalog=db302_employees;User ID=db302_employees_user;Password=azer;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models

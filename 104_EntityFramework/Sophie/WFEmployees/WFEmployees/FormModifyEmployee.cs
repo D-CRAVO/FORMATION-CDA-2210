@@ -26,7 +26,6 @@ namespace WFEmployees
         {
             InitializeComponent();
             InitializeForm(_employee);
-            //dbContext = new Db302EmployeesContext();
             dbContext = _dbContext;
             dbContext.Employees.Load();
         }

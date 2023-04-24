@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpNaUcOz0ywbPY+GnYv1PR5/RFNpfAO5B1kahFvGe2zrPl62/xJhEZS1Zud9YU1NtqFOxUGwb+yBC2EbHfGRRw==",
+  "dgSpecHash": "JH8niir49GCZXa0+XMuhGkWSNn9WZHQIl7umiA1c1Ih7HyG9/k+dEpgrp3YkQDMgAR4/zTVZhVNdGa/SI5+PJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj",
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dcravo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dcravo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

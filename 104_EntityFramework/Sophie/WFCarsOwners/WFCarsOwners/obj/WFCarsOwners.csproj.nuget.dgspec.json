@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj": {}
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj": {
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj",
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj",
         "projectName": "WFCarsOwners",
-        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\Sophie\\WFCarsOwners\\WFCarsOwners\\WFCarsOwners.csproj",
         "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\01_PremiersPas\\Sophie\\WFCarsOwners\\WFCarsOwners\\obj\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_EntityFramework\\Sophie\\WFCarsOwners\\WFCarsOwners\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

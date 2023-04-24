@@ -189,3 +189,4 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\W
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees\WFEmployees\obj\Debug\net6.0-windows\WFEmployees.csproj.CopyComplete
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees\WFEmployees\obj\Debug\net6.0-windows\WFEmployees.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees\WFEmployees\obj\Debug\net6.0-windows\ref\WFEmployees.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees\WFEmployees\obj\Debug\net6.0-windows\WFEmployees.FormAddModifyEmployee.resources
