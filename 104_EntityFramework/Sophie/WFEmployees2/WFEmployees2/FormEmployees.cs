@@ -41,8 +41,19 @@ namespace WFEmployees2
 
         private void buttonCreate_Click(object sender, EventArgs e)
         {
-            FormUpdateCreate form = new FormUpdateCreate(EnumUpdateCreate.Create);
+            FormUpdateCreate form = new FormUpdateCreate(EnumUpdateCreate.Create, dbContext, null);
             form.ShowDialog();
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            Employee employee = new Employee();
+            if (dataGridViewEmployees.SelectedRows.Count > 0)
+            {
+                employee = dbContext.Employees.Find(int.Parse(dataGridViewEmployees[0, dataGridViewEmployees.CurrentRow.Index].Value.ToString()));
+                FormUpdateCreate form = new FormUpdateCreate(EnumUpdateCreate.Create, dbContext, employee);
+                form.ShowDialog();
+            }
         }
     }
 }

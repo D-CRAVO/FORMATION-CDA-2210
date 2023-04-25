@@ -53,6 +53,7 @@
             buttonUpdate.TabIndex = 6;
             buttonUpdate.Text = "UpdateEmployee";
             buttonUpdate.UseVisualStyleBackColor = true;
+            buttonUpdate.Click += buttonUpdate_Click;
             // 
             // buttonDelete
             // 

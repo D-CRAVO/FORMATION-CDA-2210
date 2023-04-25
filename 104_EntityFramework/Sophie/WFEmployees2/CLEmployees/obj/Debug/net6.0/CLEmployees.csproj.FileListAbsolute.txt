@@ -10,3 +10,17 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\W
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\refint\CLEmployees.dll
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\ref\CLEmployees.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\bin\Debug\net6.0\CLEmployees.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\bin\Debug\net6.0\CLEmployees.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\bin\Debug\net6.0\CLEmployees.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\bin\Debug\net6.0\CLEmployees.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\refint\CLEmployees.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\ref\CLEmployees.dll

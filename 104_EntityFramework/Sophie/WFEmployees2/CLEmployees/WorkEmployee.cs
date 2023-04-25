@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CLEmployees
 {
-    internal class WorkEmployee
+    public class WorkEmployee
     {
         private int? id;
         private string lastname;
