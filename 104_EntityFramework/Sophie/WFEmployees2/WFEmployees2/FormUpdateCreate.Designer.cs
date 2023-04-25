@@ -46,6 +46,7 @@
             // 
             // textBoxId
             // 
+            textBoxId.Enabled = false;
             textBoxId.Location = new Point(92, 6);
             textBoxId.Name = "textBoxId";
             textBoxId.Size = new Size(100, 23);
@@ -68,6 +69,7 @@
             buttonValidate.TabIndex = 37;
             buttonValidate.Text = "Validate";
             buttonValidate.UseVisualStyleBackColor = true;
+            buttonValidate.Click += buttonValidate_Click;
             // 
             // buttonClear
             // 
@@ -77,6 +79,7 @@
             buttonClear.TabIndex = 36;
             buttonClear.Text = "Clear";
             buttonClear.UseVisualStyleBackColor = true;
+            buttonClear.Click += buttonClear_Click;
             // 
             // textBoxManagerId
             // 

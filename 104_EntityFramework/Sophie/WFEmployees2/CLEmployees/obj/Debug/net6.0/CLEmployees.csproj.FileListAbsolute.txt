@@ -24,3 +24,5 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFram
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.genruntimeconfig.cache
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\ref\CLEmployees.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\bin\Debug\net6.0\CLEmployees.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFEmployees2\CLEmployees\obj\Debug\net6.0\CLEmployees.genruntimeconfig.cache

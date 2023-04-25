@@ -13,16 +13,16 @@ namespace CLEmployees
         private string firstname;
         private int salary;
         private DateTime hiredate;
-        private int managerId;
+        private int? managerId;
 
         public int? Id { get { return id; } set { id = value; } }
         public string Lastname { get {  return lastname; } set {  lastname = value; } }
         public string Firstname { get { return firstname; } set {  firstname = value; } }
         public int Salary { get {  return salary; } set {  salary = value; } }
         public DateTime Hiredate { get {  return hiredate; } set {  hiredate = value; } }
-        public int ManagerId { get {  return managerId; } set {  managerId = value; } }
+        public int? ManagerId { get {  return managerId; } set {  managerId = value; } }
 
-        public WorkEmployee(string _lastname, string _firstname, int _salary, DateTime _hiredate, int _managerId)
+        public WorkEmployee(string _lastname, string _firstname, int _salary, DateTime _hiredate, int? _managerId)
         {
             lastname = _lastname;
             firstname = _firstname;
@@ -31,7 +31,7 @@ namespace CLEmployees
             managerId = _managerId;
         }
 
-        public WorkEmployee(int _id, string _lastname, string _firstname, int _salary, DateTime _hiredate, int _managerId) 
+        public WorkEmployee(int _id, string _lastname, string _firstname, int _salary, DateTime _hiredate, int? _managerId) 
         {
             id = _id;
             lastname = _lastname;
