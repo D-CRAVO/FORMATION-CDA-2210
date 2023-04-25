@@ -1,4 +1,5 @@
 ﻿using CLEmployees;
+using Google.Protobuf.WellKnownTypes;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WFEmployees2.Data;
 using WFEmployees2.Models;
-using CLEmployees;
 
 namespace WFEmployees2
 {
@@ -59,14 +59,31 @@ namespace WFEmployees2
         private void CreateEmployee()
         {
             Employee employee = new Employee();
-            employee.EmpLastname = textBoxLastName.Text;
-            employee.EmpFirstname = textBoxFirstName.Text;
-            employee.EmpHiredate = DateTime.Parse(textBoxHireDate.Text);
-            employee.EmpSalary = int.Parse(textBoxSalary.Text);
-            employee.EmpManagerId = int.Parse(textBoxManagerId.Text);
-            dbContext.Employees.Add(employee);
-            dbContext.SaveChanges();
-            Close();
+            if
+                (
+                    CLEmployees.Control.Name(textBoxLastName.Text)
+                    && CLEmployees.Control.Name(textBoxFirstName.Text)
+                    && CLEmployees.Control.Salary(textBoxSalary.Text)
+                    && CLEmployees.Control.HireDate(textBoxHireDate.Text)
+                    && CLEmployees.Control.ManagerId(textBoxManagerId.Text)
+                )
+            {
+                employee.EmpLastname = textBoxLastName.Text;
+                employee.EmpFirstname = textBoxFirstName.Text;
+                employee.EmpHiredate = DateTime.Parse(textBoxHireDate.Text);
+                employee.EmpSalary = int.Parse(textBoxSalary.Text);
+                if (textBoxManagerId.Text == String.Empty)
+                {
+                    employee.EmpManagerId = null;
+                }
+                else
+                {
+                    employee.EmpManagerId = int.Parse(textBoxManagerId.Text);
+                }
+                dbContext.Employees.Add(employee);
+                dbContext.SaveChanges();
+                Close();
+            }
         }
 
         private void UpdateEmployee()
@@ -113,6 +130,66 @@ namespace WFEmployees2
             textBoxSalary.Clear();
             textBoxHireDate.Clear();
             textBoxManagerId.Clear();
+        }
+
+        private void textBoxLastName_TextChanged(object sender, EventArgs e)
+        {
+            if (CLEmployees.Control.Name(textBoxLastName.Text) || textBoxLastName.Text == string.Empty)
+            {
+                errorProviderLastname.SetError(textBoxLastName, string.Empty);
+            }
+            else
+            {
+                errorProviderLastname.SetError(textBoxLastName, "Invalid Lastname");
+            }
+        }
+
+        private void textBoxFirstName_TextChanged(object sender, EventArgs e)
+        {
+            if (CLEmployees.Control.Name(textBoxFirstName.Text) || textBoxLastName.Text == string.Empty)
+            {
+                errorProviderFirstname.SetError(textBoxFirstName, string.Empty);
+            }
+            else
+            {
+                errorProviderFirstname.SetError(textBoxFirstName, "Invalid Firstname");
+            }
+        }
+
+        private void textBoxSalary_TextChanged(object sender, EventArgs e)
+        {
+            if (CLEmployees.Control.Salary(textBoxSalary.Text) || textBoxSalary.Text == string.Empty)
+            {
+                errorProviderSalary.SetError(textBoxSalary, string.Empty);
+            }
+            else
+            {
+                errorProviderSalary.SetError(textBoxSalary, "Invalid Salary");
+            }
+        }
+
+        private void textBoxHireDate_TextChanged(object sender, EventArgs e)
+        {
+            if (CLEmployees.Control.HireDate(textBoxHireDate.Text))
+            {
+                errorProviderHiredate.SetError(textBoxHireDate, string.Empty);
+            }
+            else
+            {
+                errorProviderHiredate.SetError(textBoxHireDate, "Invalid HireDate");
+            }
+        }
+
+        private void textBoxManagerId_TextChanged(object sender, EventArgs e)
+        {
+            if (CLEmployees.Control.ManagerId(textBoxManagerId.Text))
+            {
+                errorProviderManagerId.SetError(textBoxManagerId, string.Empty);
+            }
+            else
+            {
+                errorProviderManagerId.SetError(textBoxManagerId, "Invalid Value");
+            }
         }
     }
 }

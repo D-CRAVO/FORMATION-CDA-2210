@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             textBoxId = new TextBox();
             labelId = new Label();
             buttonValidate = new Button();
@@ -42,6 +43,17 @@
             textBoxLastName = new TextBox();
             labelFirstName = new Label();
             labelLastName = new Label();
+            errorProviderLastname = new ErrorProvider(components);
+            errorProviderFirstname = new ErrorProvider(components);
+            errorProviderSalary = new ErrorProvider(components);
+            errorProviderHiredate = new ErrorProvider(components);
+            errorProviderManagerId = new ErrorProvider(components);
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)errorProviderLastname).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderFirstname).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderSalary).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderHiredate).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderManagerId).BeginInit();
             SuspendLayout();
             // 
             // textBoxId
@@ -63,7 +75,7 @@
             // 
             // buttonValidate
             // 
-            buttonValidate.Location = new Point(198, 35);
+            buttonValidate.Location = new Point(224, 35);
             buttonValidate.Name = "buttonValidate";
             buttonValidate.Size = new Size(75, 23);
             buttonValidate.TabIndex = 37;
@@ -73,7 +85,7 @@
             // 
             // buttonClear
             // 
-            buttonClear.Location = new Point(198, 6);
+            buttonClear.Location = new Point(224, 6);
             buttonClear.Name = "buttonClear";
             buttonClear.Size = new Size(75, 23);
             buttonClear.TabIndex = 36;
@@ -87,6 +99,7 @@
             textBoxManagerId.Name = "textBoxManagerId";
             textBoxManagerId.Size = new Size(100, 23);
             textBoxManagerId.TabIndex = 35;
+            textBoxManagerId.TextChanged += textBoxManagerId_TextChanged;
             // 
             // labelManagerId
             // 
@@ -103,6 +116,7 @@
             textBoxHireDate.Name = "textBoxHireDate";
             textBoxHireDate.Size = new Size(100, 23);
             textBoxHireDate.TabIndex = 33;
+            textBoxHireDate.TextChanged += textBoxHireDate_TextChanged;
             // 
             // labelHireDate
             // 
@@ -119,6 +133,7 @@
             textBoxSalary.Name = "textBoxSalary";
             textBoxSalary.Size = new Size(100, 23);
             textBoxSalary.TabIndex = 31;
+            textBoxSalary.TextChanged += textBoxSalary_TextChanged;
             // 
             // labelSalary
             // 
@@ -135,6 +150,7 @@
             textBoxFirstName.Name = "textBoxFirstName";
             textBoxFirstName.Size = new Size(100, 23);
             textBoxFirstName.TabIndex = 29;
+            textBoxFirstName.TextChanged += textBoxFirstName_TextChanged;
             // 
             // textBoxLastName
             // 
@@ -142,6 +158,7 @@
             textBoxLastName.Name = "textBoxLastName";
             textBoxLastName.Size = new Size(100, 23);
             textBoxLastName.TabIndex = 28;
+            textBoxLastName.TextChanged += textBoxLastName_TextChanged;
             // 
             // labelFirstName
             // 
@@ -161,11 +178,41 @@
             labelLastName.TabIndex = 26;
             labelLastName.Text = "LastName";
             // 
+            // errorProviderLastname
+            // 
+            errorProviderLastname.ContainerControl = this;
+            // 
+            // errorProviderFirstname
+            // 
+            errorProviderFirstname.ContainerControl = this;
+            // 
+            // errorProviderSalary
+            // 
+            errorProviderSalary.ContainerControl = this;
+            // 
+            // errorProviderHiredate
+            // 
+            errorProviderHiredate.ContainerControl = this;
+            // 
+            // errorProviderManagerId
+            // 
+            errorProviderManagerId.ContainerControl = this;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(216, 126);
+            label1.Name = "label1";
+            label1.Size = new Size(83, 15);
+            label1.TabIndex = 40;
+            label1.Text = "DD/MM/YYYY";
+            // 
             // FormUpdateCreate
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(287, 199);
+            ClientSize = new Size(311, 199);
+            Controls.Add(label1);
             Controls.Add(textBoxId);
             Controls.Add(labelId);
             Controls.Add(buttonValidate);
@@ -182,6 +229,11 @@
             Controls.Add(labelLastName);
             Name = "FormUpdateCreate";
             Text = "FormUpdateCreate";
+            ((System.ComponentModel.ISupportInitialize)errorProviderLastname).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderFirstname).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderSalary).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderHiredate).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderManagerId).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -202,5 +254,11 @@
         private TextBox textBoxLastName;
         private Label labelFirstName;
         private Label labelLastName;
+        private ErrorProvider errorProviderLastname;
+        private ErrorProvider errorProviderFirstname;
+        private ErrorProvider errorProviderSalary;
+        private ErrorProvider errorProviderHiredate;
+        private ErrorProvider errorProviderManagerId;
+        private Label label1;
     }
 }
