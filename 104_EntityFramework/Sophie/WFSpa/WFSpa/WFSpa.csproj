@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CLControls\CLControls.csproj" />
+    <ProjectReference Include="..\CLSpa\CLSpa.csproj" />
+  </ItemGroup>
+
 </Project>

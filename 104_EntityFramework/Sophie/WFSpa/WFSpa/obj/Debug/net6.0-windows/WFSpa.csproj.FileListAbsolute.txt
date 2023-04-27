@@ -59,3 +59,7 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\W
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\obj\Debug\net6.0-windows\WFSpa.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\obj\Debug\net6.0-windows\WFSpa.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\obj\Debug\net6.0-windows\ref\WFSpa.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\bin\Debug\net6.0-windows\CLControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\bin\Debug\net6.0-windows\CLSpa.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\bin\Debug\net6.0-windows\CLControls.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_EntityFramework\Sophie\WFSpa\WFSpa\bin\Debug\net6.0-windows\CLSpa.pdb
