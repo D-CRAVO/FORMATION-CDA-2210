@@ -18,3 +18,11 @@ PM> Install-Package MySql.EntityFrameworkCore -Version 6.0.4
 PM> Scaffold-DbContext "Data Source = ...; Initial Catalog = ...; Integrated Security = ..." Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
 
 Scaffold-DbContext "Data Source=CRM-UC-3914\SQLEXPRESS;Initial Catalog=db302_employees;User ID=db302_employees_user;Password=azer;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
+
+
+
+add-migration cereals-v1
+
+update-database
+
+(localdb)\mssqllocaldb
