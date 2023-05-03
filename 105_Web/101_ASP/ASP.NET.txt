@@ -1,0 +1,45 @@
+Créer un projet 
+->API web ASP.NET Core
+->Legumos
+
+Outils 
+Gestionnaire de package NuGet
+->MicrosoftEntityFrameworkCore
+->MicrosoftEntityFrameworkCore.Design
+->MicrosoftEntityFrameworkCore.SqlServer
+->MicrosoftEntityFrameworkCore.Tools
+
+Ajouter (dans Projet Legumos)
+-> NouveauDossier ->Db
+-> NouveauDossier ->Models
+
+Ajouter (dans Models)
+-> Classe ->Vegetable
+
+Dans vegetable créer les accesseurs (avec majuscule)
+(les attributs sont créés par Visual Studio en arrière-plan)
+-> [Key] public int VegetableId {get;set;} -> rajouter [Key] devant -> rajouter le using DataAnnotations
+-> [Required] public string Name {get; set;} -> rajouter [Required] devant pour rendre le champs obligatoire
+-> ...
+
+Ajouter (dans Db)
+-> Classe ->VegetableDbContext
+
+Ajouter l'héritage 
+-> public class VegetablesDbContext : DbContext
+-> using Microsoft.EntityFrameworkCore;
+
+Ajouter chaine de connection
+ ->     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlServer((@"Server=(localdb)\mssqllocaldb;Database=db_legumos");
+        }
+
+Ajouter DbSet
+-> public DbSet<Vegetable> Vegetables { get; set; }
+
+Dans la console du gestionnaire de packages on fait la migration
+-> add-migration vegetables-v1
+(remove-migration)
+-> update-database
