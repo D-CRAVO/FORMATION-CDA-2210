@@ -43,3 +43,5 @@ Dans la console du gestionnaire de packages on fait la migration
 -> add-migration vegetables-v1
 (remove-migration)
 -> update-database
+
+A partir de là la base de données est créée et peut être consultée
