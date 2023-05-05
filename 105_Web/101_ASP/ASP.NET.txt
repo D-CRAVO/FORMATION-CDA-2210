@@ -2,13 +2,6 @@ Créer un projet
 ->API web ASP.NET Core
 ->Legumos
 
-Outils 
-Gestionnaire de package NuGet
-->MicrosoftEntityFrameworkCore
-->MicrosoftEntityFrameworkCore.Design
-->MicrosoftEntityFrameworkCore.SqlServer
-->MicrosoftEntityFrameworkCore.Tools
-
 Ajouter (dans Projet Legumos)
 -> NouveauDossier ->Db
 -> NouveauDossier ->Models
@@ -38,6 +31,13 @@ Ajouter chaine de connection
 
 Ajouter DbSet
 -> public DbSet<Vegetable> Vegetables { get; set; }
+
+Outils 
+Gestionnaire de package NuGet
+->MicrosoftEntityFrameworkCore
+->MicrosoftEntityFrameworkCore.Design
+->MicrosoftEntityFrameworkCore.SqlServer
+->MicrosoftEntityFrameworkCore.Tools
 
 Dans la console du gestionnaire de packages on fait la migration
 -> add-migration vegetables-v1
