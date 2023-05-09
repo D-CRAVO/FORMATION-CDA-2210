@@ -32,9 +32,9 @@ namespace CerealsApi.Controllers
         //{
         //    return context.Cereals.Find(id);
         //}
-        public Cereal Get(int id)
+        public Cereal? Get(int id)
         {
-            return context.Cereals.Single(c => c.CerealId == id);
+            return context.Cereals.FirstOrDefault(c => c.CerealId == id);
         }
 
         // POST api/<CerealsController>
