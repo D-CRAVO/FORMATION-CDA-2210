@@ -1,4 +1,5 @@
-﻿using Microsoft.Identity.Client;
+﻿using BCrypt.Net;
+using Microsoft.Identity.Client;
 
 namespace ApiUser.Extensions
 {
@@ -6,7 +7,13 @@ namespace ApiUser.Extensions
     {
         public static string ToPassword(this string str)
         {
-            return "toto";
+            return BCrypt.Net.BCrypt.HashPassword(str);
+            
+        }
+
+        public static bool CheckPassword(this string passwordHash, string passwordToTest )
+        {
+            return BCrypt.Net.BCrypt.Verify(passwordToTest, passwordHash);
         }
     }
 }

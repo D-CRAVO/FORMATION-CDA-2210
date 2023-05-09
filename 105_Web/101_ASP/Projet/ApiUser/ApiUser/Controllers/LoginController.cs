@@ -1,7 +1,9 @@
 ﻿using ApiUser.Db;
 using ApiUser.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using ApiUser.Extensions;
 
 namespace ApiUser.Controllers
 {
@@ -22,7 +24,8 @@ namespace ApiUser.Controllers
             return _context.Users.FirstOrDefault
                 (
                     u => u.UserName == user.UserName
-                    && u.Password == user.Password
+                    && u.Password.CheckPassword(user.Password)
+                    //&& u.Password == user.Password
                 );
         }
     }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "i0ncClp5r0uZBU5sNJYn0/h3TsS2BrSbkGMBmQB25TzN/sJvv6hyXXIRDPwXh8mcK8HOipa/DxBuxbGXZY6paQ==",
+  "dgSpecHash": "cZBVPi3ZPYlHhjnEUBW6UXxLqpxb9AVNtt2XoYCCkhU6JVWLxVr26RgZfEYOhuF+3pLOlF0JKwHVOyM4t4ldBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Projet\\ApiUser\\ApiUser\\ApiUser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dcravo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dcravo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\dcravo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\dcravo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dcravo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\dcravo\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
