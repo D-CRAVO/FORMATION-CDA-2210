@@ -11,9 +11,17 @@ Ajouter (dans Models)
 
 Dans vegetable créer les accesseurs (avec majuscule)
 (les attributs sont créés par Visual Studio en arrière-plan)
--> [Key] public int VegetableId {get;set;} -> rajouter [Key] devant -> rajouter le using DataAnnotations
--> [Required] public string Name {get; set;} -> rajouter [Required] devant pour rendre le champs obligatoire
+-> [Key] public int VegetableId {get;set;} 
+-> rajouter [Key] devant pour préciser que c'est une clé primaire
+-> rajouter le using System.ComponentModel.DataAnnotations;
+-> [Required] public string Name {get; set;} 
+-> rajouter [Required] devant pour rendre le champs obligatoire
+-> rajouter [Column ("vegetable_name")] pour renomer la colonne dans la base de données
+-> rajouter si cela ne se fait pas automatiquement using System.ComponentModel.DataAnnotations.Schema;
 -> ...
+
+Il y a la possibilité de renomer également la table pour la base de données
+-> rajouter [Table ("tbl_vegetables")]
 
 Ajouter (dans Db)
 -> Classe ->VegetableDbContext
@@ -21,6 +29,13 @@ Ajouter (dans Db)
 Ajouter l'héritage 
 -> public class VegetablesDbContext : DbContext
 -> using Microsoft.EntityFrameworkCore;
+
+Outils 
+Gestionnaire de package NuGet
+->MicrosoftEntityFrameworkCore
+->MicrosoftEntityFrameworkCore.Design
+->MicrosoftEntityFrameworkCore.SqlServer
+->MicrosoftEntityFrameworkCore.Tools
 
 Ajouter chaine de connection
  ->     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,15 +47,14 @@ Ajouter chaine de connection
 Ajouter DbSet
 -> public DbSet<Vegetable> Vegetables { get; set; }
 
-Outils 
-Gestionnaire de package NuGet
-->MicrosoftEntityFrameworkCore
-->MicrosoftEntityFrameworkCore.Design
-->MicrosoftEntityFrameworkCore.SqlServer
-->MicrosoftEntityFrameworkCore.Tools
+Si cela ne se fait pas automatiquement :
+-> using Microsoft.EntityFrameworkCore;
+-> ajouter using Movies.Models;
 
 Dans la console du gestionnaire de packages on fait la migration
 -> add-migration vegetables-v1
+Cela ouvre alors le détail de la migration 
+-> attention à ne pas faire de modifications dans cette page
 (remove-migration)
 -> update-database
 
