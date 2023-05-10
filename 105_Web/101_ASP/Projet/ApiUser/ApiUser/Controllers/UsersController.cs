@@ -24,13 +24,25 @@ namespace ApiUser.Controllers
 
         // GET: api/Users
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        public async Task<ActionResult<IEnumerable<UserReadViewModel>>> GetUsers()
         {
-          if (_context.Users == null)
-          {
-              return NotFound();
-          }
-            return await _context.Users.ToListAsync();
+            if (_context.Users == null)
+            {
+                return NotFound();
+            }
+            List<UserReadViewModel> list = new List<UserReadViewModel>();
+
+            await _context.Users.ForEachAsync(u =>
+            {
+                UserReadViewModel r = new()
+                {
+                    Id = u.Id,
+                    UserName = u.UserName
+                };
+                list.Add(r);
+            });
+
+            return list;
         }
 
         // GET: api/Users/5
@@ -54,11 +66,21 @@ namespace ApiUser.Controllers
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+        public async Task<IActionResult> PutUser(int id, UserUpdateViewModel user)
         {
             if (id != user.Id)
             {
                 return BadRequest();
+            }
+
+            User dbUser = _context.Users.FirstOrDefault(u => u.Id == id);
+            if (dbUser is User)
+            {
+                dbUser.UserName = user.UserName;
+            }
+            else
+            {
+                return NotFound();
             }
 
             _context.Entry(user).State = EntityState.Modified;
