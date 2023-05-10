@@ -30,10 +30,10 @@ namespace ApiUser.Controllers
             {
                 return NotFound();
             }
+
             List<UserReadViewModel> list = new List<UserReadViewModel>();
 
-            await _context.Users.ForEachAsync(u =>
-            {
+            await _context.Users.ForEachAsync(u => {
                 UserReadViewModel r = new()
                 {
                     Id = u.Id,
@@ -43,16 +43,28 @@ namespace ApiUser.Controllers
             });
 
             return list;
+
+            /*foreach(User u in _context.Users)
+            {
+                UserReadViewModel r = new()
+                {
+                    Id = u.Id,
+                    UserName = u.UserName
+                };
+                list.Add(r);
+            } */
+
+
         }
 
         // GET: api/Users/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        public async Task<ActionResult<UserReadViewModel>> GetUser(int id)
         {
-          if (_context.Users == null)
-          {
-              return NotFound();
-          }
+            if (_context.Users == null)
+            {
+                return NotFound();
+            }
             var user = await _context.Users.FindAsync(id);
 
             if (user == null)
@@ -60,7 +72,11 @@ namespace ApiUser.Controllers
                 return NotFound();
             }
 
-            return user;
+            return new UserReadViewModel()
+            {
+                Id = user.Id,
+                UserName = user.UserName
+            };
         }
 
         // PUT: api/Users/5
@@ -74,6 +90,7 @@ namespace ApiUser.Controllers
             }
 
             User dbUser = _context.Users.FirstOrDefault(u => u.Id == id);
+
             if (dbUser is User)
             {
                 dbUser.UserName = user.UserName;
@@ -83,7 +100,13 @@ namespace ApiUser.Controllers
                 return NotFound();
             }
 
-            _context.Entry(user).State = EntityState.Modified;
+
+            /*if (_context.Users.FirstOrDefault(u => u.Id == id) is User dbUser)
+            {
+            }*/
+
+
+            _context.Entry(dbUser).State = EntityState.Modified;
 
             try
             {
@@ -109,10 +132,11 @@ namespace ApiUser.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
-          if (_context.Users == null)
-          {
-              return Problem("Entity set 'UserDbContext.Users'  is null.");
-          }
+            if (_context.Users == null)
+            {
+                return Problem("Entity set 'UserDbContext.Users'  is null.");
+            }
+
             user.Password = user.Password.ToPassword();
 
             _context.Users.Add(user);

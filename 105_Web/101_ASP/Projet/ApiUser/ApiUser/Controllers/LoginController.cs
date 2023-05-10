@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ApiUser.Extensions;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiUser.Controllers
 {
@@ -11,22 +12,28 @@ namespace ApiUser.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private UserDbContext _context;
+        private readonly UserDbContext _context;
 
-        public LoginController() 
+        public LoginController()
         {
             _context = new UserDbContext();
         }
 
         [HttpPost]
-        public User? Login(User user)
+        public async Task<ActionResult<UserReadViewModel?>> Login(User userToLogin)
         {
-            return _context.Users.FirstOrDefault
-                (
-                    u => u.UserName == user.UserName
-                    && u.Password.CheckPassword(user.Password)
-                    //&& u.Password == user.Password
-                );
+            User? user = await _context.Users.FirstOrDefaultAsync(u => u.UserName == userToLogin.UserName);
+
+            if (user != null && user.Password.CheckPassword(userToLogin.Password))
+            {
+                return new UserReadViewModel()
+                {
+                    Id = user.Id,
+                    UserName = user.UserName
+                };
+            }
+
+            return NotFound();
         }
     }
 }
