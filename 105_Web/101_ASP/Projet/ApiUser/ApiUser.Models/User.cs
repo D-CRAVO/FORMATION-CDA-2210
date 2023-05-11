@@ -13,6 +13,6 @@ namespace ApiUser.Models
         public string? UserName { get; set; }
         [Required(ErrorMessage = "Le mot de passe est obligatoire")]
         [RegularExpression(@"^[a-zA-Z0-9]{8,}$")]
-        public string? Password { get; set; }
+        public string? Password { get; set; } 
     }
 }
