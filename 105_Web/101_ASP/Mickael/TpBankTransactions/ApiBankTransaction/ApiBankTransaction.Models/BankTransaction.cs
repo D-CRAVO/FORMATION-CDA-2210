@@ -13,11 +13,11 @@ namespace ApiBankTransaction.Models
 
         [Required][Column("transaction_from")]
         [RegularExpression(Control.AccountNumber)]
-        public uint TransactionFrom { get; set; }
+        public Int64 TransactionFrom { get; set; }
 
         [Required][Column("transaction_to")]
         [RegularExpression(Control.AccountNumber)]
-        public uint TransactionTo { get; set; }
+        public Int64 TransactionTo { get; set; }
 
         [Required]
         [Column("transaction_amount")]
