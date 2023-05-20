@@ -976,24 +976,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\CRAVO David.000\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\ApiBankTransaction.Models\\ApiBankTransaction.Models.csproj",
+      "projectUniqueName": "C:\\Users\\CRAVO David.000\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\ApiBankTransaction.Models\\ApiBankTransaction.Models.csproj",
       "projectName": "ApiBankTransaction.Models",
-      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\ApiBankTransaction.Models\\ApiBankTransaction.Models.csproj",
-      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\ApiBankTransaction.Models\\obj\\",
+      "projectPath": "C:\\Users\\CRAVO David.000\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\ApiBankTransaction.Models\\ApiBankTransaction.Models.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David.000\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David.000\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\ApiBankTransaction.Models\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\CRAVO David.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1007,8 +1002,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\CLControls\\CLControls.csproj": {
-              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\CLControls\\CLControls.csproj"
+            "C:\\Users\\CRAVO David.000\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\CLControls\\CLControls.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David.000\\Documents\\GitHub\\FORMATION-CDA-2210\\105_Web\\101_ASP\\Mickael\\TpBankTransactions\\ApiBankTransaction\\CLControls\\CLControls.csproj"
             }
           }
         }
@@ -1050,7 +1045,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
