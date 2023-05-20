@@ -1,0 +1,12 @@
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\bin\Debug\net7.0\CLControls.deps.json
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\bin\Debug\net7.0\CLControls.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\bin\Debug\net7.0\CLControls.pdb
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.csproj.AssemblyReference.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.AssemblyInfoInputs.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.AssemblyInfo.cs
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\refint\CLControls.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\CLControls.pdb
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLControls\obj\Debug\net7.0\ref\CLControls.dll

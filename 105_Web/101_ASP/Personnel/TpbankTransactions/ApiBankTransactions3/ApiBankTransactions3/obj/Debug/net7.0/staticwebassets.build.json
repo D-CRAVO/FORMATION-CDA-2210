@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8t3yPjuwGF5azYcLkdsI7qyIcZxeu0XorA3B0tq0cMk=",
+  "Source": "ApiBankTransactions3",
+  "BasePath": "_content/ApiBankTransactions3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

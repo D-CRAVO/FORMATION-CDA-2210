@@ -1,0 +1,17 @@
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\bin\Debug\net7.0\CLBankTransactions.Models.deps.json
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\bin\Debug\net7.0\CLBankTransactions.Models.runtimeconfig.json
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\bin\Debug\net7.0\CLBankTransactions.Models.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\bin\Debug\net7.0\CLBankTransactions.Models.pdb
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\bin\Debug\net7.0\CLControls.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\bin\Debug\net7.0\CLControls.pdb
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.csproj.AssemblyReference.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.AssemblyInfoInputs.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.AssemblyInfo.cs
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.csproj.CopyComplete
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\refint\CLBankTransactions.Models.dll
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.pdb
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\CLBankTransactions.Models.genruntimeconfig.cache
+C:\Users\CRAVO David.000\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions3\CLBankTransactions.Models\obj\Debug\net7.0\ref\CLBankTransactions.Models.dll
