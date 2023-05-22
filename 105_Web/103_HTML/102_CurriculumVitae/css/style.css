@@ -1,0 +1,43 @@
+body{
+    color: blue; /* 32 couleurs nommées */
+    /*color: #ffcc00;*/
+    /*color: #ffcc0050;*/
+    /*color: rgb(255,200,0);*/
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+header{
+    background-color: darkkhaki;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+main{
+    background-color: lightcyan;
+    padding: 10px
+}
+
+footer{
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+section{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid palevioletred
+}
+
+aside{
+
+}
+
+
+
+.skills{
+    
+}
