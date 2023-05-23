@@ -16,6 +16,7 @@ html{
 body{
     font-size: 1.6em;
     margin: 0;
+    color: #222;
 }
 
 header{
@@ -50,6 +51,7 @@ li{
 section{
     grid-area: b;
     background-color: var(--fourth-color);
+    height: 72rem;
 }
 
 section div{
@@ -101,8 +103,31 @@ aside:last-child{
     background-color: var(--secondary-color);
 }
 
+aside:last-child p{
+    padding-left: 1rem;
+}
+
 footer{
     background-color: var(--primary-color);
     text-align: center;
-    padding: 1rem 0
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 680px) {
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "a" "b" "c";
+    }
+
+    section{
+        height: auto;
+    }
+
+    section div{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: "d" "e" "f" "g" "h" "i";
+    }
+
 }
