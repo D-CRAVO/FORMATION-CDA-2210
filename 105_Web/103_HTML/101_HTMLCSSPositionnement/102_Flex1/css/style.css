@@ -12,20 +12,23 @@ body{
 }
 
 header{
+    position: fixed;
     background-color: #ccddff;
     padding-top: 1rem;
     padding-bottom: 6rem;
     text-align: center;
+    width: 100%;
 }
 
 main{
     display: flex;
+    height:60em;
+    padding-top: 9em;
 }
 
-nav{
+aside:nth-child(1){
     background-color: #ffddcc;
     width: 20%;
-    
 }
 
 ul{
@@ -35,27 +38,40 @@ ul{
 li{
     list-style: none;
     background-color: #fff;
-    margin: 0.5rem;
-    padding: 0.75rem;
+    margin: 1rem;
+    padding: 2rem;
 }
 
 section{
     background-color: #ccffcc;
     width: 60%;
+    height: auto;
 }
 
-h2{
+section h2{
     padding-left: 2rem;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 article{
     background-color: #fff;
-    display: flex;
+    border: 1px solid #000;
+    margin: 1rem 10rem;
     width: 30%;
 }
 
-aside{
+article p{
+    padding: 1rem
+}
+
+aside:last-child{
     background-color: #ffddcc;
+    padding-left: 1rem;
     width: 20%;
 }
 
@@ -64,4 +80,7 @@ footer{
     padding-top: 0.2rem;
     padding-bottom: 2rem;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
