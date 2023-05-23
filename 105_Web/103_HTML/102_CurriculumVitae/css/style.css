@@ -1,43 +1,119 @@
+:root{
+    --light: white;
+    --dark:#111111;
+    --primary-color: #0075F2;
+    --secondary-color: #E3F2FD;
+    --tertiary-color: #DB5461;
+}
+
 body{
-    color: blue; /* 32 couleurs nommées */
+    color: var(--primary-color); /* 32 couleurs nommées */
     /*color: #ffcc00;*/
     /*color: #ffcc0050;*/
     /*color: rgb(255,200,0);*/
-    background-color: white;
+    background-color: var(--secondary-color);
     margin: 0;
     padding: 10px;
 }
 
 header{
-    background-color: darkkhaki;
+    background-color: var(--primary-color);
     padding: 10px;
     height: 100px;
     width: 100%;
 }
 
 main{
-    background-color: lightcyan;
+    background-color: var(--secondary-color);
     padding: 10px
 }
 
 footer{
-    background-color: lightsalmon;
+    background-color: var(--primary-color);
+    color: var(--light);
     padding: 10px;
 }
 
 section{
-    background-color: lightgreen;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid palevioletred
+    border: 1px solid var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+    background-color: var(--primary-color);
+    color: var(--light);
+    padding: 5px;
+}
+
+section > h1:first-child,
+aside > h1:first-child{
+    margin-top: 0;
 }
 
 aside{
 
 }
 
-
-
 .skills{
     
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows:  auto auto auto;
+    grid-template-areas:    "A B"
+                            "A C"
+                            "A D";
+    column-gap: 10px; 
+    /*row-gap: 20px;*/
+    /*gap: 10px;*/
+}
+
+#skills{
+    grid-area: B;
+}
+
+#xp{
+    grid-area: C;
+}
+
+#formations{
+    grid-area: D;
+}
+
+#aside{
+    grid-area: A;
+    border: 1px solid var(--primary-color)
+}
+
+.aside{
+
+}
+
+aside{
+
+}
+
+p{
+    margin:0;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:    "B"
+                                "C"
+                                "D"
+                                "A";
+    }
+    
+}
+
+@media print{
+    header{
+        background-color: aqua;
+    }
 }
