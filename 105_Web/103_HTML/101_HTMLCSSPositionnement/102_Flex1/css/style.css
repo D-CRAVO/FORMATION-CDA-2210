@@ -22,8 +22,9 @@ header{
 
 main{
     display: flex;
-    height:60em;
+    /*height:60em;*/
     padding-top: 9em;
+    padding-bottom: 4.5em;
 }
 
 aside:nth-child(1){
@@ -45,7 +46,6 @@ li{
 section{
     background-color: #ccffcc;
     width: 60%;
-    height: auto;
 }
 
 section h2{
@@ -83,4 +83,27 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+@media (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+
+    aside:first-child{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    aside:last-child{
+        width: 100%;
+    }
 }
