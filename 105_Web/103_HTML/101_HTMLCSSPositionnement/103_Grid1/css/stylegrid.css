@@ -1,0 +1,47 @@
+:root{
+    --primary: #bbccff;
+    --light: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.container{
+    background-color: var(--primary);
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:    "header header  ads"
+                            "nav    article article"
+                            "nav    footer  footer";
+}
+
+.header{
+    grid-area: "header";
+}
+
+.ads{
+    grid-area: "ads";
+}
+
+.nav{
+    grid-area: "nav";
+}
+
+.article{
+    grid-area: "article";
+}
+
+.footer{
+    grid-area: "footer";
+}
