@@ -14,6 +14,7 @@ html{
 body{
     font-size: 1.6em;
     margin: 0;
+    background-color: var(--light);
 }
 
 .container{
@@ -21,27 +22,72 @@ body{
     display: grid;
     grid-template-columns: 25% 55% 20%;
     grid-template-rows: auto auto auto;
-    grid-template-areas:    "header header  ads"
-                            "nav    article article"
-                            "nav    footer  footer";
+    grid-template-areas:    "header header ads"
+                            "nav article article"
+                            "nav footer footer";
 }
 
 .header{
-    grid-area: "header";
+    grid-area: header;
+    border: 0.3rem solid var(--light)
 }
 
 .ads{
-    grid-area: "ads";
+    grid-area: ads;
+    border: 0.3rem solid var(--light)
 }
 
 .nav{
-    grid-area: "nav";
+    grid-area: nav;
+    border: 0.3rem solid var(--light)
 }
 
 .article{
-    grid-area: "article";
+    grid-area: article;
+    border: 0.3rem solid var(--light)
 }
 
 .footer{
-    grid-area: "footer";
+    grid-area: footer;
+    border: 0.3rem solid var(--light)
+}
+
+.article{
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    background-color: var(--light);
+    grid-template-areas:    "texte texte texte"
+                            "texte section1 section2"
+                            "texte section3 section4"
+                            "texte section5 section6";
+    gap: 1rem;
+}
+
+.text{
+    grid-area: texte;
+}
+
+.section1{
+    grid-area: section1;
+}
+
+.section2{
+    grid-area: section2;
+}
+
+.section3{
+    grid-area: section3;
+}
+
+.section4{
+    grid-area: section4;
+}
+
+.section5{
+    grid-area: section5;
+}
+
+.section6{
+    grid-area: section6
 }
