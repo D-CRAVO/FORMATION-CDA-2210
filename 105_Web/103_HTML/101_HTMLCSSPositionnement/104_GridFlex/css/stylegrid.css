@@ -1,0 +1,70 @@
+:root{
+    --primary: #cccc33;
+    --light: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    background-color: var(--primary);
+    color: var(--light);
+    padding-left: 1rem;
+    border: 0.1rem solid var(--light);
+    height: 10rem;
+}
+
+h1{
+    margin: 0;
+}
+
+.div1{
+    width: 100%;
+}
+
+.div2{
+    width: 25%;
+}
+
+.div3{
+    width: 25%;
+}
+
+.div4{
+    width: 50%;
+}
+
+.div5{
+    width: 50%;
+}
+
+.div6{
+    width: 25%;
+}
+
+.div7{
+    width: 25%;
+}
+
+.div8{
+    width: 25%;
+}
+
+.div9{
+    width: 25%;
+}
+
+.div10{
+    width: 75%;
+}

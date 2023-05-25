@@ -1,0 +1,94 @@
+:root{
+    --primary: #bbccff;
+    --light: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    background-color: var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+.header{
+    border: 0.3rem solid var(--light);
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.ads{
+    border: 0.3rem solid var(--light);
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.nav{
+    border: 0.3rem solid var(--light);
+    width: 25%;
+    padding-left: 1rem;
+}
+
+article{
+    border: 0.3rem solid var(--light);
+    width: 75%;
+    padding-left: 1rem;
+}
+
+.footer{
+    border: 0.3rem solid var(--light);
+    width: 75%;
+    padding-left: 1rem;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 5% 2rem 15%;
+}
+
+section{
+    background-color: var(--light);
+    width: 50%;
+    border: 0.3rem solid var(--primary);
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+    
+    .header, .ads, .nav, article, .footer{
+        width: 100%
+    }
+
+    article{
+        padding-left: 0;
+    }
+
+    article > p{
+        padding-left: 1rem;
+    }
+
+    .article{
+        flex-direction: column;
+        padding: 0.3rem;
+    }
+
+    section{
+        width: 100%;
+    }
+}
