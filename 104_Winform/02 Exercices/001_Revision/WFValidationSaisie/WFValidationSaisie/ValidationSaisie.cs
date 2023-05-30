@@ -13,6 +13,7 @@ namespace WFValidationSaisie
 {
     public partial class ValidationSaisie : Form
     {
+        DateOnly date;
         public ValidationSaisie()
         {
             InitializeComponent();
@@ -20,13 +21,57 @@ namespace WFValidationSaisie
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
         {
-            if (!Controle.Nom(textBoxNom.ToString()))
+            if (Controle.Nom(textBoxNom.Text) || textBoxNom.Text == string.Empty)
             {
-                errorProviderNom.SetError(textBoxNom, "N'accepte que des caractères alphanumériques")
+                errorProviderNom.SetError(textBoxNom, string.Empty);
             }
             else
             {
-                errorProviderNom.SetError(textBoxNom, string.Empty);
+                errorProviderNom.SetError(textBoxNom, "N'accepte que des caractères alphanumériques");
+            }
+        }
+
+        private void textBoxDate_TextChanged(object sender, EventArgs e)
+        {
+            if (Controle.Date(textBoxDate.Text) || textBoxDate.Text == string.Empty)
+            {
+                if (DateOnly.TryParse(textBoxDate.ToString(), out date))
+                {
+                    date = DateOnly.Parse(textBoxDate.ToString());
+                    errorProviderDate.SetError(textBoxDate, string.Empty);
+                }
+                else
+                {
+                    errorProviderDate.SetError(textBoxDate, "La date n'est pas valide");
+                }
+            }
+            else
+            {
+                errorProviderDate.SetError(textBoxDate, "La date n'est pas au bon format");
+            }
+        }
+
+        private void textBoxMontant_TextChanged(object sender, EventArgs e)
+        {
+            if (Controle.Montant(textBoxMontant.Text) || textBoxMontant.Text == string.Empty)
+            {
+                errorProviderMontant.SetError(textBoxMontant, string.Empty);
+            }
+            else
+            {
+                errorProviderMontant.SetError(textBoxMontant, "Nombre décimal positif");
+            }
+        }
+
+        private void textBoxCp_TextChanged(object sender, EventArgs e)
+        {
+            if (Controle.Cp(textBoxCp.Text)|| textBoxCp.Text == string.Empty)
+            {
+                errorProviderCp.SetError(textBoxCp, string.Empty);
+            }
+            else
+            {
+                errorProviderCp.SetError(textBoxCp, "5 caractères numériques");
             }
         }
     }

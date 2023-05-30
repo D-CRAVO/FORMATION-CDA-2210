@@ -41,7 +41,13 @@
             buttonValider = new Button();
             buttonEffacer = new Button();
             errorProviderNom = new ErrorProvider(components);
+            errorProviderDate = new ErrorProvider(components);
+            errorProviderMontant = new ErrorProvider(components);
+            errorProviderCp = new ErrorProvider(components);
             ((System.ComponentModel.ISupportInitialize)errorProviderNom).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderDate).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderMontant).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderCp).BeginInit();
             SuspendLayout();
             // 
             // labelNom
@@ -94,6 +100,7 @@
             textBoxDate.Name = "textBoxDate";
             textBoxDate.Size = new Size(125, 23);
             textBoxDate.TabIndex = 5;
+            textBoxDate.TextChanged += textBoxDate_TextChanged;
             // 
             // textBoxMontant
             // 
@@ -101,6 +108,7 @@
             textBoxMontant.Name = "textBoxMontant";
             textBoxMontant.Size = new Size(125, 23);
             textBoxMontant.TabIndex = 6;
+            textBoxMontant.TextChanged += textBoxMontant_TextChanged;
             // 
             // textBoxCp
             // 
@@ -108,6 +116,7 @@
             textBoxCp.Name = "textBoxCp";
             textBoxCp.Size = new Size(100, 23);
             textBoxCp.TabIndex = 7;
+            textBoxCp.TextChanged += textBoxCp_TextChanged;
             // 
             // labelCommentaire
             // 
@@ -140,6 +149,18 @@
             // 
             errorProviderNom.ContainerControl = this;
             // 
+            // errorProviderDate
+            // 
+            errorProviderDate.ContainerControl = this;
+            // 
+            // errorProviderMontant
+            // 
+            errorProviderMontant.ContainerControl = this;
+            // 
+            // errorProviderCp
+            // 
+            errorProviderCp.ContainerControl = this;
+            // 
             // ValidationSaisie
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -159,6 +180,9 @@
             Name = "ValidationSaisie";
             Text = "ValidationSaisie";
             ((System.ComponentModel.ISupportInitialize)errorProviderNom).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderDate).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderMontant).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProviderCp).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -177,5 +201,8 @@
         private Button buttonValider;
         private Button buttonEffacer;
         private ErrorProvider errorProviderNom;
+        private ErrorProvider errorProviderDate;
+        private ErrorProvider errorProviderMontant;
+        private ErrorProvider errorProviderCp;
     }
 }

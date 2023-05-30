@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFValidationSaisie", "WFValidationSaisie\WFValidationSaisie.csproj", "{172AF343-AEDE-4809-8DFB-0DE48265F069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFValidationSaisie", "WFValidationSaisie\WFValidationSaisie.csproj", "{172AF343-AEDE-4809-8DFB-0DE48265F069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLControles", "CLControles\CLControles.csproj", "{25D30795-AEA6-4FB7-8A66-5CA794E57140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLControles", "CLControles\CLControles.csproj", "{25D30795-AEA6-4FB7-8A66-5CA794E57140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLValidationSaisie", "CLValidationSaisie\CLValidationSaisie.csproj", "{6E2B912C-4F5B-4924-A990-3E6BF6FCCEDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{25D30795-AEA6-4FB7-8A66-5CA794E57140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25D30795-AEA6-4FB7-8A66-5CA794E57140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25D30795-AEA6-4FB7-8A66-5CA794E57140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2B912C-4F5B-4924-A990-3E6BF6FCCEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2B912C-4F5B-4924-A990-3E6BF6FCCEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2B912C-4F5B-4924-A990-3E6BF6FCCEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2B912C-4F5B-4924-A990-3E6BF6FCCEDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
