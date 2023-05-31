@@ -135,6 +135,7 @@
             buttonValider.TabIndex = 9;
             buttonValider.Text = "Valider";
             buttonValider.UseVisualStyleBackColor = true;
+            buttonValider.Click += buttonValider_Click;
             // 
             // buttonEffacer
             // 
@@ -179,12 +180,18 @@
             Controls.Add(labelNom);
             Name = "ValidationSaisie";
             Text = "ValidationSaisie";
+            FormClosing += ValidationSaisie_FormClosing;
             ((System.ComponentModel.ISupportInitialize)errorProviderNom).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderDate).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderMontant).EndInit();
             ((System.ComponentModel.ISupportInitialize)errorProviderCp).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void ValidationSaisie_FormClosing1(object sender, FormClosingEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

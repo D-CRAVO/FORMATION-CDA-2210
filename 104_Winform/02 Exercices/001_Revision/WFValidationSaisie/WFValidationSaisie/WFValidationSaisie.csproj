@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CLControles\CLControles.csproj" />
+    <ProjectReference Include="..\CLValidationSaisie\CLValidationSaisie.csproj" />
   </ItemGroup>
 
 </Project>

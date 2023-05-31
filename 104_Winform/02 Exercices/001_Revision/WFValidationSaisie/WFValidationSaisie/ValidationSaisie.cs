@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 using System.Windows.Forms;
 using CLControles;
+using CLValidationSaisie;
 
 namespace WFValidationSaisie
 {
@@ -35,15 +37,7 @@ namespace WFValidationSaisie
         {
             if (Controle.Date(textBoxDate.Text) || textBoxDate.Text == string.Empty)
             {
-                if (DateOnly.TryParse(textBoxDate.ToString(), out date))
-                {
-                    date = DateOnly.Parse(textBoxDate.ToString());
-                    errorProviderDate.SetError(textBoxDate, string.Empty);
-                }
-                else
-                {
-                    errorProviderDate.SetError(textBoxDate, "La date n'est pas valide");
-                }
+                errorProviderDate.SetError(textBoxDate, string.Empty);
             }
             else
             {
@@ -65,7 +59,7 @@ namespace WFValidationSaisie
 
         private void textBoxCp_TextChanged(object sender, EventArgs e)
         {
-            if (Controle.Cp(textBoxCp.Text)|| textBoxCp.Text == string.Empty)
+            if (Controle.Cp(textBoxCp.Text) || textBoxCp.Text == string.Empty)
             {
                 errorProviderCp.SetError(textBoxCp, string.Empty);
             }
@@ -74,5 +68,37 @@ namespace WFValidationSaisie
                 errorProviderCp.SetError(textBoxCp, "5 caractères numériques");
             }
         }
+
+        private void buttonValider_Click(object sender, EventArgs e)
+        {
+            if (
+                Controle.Nom(textBoxNom.Text)
+                && Controle.Date(textBoxDate.Text)
+                && Controle.Montant(textBoxMontant.Text)
+                && Controle.Cp(textBoxCp.Text)
+                )
+            {
+                CLValidationSaisie.Transaction maTransaction = new CLValidationSaisie.Transaction
+                    (
+                    textBoxNom.Text,
+                    DateOnly.Parse(textBoxDate.Text),
+                    float.Parse(textBoxMontant.Text),
+                    textBoxCp.Text
+                    );
+                Validation maValidation = new Validation(maTransaction);
+                maValidation.ShowDialog();
+            }
+        }
+
+        private void ValidationSaisie_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialogResultYesNo = MessageBox.Show("Voulez-vous quitter ?", "FIN", MessageBoxButtons.YesNo);
+            if (dialogResultYesNo == DialogResult.Yes) 
+            { 
+                e.Cancel = true;
+            }
+        }
+
+
     }
 }

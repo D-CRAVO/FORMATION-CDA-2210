@@ -1,0 +1,12 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\bin\Debug\net6.0\CLValidationSaisie.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\bin\Debug\net6.0\CLValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\bin\Debug\net6.0\CLValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\refint\CLValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\CLValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\CLValidationSaisie\obj\Debug\net6.0\ref\CLValidationSaisie.dll

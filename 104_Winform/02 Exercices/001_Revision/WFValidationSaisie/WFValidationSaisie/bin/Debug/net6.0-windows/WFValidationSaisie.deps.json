@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "WFValidationSaisie/1.0.0": {
         "dependencies": {
-          "CLControles": "1.0.0"
+          "CLControles": "1.0.0",
+          "CLValidationSaisie": "1.0.0"
         },
         "runtime": {
           "WFValidationSaisie.dll": {}
@@ -17,6 +18,11 @@
       "CLControles/1.0.0": {
         "runtime": {
           "CLControles.dll": {}
+        }
+      },
+      "CLValidationSaisie/1.0.0": {
+        "runtime": {
+          "CLValidationSaisie.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "CLControles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLValidationSaisie/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

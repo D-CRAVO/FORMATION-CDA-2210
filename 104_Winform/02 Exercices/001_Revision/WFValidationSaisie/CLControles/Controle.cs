@@ -13,7 +13,12 @@ namespace CLControles
         public static bool Date(string _date)
         {
             Regex maRegex = new Regex(@"^[0-9]{2}/[0-9]{2}/[0-9]{4}$");
-            return maRegex.IsMatch(_date);
+            DateOnly dateCourante =DateOnly.FromDateTime(DateTime.Now);
+            if (maRegex.IsMatch(_date) && DateOnly.Parse(_date)>dateCourante)
+            {
+                return true;
+            }
+            return false;
         }
 
         public static bool Montant(string _montant)

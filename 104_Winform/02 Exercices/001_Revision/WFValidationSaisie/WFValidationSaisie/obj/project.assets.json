@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/CLControles.dll": {}
         }
+      },
+      "CLValidationSaisie/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLValidationSaisie.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLValidationSaisie.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../CLControles/CLControles.csproj",
       "msbuildProject": "../CLControles/CLControles.csproj"
+    },
+    "CLValidationSaisie/1.0.0": {
+      "type": "project",
+      "path": "../CLValidationSaisie/CLValidationSaisie.csproj",
+      "msbuildProject": "../CLValidationSaisie/CLValidationSaisie.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "CLControles >= 1.0.0"
+      "CLControles >= 1.0.0",
+      "CLValidationSaisie >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -62,6 +78,9 @@
           "projectReferences": {
             "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\001_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj": {
               "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\001_Revision\\WFValidationSaisie\\CLControles\\CLControles.csproj"
+            },
+            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\001_Revision\\WFValidationSaisie\\CLValidationSaisie\\CLValidationSaisie.csproj": {
+              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\104_Winform\\02 Exercices\\001_Revision\\WFValidationSaisie\\CLValidationSaisie\\CLValidationSaisie.csproj"
             }
           }
         }

@@ -18,3 +18,6 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\WFValidationSaisie\obj\Debug\net6.0-windows\WFValidationSaisie.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\WFValidationSaisie\obj\Debug\net6.0-windows\WFValidationSaisie.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\WFValidationSaisie\obj\Debug\net6.0-windows\ref\WFValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\WFValidationSaisie\bin\Debug\net6.0-windows\CLValidationSaisie.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\WFValidationSaisie\bin\Debug\net6.0-windows\CLValidationSaisie.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFValidationSaisie\WFValidationSaisie\obj\Debug\net6.0-windows\WFValidationSaisie.Validation.resources
