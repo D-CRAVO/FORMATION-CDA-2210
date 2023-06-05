@@ -45,7 +45,7 @@
             labelPeriodicite = new Label();
             textBoxNbRemboursements = new TextBox();
             labelRemboursements = new Label();
-            textBox1 = new TextBox();
+            textBoxMontantRemboursements = new TextBox();
             groupBoxTaux.SuspendLayout();
             SuspendLayout();
             // 
@@ -104,7 +104,7 @@
             hScrollBarDuree.Name = "hScrollBarDuree";
             hScrollBarDuree.Size = new Size(118, 23);
             hScrollBarDuree.TabIndex = 6;
-            hScrollBarDuree.Value = 120;
+            hScrollBarDuree.Value = 1;
             // 
             // groupBoxTaux
             // 
@@ -131,12 +131,10 @@
             // radioButton8
             // 
             radioButton8.AutoSize = true;
-            radioButton8.Checked = true;
             radioButton8.Location = new Point(17, 83);
             radioButton8.Name = "radioButton8";
             radioButton8.Size = new Size(41, 19);
             radioButton8.TabIndex = 1;
-            radioButton8.TabStop = true;
             radioButton8.Text = "8%";
             radioButton8.UseVisualStyleBackColor = true;
             // 
@@ -205,20 +203,20 @@
             labelRemboursements.TabIndex = 13;
             labelRemboursements.Text = "Remboursements";
             // 
-            // textBox1
+            // textBoxMontantRemboursements
             // 
-            textBox1.Location = new Point(406, 316);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(133, 23);
-            textBox1.TabIndex = 14;
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            textBoxMontantRemboursements.Location = new Point(406, 316);
+            textBoxMontantRemboursements.Name = "textBoxMontantRemboursements";
+            textBoxMontantRemboursements.Size = new Size(133, 23);
+            textBoxMontantRemboursements.TabIndex = 14;
+            textBoxMontantRemboursements.TextAlign = HorizontalAlignment.Center;
             // 
             // Formulaire
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
+            Controls.Add(textBoxMontantRemboursements);
             Controls.Add(labelRemboursements);
             Controls.Add(textBoxNbRemboursements);
             Controls.Add(labelPeriodicite);
@@ -261,6 +259,6 @@
         private Label labelPeriodicite;
         private TextBox textBoxNbRemboursements;
         private Label labelRemboursements;
-        private TextBox textBox1;
+        private TextBox textBoxMontantRemboursements;
     }
 }

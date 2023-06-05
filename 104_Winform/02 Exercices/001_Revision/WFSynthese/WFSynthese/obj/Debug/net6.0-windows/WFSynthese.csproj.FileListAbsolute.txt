@@ -15,3 +15,23 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\ref\WFSynthese.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\WFSynthese.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\WFSynthese.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\WFSynthese.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\WFSynthese.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\WFSynthese.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\CLEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\CLEmprunts.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.Formulaire.resources
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.csproj.GenerateResource.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\refint\WFSynthese.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\ref\WFSynthese.dll

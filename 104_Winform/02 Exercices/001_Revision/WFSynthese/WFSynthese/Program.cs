@@ -1,3 +1,5 @@
+using CLEmprunts;
+
 namespace WFSynthese
 {
     internal static class Program
@@ -11,7 +13,8 @@ namespace WFSynthese
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Formulaire());
+            Emprunt empruntTest = new Emprunt("Dupont", 150000, 120, Emprunt.EnumPeriodicite.Trimestrielle, 0.08f);
+            Application.Run(new Formulaire(empruntTest));
         }
     }
 }

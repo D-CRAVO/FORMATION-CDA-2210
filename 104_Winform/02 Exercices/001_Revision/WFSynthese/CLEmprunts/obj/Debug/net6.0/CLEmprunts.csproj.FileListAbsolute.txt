@@ -1,0 +1,12 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\bin\Debug\net6.0\CLEmprunts.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\bin\Debug\net6.0\CLEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\bin\Debug\net6.0\CLEmprunts.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\refint\CLEmprunts.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\CLEmprunts.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\CLEmprunts\obj\Debug\net6.0\ref\CLEmprunts.dll
