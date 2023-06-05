@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "WFSynthese/1.0.0": {
+        "dependencies": {
+          "CLEmprunts": "1.0.0"
+        },
         "runtime": {
           "WFSynthese.dll": {}
+        }
+      },
+      "CLEmprunts/1.0.0": {
+        "runtime": {
+          "CLEmprunts.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WFSynthese/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLEmprunts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
