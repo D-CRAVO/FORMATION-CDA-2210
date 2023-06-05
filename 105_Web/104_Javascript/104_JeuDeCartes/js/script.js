@@ -53,14 +53,20 @@ function maxAttaque(data, tab)
 {
     creerTHead(data, tab);
     let maxAttack = data[0].attack;
+    let maxKey = 0
     console.log(maxAttack);
-    for(let item in data){
-        if(data){
-
+    for(let i=1; i<data.length; i++){
+        if(data[i].attack > maxAttack){
+            maxAttack = data[i].attack;
+            maxKey = i;
         }
     }
+    console.log(maxAttack);
+    console.log(data[maxKey]);
 
 }
+
+function insert
 
 /* fetch("/cardgame.json")
 .then(function(response){
