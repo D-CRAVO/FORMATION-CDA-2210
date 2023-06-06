@@ -55,6 +55,10 @@ function yearOfBirth(){
     }
 }
 
+function calculateNbEmployees(){
+    
+}
+
 eid();
 fullName();
 email();
