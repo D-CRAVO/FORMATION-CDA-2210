@@ -41,6 +41,7 @@ function monthlySalary(){
     for(let data of employees.employeesCollection){
         let row = document.getElementById(`row${data.id}`);
         let cell = document.createElement("td");
+        cell.setAttribute("id", `monthlySalary${data.id}`);
         cell.textContent = (data.employee_salary/12).toFixed(2)+"€";
         row.appendChild(cell);
     }
@@ -55,8 +56,49 @@ function yearOfBirth(){
     }
 }
 
-function calculateNbEmployees(){
-    
+function nbEmployees(){
+    let cell = document.getElementById("nbEmployees");
+    cell.textContent = tbody.querySelectorAll("tr").length;
+}
+
+/* function totalSalary(){
+    let totalSalary = 0;
+    let cell = document.getElementById("totalSalary");
+    const rowLength = tbody.querySelectorAll("tr").length;
+    console.log("tbody " + tbody)
+    console.log("rowLength " + rowLength);
+    let monthlySalaryTotal = 0;
+    for(let i=1; i<=rowLength; i++){
+        //let monthlySalary = document.querySelector('#monthlySalary' + i);
+        let monthlySalary = document.getElementById(`monthlySalary${i}`);
+        //if (monthlySalary != null){
+            monthlySalaryTotal+= Number(monthlySalary.innerText.split('€')[0]);
+        //}
+            
+        
+        //totalSalary = totalSalary + 
+    }
+    console.log(monthlySalaryTotal);
+} */
+
+function totalSalary(){
+    let totalSalary = 0;
+    let cell = document.getElementById("totalSalary");
+    const rowLength = tbody.querySelectorAll("tr").length;
+    console.log("tbody " + tbody)
+    console.log("rowLength " + rowLength);
+    let monthlySalaryTotal = 0;
+    for(let i=1; i<=rowLength; i++){
+        //let monthlySalary = document.querySelector('#monthlySalary' + i);
+        let monthlySalary = document.getElementById(`monthlySalary${i}`);
+        //if (monthlySalary != null){
+            monthlySalaryTotal+= Number(monthlySalary.innerText.split('€')[0]);
+        //}
+            
+        
+        //totalSalary = totalSalary + 
+    }
+    console.log(monthlySalaryTotal);
 }
 
 eid();
@@ -64,3 +106,5 @@ fullName();
 email();
 monthlySalary();
 yearOfBirth();
+nbEmployees();
+totalSalary();
