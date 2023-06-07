@@ -7,7 +7,6 @@ const app =
         return {
             title: "Cardgame",
             cards: null
-
         }
     },
 
@@ -36,7 +35,8 @@ const app =
 
     computed: {
         async colspan() {
-            return this.cards.getFirst().length;
+            //return this.cards.getFirst().length;
+            return 12;
         }
     }
 }
