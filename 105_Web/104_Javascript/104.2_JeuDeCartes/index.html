@@ -26,7 +26,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="12">Attack</td>
+                    <td :colspan="colspan">Attack</td>
                 </tr>
                 <tr>
                     <td v-for="data in cards.getHigherAttackCard().getValues()">{{ data }}</td>
