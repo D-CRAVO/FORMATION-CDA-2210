@@ -19,7 +19,7 @@ class Cards{
         try{
             return this.cardsCollection[0];
         } catch(error){
-            alert("La collection est vide !");
+            alert("La collection est vide !")
         }
     }
 
