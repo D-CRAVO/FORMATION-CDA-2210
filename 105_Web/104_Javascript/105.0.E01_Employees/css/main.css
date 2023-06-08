@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+}
+/* 
+.duplicate{
+    background-color: #449ADA;
+    color: white;
+}
+
+.delete{
+    background-color: #E93E6A;
+    color: white;
+} */
