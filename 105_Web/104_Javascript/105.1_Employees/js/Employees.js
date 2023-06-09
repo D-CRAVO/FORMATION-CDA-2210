@@ -7,10 +7,14 @@ class Employees{
     }
 
     async getEmployees(){
-        let response = await fetch(url);
+        let response = await fetch(this.source);
         let json = await response.json();
-        console.log(json);
+        //console.log(json);
+        for(let employee of json.data){
+            this.collection.push(employee);
+        }
     }
 }
+
 
 export {Employees};
