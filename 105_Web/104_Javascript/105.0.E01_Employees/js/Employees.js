@@ -37,8 +37,8 @@ class Employees{
         newEmp.id = ++max // nouvel identifiant
 
         this.collection.push(newEmp);
-        json = JSON.stringify(this.collection);
-        console.log(json);
+        /* json = JSON.stringify(this.collection);
+        console.log(json); */
     }
 
     
