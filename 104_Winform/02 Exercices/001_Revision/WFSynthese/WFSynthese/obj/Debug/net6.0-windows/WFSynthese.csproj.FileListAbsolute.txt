@@ -35,3 +35,6 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.genruntimeconfig.cache
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\ref\WFSynthese.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\CLEmprunts.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\bin\Debug\net6.0-windows\CLEmprunts.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\104_Winform\02 Exercices\001_Revision\WFSynthese\WFSynthese\obj\Debug\net6.0-windows\WFSynthese.csproj.CopyComplete

@@ -16,11 +16,11 @@
         
         public enum EnumPeriodicite
         {
-            Mensuelle,
-            Bimestrielle,
-            Trimestrielle,
-            Semestrielle,
-            Annuelle
+            Mensuelle = 1,
+            Bimestrielle = 2,
+            Trimestrielle = 3,
+            Semestrielle = 6,
+            Annuelle = 12
         }
 
         public Emprunt(string? nom, uint capital, uint duree, EnumPeriodicite periodicite, float taux)
@@ -43,6 +43,12 @@
                 _emprunt.tauxAnnuel
             )
         { }
+
+
+        public static uint CalculNbRemboursements(Emprunt _emprunt)
+        {
+            return _emprunt.duree / (uint)_emprunt.periodicite;
+        }
     }
 
     

@@ -74,8 +74,6 @@ function createButtonDuplicate(employee, row){
     })
 }
 
-
-
 function createButtonDelete(employee, row){
     let buttonDelete = createButton(row, employee, "delete", "Delete");
     buttonDelete.addEventListener('click', (event) => {

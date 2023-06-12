@@ -105,6 +105,7 @@
             hScrollBarDuree.Size = new Size(118, 23);
             hScrollBarDuree.TabIndex = 6;
             hScrollBarDuree.Value = 1;
+            hScrollBarDuree.Scroll += hScrollBarDuree_Scroll;
             // 
             // groupBoxTaux
             // 
