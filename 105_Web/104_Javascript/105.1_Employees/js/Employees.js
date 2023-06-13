@@ -14,6 +14,8 @@ class Employees{
             this.collection.push(employee);
         }
     }
+    // hello david
+    // Je suis Cerise
 
     calculateNbEmployees(){
         return this.collection.length;
@@ -43,6 +45,9 @@ class Employees{
 
     }
 
+    compareSalaries(){
+        this.collection.sort((a,b) => a.employee_salary - b.employee_salary)
+    }
     
 }
 

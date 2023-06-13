@@ -26,10 +26,17 @@ function createTable(){
         createTotalSalary();
         createButtonDuplicate(employee, row);
         createButtonDelete(employee, row);
+        
     }   
 }
 
+const buttonSort = document.getElementById('sortMonthlySalary');
+buttonSort.addEventListener('click', ()=>{
+        
+        sortMonthlySalary();
 
+    });
+    
 
 function createCell(row){
     let cell = document.createElement('td');
@@ -94,6 +101,13 @@ function createButton(row, employee, buttonClass, buttonValue){
     return button
 }
 
+function sortMonthlySalary(){
+    let buttonSort = document.getElementById('sortMonthlySalary');
+    buttonSort.addEventListener('click', employees.compareSalaries());
+    createTable();
+}
+
+
 function essai(){
     let value = 3
     let arr = [1, 2, 3, 4, 5, 3]
@@ -103,3 +117,4 @@ function essai(){
 
 createTable();
 essai();
+//sortMonthlySalary();

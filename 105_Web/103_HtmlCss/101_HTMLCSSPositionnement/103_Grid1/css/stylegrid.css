@@ -117,7 +117,7 @@ article{
 @media screen and (max-width: 600px) {
     .container{
         background-color: var(--primary);
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
         grid-template-areas:    "header" "ads" "nav" "article" "footer";
@@ -125,13 +125,16 @@ article{
     }
 
     .article{
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
         background-color: var(--light);
-        grid-template-areas:    "section1" "section2"
-                                "section3" "section4"
-                                "section5" "section6";
+        grid-template-areas:    "section1" 
+                                "section2"
+                                "section3" 
+                                "section4"
+                                "section5" 
+                                "section6";
         margin: 1rem 1rem 1rem 0;
     }
 }
