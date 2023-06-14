@@ -85,7 +85,7 @@ namespace WFListBoxComboBox
                 }
             } while (comboBoxSource.Items.Count > 0);
             listBoxDestination.SetSelected(listBoxDestination.Items.Count - 1, true);
-            CheckButtonsAdd();
+            CheckButtons();
         }
 
         private void buttonRemove_Click(object sender, EventArgs e)
