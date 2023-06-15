@@ -12,7 +12,7 @@ class Employee{
     }
 
     calculateEmail(){
-        let fullName = this.employee_name.split(" ");
+        let fullName = this.employee_name.trim().split(" ");
         return `${fullName[0].toLowerCase().substring(0,1)}.${fullName[1].toLowerCase()}`
     }
 

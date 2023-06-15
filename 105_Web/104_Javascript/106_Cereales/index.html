@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/LOGO_DavidCRAVO.png" type="image/x-icon">
+    <script src="/js/main.js" type="module"></script>
+</head>
+<body>
+    <header id="header">
+        <h1>Cereals</h1>
+        <fieldset>
+            <legend>Rechercher</legend>
+            <input type="text" placeholder="Nom du céréale">
+        </fieldset>
+        <fieldset>
+            <legend>Filtrer</legend>
+            <fieldset>
+                <legend>Nutriscore</legend>
+                <label for="a">A</label>
+                <input type="checkbox" name="a" id="a">
+                <label for="b">B</label>
+                <input type="checkbox" name="b" id="b">
+                <label for="c">C</label>
+                <input type="checkbox" name="c" id="c">
+                <label for="d">D</label>
+                <input type="checkbox" name="d" id="d">
+                <label for="e">E</label>
+                <input type="checkbox" name="e" id="e">
+            </fieldset>
+            <fieldset>
+                <legend>Catégorie</legend>
+                <select name="categories" id="categories">
+                    <option value="">Tous</option>
+                    <option value="">Sans Sucre</option>
+                    <option value="">Pauvre en sel</option>
+                    <option value="">Boost</option>
+                </select>
+        </fieldset>
+    </header>
+    <main>
+        <table>
+            <thead id="thead">
+                <tr id="rowThead"></tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+            <tfoot id="tfoot"></tfoot>
+        </table>
+    </main>
+</body>
+</html>

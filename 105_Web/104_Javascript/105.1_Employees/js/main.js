@@ -5,6 +5,9 @@ const employees = new Employees ("/json/employees.json");
 await employees.getEmployees();
 
 const tbody = document.getElementById("tbody");
+const buttonSort = document.getElementById('sortMonthlySalary');
+
+let sort = true;
 
 console.log(employees.collection);
 
@@ -30,11 +33,10 @@ function createTable(){
     }   
 }
 
-const buttonSort = document.getElementById('sortMonthlySalary');
 buttonSort.addEventListener('click', ()=>{
-        
-        sortMonthlySalary();
-
+    employees.compareSalaries(sort);
+        createTable();
+        sort = !sort;
     });
     
 
@@ -74,6 +76,7 @@ function createTotalSalary(){
 
 function createButtonDuplicate(employee, row){
     let buttonDuplicate = createButton(row, employee, "duplicate", "Duplicate");
+    buttonDuplicate.classList.add('btn-primary');
     buttonDuplicate.addEventListener('click', (event) => {
         let employeeId = event.target.dataset.id;
         employees.duplicateEmployee(employeeId);
@@ -100,13 +103,6 @@ function createButton(row, employee, buttonClass, buttonValue){
     row.appendChild(button);
     return button
 }
-
-function sortMonthlySalary(){
-    let buttonSort = document.getElementById('sortMonthlySalary');
-    buttonSort.addEventListener('click', employees.compareSalaries());
-    createTable();
-}
-
 
 function essai(){
     let value = 3

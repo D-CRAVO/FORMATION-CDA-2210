@@ -14,8 +14,6 @@ class Employees{
             this.collection.push(employee);
         }
     }
-    // hello david
-    // Je suis Cerise
 
     calculateNbEmployees(){
         return this.collection.length;
@@ -41,15 +39,16 @@ class Employees{
     deleteEmployee(employeeId){
         console.log(employeeId);
         this.collection = this.collection.filter(emp => emp.id !== employeeId);
-        console.log(this.collection);
-
+        //console.log(this.collection);
     }
 
-    compareSalaries(){
-        this.collection.sort((a,b) => a.employee_salary - b.employee_salary)
+    compareSalaries(sort){
+        if(sort == true){
+            this.collection.sort((a,b) => a.employee_salary - b.employee_salary);
+        }else{
+            this.collection.sort((a,b) => a.employee_salary - b.employee_salary).reverse();
+        }
     }
-    
 }
-
 
 export {Employees};

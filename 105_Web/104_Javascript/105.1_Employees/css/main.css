@@ -15,5 +15,6 @@ body{
 }
 
 table, th, td{
-    border: 1px solid var(--primary)
+    border: 1px solid var(--primary);
+    border-collapse: collapse;
 }
