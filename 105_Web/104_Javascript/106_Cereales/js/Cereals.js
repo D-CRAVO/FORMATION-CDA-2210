@@ -22,6 +22,19 @@ class Cereals{
             alert("La collection est vide !");
         }
     }
+
+    DeleteCereal(cerealId){
+        this.collection = this.collection.filter(cereal => cereal.id != cerealId)
+    }
+
+    CompareValues(sort, value){
+        if(sort == true){
+            this.collection.sort((a,b) => a.value - b.value);
+            console.log(a.value);
+        }else{
+            this.collection.sort((a,b) => a.value - b.value).reverse();
+        }
+    }
 }
 
 export {Cereals};
