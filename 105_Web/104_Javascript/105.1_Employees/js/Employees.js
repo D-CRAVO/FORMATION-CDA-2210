@@ -38,7 +38,7 @@ class Employees{
 
     deleteEmployee(employeeId){
         console.log(employeeId);
-        this.collection = this.collection.filter(emp => emp.id !== employeeId);
+        this.collection = this.collection.filter(emp => emp.id !== parseInt(employeeId));
         //console.log(this.collection);
     }
 

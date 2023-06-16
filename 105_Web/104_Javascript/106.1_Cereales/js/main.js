@@ -10,15 +10,19 @@ const tbody = document.getElementById("tbody");
 const tfoot = document.getElementById('tfoot');
 const rowThead = document.getElementById("rowThead");
 const rowTfoot = document.getElementById("rowTfoot");
-//console.log(thead);
+const searchInput = document.getElementById("search");
 
 let sort = true;
+
+searchInput.addEventListener('keyup', (event) => {
+    let value = event.target.value;
+    console.log(value);
+});
 
 function CreateTable(){
     CreateThead();
     CreateTbody();
     CreateTfoot();
-    
 }
 
 function CreateThead(){
@@ -33,16 +37,26 @@ function CreateThead(){
 
 function CreateCell(row, data, type){
     let cell = document.createElement(type);
-    
     cell.textContent = data;
     row.appendChild(cell);
 }
 
 function CreateTheadCell(row, data, type){
     // utiliser le type
-    let button = CreateButton(row, 'td');
-    button.textContent = data.toUpperCase();
-    button.addEventListener('click', ()=>{
+    // let button = CreateButton(row, 'td');
+    // button.textContent = data.toUpperCase();
+    // button.addEventListener('click', ()=>{
+    //     cereals.CompareValues(sort, data);
+    //     console.log(data);
+    //     CreateTbody();
+    //     sort = !sort;
+    // })
+
+    let cell = CreateBalise(row, 'td');
+    let balise = CreateBalise(cell, 'a');
+    balise.setAttribute('href', '#');
+    balise.textContent = data.toUpperCase();
+    balise.addEventListener('click', ()=>{
         cereals.CompareValues(sort, data);
         console.log(data);
         CreateTbody();
@@ -64,10 +78,6 @@ function CreateTbody(){
 }
 
 function CreateDelCell(row, cereal){
-    // let button = CreateButton(row, 'th');
-    // button.dataset.id = cereal.id;
-    // button.innerHTML = '<i class="fa fa-close" style="color: #ff0000;"></i>';
-    // button.textContent = "Delete"
     let balise = CreateBalise(row, 'i');
     balise.dataset.id = cereal.id;
     balise.classList.add('fa');
@@ -79,7 +89,6 @@ function CreateDelCell(row, cereal){
         CreateTbody();
         CreateTfoot();
     });
-    
 }
 
 function CreateButton(row, type){
@@ -123,5 +132,7 @@ function CreateAverageCalories(){
     let cellAverageCalories = document.getElementById('tfootcalories');
     cellAverageCalories.textContent = 'Moyenne calories ' + cereals.calculateAverageCalories();
 }
+
+
 
 CreateTable();

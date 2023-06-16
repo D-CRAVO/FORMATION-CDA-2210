@@ -44,7 +44,7 @@ class Cereals{
         } 
         let sum = arrayCalories.reduce((a,b) => a + b, 0)
         console.log(sum);
-        return Math.round(sum / arrayCalories.length);
+        return Math.floor(sum / arrayCalories.length);
     }
 }
 

@@ -76,6 +76,7 @@ function createTotalSalary(){
 
 function createButtonDuplicate(employee, row){
     let buttonDuplicate = createButton(row, employee, "duplicate", "Duplicate");
+    buttonDuplicate.classList.add('btn');
     buttonDuplicate.classList.add('btn-primary');
     buttonDuplicate.addEventListener('click', (event) => {
         let employeeId = event.target.dataset.id;
@@ -86,6 +87,8 @@ function createButtonDuplicate(employee, row){
 
 function createButtonDelete(employee, row){
     let buttonDelete = createButton(row, employee, "delete", "Delete");
+    buttonDelete.classList.add('btn');
+    buttonDelete.classList.add('btn-danger');
     buttonDelete.addEventListener('click', (event) => {
         let employeeId = event.target.dataset.id;
         employees.deleteEmployee(employeeId);
