@@ -35,6 +35,16 @@ class Cereals{
             this.collection.sort((a,b) => a.value - b.value).reverse();
         }
     }
+
+    calculateAverageCalories(){
+        let arrayCalories = [];
+        for(let i=0; i<this.collection.length; i++){
+            arrayCalories.push(this.collection[i].calories);
+        } 
+        let sum = arrayCalories.reduce((a,b) => a + b, 0)
+        console.log(sum);
+        return Math.round(sum / arrayCalories.length);
+    }
 }
 
 export {Cereals};

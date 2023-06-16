@@ -4,10 +4,12 @@ import {Cereals} from "./Cereals.js";
 const cereals = new Cereals("/json/cereals.json");
 await cereals.getCereals();
 
-const table = document.getElementById('table')
+const table = document.getElementById('table');
 const thead = document.getElementById("thead");
 const tbody = document.getElementById("tbody");
+const tfoot = document.getElementById('tfoot');
 const rowThead = document.getElementById("rowThead");
+const rowTfoot = document.getElementById("rowTfoot");
 //console.log(thead);
 
 let sort = true;
@@ -15,6 +17,8 @@ let sort = true;
 function CreateTable(){
     CreateThead();
     CreateTbody();
+    CreateTfoot();
+    
 }
 
 function CreateThead(){
@@ -24,11 +28,12 @@ function CreateThead(){
         CreateTheadCell(rowThead, item, 'th');
     }
     CreateTheadCell(rowThead, "ns".toUpperCase(), 'th');
-    CreateCell(rowThead, "del".toUpperCase(), 'th')
+    CreateCell(rowThead, "del".toUpperCase(), 'th');
 }
 
 function CreateCell(row, data, type){
     let cell = document.createElement(type);
+    
     cell.textContent = data;
     row.appendChild(cell);
 }
@@ -80,5 +85,32 @@ function CreateButton(row, type){
     return button;
 }
 
+function CreateTfoot(){
+    let myCereal = cereals.getFirst();
+    for(let item of myCereal.getKeys()){
+        CreateTfootCell(rowTfoot, item)
+    }
+    CreateTotalElements();
+    CreateAverageCalories();
+}
+
+function CreateTfootCell(row, item){
+    let cell = document.createElement('td');
+    cell.dataset.id = `tfoot${item}`;
+    cell.id = `tfoot${item}`;
+    //cell.textContent = item
+    row.appendChild(cell);
+}
+
+function CreateTotalElements(){
+    let cellTotalElements = document.getElementById('tfootname');
+    cellTotalElements.textContent = cereals.collection.length + ' éléments';
+    console.log(cereals.collection.length);
+}
+
+function CreateAverageCalories(){
+    let cellAverageCalories = document.getElementById('tfootcalories');
+    cellAverageCalories.textContent = 'Moyenne calories ' + cereals.calculateAverageCalories();
+}
 
 CreateTable();

@@ -26,11 +26,9 @@ class Cereal{
             result = 'e';
         }
         return result;
-
-
     }
 
-    
+
 }
 
 export {Cereal};
