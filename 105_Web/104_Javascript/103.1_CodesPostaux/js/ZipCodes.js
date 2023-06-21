@@ -27,40 +27,10 @@ class ZipCodes
     {
         let result = [];
 
-        /*for(let city of this.zipcodes) {
-            if(city.codePostal == zipcode) {
-                result.push(city);
-                console.log(result);
-            }
-        }*/
-
-        // la ligne suivante effectue le même traitement que le for ci-dessus
         result = this.collection.filter(city => city.codePostal == zipcode);
-        
         console.log(result);
-
-        this.fillUi(result);
-
-
+        return result;
     }
-
-    fillUi(result) 
-    {
-        //let element = document.getElementById('result');
-        let element = document.querySelector('#result');
-        element.innerHTML = ""; // réinitialisation du contenu
-
-        for(let city of result) {
-            //element.innerHTML = "<li>"+ city.NomCommune+"</li>";
-
-            let li = document.createElement('li'); // création d'un élément <li>
-            li.innerText = city.nomCommune + " " + city.codeCommune; // ajout de contenu dans l'élément <li> créé
-            element.appendChild(li); // ajout de l'élément <li> crée dans l'élément #result
-        }
-
-    }
-
-
 }
 
 export { ZipCodes }
