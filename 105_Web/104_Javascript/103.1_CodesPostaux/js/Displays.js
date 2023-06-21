@@ -4,14 +4,19 @@ class Displays{
         this.element = document.querySelector('#result');
     }
 
-    //let element = document.getElementById('result');
-    this.element.innerHTML = ""; // réinitialisation du contenu
+    displayResult(){
+        this.element.innerHTML = ""; 
+        for(let city of this.result) {
+            let li = this.generateElement(this.element, 'li'); 
+            li.innerText = city.nomCommune + " " + city.codeCommune;
+        }
+    }
 
-    for(let city of result) {
-        //element.innerHTML = "<li>"+ city.NomCommune+"</li>";
-
-        let li = document.createElement('li'); // création d'un élément <li>
-        li.innerText = city.nomCommune + " " + city.codeCommune; // ajout de contenu dans l'élément <li> créé
-        element.appendChild(li); // ajout de l'élément <li> crée dans l'élément #result
+    generateElement(parent, element){
+        let balise = document.createElement(element);
+        parent.appendChild(balise);
+        return balise
     }
 }
+
+export { Displays };
