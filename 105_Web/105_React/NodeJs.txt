@@ -1,0 +1,7 @@
+npm init
+...enter...enter...enter
+npm install express ejs
+node index.js
+
+npm install -g http-server
+http-server -c-1

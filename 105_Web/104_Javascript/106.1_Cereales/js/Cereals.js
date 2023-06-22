@@ -43,8 +43,21 @@ class Cereals{
             arrayCalories.push(this.collection[i].calories);
         } 
         let sum = arrayCalories.reduce((a,b) => a + b, 0)
-        console.log(sum);
+        //console.log(sum);
         return Math.floor(sum / arrayCalories.length);
+    }
+
+    search(value){
+       
+        let research = this.collection.find(cereal => (cereal.name).toLowerCase() == value);
+        console.log(research);
+        if(research != null){
+            this.collection = [];
+            this.collection.push(research);
+        }else{
+            
+            this.getCereals();
+        }
     }
 }
 

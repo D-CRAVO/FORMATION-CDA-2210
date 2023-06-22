@@ -1,7 +1,7 @@
 import {Cereal} from "./Cereal.js"
 import {Cereals} from "./Cereals.js";
 
-const cereals = new Cereals("/json/cereals.json");
+let cereals = new Cereals("/json/cereals.json");
 await cereals.getCereals();
 
 const table = document.getElementById('table');
@@ -16,7 +16,11 @@ let sort = true;
 
 searchInput.addEventListener('keyup', (event) => {
     let value = event.target.value;
-    console.log(value);
+    cereals.search(value.toLowerCase());
+    CreateTbody();
+    CreateTfoot();
+
+    
 });
 
 function CreateTable(){
@@ -66,6 +70,9 @@ function CreateTheadCell(row, data, type){
 
 function CreateTbody(){
     tbody.innerHTML = "";
+
+    console.log(cereals.collection);
+
     for(let cereal of cereals.collection){
         let row = document.createElement('tr');
         for(let data of cereal.getValues()){ 
@@ -125,7 +132,7 @@ function CreateTfootCell(row, item){
 function CreateTotalElements(){
     let cellTotalElements = document.getElementById('tfootname');
     cellTotalElements.textContent = cereals.collection.length + ' éléments';
-    console.log(cereals.collection.length);
+    //console.log(cereals.collection.length);
 }
 
 function CreateAverageCalories(){
