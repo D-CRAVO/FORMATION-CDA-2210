@@ -49,7 +49,8 @@ class Cereals{
 
     search(value){
        
-        let research = this.collection.find(cereal => (cereal.name).toLowerCase() == value);
+        // let research = this.collection.find(cereal => (cereal.name).toLowerCase() == value);
+        let research = this.collection.find(cereal => cereal.name.includes(value));
         console.log(research);
         if(research != null){
             this.collection = [];
