@@ -4,6 +4,7 @@ class Cereals{
     constructor(url){
         this.source = url;
         this.collection = [];
+        this.collectionInit = this.collection;
     }
 
     async getCereals(){
@@ -50,13 +51,17 @@ class Cereals{
     search(value){
        
         // let research = this.collection.find(cereal => (cereal.name).toLowerCase() == value);
-        let research = this.collection.find(cereal => cereal.name.includes(value));
+        let research = this.collectionInit.find(cereal => cereal.name.includes(value));
+        console.log('collectionInit'); console.log(this.collectionInit);
         console.log(research);
-        if(research != null){
+        if(research != undefined){
+
             this.collection = [];
             this.collection.push(research);
+            console.log(this.collectionInit);
         }else{
-            
+            this.collection = this.collectionInit;
+
             this.getCereals();
         }
     }

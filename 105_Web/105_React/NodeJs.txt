@@ -5,3 +5,10 @@ node index.js
 
 npm install -g http-server
 http-server -c-1
+
+npm install
+npm start
+
+npx create-next-app@latest
+
+npm run ..

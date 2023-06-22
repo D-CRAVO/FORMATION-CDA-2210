@@ -16,7 +16,7 @@ let sort = true;
 
 searchInput.addEventListener('keyup', (event) => {
     let value = event.target.value;
-    cereals.search(value.toLowerCase());
+    cereals.search(value);
     CreateTbody();
     CreateTfoot();
 
