@@ -1,0 +1,5 @@
+npm init
+
+npx create-next-app@latest
+
+

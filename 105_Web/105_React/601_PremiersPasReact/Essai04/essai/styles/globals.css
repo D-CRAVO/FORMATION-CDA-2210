@@ -25,29 +25,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-
-/* Ajouts personnels */
-
-.image:hover{
-  animation: comingsoon 2s 1s forwards;
-}
-
-.image{
-  animation-play-state: paused;
-}
-
-.google:hover{
-  transform: rotate(-20deg) scale(1.5)
-}
-
-@keyframes comingsoon{
-  from{
-      font-size: small;
-  }
-  to {
-      font-size: large;
-      color: red;
-      text-shadow: 0.1rem 0.1rem 0.5rem #fff;
-  }
-}
