@@ -35,7 +35,11 @@
 
 .tables table{
     width: 100rem;
-    margin: 0 auto
+    margin:  0 auto
+}
+
+.tables caption{
+    margin: 2rem;
 }
 
 .tables table th{
@@ -63,7 +67,7 @@
     width: 40rem;
 }
 
-.failures{
+.failures div:last-child {
     padding: 2rem 0;
 }
 
