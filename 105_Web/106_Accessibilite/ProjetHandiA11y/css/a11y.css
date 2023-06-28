@@ -5,3 +5,11 @@ body{
 img{
     width: 25rem;
 }
+
+section:last-child img{
+    width: 17rem;
+}
+
+section:last-child div{
+    margin-bottom: 3rem;
+}
