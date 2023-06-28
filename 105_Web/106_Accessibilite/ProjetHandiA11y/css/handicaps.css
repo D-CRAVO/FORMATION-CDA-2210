@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.pictureHandicap{
+    display: flex;
+}
+
+.logoHandicap{
+    width: 15rem;
+    margin-right: 30rem;
+    margin-left: 5rem;
+}
+
+.imageMateriel{
+    width: 20rem;
+}
+
+.materiel h2{
+    text-align: center;
+}
+
+.materiel picture{
+    display: flex;
+    justify-content: space-around;
+}
