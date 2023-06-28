@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/AccessConfig/css/accessconfig.min.css">
+    <link rel="shortcut icon" href="/img/LOGO_DavidCRAVO.png" type="image/x-icon">
+    <script src="/AccessConfig/js/accessconfig.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="/img/a11yNow.png" alt="Logo a11yNow">
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Acceuil</a></li>
+                <li><a href="/pages/a11y.html">A11y</a></li>
+                <li><a href="/pages/handicaps.html">Handicaps</a></li>
+                <li><a href="/pages/faitesUnDon.html">Faites un don</a></li>
+                <li><a href="/pages/equipe.html">Equipe</a></li>
+                <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></div>
+            </ul>
+            
+        </nav>
+        <div>
+            <input type="search" name="Rechercher" id="imputSearch" placeholder="Rechercher">
+            <button id="buttonSearch">Rechercher</button>
+        </div>
+    </header>
+    <main>
+        <section class="bienvenue">
+            <h1>Bienvenue sur HandiA11y</h1>
+            <p>HandiA11y est un site spécialisé pour découvrir les bases de l'accessibilité web et les différents handicaps à prendre en compte.</p>
+            <h2>Pourquoi A11y et pas A11é ?</h2>
+            <p>A11É est une abréviation pour accessibilité où 11 représente le nombre de lettres entre le a et le é du mot accessibilité. Cette même abbréviation dans sa version anglaise est plus jolie à l'oreille : A11Y</p>
+            <h2>Quelle est l'origine du mot HANDICAP ?</h2>
+            <p>Le mot handicap trouve son origine dans l'anglais médiéval. Il est dérivé de l'expression <span class="textBold">hand in cap</span>, qui signifie <span class="textItalic">main dans le chapeau</span>. À l'époque, cette expression était utilisée dans les jeux de hasard pour indiquer qu'un joueur était désavantagé ou handicapé par rapport aux autres joueurs. Au fil du temps, le terme a été adopté dans d'autres contextes pour décrire une situation où une personne est désavantagée ou limitée dans ses capacités physiques, mentales ou sociales.</p>   
+        </section>
+        <section class="cardsWcag">
+            <h1>Le WCAG et les 4 principes A11y</h1>
+            <div class="cards">
+                <div class="card">
+                    <h2>Perceptible</h2>
+                    <p>
+                        Les informations et les composants de l'interface utilisateur doivent être perceptibles pour tous les utilisateurs, y compris ceux ayant des limitations sensorielles.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Utilisable</h2>
+                    <p>
+                        Les composants de l'interface utilisateur doivent être utilisables par tous les utilisateurs, y compris ceux ayant des limitations physiques ou cognitives.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Compréhensible</h2>
+                    <p>
+                        Les informations et les opérations doivent être compréhensibles pour tous les utilisateurs, y compris ceux ayant des limitations cognitives.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Robuste</h2>
+                    <p>
+                        Le contenu doit être robuste et fonctionnel sur différentes plateformes, y compris les technologies d'assistance, pour tous les utilisateurs.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="tables">
+            <table>
+                <caption>Les critères WCAG 2.1 sous forme de tableau</caption>
+                <thead>
+                    <tr>
+                        <th>Principes</th>
+                        <th>Critères</th>
+                        <th>Correspondances</th>
+                        <th>Objectifs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="4">Perceptible</th>
+                        <td>1.1</td>
+                        <td>Alternatives textuelles</td>
+                        <td>
+                            Fournir des alternatives textuelles pour tout contenu non textuel afin qu'il puisse être modifié dans d'autres formes comme les gros caractères, le braille, la parole, les symboles ou un langage plus simple.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>Médias temporels</td>
+                        <td>
+                            Fournir des alternatives aux médias temporels.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1.3</td>
+                        <td>Adaptable</td>
+                        <td>
+                            Créez du contenu qui peut être présenté de différentes manières (par exemple une mise en page plus simple) sans perdre d'informations ou de structure.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1.4</td>
+                        <td>Distinguable</td>
+                        <td>
+                            Facilitez la visualisation et l'écoute du contenu par les utilisateurs, notamment en séparant le premier plan de l'arrière-plan
+                        </td>
+                    </tr>
+                    <tr>
+                        <th rowspan="5">Utilisable</th>
+                        <td>2.1</td>
+                        <td>Acessible au clavier</td>
+                        <td>
+                            Rendre toutes les fonctionnalités disponibles à partir d'un clavier.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.2</td>
+                        <td>Suffisamment de temps</td>
+                        <td>
+                            Donnez aux utilisateurs suffisamment de temps pour lire et utiliser le contenu.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.3</td>
+                        <td>Convulsions et réactions physiques</td>
+                        <td>
+                            Concevoir des contenus qui ne provoquent pas de convulsions ou des réactions physiques comme des crises épileptiques (zones clignotantes et flashs).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.4</td>
+                        <td>Navigable</td>
+                        <td>
+                            Fournir des moyens d'aider les utilisateurs à naviguer, à trouver du contenu et à déterminer où ils se trouvent.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.5</td>
+                        <td>Entrées ciblables</td>
+                        <td>
+                            Faciliter l'utilisation des fonctionnalités par les utilisateurs grâce à diverses entrées au-delà du clavier.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Compréhensible</th>
+                        <td>3.1</td>
+                        <td>Lisibilité du texte et de l'interface</td>
+                        <td>
+                            Rendre le contenu du texte lisible et compréhensible
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3.2</td>
+                        <td>Prévisible</td>
+                        <td>
+                            Faites en sorte que les pages Web s'affichent et fonctionnent de manières prévisible
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3.3</td>
+                        <td>Assistance à la saisie</td>
+                        <td>
+                            Aider les utilisateurs à éviter et à corriger les erreurs.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Robuste</th>
+                        <td>4.1</td>
+                        <td>Compatible</td>
+                        <td>
+                            Optimiser la comptabilité avec les agents utilisateurs actuels et futurs, y compris les technologie d'assitance.
+                        </td>
+                    </tr> 
+                </tbody>
+            </table>
+
+            <table>
+                <caption>Les 3 niveaux de conformité WCAG 2.1</caption>
+                <thead>
+                    <tr>
+                        <th>Niveaux</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>A</th>
+                        <td>
+                            Accessibilité de base, répondant aux besoins essentiels des utilisateurs handicapé ou en situation de handicap
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>AA</th>
+                        <td>
+                            Accessibilité avancée, garantissant une meilleur expérience pour la majorité des utilisateurs handicapés ou en situation de handicap
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>AAA</th>
+                        <td>
+                            Accessibilité maximale, offrant une expérience optimale pour tous les utilisateurs, y compris les utilisateurs handicapés
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="tablesFooter">
+                <p>
+                    Vous pouvez tester la lecture des 2 tableaux avec JAWS ou NVDA pour voir s'ils sont accessible ! 
+                </p>
+                <a href="#">WCAG 2.1 en VO</a>
+            </div>
+        </section>
+
+        <section class="failures">
+            <h1>Most common WCAG failures by WebAIM</h1>
+            <p>
+                Graphique et tableaux des échecs les plus courents par WebAIM
+            </p>
+            <picture>
+                <img src="./img/WebAIM_million 1.png" alt="graphique qui reprends les données du tableau qui suit">
+            </picture>
+            <table>
+                <thead>
+                    <tr>
+                        <th>WCAG Failure Type</th>
+                        <th># of home pages</th>
+                        <th>% of home pages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Low contrast text</td>
+                        <td>852.868</td>
+                        <td>85.3%</td>
+                    </tr>
+                    <tr>
+                        <td>Missing alternatives text for images</td>
+                        <td>679,964</td>
+                        <td>68%</td>
+                    </tr>
+                    <tr>
+                        <td>Empty links</td>
+                        <td>581,408</td>
+                        <td>58.1%</td>
+                    </tr>
+                    <tr>
+                        <td>Missing from input labels</td>
+                        <td>528,482</td>
+                        <td>52.8%</td>
+                    </tr>
+                    <tr>
+                        <td>Missing document language</td>
+                        <td>329,612</td>
+                        <td>33.1%</td>
+                    </tr>
+                    <tr>
+                        <td>Empty buttons</td>
+                        <td>250,367</td>
+                        <td>25%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="https://webaim.org/projects/million/">lien vers l'explication du graphique et du tableau (en anglais)</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 HandiA11y. Tous droits réservés</p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.bienvenue{
+    width: 50rem;
+    margin: auto;
+    text-align: justify;
+}
+
+.bienvenue h1, 
+.bienvenue h2{
+    text-align: center;
+}
+
+.bienvenue h1{
+    font-size: 4.3rem;
+}
+
+.cardsWcag h1{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    background-color: #9BC9F7;
+    margin: 0.5rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+
+.tables caption{
+    text-align: center;
+}
+
+.tables table{
+    width: 100rem;
+    margin: 0 auto
+}
+
+.tables table th{
+    background-color: grey;
+    color: var(--light);
+}
+
+.tables th:first-child{
+    width: 15rem;
+}
+
+.tablesFooter{
+    text-align: center;
+}
+
+.failures{
+    text-align: center;
+}
+
+.failures table{
+    margin: auto;
+}
+
+.failures img{
+    width: 40rem;
+}
+
+.failures{
+    padding: 2rem 0;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 2rem
+}
+

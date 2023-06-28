@@ -1,0 +1,80 @@
+:root{
+    --header: #0065D1;
+    --footer: #0065D1;
+    --light: white;
+    --grey: lightgrey;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+header{
+    background-color: var(--header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+header img{
+    width: 7rem;
+    padding: 1rem;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    padding: 1rem
+}
+
+header nav a{
+    color: var(--light);
+    text-decoration: none;
+    display: flex;
+}
+
+header #imputSearch{
+    background-color: var(--header);
+    border: none;
+    color: var(--grey)
+}
+
+header #buttonSearch{
+    background-color: #FFC107;
+    border-color: #FFC107;
+    border-radius: 10%;
+    padding: 1rem;
+}
+
+.textBold{
+    font-weight: bold;
+}
+
+.textItalic{
+    font-style: italic;
+}
+
+footer{
+    background-color: var(--footer);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+}

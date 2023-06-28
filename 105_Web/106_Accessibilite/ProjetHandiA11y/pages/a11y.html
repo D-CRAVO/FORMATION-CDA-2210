@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="/css/a11y.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/AccessConfig/css/accessconfig.min.css">
+    <link rel="shortcut icon" href="/img/LOGO_DavidCRAVO.png" type="image/x-icon">
+    <script src="/AccessConfig/js/accessconfig.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="/img/a11yNow.png" alt="Logo a11yNow">
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Acceuil</a></li>
+                <li><a href="/pages/a11y.html">A11y</a></li>
+                <li><a href="/pages/handicaps.html">Handicaps</a></li>
+                <li><a href="/pages/faitesUnDon.html">Faites un don</a></li>
+                <li><a href="/pages/equipe.html">Equipe</a></li>
+                <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></div>
+            </ul>
+        </nav>
+        <div>
+            <input type="search" name="Rechercher" id="imputSearch">
+            <button id="buttonSearch">Rechercher</button>
+        </div>
+    </header>
+    <main>
+        <h1>Quelques bonnes pratiques d'accessibilité...</h1>
+        <section>
+            <picture>
+                <img src="/img/decorative-image.jpg" alt="">
+            </picture>
+            <h2>Images décoratives</h2>
+            <p>
+                Utiliser des attributs "alt" vides ou nuls pour les images purement décoratives afin d'éviter qu'elles soient lues par les technologies d'assistance.
+            </p>
+        </section>
+        <section>
+            <picture>
+                <img src="/img/informative-image.jpg" alt="Couverture du livre Accessibilité et handicap">
+            </picture>
+            <h2>Images informatives</h2>
+            <p>Utiliser des descriptions appropriées dans les attributs "alt" pour les images informatives afin de fournir des informations équivalentes pour les utilisateurs qui ne peuvent pas voir les images. Les attributs <span class="textBold">title</span> et <span class="textBold">aria-describedby</span> ne sont pas indispensables !</p>
+        </section>
+        <section>
+            <picture>
+                <img src="/img/semantique-html.jpg" alt="">
+            </picture>
+            <h2>Balises HTML sémantiques (image informative)</h2>
+            <p>
+                Utiliser des balises HTML sémantiques appropriées (telles que &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt; ) pour améliorer la structure et la compréhension du contenu par les technologies d'assistance.
+            </p>
+            <button>Afficher le contenu de l'image</button>
+        </section>
+        <section>
+            <picture>
+                <img src="/img/image-clavier.png" alt="Personne au clavier">
+            </picture>
+            <h2>Donner l'accès au clavier</h2>
+            <p>
+                S'assurer que toutes les fonctionnalités du site sont accessibles via le clavier par les personnes qui ne peuvent pas utiliser la souris.
+            </p>
+        </section>
+        <section>
+            <picture>
+                <img src="/img/contraste-image.png" alt="image contrastée représentant une vente d'étiquettes Avery">
+            </picture>
+            <h2>Régler les problèmes de contraste des couleurs</h2>
+            <p>
+                Utiliser des combinaisons de couleurs offrant un contraste suffisant pour rendre le contenu lisible pour les personnes atteintes de déficience visuelle.
+            </p>
+        </section>
+        <section>
+            <picture>
+                <img src="/img/image-formulaire.png" alt="formulaire de contact">
+            </picture>
+            
+        </section>
+    </main>
+     <footer>
+        <p>&copy; 2023 HandiA11y. Tous droits réservés</p>
+    </footer>
+</body>
+</html>

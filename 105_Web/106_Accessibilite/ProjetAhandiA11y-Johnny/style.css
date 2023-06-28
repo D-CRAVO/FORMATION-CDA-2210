@@ -1,0 +1,250 @@
+:root {
+    --bg-col:#F8F9FB;
+    --bg-col2:#0065D1;
+    --btn-col:#FEC107;
+    --btn-col2:#4DAF4E;
+    --tabhead-col:#6D6767;
+    --card-col:#9BC9F7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size:  1.6em;
+    background-color: var(--bg-col);
+}
+header{
+    background-color: var(--bg-col2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+header > picture{
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+}
+header > picture > img{
+    width: 100%;
+    height: 100%;
+}
+header > nav > ul{
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+}
+header > nav > ul > li{
+    padding: 1rem;
+    color:  white;
+    font-size: larger;
+    
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+header > nav > ul > li > a:hover{
+    background-color: #fff;
+      color: var(--bg-col2);
+      padding: 1rem;
+  }
+
+#a42-ac-button{
+    padding: 0.2rem;
+}
+#a42-ac-button:hover{
+    text-decoration: none;
+    background-color: #4DAF4E;
+    color: white;
+}
+.btn-accs{
+    font-size: 1rem;
+}
+#accessconfif{
+    background-color: inherit;
+    background-color: #FEC107 !important;
+}
+#rech{
+    padding: 1rem;
+}
+#rech > form> input{
+    
+
+    border: none;
+    padding: 1rem;
+}
+#btn-rech{
+    background-color: var(--btn-col);
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+#recherche{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    
+}
+#recherche::placeholder{
+    color: rgb(216, 216, 216);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#presentation{
+    width: 30%;
+    margin-top: 4rem;
+    color: #444040;
+}
+#presentation > h1{
+    font-size: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+#presentation > h2{
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+#a11y-titre-pres{
+    border-bottom: dotted 1px black;
+}
+#pres-handincap{
+    font-weight: 1200;
+    color: black;
+}
+
+#wcag4{
+    margin-top: 2rem;
+    width: 80%;
+    
+}
+
+#wcag4 > h1{
+    font-size: 3rem;
+    padding:2rem;
+    text-align: center;
+}
+#wcag4 > div{
+
+   display: flex;
+ 
+   
+}
+.card-wcag{
+    background-color: var(--card-col);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 5px 7px rgba(0,0,0,0.3);
+}
+.card-wcag > h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+#table-criteres{
+    width: 60%;
+    text-align: center;
+    margin-top: 3rem;
+}
+#table-criteres table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+#table-criteres table:nth-child(1){
+
+    margin-bottom:3rem ;
+}
+
+#table-criteres th{
+
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: var(--tabhead-col);
+    color: white;
+}
+#table-criteres td {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+#graph{
+    width: 40%;
+    margin-top: 3rem;
+    text-align: center;
+}
+#graph > picture{
+    width: 100%;
+    height: 100%;
+ 
+}
+#graph > picture > img{
+    width: 100%;
+    height: 100%;
+}
+#graph > h1{
+    font-size: 3rem;
+    padding:2rem;
+    text-align: center;
+}
+#graph >p{
+    text-align: center;
+}
+#graph > table{
+    text-align: initial;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: #fff;
+ 
+}
+#graph tr,#graph td,#graph th{
+    border: 2px solid black;
+    padding: 1rem;    
+}
+
+footer{
+    background-color: var(--bg-col2);
+    color: white;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    padding: 1rem;
+  
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden; 
+    clip: rect(0,0,0,0);
+    border: 0;
+ }
+
+
