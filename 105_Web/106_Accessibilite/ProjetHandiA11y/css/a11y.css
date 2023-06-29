@@ -13,3 +13,14 @@ section:last-child img{
 section:last-child div{
     margin-bottom: 3rem;
 }
+
+.code{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fold{
+    display: none
+}
