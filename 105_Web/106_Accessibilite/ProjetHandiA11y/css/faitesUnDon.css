@@ -1,0 +1,25 @@
+main section:first-child
+,main section:last-child{
+    text-align: center;
+}
+
+button{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+fieldset .choixCarte{
+    width: 100%;
+}
+
