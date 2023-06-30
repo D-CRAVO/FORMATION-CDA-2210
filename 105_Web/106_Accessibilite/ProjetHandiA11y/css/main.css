@@ -27,6 +27,11 @@ header{
     padding: 2rem;
 }
 
+header a{
+    color: var(--light);
+    text-decoration: none;
+}
+
 header img{
     width: 7rem;
     padding: 1rem;

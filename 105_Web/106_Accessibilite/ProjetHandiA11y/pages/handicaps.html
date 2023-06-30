@@ -14,6 +14,7 @@
 </head>
 <body>
     <header>
+        <a href="#mainHandicaps">Aller au contenu</a>
         <picture>
             <img src="/img/a11yNow.png" alt="Logo a11yNow">
         </picture>
@@ -24,18 +25,18 @@
                 <li><a href="/pages/handicaps.html">Handicaps</a></li>
                 <li><a href="/pages/faitesUnDon.html">Faites un don</a></li>
                 <li><a href="/pages/equipe.html">Equipe</a></li>
-                <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></div>
+                <li id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></li>
             </ul>
         </nav>
         <div>
-            <input type="search" name="Rechercher" id="imputSearch">
+            <input role="search" type="search" name="Rechercher" id="imputSearch">
             <button id="buttonSearch">Rechercher</button>
         </div>
     </header>
-    <main>
+    <main id="mainHandicaps">
         <h1>Symboles et types de handicaps</h1>
         <section>
-            <picture class="pictureHandicap">
+            <div class="pictureHandicap">
                 <img src="/img/handicap-visuel.jpg" alt="logo handicap visuel" class="logoHandicap">
                 <div>
                     <h2>Handicap visuel</h2>
@@ -43,10 +44,10 @@
                         Le handicap visuel désigne les limitations fonctionnelles liées à la vision, que ce soit une cécité totale ou partielle. Les personnes atteintes de handicap visuel peuvent utiliser des aides techniques telles que les plages brailles, les synthèses vocales, ou les dispositifs d'agrandissement de texte pour accéder à l'information.
                     </p>
                 </div>
-            </picture>
+            </div>
         </section>
         <section>
-            <picture class="pictureHandicap">
+            <div class="pictureHandicap">
                 <img src="/img/handicap-auditif.jpg" alt="logo handicap auditif" class="logoHandicap">
                 <div>
                     <h2>Handicap auditif</h2>
@@ -54,10 +55,10 @@
                         Le handicap auditif concerne les limitations fonctionnelles liées à l'ouïe, que ce soit une surdité totale ou partielle. Les personnes atteintes de handicap auditif peuvent utiliser des appareils auditifs, des boucles magnétiques ou des sous-titres pour accéder à l'information sonore.
                     </p>
                 </div>
-            </picture>
+            </div>
         </section>
         <section>
-            <picture class="pictureHandicap">
+            <div class="pictureHandicap">
                 <img src="/img/handicap-moteur.jpg" alt="logo handicap moteur" class="logoHandicap">
                 <div>
                     <h2>Handicap moteur</h2>
@@ -65,10 +66,10 @@
                         Le handicap moteur concerne les limitations physiques comme l'incapacité à utiliser une souris ou la nécessité d'avoir une temps de réponse plus lent.
                     </p>
                 </div>
-            </picture>
+            </div>
         </section>
         <section>
-            <picture class="pictureHandicap">
+            <div class="pictureHandicap">
                 <img src="/img/handicap-cognitif.jpg" alt="logo handicap cognitif" class="logoHandicap">
                 <div>
                     <h2>Handicap cognitif</h2>
@@ -76,11 +77,11 @@
                         Le handicap cognitif concerne les problèmes de troubles de l'apprentissage, l'incapacité à se souvenir ou à se concentrer sur de grandes quantités d'informations, difficultés de lecture et de compréhension, difficultés à prendre des décisions.
                     </p>
                 </div>
-            </picture>
+            </div>
         </section>
         <section class="materiel">
             <h2>Quelques matériels d'accessibilité</h2>
-            <picture>
+            <div>
                 <div>
                     <img src="/img/image-cane-non-voyant.jpg" alt="image canne pour non-voyant" class="imageMateriel">
                     <p>Canne pour personnes aveugles</p>
@@ -97,7 +98,7 @@
                     <img src="/img/image-trackball.jpg" alt="image de trackball" class="imageMateriel">
                     <p>Trackball (remplace la souris)</p>
                 </div>
-            </picture>
+            </div>
         </section>
     </main>
      <footer>

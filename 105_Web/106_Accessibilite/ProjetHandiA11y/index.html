@@ -14,6 +14,7 @@
 </head>
 <body>
     <header>
+        <a href="#mainIndex">Aller au contenu</a>
         <picture>
             <img src="/img/a11yNow.png" alt="Logo a11yNow">
         </picture>
@@ -24,16 +25,15 @@
                 <li><a href="/pages/handicaps.html">Handicaps</a></li>
                 <li><a href="/pages/faitesUnDon.html">Faites un don</a></li>
                 <li><a href="/pages/equipe.html">Equipe</a></li>
-                <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></div>
+                <li id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></li>
             </ul>
-            
         </nav>
         <div>
-            <input type="search" name="Rechercher" id="imputSearch" placeholder="Rechercher">
+            <input role="search" type="search" name="Rechercher" id="imputSearch" placeholder="Rechercher">
             <button id="buttonSearch">Rechercher</button>
         </div>
     </header>
-    <main>
+    <main id="mainIndex">
         <section class="bienvenue">
             <h1>Bienvenue sur HandiA11y</h1>
             <p>HandiA11y est un site spécialisé pour découvrir les bases de l'accessibilité web et les différents handicaps à prendre en compte.</p>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </section>
-        <section class="tables">
+        <div class="tables">
             <table>
                 <caption>Les critères WCAG 2.1 sous forme de tableau</caption>
                 <thead>
@@ -216,7 +216,7 @@
                 </p>
                 <a href="#">WCAG 2.1 en VO</a>
             </div>
-        </section>
+        </div>
 
         <section class="failures">
             <h1>Most common WCAG failures by WebAIM</h1>
@@ -224,9 +224,9 @@
                 Graphique et tableaux des échecs les plus courents par WebAIM
             </p>
             <picture>
-                <img src="./img/WebAIM_million 1.png" alt="graphique qui reprends les données du tableau qui suit">
+                <img src="./img/WebAIM_million1.png" alt="graphique qui reprends les données du tableau qui suit">
             </picture>
-            <table>
+            <table lang="en">
                 <thead>
                     <tr>
                         <th>WCAG Failure Type</th>
@@ -270,7 +270,7 @@
                     
                 </tfoot>
             </table>
-            <div>
+            <div lang="fr">
                 <a href="https://webaim.org/projects/million/">lien vers l'explication du graphique et du tableau (en anglais)</a>
             </div>
             

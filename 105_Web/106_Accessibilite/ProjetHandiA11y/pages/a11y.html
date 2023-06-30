@@ -15,6 +15,7 @@
 </head>
 <body>
     <header>
+        <a href="#mainA11y">Aller au contenu</a>
         <picture>
             <img src="/img/a11yNow.png" alt="Logo a11yNow">
         </picture>
@@ -25,15 +26,15 @@
                 <li><a href="/pages/handicaps.html">Handicaps</a></li>
                 <li><a href="/pages/faitesUnDon.html">Faites un don</a></li>
                 <li><a href="/pages/equipe.html">Equipe</a></li>
-                <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></div>
+                <li id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></li>
             </ul>
         </nav>
         <div>
-            <input type="search" name="Rechercher" id="imputSearch">
+            <input role="search" type="search" name="Rechercher" id="imputSearch">
             <button id="buttonSearch">Rechercher</button>
         </div>
     </header>
-    <main>
+    <main id="mainA11y">
         <h1>Quelques bonnes pratiques d'accessibilité...</h1>
         <section>
             <picture>

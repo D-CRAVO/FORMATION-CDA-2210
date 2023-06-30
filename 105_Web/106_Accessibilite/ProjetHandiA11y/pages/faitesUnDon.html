@@ -14,6 +14,7 @@
 </head>
 <body>
     <header>
+        <a href="#mainFaitesUnDon">Aller au contenu</a>
         <picture>
             <img src="/img/a11yNow.png" alt="Logo a11yNow">
         </picture>
@@ -24,61 +25,61 @@
                 <li><a href="/pages/handicaps.html">Handicaps</a></li>
                 <li><a href="/pages/faitesUnDon.html">Faites un don</a></li>
                 <li><a href="/pages/equipe.html">Equipe</a></li>
-                <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></div>
+                <li id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité" data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}' ></li>
             </ul>
         </nav>
         <div>
-            <input type="search" name="Rechercher" id="imputSearch">
+            <input role="search" type="search" name="Rechercher" id="imputSearch">
             <button id="buttonSearch">Rechercher</button>
         </div>
     </header>
-    <main>
+    <main id="mainFaitesUnDon">
         <section>
             <h1>Nous sommes bénévoles, faites un don !</h1>
             <picture>
                 <img src="/img/directrice.png" alt="photo de la directrice">
             </picture>
         </section>
-        <section class="formulaire">
-            <form action="" method="post">
+        <div class="formulaire">
+            <form action="#" method="post">
 
                 <fieldset class="informationsPersonnelles">
                     <legend>Informations personnelles</legend>
 
-                    <label for="civilite">Civilité</label>
+                    <label aria-label="choisir votre civilité" for="civilite">Civilité</label>
                     <select name="civilite" id="civilite">
                         <option value="monsieur">Monsieur</option>
                         <option value="madamme">Madame</option>
                         <option value="autre">Ni l'un ni l'autre</option>
                     </select>
 
-                    <label for="prenom">Prénom</label>
+                    <label aria-label="saisir votre prénom" for="prenom">Prénom</label>
                     <input type="text" name="prenom" id="prenom">
 
-                    <label for="nom">Nom</label>
+                    <label aria-label="saisir votre nom" for="nom">Nom</label>
                     <input type="text" name="nom" id="nom">
 
-                    <label for="age">Age</label>
+                    <label aria-label="saisir votre age" for="age">Age</label>
                     <input type="text" name="age" id="age">
 
-                    <label for="courriel">Courriel</label>
+                    <label aria-label="saisir votre courriel" for="courriel">Courriel</label>
                     <input type="email" name="courriel" id="courriel">
-                    <caption>Veuillez fournir une adresse électronique valide.</caption>
+                    <p>Veuillez fournir une adresse électronique valide.</p>
                 </fieldset>
 
                 <fieldset class="adresse">
                     <legend>Adresse</legend>
 
-                    <label for="numero">Numero</label>
+                    <label aria-label="saisir votre numéro de rue" for="numero">Numero</label>
                     <input type="text" name="numero" id="numero">
 
-                    <label for="rue">Nom de la rue</label>
+                    <label aria-label="saisir votre nom de rue" for="rue">Nom de la rue</label>
                     <input type="text" name="rue" id="rue">
 
-                    <label for="cp">Code Postal</label>
+                    <label aria-label="saisir votre code postal" for="cp">Code Postal</label>
                     <input type="text" name="cp" id="cp">
 
-                    <label for="ville">Ville</label>
+                    <label aria-label="saisir votre ville" for="ville">Ville</label>
                     <input type="text" name="ville" id="ville">
                 </fieldset>
 
@@ -88,7 +89,6 @@
                     <div>
                         <label for="newsletter">Recevoir la newsletter</label>
                         <br><input type="checkbox" name="newsletter" id="newsletter">
-                        
                     </div>
 
                     <div>
@@ -98,9 +98,9 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Montant du nom</legend>
+                    <legend>Montant du don</legend>
 
-                    <label for="montant">Montant</label>
+                    <label aria-label="choisir le montant du don" for="montant">Montant</label>
                     <select name="montant" id="montant">
                         <option value="10">10</option>
                         <option value="100">100</option>
@@ -133,7 +133,7 @@
                         </div>
                     </fieldset>
 
-                    <label for="carte">Numéro de carte</label>
+                    <label aria-label="saisir votre numéro de carte" for="carte">Numéro de carte</label>
                     <input type="text" name="carte" id="carte">
 
                     <label for="expiration">Date d'expiration</label>
@@ -143,10 +143,10 @@
                     <input type="text" name="codeSecret" id="codeSecret">
                 </fieldset>
             </form>
-        </section>
-        <section>
-            <button>Valider le don</button>
-        </section>
+        </div>
+        <div>
+            <button class="valider">Valider le don</button>
+        </div>
     </main>
      <footer>
         <p>&copy; 2023 HandiA11y. Tous droits réservés</p>
