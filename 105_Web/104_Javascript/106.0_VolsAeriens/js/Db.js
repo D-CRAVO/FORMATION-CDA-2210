@@ -1,6 +1,6 @@
 class Db{
-    static async fetchData(_url){
-        let response = await fetch(this.source);
+    static async fetchData(link){
+        let response = await fetch(link);
         let json = await response.json();
         return json;
     }

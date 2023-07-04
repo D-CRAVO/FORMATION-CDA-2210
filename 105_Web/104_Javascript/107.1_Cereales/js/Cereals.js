@@ -29,12 +29,12 @@ class Cereals{
     }
 
     CompareValues(sort, value){
-        console.log(value)
+        //console.log(value)
         this.collection.sort((a,b) => a[value] - b[value]);
 
         if(sort === false){
             this.collection.reverse();
-            console.log(a[value]);
+            //console.log(a[value]);
         }
     }
 
