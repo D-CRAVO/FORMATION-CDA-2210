@@ -30,8 +30,21 @@ class Collection{
 
     searchItem(value){
         console.log("test Collection searchItem")
-        this.collectionWork = this.collection.filter(item => item.employee_name.toLowerCase().includes(value.toLowerCase()));
+        this.collectionWork = this.collection.filter(item =>item.fullname.toLowerCase().includes(value.toLowerCase()));
         console.log(this.collectionWork);
+    }
+
+    calculateNbEmployees(){
+        return this.collectionWork.length;
+    }
+
+    calculateTotalSalary(){
+        let totalSalary = this.collectionWork.reduce((accumulator, currentValue) => accumulator + parseFloat(currentValue.monthlySalary), 0)
+        console.log(this.collectionWork.reduce((accumulator, currentValue) => {
+            accumulator + currentValue.monthlySalary, 0;
+            console.log(typeof(currentValue.monthlySalary))
+        }))
+        return totalSalary.toFixed(2);
     }
 
     test2(){
