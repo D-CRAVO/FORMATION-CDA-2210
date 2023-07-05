@@ -3,9 +3,9 @@ class Event{
     static sortDirection = true;
 
     static columnSort(e){
-        if(typeof(Event.collection[0][e.target.dataset.name]) != "string"){
-            Event.collection.sortCollection();
-        }
+        Event.collection.sortCollection(e.target.dataset.name, Event.sortDirection);
+       
+        Event.sortDirection = !Event.sortDirection;
     }
 }
 
