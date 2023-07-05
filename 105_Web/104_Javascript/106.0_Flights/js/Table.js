@@ -20,7 +20,7 @@ class Table{
             let cell = this.generateCell(value);
             row.appendChild(cell);
         }
-        return row
+        return row;
     }
 
     generateCell(value){
