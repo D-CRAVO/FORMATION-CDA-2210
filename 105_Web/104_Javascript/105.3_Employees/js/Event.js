@@ -3,7 +3,8 @@ class Event{
     static sortDirection = true; 
 
     static columnSort(e){
-        Event.collection.sortCollection(e.target.dataset[name], Event.sortDirection);
+        Event.collection.sortCollection(e.target.dataset.name, Event.sortDirection);
+        //console.log("test");
         Event.sortDirection = !Event.sortDirection;
     }
 
