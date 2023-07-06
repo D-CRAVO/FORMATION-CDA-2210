@@ -18,3 +18,9 @@ for(let h of head){
         table.generateTable();
     })
 }
+
+document.getElementById("search").addEventListener("input", (e) =>{
+        flighsCollection.searchCollection(e);
+        table.generateTable();
+    }
+);

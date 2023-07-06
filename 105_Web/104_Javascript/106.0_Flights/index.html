@@ -10,27 +10,36 @@
     <script src="/js/main.js" type="module"></script>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr class="keys">
-                <th data-name="flight_id">Flight Id</th>
-                <th data-name="start_city">Start City</th>
-                <th data-name="arrival_city">Arrival City</th>
-                <th data-name="start_time">Start Time</th>
-                <th data-name="arrival_time">Arrival Time</th>
-                <th data-name="flight_duration">Flight Duration</th>
-                <th data-name="airline_name">Airline Name</th>
-                <th data-name="plane_maker">Plane Maker</th>
-                <th data-name="plane_ref">Plane Ref</th>
-                <th data-name="plane_type">Plane Type</th>
-                <th data-name="plane_capacity">Plane Capacity</th>
-                <th data-name="seats_free">Seats Free</th>
-                <th data-name="duration">Duration</th>
-            </tr>
-        </thead>
-        <tbody id="tbody">
-
-        </tbody>
-    </table>
+    <header>
+        <fieldset>
+            <legend>Search</legend>
+            <label for="search">&nbsp;</label>
+            <input type="search" name="search" id="search">
+        </fieldset>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr class="keys">
+                    <th data-name="flight_id">Flight Id</th>
+                    <th data-name="start_city">Start City</th>
+                    <th data-name="arrival_city">Arrival City</th>
+                    <th data-name="start_time">Start Time</th>
+                    <th data-name="arrival_time">Arrival Time</th>
+                    <th data-name="flight_duration">Flight Duration</th>
+                    <th data-name="airline_name">Airline Name</th>
+                    <th data-name="plane_maker">Plane Maker</th>
+                    <th data-name="plane_ref">Plane Ref</th>
+                    <th data-name="plane_type">Plane Type</th>
+                    <th data-name="plane_capacity">Plane Capacity</th>
+                    <th data-name="seats_free">Seats Free</th>
+                    <th data-name="duration">Duration</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+    
+            </tbody>
+        </table>
+    </main>
 </body>
 </html>

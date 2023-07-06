@@ -25,6 +25,13 @@ class Collection{
             this.collection.reverse();
         }
     }
+
+    searchCollection(e){
+        search = e.target.trim();
+        if(search.length > 0){
+            this.collection = this.collection.filter(flight => flight.airline_name.includes(search))
+        }
+    }
 }
 
 export {Collection};

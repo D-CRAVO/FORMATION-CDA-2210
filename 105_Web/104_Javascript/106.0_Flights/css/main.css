@@ -1,0 +1,26 @@
+:root{
+    --backgroundThead: #222222;
+    --colorThead: #979A67;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+table, th, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: var(--backgroundThead);
+    color: var(--colorThead)
+}
