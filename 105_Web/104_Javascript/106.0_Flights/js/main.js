@@ -20,7 +20,7 @@ for(let h of head){
 }
 
 document.getElementById("search").addEventListener("input", (e) =>{
-        flighsCollection.searchCollection(e);
+        flightsCollection.searchCollection(e);
         table.generateTable();
     }
 );

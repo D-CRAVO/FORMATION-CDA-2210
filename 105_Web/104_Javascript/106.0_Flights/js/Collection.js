@@ -12,6 +12,7 @@ class Collection{
         let data = await Db.fetchData(this.source);
         this.collection = data;
         this.collection = this.collection.map(i=>new Item(i));
+        this.collectionWork = Array.from(this.collection);
         console.log(this.collection);
     }
 
@@ -27,9 +28,10 @@ class Collection{
     }
 
     searchCollection(e){
-        search = e.target.trim();
+        search = e.target.value.trim();
+        //console.log(search);
         if(search.length > 0){
-            this.collection = this.collection.filter(flight => flight.airline_name.includes(search))
+            this.collection = this.collectionWork.filter(flight => flight.airline_name.includes(search))
         }
     }
 }
