@@ -16,3 +16,8 @@ document.getElementById("search").addEventListener("input", (e) =>{
     Event.searchItem(e.target.value);
     table.generateTable();
 });
+
+document.querySelectorAll(".sort").addEventListener("click", (e) => {
+    Event.columnSort(e.target.name);
+    table.generateTable;
+})

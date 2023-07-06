@@ -17,16 +17,16 @@ class Collection{
         console.log(this.collection);
     }
 
-    // sortCollection(name, sortDirection){
-    //     if(typeof(this.collection[0][name]) != "string"){
-    //         this.collection.sort((a,b) => a[name] - b[name]);
-    //     } else {
-    //         this.collection.sort((a,b) => a[name].localeCompare(b[name]));
-    //     }
-    //     if(!sortDirection){
-    //         this.collection.reverse();
-    //     }
-    // }
+    sortCollection(name, sortDirection){
+        if(typeof(this.collection[0][name]) != "string"){
+            this.collection.sort((a,b) => a[name] - b[name]);
+        } else {
+            this.collection.sort((a,b) => a[name].localeCompare(b[name]));
+        }
+        if(!sortDirection){
+            this.collection.reverse();
+        }
+    }
 
     searchItem(value){
         console.log("test Collection searchItem")
@@ -40,10 +40,6 @@ class Collection{
 
     calculateTotalSalary(){
         let totalSalary = this.collectionWork.reduce((accumulator, currentValue) => accumulator + parseFloat(currentValue.monthlySalary), 0)
-        console.log(this.collectionWork.reduce((accumulator, currentValue) => {
-            accumulator + currentValue.monthlySalary, 0;
-            console.log(typeof(currentValue.monthlySalary))
-        }))
         return totalSalary.toFixed(2);
     }
 
