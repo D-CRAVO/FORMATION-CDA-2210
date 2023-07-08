@@ -4,7 +4,7 @@ import { Item } from "./Item.js";
 class Collection{
     constructor(){
         this.collection = [];
-        this.source = "/json/employees.json"; // ajouter la source json
+        this.source = "/json/flights.json"; // ajouter la source json
     }
 
     async getCollection(){
