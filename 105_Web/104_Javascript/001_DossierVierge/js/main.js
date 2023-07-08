@@ -1,5 +1,5 @@
 import {Collection} from "./Collection.js";
-import {Table} from "./Table.js";
+import {UI} from "./UI.js";
 import {Event} from "./Event.js";
 
 let subjectCollection = new Collection();
@@ -7,5 +7,5 @@ Event.collection = subjectCollection;
 
 await subjectCollection.getCollection();
 
-let table = new Table(subjectCollection);
-table.generateTable();
+let ui = new UI(subjectCollection);
+ui.generateTable();
