@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:105_Web/104_Javascript/001_DossierVierge/js/UI.js
 class UI{
-========
-class Ui{
->>>>>>>> 8f4747a6c2442ac521131ccaea65779f7632ce38:105_Web/104_Javascript/001_DossierVierge/js/Ui.js
     constructor(_collection){
         this.collection = _collection;
         this.tbody = document.getElementById("tbody");
@@ -32,8 +28,5 @@ class Ui{
     }
 }
 
-<<<<<<<< HEAD:105_Web/104_Javascript/001_DossierVierge/js/UI.js
 export {UI}
-========
-export {Ui}
->>>>>>>> 8f4747a6c2442ac521131ccaea65779f7632ce38:105_Web/104_Javascript/001_DossierVierge/js/Ui.js
+
