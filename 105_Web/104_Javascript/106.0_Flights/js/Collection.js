@@ -4,6 +4,7 @@ import {Item} from "./Item.js";
 class Collection{
     constructor(){
         this.collection = [];
+        this.collectionWork = [];
         this.source = "/json/flights.json";
         
     }
@@ -27,11 +28,12 @@ class Collection{
         }
     }
 
-    searchCollection(e){
-        search = e.target.value.trim();
-        //console.log(search);
+    searchCollection(value){
+        search = value.trim().toLowerCase();
+        console.log(search);
         if(search.length > 0){
-            this.collection = this.collectionWork.filter(flight => flight.airline_name.includes(search))
+            this.collection = this.collectionWork.filter(flight => flight.airline_name.toLowerCase().includes(search))
+            console.log(this.collection)
         }
     }
 }

@@ -1,6 +1,6 @@
 import {Item} from "./Item.js"
 
-class Table{
+class UI{
     constructor(_collection){
         this.collection = _collection;
         this.tbody = document.getElementById("tbody");
@@ -30,4 +30,4 @@ class Table{
     }
 }
 
-export {Table};
+export {UI};
