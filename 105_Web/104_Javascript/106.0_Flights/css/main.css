@@ -37,14 +37,23 @@ td{
     text-align: center;
 }
 
+fieldset{
+    padding: 0;
+}
+
 #search{
     background-color: #ffffff00;
+    color: var(--secundaryText);
     border: none;
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    font-size: xx-large;
 }
 
 tbody{
     background-color: var(--secundary);
-    color: var(--secundaryText)
+    color: var(--secundaryText);
 }
 
 tr:nth-child(even) td{
