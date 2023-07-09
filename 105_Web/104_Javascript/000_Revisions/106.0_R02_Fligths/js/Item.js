@@ -1,6 +1,7 @@
 class Item{
     constructor(item){
         Object.assign(this, item);
+        this.durationFormat = this.calculateDurationFormat();
     }
 
     getValues(){
@@ -9,6 +10,12 @@ class Item{
 
     getKeys(){
         return Object.keys(this);
+    }
+
+    calculateDurationFormat(){
+        let hours = Math.floor(this.flight_duration / 60);
+        let minutes = this.flight_duration%60
+        return `${hours}:${minutes}:00`
     }
 }
 
