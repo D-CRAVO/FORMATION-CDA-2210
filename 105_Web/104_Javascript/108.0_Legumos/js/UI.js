@@ -1,14 +1,13 @@
 class UI{
     constructor(_collection){
         this.collection = _collection;
-        this.key;
+        this.keys = [];
         this.vegetable = this.collection.getFirst();
         this.tbody = document.getElementById("tbody");
         this.thead = document.getElementById("thead");
     }
 
     generateThead(){
-        console.log(this.vegetable.getKeys())
         let row = this.generateRowThead();
         this.thead.appendChild(row);
     }
@@ -24,7 +23,8 @@ class UI{
 
     generateCellThead(key){
         let cell = document.createElement("th");
-        cell.dataset.name = key
+        cell.dataset.name = key;
+        cell.classList.add(key);
         cell.textContent = key;
         return cell;
     }
@@ -33,11 +33,8 @@ class UI{
         this.tbody.innerHTML = "";
         for(let item of this.collection.collection){
             let row = this.generateRow(item);
+            row.dataset.id = `row${item.Id}`;
             this.tbody.appendChild(row);
-            //console.log(item.Name)
-            // let row = this.generateRow(item.Name);
-            // this.tbody.appendChild(row);
-            // console.log(item.Name)
         }
     }
 
@@ -47,16 +44,14 @@ class UI{
             let cell = this.generateCell(value);
             row.appendChild(cell);
         }
-        // let cell = document.createElement("td");
-        // console.log(item)
-        // cell.textContent = item;
-        // row.appendChild(cell)
         return row;
     }
 
     generateCell(value){
         let cell = document.createElement("td");
-        cell.textContent = value; 
+        cell.textContent = value;
+        let head = document.querySelectorAll("th");
+        console.log(head);
         return cell;
     }
 } 
