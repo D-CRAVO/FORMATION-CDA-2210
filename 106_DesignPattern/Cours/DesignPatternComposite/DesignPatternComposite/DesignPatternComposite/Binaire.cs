@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace DesignPatternComposite
 {
-    abstract class Binaire : Expression
+    public abstract class Binaire : Expression
     {
-        private Expression op1;
-        private Expression op2;
-        public Binaire(Expression _op1, Expression _op2)
+        protected Expression op1;
+        protected Expression op2;
+
+        public Binaire(Expression op1, Expression op2)
         {
-            this.op1 = _op1;
-            this.op2 = _op2;
+            this.op1 = op1;
+            this.op2 = op2;
         }
     }
 }

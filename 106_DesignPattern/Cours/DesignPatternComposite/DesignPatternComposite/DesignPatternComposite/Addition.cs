@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace DesignPatternComposite
 {
-    internal class Addition
+    public class Addition : Binaire
     {
-        public
+        public Addition(Expression op1, Expression op2) : base(op1, op2) { }
+        public override double Evalue()
+        {
+            return op1.Evalue() + op2.Evalue();
+        }
+
+        public override string ToString()
+        {
+            return Evalue().ToString();
+        }
     }
 }

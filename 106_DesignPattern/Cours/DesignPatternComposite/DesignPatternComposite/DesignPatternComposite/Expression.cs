@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace DesignPatternComposite
 {
-    abstract class Expression
+    public abstract class Expression
     {
         public abstract double Evalue();
+
+        public override string ToString()
+        {
+            return " = " + base.ToString();
+        }
     }
 }
