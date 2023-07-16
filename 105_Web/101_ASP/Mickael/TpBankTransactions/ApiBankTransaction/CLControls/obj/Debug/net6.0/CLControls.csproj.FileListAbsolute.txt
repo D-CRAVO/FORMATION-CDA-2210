@@ -1,0 +1,24 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\bin\Debug\net6.0\CLControls.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\bin\Debug\net6.0\CLControls.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\bin\Debug\net6.0\CLControls.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\refint\CLControls.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\ref\CLControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\bin\Debug\net6.0\CLControls.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\bin\Debug\net6.0\CLControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\bin\Debug\net6.0\CLControls.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\refint\CLControls.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\CLControls.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Mickael\TpBankTransactions\ApiBankTransaction\CLControls\obj\Debug\net6.0\ref\CLControls.dll

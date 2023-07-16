@@ -1,0 +1,5 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions\CLControl\obj\Debug\net6.0\CLControls.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions\CLControl\obj\Debug\net6.0\CLControls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions\CLControl\obj\Debug\net6.0\CLControls.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions\CLControl\obj\Debug\net6.0\CLControls.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\105_Web\101_ASP\Personnel\TpbankTransactions\ApiBankTransactions\CLControl\obj\Debug\net6.0\CLControls.csproj.CoreCompileInputs.cache
