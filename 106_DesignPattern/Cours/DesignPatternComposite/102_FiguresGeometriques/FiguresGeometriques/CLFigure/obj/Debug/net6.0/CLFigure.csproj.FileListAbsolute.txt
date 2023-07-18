@@ -1,0 +1,12 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\bin\Debug\net6.0\CLFigure.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\bin\Debug\net6.0\CLFigure.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\bin\Debug\net6.0\CLFigure.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\refint\CLFigure.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\CLFigure.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\DesignPatternComposite\102_FiguresGeometriques\FiguresGeometriques\CLFigure\obj\Debug\net6.0\ref\CLFigure.dll

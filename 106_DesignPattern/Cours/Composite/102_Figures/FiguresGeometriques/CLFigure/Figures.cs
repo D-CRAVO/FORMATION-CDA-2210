@@ -11,17 +11,17 @@ namespace CLFigure
     {
         private List<Figure> sesFigures = new List<Figure>();
 
-        private double xs;
-        private double ys;
+        //private double xs;
+        //private double ys;
 
-        public double Xs { get { return xs; } set { xs = value; } }
-        public double Ys { get { return ys; } set { ys = value; } }
+        //public double Xs { get { return xs; } set { xs = value; } }
+        //public double Ys { get { return ys; } set { ys = value; } }
 
         public Figures(List<Figure> _sesFigures, double _x, double _y) : base(_x, _y)
         {
             this.sesFigures = _sesFigures;
-            this.xs = _x;
-            this.ys = _y;
+            //this.xs = _x;
+            //this.ys = _y;
         }
 
         public override void Accept(IVisiteurDeFigure _visiteur)
@@ -29,8 +29,8 @@ namespace CLFigure
             _visiteur.Visit(this);  
             foreach (var f in sesFigures)
             {
-                f.X = f.X + xs;
-                f.Y = f.Y + ys;
+                f.X = f.X + this.x;
+                f.Y = f.Y + this.y;
                 f.Accept(_visiteur);
             }
         }
