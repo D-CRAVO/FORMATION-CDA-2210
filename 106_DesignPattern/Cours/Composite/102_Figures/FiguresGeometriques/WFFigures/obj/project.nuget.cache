@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HocOVDh1/QsyI1LkhVXKCbSyfWw3QA8ir3pruGeXTTzxpYjARB8wjooNQ9rZNmsaGPrpVrzk8t94qKo9gpzFhw==",
+  "dgSpecHash": "4gh0Eifo0Osy184ZJz8+9pzjYZOTSJpnPuCEDL76VjCT4x2wByqRAzm3n/XAQ2Bf7mq7J6enPVboK5VzgjOkDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques - Copie\\WFFigures\\WFFigures.csproj",
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\WFFigures.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
