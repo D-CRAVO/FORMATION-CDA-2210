@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CLGraphics/1.0.0": {
+        "dependencies": {
+          "CLFigure": "1.0.0"
+        },
+        "runtime": {
+          "CLGraphics.dll": {}
+        }
+      },
+      "CLFigure/1.0.0": {
+        "runtime": {
+          "CLFigure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CLGraphics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLFigure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
