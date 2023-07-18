@@ -14,8 +14,8 @@ namespace CLFigure
         private double xs;
         private double ys;
 
-        public double Xs { get { return xs; } }
-        public double Ys { get { return ys; } }
+        public double Xs { get { return xs; } set { xs = value; } }
+        public double Ys { get { return ys; } set { ys = value; } }
 
         public Figures(List<Figure> _sesFigures, double _x, double _y) : base(_x, _y)
         {
