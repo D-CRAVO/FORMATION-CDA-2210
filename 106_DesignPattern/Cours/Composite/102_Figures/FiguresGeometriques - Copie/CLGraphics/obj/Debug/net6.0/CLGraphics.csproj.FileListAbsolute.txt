@@ -1,0 +1,15 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\bin\Debug\net6.0\CLGraphics.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\bin\Debug\net6.0\CLGraphics.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\bin\Debug\net6.0\CLGraphics.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\bin\Debug\net6.0\CLFigure.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\bin\Debug\net6.0\CLFigure.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\refint\CLGraphics.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\CLGraphics.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Composite\102_Figures\FiguresGeometriques\CLGraphics\obj\Debug\net6.0\ref\CLGraphics.dll
