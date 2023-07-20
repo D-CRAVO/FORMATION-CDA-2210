@@ -46,25 +46,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dcravo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\WFFigures.csproj",
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\WFFigures.csproj",
       "projectName": "WFFigures",
-      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\WFFigures.csproj",
-      "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\obj\\",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\WFFigures.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\WFFigures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -79,11 +77,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLFigure\\CLFigure.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLFigure\\CLFigure.csproj"
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLFigure\\CLFigure.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLFigure\\CLFigure.csproj"
             },
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLGraphics\\CLGraphics.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLGraphics\\CLGraphics.csproj"
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLGraphics\\CLGraphics.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLGraphics\\CLGraphics.csproj"
             }
           }
         }
@@ -116,7 +114,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
