@@ -22,17 +22,17 @@ namespace CLNavigateur
             position = _position;
         }
 
-        void ISujet.AjouterObservateur(IObservateur _observateur)
+        public void AjouterObservateur(IObservateur _observateur)
         {
             mesObservateurs.Add(_observateur);
         }
 
-        void ISujet.SupprimerObservateur(IObservateur _observateur)
+        public void SupprimerObservateur(IObservateur _observateur)
         {
             mesObservateurs.Remove(_observateur);
         }
 
-        void ISujet.NotifierObservateur()
+        public void NotifierObservateur()
         {
             foreach (IObservateur o in mesObservateurs) 
             {

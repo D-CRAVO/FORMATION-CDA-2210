@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observateur", "Observateur\Observateur.csproj", "{5D8B1FDD-CA37-4B35-AE8E-C65169EFC6B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observateur", "Observateur\Observateur.csproj", "{5D8B1FDD-CA37-4B35-AE8E-C65169EFC6B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLObservateur", "CLNavigateur\CLObservateur.csproj", "{4CA059C8-D117-4830-B23A-2304B1FAAE44}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLAffichageConsole", "CLAffichageConsole\CLAffichageConsole.csproj", "{3E8DA97C-2784-4E38-9749-FF034BA4F34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLNavigateur", "CLNavigateur\CLNavigateur.csproj", "{4CA059C8-D117-4830-B23A-2304B1FAAE44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{4CA059C8-D117-4830-B23A-2304B1FAAE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA059C8-D117-4830-B23A-2304B1FAAE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA059C8-D117-4830-B23A-2304B1FAAE44}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E8DA97C-2784-4E38-9749-FF034BA4F34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E8DA97C-2784-4E38-9749-FF034BA4F34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E8DA97C-2784-4E38-9749-FF034BA4F34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E8DA97C-2784-4E38-9749-FF034BA4F34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

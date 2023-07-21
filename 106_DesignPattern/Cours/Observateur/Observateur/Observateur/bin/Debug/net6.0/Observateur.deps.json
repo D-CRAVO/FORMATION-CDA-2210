@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Observateur/1.0.0": {
+        "dependencies": {
+          "CLNavigateur": "1.0.0"
+        },
+        "runtime": {
+          "Observateur.dll": {}
+        }
+      },
+      "CLNavigateur/1.0.0": {
+        "runtime": {
+          "CLNavigateur.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Observateur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLNavigateur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

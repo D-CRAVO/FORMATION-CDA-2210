@@ -2,11 +2,10 @@
 {
     public class Navigateur : IObservateur
     {
-        public Navigateur() { }
 
-        void IObservateur.Actualiser(Satellite _satellite)
+        public void Actualiser(Satellite _satellite)
         {
-            Affichage(_satellite);
+            Console.WriteLine($"Votre position est {_satellite.Position} avec une précision {_satellite.Precision}");
         }
 
     }

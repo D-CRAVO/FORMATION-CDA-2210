@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CLNavigateur;
+using System.Resources;
+
+
+Navigateur n = new Navigateur();
+Satellite s = new Satellite(10, "essai");
+s.AjouterObservateur(n);
+s.NotifierObservateur();
