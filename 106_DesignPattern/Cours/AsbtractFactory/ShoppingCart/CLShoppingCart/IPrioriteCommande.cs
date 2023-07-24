@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CLShoppingCart
 {
-    internal class Customer
+    internal interface IPrioriteCommande
     {
-        public int[] Orders { get; set; } = Array.Empty<int>();
+        int Priorite { get; }
     }
 }

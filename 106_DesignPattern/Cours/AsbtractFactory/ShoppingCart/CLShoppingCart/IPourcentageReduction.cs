@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CLShoppingCart
 {
-    internal class Customer
+    internal interface IPourcentageReduction
     {
-        public int[] Orders { get; set; } = Array.Empty<int>();
+        decimal Pourcentage { get; }
     }
 }

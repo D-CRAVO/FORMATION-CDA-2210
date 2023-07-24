@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace CLShoppingCart
 {
-    internal class Customer
+    public interface IVIPShoppingFactory
     {
-        public int[] Orders { get; set; } = Array.Empty<int>();
     }
 }
