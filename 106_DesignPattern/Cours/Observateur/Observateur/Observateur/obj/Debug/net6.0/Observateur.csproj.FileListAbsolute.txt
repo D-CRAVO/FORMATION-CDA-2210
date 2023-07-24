@@ -16,3 +16,21 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Obse
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.genruntimeconfig.cache
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\ref\Observateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\Observateur.exe
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\Observateur.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\Observateur.runtimeconfig.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\Observateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\Observateur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\CLNavigateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\bin\Debug\net6.0\CLNavigateur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.csproj.CopyComplete
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\refint\Observateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\Observateur.genruntimeconfig.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\Observateur\obj\Debug\net6.0\ref\Observateur.dll

@@ -10,3 +10,15 @@ C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Obse
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\refint\CLNavigateur.dll
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.pdb
 C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\ref\CLNavigateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\bin\Debug\net6.0\CLNavigateur.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\bin\Debug\net6.0\CLNavigateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\bin\Debug\net6.0\CLNavigateur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\refint\CLNavigateur.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\CLNavigateur.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\Cours\Observateur\Observateur\CLNavigateur\obj\Debug\net6.0\ref\CLNavigateur.dll
