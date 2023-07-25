@@ -12,8 +12,8 @@ namespace CLNavigateur
         private int precision;
         private string position;
 
-        public int Precision { get { return precision; } }
-        public string Position { get { return position; } }
+        public int Precision { get { return precision; } set { precision = value; } }
+        public string Position { get { return position; } set { position = value; } }
 
         public Satellite(int _precision, string _position)
         {
@@ -38,6 +38,18 @@ namespace CLNavigateur
             {
                 o.Actualiser(this);
             }
+        }
+
+        public void SetPrecision(int _precision)
+        {
+            precision = _precision;
+            NotifierObservateur();
+        }
+
+        public void SetPosition(string _position)
+        {
+            position = _position;
+            NotifierObservateur();
         }
     }
 }
