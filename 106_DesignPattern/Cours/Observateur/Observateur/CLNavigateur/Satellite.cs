@@ -12,8 +12,8 @@ namespace CLNavigateur
         private int precision;
         private string position;
 
-        public int Precision { get { return precision; } set { precision = value; } }
-        public string Position { get { return position; } set { position = value; } }
+        public int Precision { get { return precision; } }
+        public string Position { get { return position; } }
 
         public Satellite(int _precision, string _position)
         {
