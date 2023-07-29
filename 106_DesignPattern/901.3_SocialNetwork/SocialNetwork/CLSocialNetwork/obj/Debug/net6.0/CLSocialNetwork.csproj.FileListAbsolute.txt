@@ -1,0 +1,12 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\bin\Debug\net6.0\CLSocialNetwork.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\bin\Debug\net6.0\CLSocialNetwork.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\bin\Debug\net6.0\CLSocialNetwork.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\refint\CLSocialNetwork.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\CLSocialNetwork.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\901.3_SocialNetwork\SocialNetwork\CLSocialNetwork\obj\Debug\net6.0\ref\CLSocialNetwork.dll

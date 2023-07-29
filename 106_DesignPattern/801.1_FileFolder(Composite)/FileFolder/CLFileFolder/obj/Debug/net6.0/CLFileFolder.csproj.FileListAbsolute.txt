@@ -1,0 +1,12 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\bin\Debug\net6.0\CLFileFolder.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\bin\Debug\net6.0\CLFileFolder.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\bin\Debug\net6.0\CLFileFolder.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\refint\CLFileFolder.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\CLFileFolder.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\801.1_FileFolder(Composite)\FileFolder\CLFileFolder\obj\Debug\net6.0\ref\CLFileFolder.dll

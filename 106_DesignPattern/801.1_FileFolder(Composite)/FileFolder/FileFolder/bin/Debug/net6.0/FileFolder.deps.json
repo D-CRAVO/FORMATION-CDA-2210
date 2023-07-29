@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FileFolder/1.0.0": {
+        "dependencies": {
+          "CLFileFolder": "1.0.0"
+        },
+        "runtime": {
+          "FileFolder.dll": {}
+        }
+      },
+      "CLFileFolder/1.0.0": {
+        "runtime": {
+          "CLFileFolder.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FileFolder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLFileFolder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
