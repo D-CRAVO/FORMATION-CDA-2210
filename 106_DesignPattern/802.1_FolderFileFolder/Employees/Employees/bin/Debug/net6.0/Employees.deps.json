@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Employees/1.0.0": {
+        "dependencies": {
+          "CLEmployees": "1.0.0"
+        },
+        "runtime": {
+          "Employees.dll": {}
+        }
+      },
+      "CLEmployees/1.0.0": {
+        "runtime": {
+          "CLEmployees.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employees/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CLEmployees/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

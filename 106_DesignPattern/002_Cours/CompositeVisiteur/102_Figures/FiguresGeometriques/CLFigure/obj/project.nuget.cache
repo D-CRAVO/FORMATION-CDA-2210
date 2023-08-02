@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ofTD0LdpCGYqkEOsKSjzqUZeeDyB4jZUaxiERXvgjGvqwZLYrJA/sm3B19yj2K90HWHGmd+LdLzBoF6KMP36/w==",
+  "dgSpecHash": "XH+7VXnhtnj8Q2Px28plJ2gy5UU/Dcw1SpwXwEtQPteNmZjs5XohpwMSbMBIeZ4tyXFo7loPBWwDtZKt1MGqyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\Cours\\Composite\\102_Figures\\FiguresGeometriques\\CLFigure\\CLFigure.csproj",
+  "projectFilePath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\CompositeVisiteur\\102_Figures\\FiguresGeometriques\\CLFigure\\CLFigure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
