@@ -1,0 +1,15 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\bin\Debug\net6.0\Coffee.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\bin\Debug\net6.0\Coffee.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\bin\Debug\net6.0\Coffee.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\bin\Debug\net6.0\Coffee.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\bin\Debug\net6.0\Coffee.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\refint\Coffee.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\Coffee.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\106_DesignPattern\803.2_Coffee(Decorator)\Coffee\Coffee\obj\Debug\net6.0\ref\Coffee.dll
