@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fYEu2CamA3aCI2bW+TcbrofjUtLKgt9UxAWKjG9twIZ552lq+HYggPJY/rXghwNyA+aRkbHxbnkqek00F9Y8Cg==",
+  "dgSpecHash": "bLndPUEqqCYOUb8wmCF1oFCJ+owM2Ph2MzjYtNu2IDL5i5dp8gQ+ixTA2zppt4EJxCbX2qzN0l5q39+rvA+T8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj",
+  "projectFilePath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

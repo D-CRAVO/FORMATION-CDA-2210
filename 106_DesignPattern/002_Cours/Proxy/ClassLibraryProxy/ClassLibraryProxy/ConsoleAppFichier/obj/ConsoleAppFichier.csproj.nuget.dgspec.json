@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj": {}
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj": {
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj",
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj",
         "projectName": "ClassLibraryProxy",
-        "projectPath": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj",
-        "packagesPath": "C:\\Users\\tdebray\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\obj\\",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tdebray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,21 +64,21 @@
         }
       }
     },
-    "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj": {
+    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj",
+        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj",
         "projectName": "ConsoleAppFichier",
-        "projectPath": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj",
-        "packagesPath": "C:\\Users\\tdebray\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ConsoleAppFichier\\obj\\",
+        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ConsoleAppFichier\\ConsoleAppFichier.csproj",
+        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ConsoleAppFichier\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tdebray\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj": {
-                "projectPath": "C:\\Users\\tdebray\\Depot Git\\exercices-td\\Design Pattern\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj"
+              "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj": {
+                "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\106_DesignPattern\\002_Cours\\Proxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy\\ClassLibraryProxy.csproj"
               }
             }
           }
