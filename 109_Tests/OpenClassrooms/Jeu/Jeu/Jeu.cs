@@ -5,15 +5,24 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jeu
+namespace Jeu1
 {
     public class Jeu
     {
+        private readonly IFournisseurMeteo _fournisseurMeteo;
         public Heros Heros { get; }
 
+        /*
         public Jeu() 
         {
             Heros = new Heros(15);
+        }
+        */
+
+        public Jeu(IFournisseurMeteo fournisseurMeteo)
+        {
+            Heros = new Heros(15);
+            _fournisseurMeteo = fournisseurMeteo;
         }
 
         public Resultat Tour(int deHeros, int deMonstre)
@@ -25,7 +34,11 @@ namespace Jeu
             }
             else
             {
-                Heros.PerdsUnCombat(deMonstre - deHeros);
+                var temps = _fournisseurMeteo.QuelTempsFaitIl();
+                if (temps == Meteo.Tempete)
+                    Heros.PerdsUnCombat(2 * (deMonstre - deHeros));
+                else
+                    Heros.PerdsUnCombat(deMonstre - deHeros);
                 return Resultat.Perdu;
             }
         }

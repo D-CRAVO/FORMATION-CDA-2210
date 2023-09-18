@@ -1,6 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
+
+
 namespace Jeu2.UnitTests
 {
     [TestClass]
@@ -9,7 +11,8 @@ namespace Jeu2.UnitTests
         [TestMethod]
         public void TestMethod1()
         {
-            throw new NotImplementedException();
+            // Arrange
+            Jeu jeu = new Jeu();
         }
     }
 }

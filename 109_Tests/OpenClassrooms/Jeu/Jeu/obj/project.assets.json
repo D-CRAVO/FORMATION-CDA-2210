@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\OpenClassrooms\\Jeu\\Jeu\\Jeu.csproj",
-      "projectName": "Jeu",
-      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\OpenClassrooms\\Jeu\\Jeu\\Jeu.csproj",
+      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\OpenClassrooms\\Jeu\\Jeu\\Jeu1.csproj",
+      "projectName": "Jeu1",
+      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\OpenClassrooms\\Jeu\\Jeu\\Jeu1.csproj",
       "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\OpenClassrooms\\Jeu\\Jeu\\obj\\",
       "projectStyle": "PackageReference",

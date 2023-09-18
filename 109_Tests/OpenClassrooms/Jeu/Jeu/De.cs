@@ -5,9 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jeu
+namespace Jeu1
 {
-    public class De
+    public class De :ILanceurDeDe
     {
         private Random random;
 
