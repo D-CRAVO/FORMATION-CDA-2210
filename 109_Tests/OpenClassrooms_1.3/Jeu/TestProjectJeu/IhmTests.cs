@@ -17,7 +17,7 @@ namespace TestProjectJeu
         {
             // Arrange
             var fausseConsole = new FausseConsole();
-            var ihm = new Ihm(fausseConsole, new FauxDe(), new FournisseurMeteo(), new FauxMonstre());
+            var ihm = new Ihm(fausseConsole, new FauxDe(), new FournisseurMeteo(), new FausseFabriqueDeMonstres());
 
             // Act
             ihm.Demarre();
@@ -25,7 +25,7 @@ namespace TestProjectJeu
             // Assert
             var resultat = fausseConsole.StringBuilder.ToString();
             resultat.Should().StartWith("A l'attaque : points/vie 0/15");
-            resultat.Should().EndWith("Combat perdu: points/vie 9/0\r\n");
+            resultat.Should().EndWith("Le joueur est vainqueur !! Félicitations...\r\n");
             //resultat.Should().HaveLength(560);
         }
     }
