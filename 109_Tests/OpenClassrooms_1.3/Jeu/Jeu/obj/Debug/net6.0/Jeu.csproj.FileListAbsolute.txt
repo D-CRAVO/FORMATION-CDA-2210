@@ -1,0 +1,15 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\bin\Debug\net6.0\Jeu.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\bin\Debug\net6.0\Jeu.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\bin\Debug\net6.0\Jeu.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\bin\Debug\net6.0\Jeu.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\bin\Debug\net6.0\Jeu.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\refint\Jeu.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\Jeu.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\OpenClassrooms\Jeu\Jeu\obj\Debug\net6.0\ref\Jeu.dll
