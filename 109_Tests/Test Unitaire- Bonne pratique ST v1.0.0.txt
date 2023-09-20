@@ -1,0 +1,51 @@
+
+Pattern de nommage des tests
+
+https://www.thecodebuzz.com/tdd-unit-testing-naming-conventions-and-standards/
+La norme Should/when est absente de ce document!
+
+Le pattern Pattern Act – Arrange – Assert que vous voyez dans ce document permet d'organiser l'interieur du test. On commence habituellement à coder d'abord la partie Assert..
+
+Exercice: Kata FizzBuzz
+Le kata FizzBuzz nous demande d'ecrire un programme qui affiche, pour chaque nombre de 1 à 100:
+-"Fizz" si le nombre est un multiple de 3
+-"Buzz" si le nombre est un multiple de 5
+-"FizzBuzz" si nombre est un multiple de 3 et de 5
+-le nombre lui-même dans tous les autres cas  
+
+1) Je vous propose de coder cette exemple en déterminant un temps nécessaire pour le faire.. Vous respecterez ce temps, et donc vous arreteras dès que vous l'avez atteint
+
+2) Je vous propose de coder cette exemple en utilisant le TDD! 
+Il faut prioritiser que ce qui a forte valeur pour le client: le cas le plus classique est de retourner un nombre qui n'est pas multiple! On commence par ce cas
+2.1) Premiere iteration TDD: on ecrit un premier test!
+Etape rouge
+2.1.1) Determiner le nom du test qui correspond au cas le plus classique en utilisant le jeu d'essai "pour le nombre 1, on renvoit 1"
+2.1.2) Determiner le test dans la partie Assert , même si ça compile pas :)
+2.1.3) Ecrivez l'Act et l'Arrange, donc la classe FizzBuzz et les signatures de méthodes nécessaires!
+2.1.4) On lance le test, et le test doit normallement être rouge
+
+Etape verte
+2.1.5) On ecrit le MINIMUM de code pour que le test passe au vert! Le test est "pour le nombre 1, on renvoit 1"
+
+Etape refractoring
+2.1.6) On va modifier le code pour le rendre plus lisible, sans changer le comportement
+
+2.2) Deuxieme iteration TDD: on ecrit un deuxième test! On affiche "Fizz" si le nombre est multiple de 3
+
+Etape rouge
+2.2.1) Determiner le nom du test qui correspond au cas le plus classique en utilisant le jeu d'essai "pour le nombre 3, on renvoit "Fizz" "
+2.2.2) Determiner le test dans la partie Assert , même si ça compile pas :)
+2.2.3) Ecrivez l'Act et l'Arrange, les signatures de méthodes nécessaires!
+2.2.4) On lance le test, et le test doit normallement être rouge
+
+Etape verte
+2.2.5) On ecrit le MINIMUM de code pour que le test passe au vert! Le test est "pour le nombre 3, on renvoit "Fizz" "
+
+Etape refractoring
+2.2.6) On va modifier le code pour le rendre plus lisible, sans changer le comportement
+
+ 
+
+
+
+
