@@ -1,0 +1,8 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\bin\Debug\OC.Exercice.exe.config
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\bin\Debug\OC.Exercice.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\bin\Debug\OC.Exercice.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\obj\Debug\OC.Exercice.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\obj\Debug\OC.Exercice.csproj.SuggestedBindingRedirects.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\obj\Debug\OC.Exercice.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\obj\Debug\OC.Exercice.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\pret-e-a-utiliser-les-tests-pour-detecter-un-probleme-dans-une-application_exemple-2018-12-06T100554\OC.Exercice\obj\Debug\OC.Exercice.pdb
