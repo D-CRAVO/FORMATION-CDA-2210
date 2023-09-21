@@ -602,11 +602,24 @@
       "Bouteille_1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CLBouteille": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Bouteille_1.dll": {}
         },
         "runtime": {
           "bin/placeholder/Bouteille_1.dll": {}
+        }
+      },
+      "CLBouteille/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CLBouteille.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLBouteille.dll": {}
         }
       }
     }
@@ -2294,11 +2307,17 @@
       "type": "project",
       "path": "../Bouteille_1/Bouteille_1.csproj",
       "msbuildProject": "../Bouteille_1/Bouteille_1.csproj"
+    },
+    "CLBouteille/1.0.0": {
+      "type": "project",
+      "path": "../CLBouteille/CLBouteille.csproj",
+      "msbuildProject": "../CLBouteille/CLBouteille.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Bouteille_1 >= 1.0.0",
+      "CLBouteille >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
@@ -2306,25 +2325,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dcravo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\CRAVO David\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\TestBouteille\\TestBouteille.csproj",
+      "projectUniqueName": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\TestBouteille\\TestBouteille.csproj",
       "projectName": "TestBouteille",
-      "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\TestBouteille\\TestBouteille.csproj",
-      "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\TestBouteille\\obj\\",
+      "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\TestBouteille\\TestBouteille.csproj",
+      "packagesPath": "C:\\Users\\CRAVO David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\TestBouteille\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CRAVO David\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2339,8 +2356,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\Bouteille_1\\Bouteille_1.csproj": {
-              "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\Bouteille_1\\Bouteille_1.csproj"
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\Bouteille_1\\Bouteille_1.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\Bouteille_1\\Bouteille_1.csproj"
+            },
+            "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\CLBouteille\\CLBouteille.csproj": {
+              "projectPath": "C:\\Users\\CRAVO David\\OneDrive\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\Bouteille\\Bouteille_1\\CLBouteille\\CLBouteille.csproj"
             }
           }
         }
@@ -2388,7 +2408,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

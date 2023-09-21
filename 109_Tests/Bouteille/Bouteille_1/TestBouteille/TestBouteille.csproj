@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bouteille_1\Bouteille_1.csproj" />
+    <ProjectReference Include="..\CLBouteille\CLBouteille.csproj" />
   </ItemGroup>
 
 </Project>

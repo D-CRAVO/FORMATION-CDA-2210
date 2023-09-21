@@ -1,0 +1,12 @@
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\bin\Debug\net6.0\CLBouteille.deps.json
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\bin\Debug\net6.0\CLBouteille.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\bin\Debug\net6.0\CLBouteille.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.csproj.AssemblyReference.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.AssemblyInfoInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.AssemblyInfo.cs
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.csproj.CoreCompileInputs.cache
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\refint\CLBouteille.dll
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\CLBouteille.pdb
+C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\CLBouteille\obj\Debug\net6.0\ref\CLBouteille.dll
