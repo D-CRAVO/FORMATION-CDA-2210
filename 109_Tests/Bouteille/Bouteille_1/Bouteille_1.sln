@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bouteille_1", "Bouteille_1\Bouteille_1.csproj", "{2E359F4C-4CAB-4103-AB71-91BE4F0F8174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bouteille_1", "Bouteille_1\Bouteille_1.csproj", "{2E359F4C-4CAB-4103-AB71-91BE4F0F8174}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBouteille", "TestBouteille\TestBouteille.csproj", "{60CC0A09-B0FC-483E-8EC3-B8A09CDCD088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBouteille", "TestBouteille\TestBouteille.csproj", "{60CC0A09-B0FC-483E-8EC3-B8A09CDCD088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLBouteille", "CLBouteille\CLBouteille.csproj", "{B48FCEEA-E539-46CA-B31D-5318F7C689E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{60CC0A09-B0FC-483E-8EC3-B8A09CDCD088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CC0A09-B0FC-483E-8EC3-B8A09CDCD088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CC0A09-B0FC-483E-8EC3-B8A09CDCD088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48FCEEA-E539-46CA-B31D-5318F7C689E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48FCEEA-E539-46CA-B31D-5318F7C689E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48FCEEA-E539-46CA-B31D-5318F7C689E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48FCEEA-E539-46CA-B31D-5318F7C689E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

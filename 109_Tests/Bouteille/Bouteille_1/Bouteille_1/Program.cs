@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Bouteille_1;
+using Bouteille_1.ExceptionsBouteille;
+using CLBouteille;
+
+try
+{
+    Bouteille bouteille = new Bouteille(1, 2, true);
+}
+catch (ExceptionValeurContenuIncorrecte e)
+{
+
+}
+
