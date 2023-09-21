@@ -7,23 +7,44 @@ namespace TestBouteille
     public class UnitTest1
     {
         [TestMethod]
-        [ExpectedException(typeof(ExceptionValeurContenuIncorrecte))]
-        public void Given_contenuBouteilleIncorrecte_When_newBouteille_Then_ExceptionValeurContenuIncorrecte()
+        [ExpectedException(typeof(ContenanceValeurNegativeOuZeroException))]
+        public void Given_contenanceValeurNegative_When_newBouteille_Then_ContenanceValeurNegativeOuZeroException()
+        {
+            //Arrange
+            Bouteille bouteille = new Bouteille(-1,0,true);
+            //Act
+            //Assert
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ContenanceValeurNegativeOuZeroException))]
+        public void Given_contenanceZero_When_newBouteille_Then_ContenanceValeurNegativeOuZeroException()
+        {
+            //Arrange
+            Bouteille bouteille = new Bouteille(0,0,false);
+            //Act
+            //Assert
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ContenuValeurNegativeException))]
+        public void Given_contenuNegatif_When_newBouteille_Then_ContenuValeurNegativeException()
+        {
+            //Arrange
+            Bouteille bouteille = new Bouteille(1,-2,true);
+            //Act
+            //Assert
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ContenuSuperieurContenanceException))]
+        public void Given_contenuSuperieurContenant_When_newBouteille_Then_ContenuSuperieurContenanceException()
         {
             // Arrange
             Bouteille b = new Bouteille(1, 2, false);
             // Act
             // Assert
-        }
 
-        [TestMethod]
-        [ExpectedException(typeof (ExceptionValeurContenanceIncorrecte))]
-        public void Given_contenanceBouteilleIncorrecte_When_newBouteille_Then_ExceptionValeurContenanceIncorrecte()
-        {
-            // Arrange
-            Bouteille b = new Bouteille(-1, 0, false);
-            // Act
-            // Assert
         }
 
         [TestMethod]
@@ -71,14 +92,27 @@ namespace TestBouteille
             Assert.IsFalse(retour);
         }
 
+
         [TestMethod]
-        [ExpectedException(typeof(ExceptionQuantiteAjouterTropImportante))]
-        public void Given_QuantiteTropImortante_When_remplir_Then_ExceptionQuantiteAjouterTropImportante()
+        [ExpectedException(typeof(ArgumentValeurNegativeException))]
+        public void Given_QuantiteNegative_When_remplir_Then_ArgumentValeurNegativeException()
+        {
+            // Arrange
+            Bouteille b = new Bouteille(1,1,true);
+            // Act
+            b.Remplir(-1);
+            // Assert
+            
+        }
+
+        [TestMethod]
+        [ExpectedException (typeof(ArgumentValeurNegativeException))]
+        public void Given_quantiteNegative_When_vider_Then_ExceptionValeurNegative()
         {
             //Arrange
-            Bouteille b = new Bouteille(1, 1, true);
+            Bouteille b = new Bouteille (1,1,true);
             //Act
-            b.Remplir(1);
+            b.Vider(-1);
             //Assert
         }
     }
