@@ -16,3 +16,21 @@ C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bout
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.pdb
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.genruntimeconfig.cache
 C:\Users\CRAVO David\OneDrive\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\ref\Bouteille_2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\Bouteille_2.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\Bouteille_2.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\Bouteille_2.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\Bouteille_2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\Bouteille_2.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\CLBouteille.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\bin\Debug\net6.0\CLBouteille.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.csproj.CopyComplete
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\refint\Bouteille_2.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\Bouteille_2.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\Bouteille\Bouteille_2\Bouteille_2\obj\Debug\net6.0\ref\Bouteille_2.dll
