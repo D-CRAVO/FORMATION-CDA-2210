@@ -17,7 +17,7 @@
 
     <Button
         android:id="@+id/inc"
-        android:layout_width=""
+        android:layout_width="0dp"
         android:layout_height="50dp"
         android:onClick="incrementer"
         android:text="@string/inc"
@@ -26,10 +26,10 @@
         tools:layout_editor_absoluteY="50dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/compteur"
         android:layout_width="220dp"
         android:layout_height="50dp"
-        android:text="TextView"
+        android:text="11"
         app:layout_constraintEnd_toStartOf="@+id/inc"
         app:layout_constraintStart_toEndOf="@+id/dec"
         tools:ignore="MissingConstraints"
