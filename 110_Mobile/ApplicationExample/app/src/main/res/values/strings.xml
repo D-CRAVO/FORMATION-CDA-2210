@@ -1,0 +1,4 @@
+<resources>
+    <string name="mainactivity_lblDecrement">-</string>
+    <string name="mainactivity_lblIncrement">+</string>
+</resources>

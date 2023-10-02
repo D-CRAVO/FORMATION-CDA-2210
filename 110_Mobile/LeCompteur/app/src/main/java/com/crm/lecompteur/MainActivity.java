@@ -1,5 +1,6 @@
 package com.crm.lecompteur;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -11,33 +12,33 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textView;
-    @SuppressLint("MissingInflatedId")
+    private int value;
+    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView = (TextView)findViewById(R.id.compteur);
+        textView=(TextView)findViewById(R.id.compteur);
+        value=savedInstanceState.getInt("value");
     }
 
-    public void incrementer(){
-        int t = Integer.parseInt(String.valueOf(textView));
-        t++;
-    t.
+    public void incrementer(View v){
+        value++;
+        changeText();
     }
 
-    protected void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public void decrementer(){
+        value--;
+        changeText();
+    }
 
-        Button inc = (Button) findViewById(R.id.inc);
-        inc.setOnClickListener(new OnClickListener());
+    private void changeText(){
+        textView.setText(String.valueOf(value));
+    }
 
-        public void onClick(View v) {
-            EditText mValue = (EditText) findViewById(R.id.compteur);
-            int val=Integer.parseInt(mValue.getText().toString());
-            --val;
-            mValue.setText(Integer.toString(val));
-        }
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState){
+        super.onSaveInstanceState(outState);
+        outState.putInt("value", value);
     }
 }

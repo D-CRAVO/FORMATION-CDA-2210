@@ -5,35 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:weightSum="100">
     <Button
         android:id="@+id/dec"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
         android:text="@string/dec"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="50dp" />
+        android:onClick="decrementer"/>
+
+    <TextView
+        android:id="@+id/compteur"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:text="11" />
 
     <Button
         android:id="@+id/inc"
         android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:onClick="incrementer"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
         android:text="@string/inc"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="323dp"
-        tools:layout_editor_absoluteY="50dp" />
+        android:onClick="incrementer"/>
 
-    <TextView
-        android:id="@+id/compteur"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:text="11"
-        app:layout_constraintEnd_toStartOf="@+id/inc"
-        app:layout_constraintStart_toEndOf="@+id/dec"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="50dp" />
+</LinearLayout>
 
     <Button
         android:id="@+id/quit"
