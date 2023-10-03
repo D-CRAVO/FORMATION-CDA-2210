@@ -18,6 +18,7 @@ import com.example.superquiz.databinding.FragmentWelcomeBinding;
  */
 public class WelcomeFragment extends Fragment {
 
+    /*
     private FragmentWelcomeBinding binding;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -72,6 +73,17 @@ public class WelcomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view,@NonNull Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);;
         binding.playButton.setEnabled(false);
+    }
+
+
+    public static WelcomeFragment newInstance(){
+        WelcomeFragment fragment = new WelcomeFragment();
+        return fragment;
+    }
+
+    @override
+    public View onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
     }
 
 
