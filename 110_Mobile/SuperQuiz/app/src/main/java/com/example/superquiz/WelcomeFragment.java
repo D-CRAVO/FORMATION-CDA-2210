@@ -38,6 +38,6 @@ public class WelcomeFragment extends Fragment {
     @Override
     public void onViewCreated( View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        binding.playButton.setEnabled(true);
+        binding.playButton.setEnabled(false);
     }
 }
