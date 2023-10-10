@@ -1,0 +1,16 @@
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.csproj.AssemblyReference.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.AssemblyInfoInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.AssemblyInfo.cs
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.csproj.CoreCompileInputs.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\bin\Debug\net5.0\ex37_barnabe.exe
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\bin\Debug\net5.0\ex37_barnabe.deps.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\bin\Debug\net5.0\ex37_barnabe.runtimeconfig.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\bin\Debug\net5.0\ex37_barnabe.runtimeconfig.dev.json
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\bin\Debug\net5.0\ex37_barnabe.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\bin\Debug\net5.0\ex37_barnabe.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\refint\ex37_barnabe.dll
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.pdb
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ex37_barnabe.genruntimeconfig.cache
+C:\Users\dcravo\Documents\GitHub\FORMATION-CDA-2210\109_Tests\RevisionBarnabe\ex37_barnabe\exercice_3-7_barnabe\obj\Debug\net5.0\ref\ex37_barnabe.dll
