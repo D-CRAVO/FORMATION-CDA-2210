@@ -3,6 +3,8 @@ package com.example.superquiz;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -68,6 +70,11 @@ public class WelcomeFragment extends Fragment {
             public void onClick(View v) {
                 // Naviguez vers le fragment quiz
                 Log.d("David", "Click");
+                FragmentManager fragmentManager = getParentFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                QuizFragment quizFragment = new QuizFragment();
+                fragmentTransaction.replace(R.id.fragment_container_view, quizFragment);
+                fragmentTransaction.commit();
             }
         });
     }
