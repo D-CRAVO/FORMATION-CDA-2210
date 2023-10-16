@@ -24,7 +24,7 @@ import org.xml.sax.helpers.ParserAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private String[] tableau = new String[]{"membre1", "membre2", "membre3", "membre4", "membre5"};
-    private ArrayList<Personne> personnes;
+    private ListPersonnes personnes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,15 +33,15 @@ public class MainActivity extends AppCompatActivity {
         ListView lv = (ListView)findViewById(R.id.listViewPersonne);
         /*ArrayAdapter arrayadp = new ArrayAdapter(this, android.R.layout.simple_list_item_1, this.tableau);
         lv.setAdapter(arrayadp);*/
-        personnes =  new ArrayList<Personne>();
+        /*ListPersonnes personnes =  new ArrayList<Personne>();*/
+        /*
         Personne personne1 = new Personne("CRAVO", "David");
         personnes.add(personne1);
         Personne personne2 = new Personne("CRAVO", "Océane");
         personnes.add(personne2);
+         */
         PersonneArrayAdapter array = new PersonneArrayAdapter(this,personnes);
         lv.setAdapter(array);
     }
-/*
 
-*/
 }
