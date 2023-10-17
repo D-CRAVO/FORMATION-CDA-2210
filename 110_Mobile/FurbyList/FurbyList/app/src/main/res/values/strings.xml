@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FurbyList</string>
+    <string name="activity_main_btAjouterFurby">Ajouter une personne</string>
+    <string name="listView_item_nom">Nom</string>
+    <string name="listView_item_prenom">Prenom</string>
+    <string name="copy_furby">Copier le furby</string>
+    <string name="supprimer_furby">Supprimer le furby</string>
+    <string name="activity_add_furby_checkboxImageAlternative">Utiliser l\'image alternative</string>
+    <string name="activity_main_btValider">Valider</string>
+</resources>
