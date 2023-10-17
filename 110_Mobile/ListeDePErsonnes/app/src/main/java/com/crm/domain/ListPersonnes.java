@@ -24,10 +24,11 @@ public class ListPersonnes {
         );
     }
 
-    private static ListPersonnes instance;
+    /*private static ListPersonnes instance;
     public static ListPersonnes getInstance(){
         if (instance == null){
             instance = new ListPersonnes();
         }
-    }
+        return instance;
+    }*/
 }

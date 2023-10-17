@@ -29,7 +29,7 @@ public class PersonneArrayAdapter extends ArrayAdapter<Personne> {
             v = inflater.inflate(R.layout.item_particulier, null);
         }
 
-        Personne personneOfItem = (Personne) getListPersonnes().get(i);
+        Personne personneOfItem = (Personne) personnes.getListPersonnes().get(i);
         if (personneOfItem != null){
             TextView nomView = (TextView) v.findViewById(R.id.textViewNom);
             TextView prenomView = (TextView)  v.findViewById(R.id.textViewPrenom);

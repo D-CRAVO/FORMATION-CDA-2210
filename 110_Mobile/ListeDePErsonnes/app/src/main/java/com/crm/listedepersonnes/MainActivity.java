@@ -24,7 +24,7 @@ import org.xml.sax.helpers.ParserAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private String[] tableau = new String[]{"membre1", "membre2", "membre3", "membre4", "membre5"};
-    private ListPersonnes personnes;
+    private ListPersonnes personnes = new ListPersonnes();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
