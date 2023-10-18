@@ -1,0 +1,9 @@
+Les fichiers MP4 correspondant sont trop grands pour être chargés sur l'espace.
+Mais vous pouvez les trouver sur l'URL (publique)
+
+https://www.owasp.org/index.php/OWASP_Appsec_Tutorial_Series#tab=Episode_List
+
+Il faut les télécharger et leur associer les fichiers de sous-titres fournis en français
+(afpa)
+
+Lécu Régis

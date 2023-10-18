@@ -1,0 +1,857 @@
+﻿1
+00:00:02,560 --> 00:00:09,430
+
+
+2
+00:00:09,430 --> 00:00:14,530
+
+
+3
+00:00:14,530 --> 00:00:18,410
+
+
+4
+00:00:18,410 --> 00:00:21,640
+Dans la série OWASP
+
+
+5
+00:00:21,640 --> 00:00:24,840
+Ceci est l'épisode numéro trois :
+Cross-Site-Scripting.
+
+6
+00:00:24,840 --> 00:00:31,840
+Cette série est pour tous ceux qui
+veulent en apprendre davantage sur
+
+
+7
+00:00:32,418 --> 00:00:33,290
+la construction d'applications web sécurisés.
+
+8
+00:00:33,290 --> 00:00:36,920
+Et dans cet épisode, nous allons nous
+concentrer sur l'une
+
+9
+00:00:36,920 --> 00:00:38,239
+des vulnérabilités les plus graves et les plus répandues.
+
+10
+00:00:38,239 --> 00:00:41,629
+Cross-Site Scripting généralement
+abrégé en XSS.
+
+11
+00:00:41,629 --> 00:00:44,940
+Cross-Site Scripting est un
+problème très grave.
+
+12
+00:00:44,940 --> 00:00:48,059
+touchant la majorité des applications
+sur le web.
+
+13
+00:00:48,059 --> 00:00:51,169
+Et malheureusement de nombreux
+développeurs ne sont même pas au
+courant du problème.
+
+14
+00:00:51,170 --> 00:00:54,739
+Comme XSS a de nombreuses variantes,
+
+15
+00:00:54,739 --> 00:00:58,949
+il n'y a pas de solutions faciles pour
+résoudre le problème. Dans cet
+épisode, nous allons.
+
+16
+00:00:58,949 --> 00:00:59,449
+nous concentrer
+
+17
+00:00:59,449 --> 00:01:03,579
+exclusivement sur la forme la plus
+grave appelée Stored XSS (XSS stocké)
+
+18
+00:01:03,579 --> 00:01:07,320
+Mais ne vous inquiétez pas : nous y 
+reviendrons et discuterons d'autres
+variantes dans de futurs.
+
+19
+00:01:07,320 --> 00:01:08,139
+épisodes.
+
+20
+00:01:08,140 --> 00:01:11,760
+Donc dans les 10 prochaines minutes
+je vais vous montrer trois
+exemples distincts de XSS : 
+
+21
+00:01:11,760 --> 00:01:14,900
+Le premier de très haut 
+haut niveau, les deux autres
+plus
+
+22
+00:01:14,900 --> 00:01:15,610
+détaillés.
+
+23
+00:01:15,610 --> 00:01:18,640
+Et vers la fin du programme, un
+point pour trouver les 
+ressources.
+
+24
+00:01:18,640 --> 00:01:22,610
+pour prévenir cette attaque.
+Donc nous allons commencer.
+
+25
+00:01:22,610 --> 00:01:26,399
+Cross-Site Scripting est l'une des
+vulnérabilités les plus connues,
+
+26
+00:01:26,399 --> 00:01:30,049
+répertoriée dans le OWASP Top 10.
+
+27
+00:01:30,049 --> 00:01:31,570
+Si vous ne l'avez pas encore lue, 
+profitez en pour découvrir la
+liste du "TOP 10".
+
+28
+00:01:31,570 --> 00:01:35,850
+Un pdf de la liste peut être
+téléchargé à partir du site
+
+29
+00:01:35,850 --> 00:01:36,820
+OWASP.
+
+30
+00:01:36,820 --> 00:01:41,309
+XSS a figuré dans chaque édition du "TOP 10" de
+l'OWASP et dans l'édition 2010, 
+
+31
+00:01:41,310 --> 00:01:45,060
+Cross-site scripting détient 
+la deuxième place, juste après l'injection
+SQL.
+
+32
+00:01:45,060 --> 00:01:49,280
+XSS est extrêmement répandu dans
+les applications web et très facile
+à trouver 
+
+33
+00:01:49,280 --> 00:01:49,899
+pour les attaquants.
+
+34
+00:01:49,899 --> 00:01:53,680
+Ainsi exploiter une vulnérabilité XSS
+est généralement assez simple.
+
+35
+00:01:53,680 --> 00:01:56,899
+L'attaquant a juste besoin de savoir
+un peu de JavaScript.
+
+36
+00:01:56,899 --> 00:01:59,990
+XSS n'est pas lié à une plate-forme ou à
+un langage particulier.
+
+37
+00:01:59,990 --> 00:02:03,199
+Toutes les technologies de
+programmation web populaires sont
+sensibles à XSS.
+
+38
+00:02:03,200 --> 00:02:07,929
+Passons à l'exemple numéro un
+
+39
+00:02:07,929 --> 00:02:11,870
+qui fera la démonstration à un
+niveau très élevé d'une attaque XSS
+mais d'abord
+
+40
+00:02:11,870 --> 00:02:15,070
+pour la remettre dans son contexte,
+je veux récapituler l'attaque que
+nous avons apprise dans le dernier
+
+41
+00:02:15,070 --> 00:02:15,850
+épisode.
+
+42
+00:02:15,850 --> 00:02:20,100
+Avec la même perspective de haut
+niveau, supposons un site cible
+
+43
+00:02:20,100 --> 00:02:21,019
+quelconque choisi par l'attaquant
+
+44
+00:02:21,020 --> 00:02:25,420
+par exemple un forum de jeu
+populaire. Comme cela a été illustré
+dans l'épisode précédent,
+
+45
+00:02:25,420 --> 00:02:28,780
+l'attaquant construit une requête
+malveillante contenant du SQL,
+
+46
+00:02:28,780 --> 00:02:31,930
+et puis l'envoie à travers
+l'Internet sur le site cible.
+
+47
+00:02:31,930 --> 00:02:34,930
+Le SQL illégitime attaque le
+serveur de base de données,
+
+48
+00:02:34,930 --> 00:02:39,170
+et retourne des données non autorisées
+à l'attaquant telles que
+des adresses e-mail, des
+
+49
+00:02:39,170 --> 00:02:43,708
+mots de passe. Donc la cible de 
+l'injection SQL est clairement le
+serveur de base de données.
+
+50
+00:02:43,709 --> 00:02:47,200
+Mais dans XSS les choses
+ne sont pas toujours aussi
+simples.
+
+51
+00:02:47,200 --> 00:02:50,909
+Parce que la cible attaquée
+est habituellement
+
+52
+00:02:50,909 --> 00:02:54,310
+le navigateur Web d'un autre
+utilisateur. Fondementalement, XSS
+
+53
+00:02:54,310 --> 00:02:58,120
+est une autre forme d'injection, cette fois-ci 
+l'injection de script.
+
+54
+00:02:58,120 --> 00:03:01,299
+Et la grande majorité de ces
+attaques sont écrites en javascript.
+
+55
+00:03:01,299 --> 00:03:04,940
+Donc dans une attaque XSS, l'attaquant
+utilise les vulnérabilités
+de votre application Web
+
+
+56
+00:03:04,940 --> 00:03:08,480
+pour distribuer des scripts
+malveillants
+
+57
+00:03:08,480 --> 00:03:12,200
+à d'autres utilisateurs qui
+attaqueront ensuite d'autres 
+
+58
+00:03:12,200 --> 00:03:15,268
+navigateurs Web. Pour illustrer ceci à
+un niveau élevé,
+
+59
+00:03:15,269 --> 00:03:19,569
+imaginez qu'un attaquant poste un
+commentaire à un forum de jeu
+populaire, 
+
+60
+00:03:19,569 --> 00:03:23,730
+et à l'intérieur de son commentaire
+il y a du javascript malveillant.
+Le commentaire malveillant est envoyé au
+
+61
+00:03:23,730 --> 00:03:24,459
+Forum du jeu,
+
+62
+00:03:24,459 --> 00:03:29,010
+où il est stocké comme tous les
+autres commentaires, mais à partir
+de ce moment-là
+
+63
+00:03:29,010 --> 00:03:33,319
+tout utilisateur qui visualise le
+commentaire malveillant dans le forum recevra
+l'attaque.
+
+64
+00:03:33,319 --> 00:03:36,439
+Ce qui rend 
+
+65
+00:03:36,439 --> 00:03:40,250
+beaucoup d'utilisateurs mécontents. Alors
+maintenant que nous comprenons
+
+66
+00:03:40,250 --> 00:03:43,980
+ce que l'attaquant tente d'accomplir, regardons un autre
+exemple,
+
+67
+00:03:43,980 --> 00:03:47,578
+avec un peu plus de détails. Imaginez un
+site d'emploi.
+
+68
+00:03:47,579 --> 00:03:51,450
+Workflow de l'application : 
+l'employeur visite le site
+
+69
+00:03:51,450 --> 00:03:55,359
+pour poster une nouvelle offre
+d'emploi. Pour faire simple,
+imaginez qu'il y a 
+un
+
+70
+00:03:55,360 --> 00:03:56,280
+seul champ :
+
+71
+00:03:56,280 --> 00:03:59,500
+la description de l'emploi.
+L'employeur saisit la
+description
+
+72
+00:03:59,500 --> 00:04:04,230
+et clique sur "Submit". Le navigateur
+de l'employeur envoie la demande
+à travers l'Internet au
+
+73
+00:04:04,230 --> 00:04:05,609
+site d'offres d'emploi,
+
+74
+00:04:05,610 --> 00:04:09,340
+qui est stockée dans
+la base de données. A partir de ce
+moment,
+
+75
+00:04:09,340 --> 00:04:12,620
+chaque fois qu'un visiteur voudra afficher le poste,
+
+76
+00:04:12,620 --> 00:04:16,048
+une page Web dynamique sera créée et comme vous
+pouvez l'imaginer,
+
+77
+00:04:16,048 --> 00:04:19,310
+la page Web générée consistera en un
+contenu statique.
+
+78
+00:04:19,310 --> 00:04:23,330
+Qui comprend les entêtes de haut de page et 
+bas de page et ainsi de suite et le
+contenu dynamique
+
+79
+00:04:23,330 --> 00:04:26,810
+qui est l'offre d'emploi. Les contenus
+statique et dynamique
+
+80
+00:04:26,810 --> 00:04:32,530
+sont fusionnés ensemble,
+
+81
+00:04:32,530 --> 00:04:35,820
+pour constituer la réponse qui est
+ensuite envoyée à tous ceux 
+
+
+82
+00:04:35,820 --> 00:04:39,159
+qui visualisent ce poste particulier.
+
+83
+00:04:39,160 --> 00:04:42,480
+Bien sûr, les utilisateurs finaux ne
+voient normalement pas le HTML, 
+
+84
+00:04:42,480 --> 00:04:45,980
+pas plus qu'ils ne conscients de sa nature
+statique et dynamique.
+
+85
+00:04:45,980 --> 00:04:48,980
+Il voit simplement la représentation du HTML
+dans le navigateur.
+
+86
+00:04:48,980 --> 00:04:52,800
+Donc l'application Web
+semble fonctionner,
+
+87
+00:04:52,800 --> 00:04:57,370
+mais elle n'est certainement pas sécurisée.
+Pour illustrer ce qui peut aller
+mal,
+
+88
+00:04:57,370 --> 00:05:00,370
+imaginez le même scénario que
+précédemment mais cette fois,
+
+89
+00:05:00,370 --> 00:05:04,210
+un utilisateur malveillant
+décide se s'amuser un peu avec le
+site d'emploi,
+
+90
+00:05:04,210 --> 00:05:07,489
+Comme précédemment, on entre une description de poste
+mais cette fois,
+
+91
+00:05:07,490 --> 00:05:11,250
+du Javascript est ajouté à la suite de la
+description du poste. Pour la
+
+92
+00:05:11,250 --> 00:05:12,130
+lisibilité
+
+93
+00:05:12,130 --> 00:05:15,620
+on affiche un simple commentaire javascript 
+
+
+94
+00:05:15,620 --> 00:05:19,270
+mais dans une attaque réelle, ce serait du vrai code
+ou la référence d'un fichier JavaScript.
+
+
+95
+00:05:19,270 --> 00:05:22,960
+L'attaquant soumet le formulaire
+qui
+
+96
+00:05:22,960 --> 00:05:26,820
+est envoyé à travers Internet et il
+est stocké dans la base de données
+du site d'emploi.
+
+97
+00:05:26,820 --> 00:05:31,330
+Comme précédemment, l'application Web
+fusionne deux contenus : un statique
+légitime.
+
+98
+00:05:31,330 --> 00:05:34,719
+avec le contenu dynamique fourni
+par l'utilisateur. Seulement cette
+fois,
+
+99
+00:05:34,720 --> 00:05:37,940
+le contenu dynamique contient
+du code malveillant Javascript
+
+100
+00:05:37,940 --> 00:05:41,530
+qui est l'attaque XSS. Les deux contenus
+sont réunis
+
+101
+00:05:41,530 --> 00:05:45,260
+et comme avant la réponse obtenue
+est envoyée
+
+102
+00:05:45,260 --> 00:05:50,610
+à tous les visiteurs qui vont
+voir l'offre d'emploi. En
+fait, ils voient encore l'offre.
+
+103
+00:05:50,610 --> 00:05:51,470
+Habituellement, il n'y a pas
+
+104
+00:05:51,470 --> 00:05:56,010
+d'indice visible du script malveillant qui
+s'exécute tranquillement
+
+105
+00:05:56,010 --> 00:05:59,320
+dans le navigateur Web. A ce
+stade, vous vous demandez peut-être
+
+106
+00:05:59,320 --> 00:06:03,430
+ce que les attaques peuvent
+réellement faire avec javascript
+Eh bien, une attaque commune
+
+107
+00:06:03,430 --> 00:06:06,870
+est de voler l'id de session d'un
+autre utilisateur qui peut être
+
+108
+00:06:06,870 --> 00:06:10,470
+stocké dans le document
+
+109
+00:06:10,470 --> 00:06:14,270
+Si un attaquant parvient à voler 
+l'id de session d'un utilisateur,l'attaquant
+peut
+
+110
+00:06:14,270 --> 00:06:18,820
+travailler dans la session de sa
+victime sans nom d'utilisateur et
+sans mot de passe.
+
+111
+00:06:18,820 --> 00:06:20,390
+Javascript peut aussi être utilisé pour réécrire
+
+112
+00:06:20,390 --> 00:06:24,810
+n'importe quelle partie de la page Web. Dans
+certains cas, ils peuvent simplement
+défacer le site Web, mais
+
+113
+00:06:24,810 --> 00:06:26,400
+une attaque plus grave 
+
+114
+00:06:26,400 --> 00:06:30,840
+est facile à imaginer. Par exemple, si
+l'on attaque par une vulnérabilité XSS
+
+
+115
+00:06:30,840 --> 00:06:35,340
+un site Web bancaire. Nous pouvons
+créer un faux formulaire de connexion
+superposé.
+
+116
+00:06:35,340 --> 00:06:38,609
+Tout utilisateur légitime
+n'y regardera pas à deux fois et
+
+117
+00:06:38,610 --> 00:06:42,140
+rentrera ses informations
+d'identification,
+
+118
+00:06:42,140 --> 00:06:45,849
+
+
+119
+00:06:45,850 --> 00:06:49,000
+qui seront envoyés directement à
+l'attaquant.
+
+120
+00:06:49,000 --> 00:06:52,240
+Les gens demandent souvent si nous
+pouvons simplement bloquer la balise
+de script,
+
+121
+00:06:52,240 --> 00:06:55,820
+et éliminer la menace XSS. La
+réponse malheureusement
+
+122
+00:06:55,820 --> 00:06:59,659
+est NON. L'exemple numéro trois
+illustre une attaque XSS
+
+123
+00:06:59,660 --> 00:07:03,430
+sans la balise SCRIPT. Imaginez
+une application de livre d'or,
+
+124
+00:07:03,430 --> 00:07:06,650
+qui invite l'utilisateur à saisir son nom,
+puis génère une page Web.
+
+125
+00:07:06,650 --> 00:07:11,310
+Un utilisateur normal
+entre son nom
+
+126
+00:07:11,310 --> 00:07:15,520
+qui est envoyé au serveur web, puis
+inséré dans une zone de
+texte.
+
+127
+00:07:15,520 --> 00:07:19,219
+Imaginez maintenant un utilisateur
+malveillant
+
+128
+00:07:19,220 --> 00:07:22,930
+qui entre son nom suivi de
+lignes html et javascript.
+
+129
+00:07:22,930 --> 00:07:26,590
+Comme avant,les données des
+utilisateurs sont envoyées au serveur
+Web,
+
+130
+00:07:26,590 --> 00:07:31,219
+Mais cette fois, le message modifie la
+zone de texte elle-même.
+
+131
+00:07:31,220 --> 00:07:35,360
+Les guillemets se répondent parfaitement
+et un nouveau gestionnaire
+d'événements javascript.
+
+132
+00:07:35,360 --> 00:07:38,980
+a maintenant été inséré. Quand une
+victime survole avec sa souris
+
+133
+00:07:38,980 --> 00:07:42,410
+cette zone de texte, elle active le 
+gestionnaire d'événements.
+
+
+134
+00:07:42,410 --> 00:07:45,670
+Et lancera le javascript malicieux.
+
+135
+00:07:45,670 --> 00:07:48,930
+À ce stade, nous pouvons convenir
+que XSS est un problème grave.
+
+136
+00:07:48,930 --> 00:07:52,010
+Donc nous allons parler des parades 
+aux vulnérabilités XSS.
+
+137
+00:07:52,010 --> 00:07:55,599
+Les développeurs ne valident pas et n'encodent pas
+correctement
+
+138
+00:07:55,600 --> 00:07:58,670
+les données fournies par les 
+utilisateurs.
+
+139
+00:07:58,670 --> 00:08:02,800
+Donc pour arrêter le Cross-Site Scripting,
+nous devons éduquer les développeurs
+web,
+
+140
+00:08:02,800 --> 00:08:05,990
+pour qu'ils évaluent et encodent
+efficacement
+
+141
+00:08:05,990 --> 00:08:09,060
+les données fournies par
+l'utilisateur.
+
+142
+00:08:09,060 --> 00:08:12,200
+Assurez-vous que vous utilisez
+des listes blanches,
+
+143
+00:08:12,200 --> 00:08:15,289
+approche positive, et pour l'encodage 
+se rendre compte que l'encodage.
+
+144
+00:08:15,290 --> 00:08:19,540
+doit être contextuel, ce qui signifie 
+qu'il faut coder les
+données différemment,
+
+145
+00:08:19,540 --> 00:08:24,040
+selon l'endroit où elles sont placées dans
+une page Web. L'idée de contexte de
+codage peut
+
+146
+00:08:24,040 --> 00:08:25,190
+être assez déroutant.
+
+147
+00:08:25,190 --> 00:08:28,450
+En fait, je vais présenter ce
+concept en détail  
+
+148
+00:08:28,450 --> 00:08:33,169
+dans un épisode futur, mais pour
+trouver de l'aide immédiatement, nous
+allons nous tourner vers le site OWASP.
+
+149
+00:08:33,169 --> 00:08:37,010
+Une fois dans le site, rechercher "XSS Prevention Cheat Sheet"
+
+
+150
+00:08:37,010 --> 00:08:40,789
+La page "Prevention Cheat Sheet"
+vous donnera
+
+151
+00:08:40,789 --> 00:08:44,569
+plus d'informations sur les
+différents contextes, que vous devez
+connaître.
+
+152
+00:08:44,570 --> 00:08:47,720
+Le contexte est clairement spécifié
+et défini.
+
+153
+00:08:47,720 --> 00:08:51,980
+Je recommande vivement la lecture à
+de cette page ainsi que celle sur les encodeurs.
+
+154
+00:08:51,980 --> 00:08:55,270
+Je vous conseille de télécharger 
+le projet OWASP-ESAPI qui 
+
+155
+00:08:55,270 --> 00:08:58,420
+qui contient plusieurs encodeurs
+contextuels
+
+156
+00:08:58,420 --> 00:09:02,660
+nécessaires pour lutter
+correctement contre le Cross-Site Scripting.
+
+157
+00:09:02,660 --> 00:09:06,790
+
+
+158
+00:09:06,790 --> 00:09:10,189
+
+
+159
+00:09:10,190 --> 00:09:13,850
+
+
+160
+00:09:13,850 --> 00:09:17,540
+
+
+161
+00:09:17,540 --> 00:09:20,689
+
+
+162
+00:09:20,690 --> 00:09:22,080
+
+
+163
+00:09:22,080 --> 00:09:26,990
+
+
+164
+00:09:26,990 --> 00:09:30,660
+
+
+165
+00:09:30,660 --> 00:09:34,680
+
+
+166
+00:09:34,680 --> 00:09:38,150
+
+
+167
+00:09:38,150 --> 00:09:45,150
+
+
+168
+00:09:47,700 --> 00:09:54,700
+
+
+169
+00:09:55,470 --> 00:09:58,470
+
+
+170
+00:09:58,470 --> 00:09:59,649

@@ -1,0 +1,773 @@
+﻿1
+00:00:02,560 --> 00:00:09,530
+Bonjour
+
+2
+00:00:09,530 --> 00:00:14,910
+Sous-titres Français 
+
+3
+00:00:14,910 --> 00:00:18,100
+
+
+4
+00:00:18,100 --> 00:00:20,850
+Bienvenue à la série des Tutoriaux de Sécurité des Applications de l'OWASP
+
+5
+00:00:20,850 --> 00:00:23,980
+Mon nom est Jerry HOFF et voici
+l'épisode
+
+6
+00:00:23,980 --> 00:00:27,790
+numéro deux sur les attaques par injection.
+
+7
+00:00:27,790 --> 00:00:31,910
+Cette série de tutoriaux OWASP est faite pour les développeurs
+web qui veulent écrire du code
+
+8
+00:00:31,910 --> 00:00:32,430
+plus sécurisé
+
+9
+00:00:32,430 --> 00:00:36,160
+et apprendre les attaques par injection est
+un bon endroit pour commencer.
+
+10
+00:00:36,160 --> 00:00:39,340
+Ainsi dans les 10 prochaines minutes nous
+allons voir
+
+11
+00:00:39,340 --> 00:00:43,879
+une injection commune nommée
+l'injection SQL.
+
+12
+00:00:43,879 --> 00:00:48,820
+Puis d'autres formes d'attaques
+par injection et comment les éviter.
+
+13
+00:00:48,820 --> 00:00:53,149
+Et, à la fin de la vidéo, vous trouverez
+d'autres ressources, quelques codes source utiles,
+
+14
+00:00:53,149 --> 00:00:58,200
+et des articles où vous en 
+apprendrez plus. Mais commençons
+
+15
+00:00:58,200 --> 00:01:02,219
+d'abord par l'attaque par injection
+qui est un problème très sérieux
+
+16
+00:01:02,219 --> 00:01:06,300
+et vous donnera une idée de la raison pour laquelle
+chaque année la fondation OWASP
+
+17
+00:01:06,300 --> 00:01:09,780
+émet une liste des risques de sécurités majeurs
+pour les entreprises
+
+18
+00:01:09,780 --> 00:01:13,220
+et leurs applications web intitulée
+le "TOP 10 OWASP"
+
+19
+00:01:13,220 --> 00:01:16,560
+Cette liste récapitule l'avis collectif
+
+20
+00:01:16,560 --> 00:01:20,450
+de nombreux professionnels de la sécurité
+de l'industrie. Aujourd'hui
+
+21
+00:01:20,450 --> 00:01:23,920
+le risque N°1 pour ces applications est,
+à leur avis,
+
+22
+00:01:23,920 --> 00:01:27,110
+l'injection, élément
+
+23
+00:01:27,110 --> 00:01:31,310
+qui est quelque-chose avec lequel les
+architectes, les développeurs et les testeurs web
+
+24
+00:01:31,310 --> 00:01:34,950
+doivent absolument être familiers. Ce qui la rend si dangereuse
+
+
+25
+00:01:34,950 --> 00:01:38,280
+est combien cela est facile à exploiter et
+assez fréquent
+
+26
+00:01:38,280 --> 00:01:42,610
+et pour une application web, l'impact peut être
+vraiment vraiment sévère.
+
+27
+00:01:42,610 --> 00:01:46,000
+Pour s'assurer que nous avons tous la 
+même idée
+
+28
+00:01:46,000 --> 00:01:49,869
+de ce qu'est une attaque par injection, prenons
+un exemple simple
+
+29
+00:01:49,869 --> 00:01:53,220
+tel que les types d'injection que vous verrez 
+le plus fréquemment :
+
+30
+00:01:53,220 --> 00:01:56,310
+l'injection SQL. Imaginons
+
+31
+00:01:56,310 --> 00:02:00,520
+une application qui contient un formulaire
+demandant votre nom d'utilisateur
+
+32
+00:02:00,520 --> 00:02:04,369
+et pour faire simple, on se focalisera 
+juste sur ce champ,
+
+33
+00:02:04,369 --> 00:02:07,930
+le champ "Name" tel qu'on l'a décrit
+aux développeurs
+
+34
+00:02:07,930 --> 00:02:12,750
+et à qui on a dit comment l'application devait marcher et 
+qui l'ont créée. Ainsi on imagine que
+
+35
+00:02:12,750 --> 00:02:13,940
+l'utilisateur va remplir le formulaire
+
+36
+00:02:13,940 --> 00:02:17,570
+et le soumettre et que les données
+vont aller de la machine de l'utilisateur
+
+37
+00:02:17,570 --> 00:02:21,940
+par Internet jusqu'à
+
+38
+00:02:21,940 --> 00:02:25,459
+nos applications web. Aujourd'hui, la plupart
+des développeurs web
+
+39
+00:02:25,459 --> 00:02:29,380
+font un usage important de bases de données pour stocker
+et extraire des données.
+
+40
+00:02:29,380 --> 00:02:32,680
+Et pour communiquer avec ces bases de données, on utilise
+le langage SQL.
+
+41
+00:02:32,680 --> 00:02:35,940
+Ainsi souvent
+
+42
+00:02:35,940 --> 00:02:39,680
+les données entrées par nos utilisateurs
+font partie
+
+43
+00:02:39,680 --> 00:02:43,970
+intégrante des commandes SQL.
+Vous voyez ici le code du développeur
+
+44
+00:02:43,970 --> 00:02:47,560
+complété par les entrées utilisateur 
+
+45
+00:02:47,560 --> 00:02:49,049
+qui va intégrer la commande SQL
+
+46
+00:02:49,049 --> 00:02:53,100
+et réaliser une commande complète. Cette commande
+est envoyée à la base de données
+
+47
+00:02:53,100 --> 00:02:56,530
+qui l'interprète et l'éxecute
+
+48
+00:02:56,530 --> 00:02:59,639
+et c'est là que le problème commence.
+
+49
+00:02:59,639 --> 00:03:03,510
+Cela fonctionne mais la façon dont le code 
+a été écrit n'est absolument pas sécurisée.
+
+50
+00:03:03,510 --> 00:03:07,299
+Regardons la même application
+
+51
+00:03:07,299 --> 00:03:11,150
+mais cette fois, regardons ce qui se passe
+si nous ajoutons juste une petite chose
+
+52
+00:03:11,150 --> 00:03:14,829
+aux données de l'utilisateur. Comme la dernière fois,
+
+53
+00:03:14,829 --> 00:03:18,280
+je rentre mon nom mais cette fois je vais
+taper du SQL et
+
+54
+00:03:18,280 --> 00:03:21,799
+soumettre ma requête qui va transiter
+par internet
+
+55
+00:03:21,799 --> 00:03:26,380
+vers l'application web ciblée.
+Avant que les données de l'utilisateur
+
+56
+00:03:26,380 --> 00:03:30,449
+ne soient intégrées à la commande SQL, j'ai
+ajouté cette fois, après mon nom,
+
+57
+00:03:30,449 --> 00:03:33,989
+quelques éléments, entre quotes, qui modifient
+
+58
+00:03:33,989 --> 00:03:37,299
+le but premier de la commande SQL.
+Les quotes indiquées permettent
+
+59
+00:03:37,299 --> 00:03:41,010
+de générer parfaitement une expression
+d'égalité et,
+
+60
+00:03:41,010 --> 00:03:45,090
+cette fois, au lieu de récupérer juste l'enregistrement
+d'une personne, 
+
+61
+00:03:45,090 --> 00:03:48,169
+elle renvoie l'ensemble des enregistrements
+de la base
+
+62
+00:03:48,169 --> 00:03:51,729
+ce qui est exactement ce que veut l'attaquant dans
+cet exemple.
+
+63
+00:03:51,729 --> 00:03:55,739
+Dans un cas récent, un attaquant a récupéré
+200,000
+
+64
+00:03:55,739 --> 00:03:59,350
+mots de passe non chiffrés et 500,000
+
+65
+00:03:59,350 --> 00:04:02,430
+emails d'utilisateurs de sites web techniques très populaires
+
+66
+00:04:02,430 --> 00:04:06,000
+Et lors d'une autre attaque, due à une injection SQL,
+
+67
+00:04:06,000 --> 00:04:09,019
+30 millions d'enregistrements client ont été volés
+
+68
+00:04:09,019 --> 00:04:13,359
+sur un site web en ligne. Comme vous
+pouvez en juger
+
+69
+00:04:13,359 --> 00:04:17,280
+l'injection SQL est un énorme risque où une simple erreur
+de codage
+
+70
+00:04:17,280 --> 00:04:21,979
+conduit à une opération massive où
+l'attaquant
+
+71
+00:04:21,979 --> 00:04:26,520
+prend possession de l'intégralité de la base de données
+du serveur. Pour plus d'information
+
+72
+00:04:26,520 --> 00:04:29,600
+vous pouvez regarder la dernière
+présentation intitulée
+
+73
+00:04:29,600 --> 00:04:33,500
+"Injection SQL avancée" pour une prise de contrôle 
+du système d'exploitation
+
+74
+00:04:33,500 --> 00:04:37,310
+de Bernardo de mille et pour rendre les choses 
+
+75
+00:04:37,310 --> 00:04:41,090
+encore pires, il ne s'agit plus seulement des bases de données
+un interpréteur
+
+76
+00:04:41,090 --> 00:04:45,960
+utilisé par votre application web peut
+rencontrer ce problème.
+
+77
+00:04:45,960 --> 00:04:50,310
+Quels sont les interpréteurs communément
+utilisés par les applications web ?
+
+78
+00:04:50,310 --> 00:04:53,960
+Eh bien, manifestement les bases de données et, pour
+l'authentification
+
+79
+00:04:53,960 --> 00:04:57,000
+très fréquemment you avez des serveurs LDAP
+
+80
+00:04:57,000 --> 00:05:00,960
+plus un éventail de technologies basées sur XML
+comme XSLT
+
+81
+00:05:00,960 --> 00:05:04,819
+XPath un autre format de message XML
+
+82
+00:05:04,819 --> 00:05:08,319
+De plus, la plupart des applications web conservent
+les fichiers de log
+
+83
+00:05:08,319 --> 00:05:11,759
+qui ne sont pas interprétés, les attaquants peuvent
+en fait y injecter
+
+84
+00:05:11,759 --> 00:05:15,199
+des nouvelles lignes et ainsi
+ajouter
+
+85
+00:05:15,199 --> 00:05:19,740
+de nombreuses entrées de log. Dans certains cas, des
+applications web
+
+86
+00:05:19,740 --> 00:05:23,729
+peuvent appeler des scripts shell sur le serveur,
+où, si vous n'êtes pas prudents,
+
+87
+00:05:23,729 --> 00:05:28,680
+vous pouvez finir par soumettre une requête utilisateur
+directement en ligne de commande
+
+88
+00:05:28,680 --> 00:05:33,020
+donnant ainsi nécessairement un accès au shell
+de votre serveur web aux attaquants
+
+89
+00:05:33,020 --> 00:05:36,520
+ce qui n'est vraiment pas une bonne idée
+bien sûr. Presque 
+
+90
+00:05:36,520 --> 00:05:39,740
+tous les navigateurs ont un interpréteur 
+javascript
+
+91
+00:05:39,740 --> 00:05:43,129
+Ce type d'injection est si fréquent
+
+92
+00:05:43,129 --> 00:05:46,270
+qu'on lui a donné un nom : le
+cross-site scripting, 
+
+93
+00:05:46,270 --> 00:05:49,889
+XSS qui est le sujet 
+
+94
+00:05:49,889 --> 00:05:52,909
+du prochain épisode.
+
+95
+00:05:52,909 --> 00:05:58,189
+Et maintenant que nous savons qu'il s'agit
+d'un problème sérieux, voyons comment nous défendre.
+
+96
+00:05:58,189 --> 00:06:02,560
+Voyons d'abord l'injection SQL, s'il vous plait,
+soyez conscients qu'il ne faut pas
+
+97
+00:06:02,560 --> 00:06:03,330
+se fier
+
+98
+00:06:03,330 --> 00:06:07,889
+à la validation JavaScript ou à l'envoi
+de données via la commande post,
+
+99
+00:06:07,889 --> 00:06:11,550
+ces deux techniques pouvant facilement
+être contournées en utilisant un proxy web,
+
+100
+00:06:11,550 --> 00:06:15,169
+ce que je démontrerai au prochain
+épisode.
+
+101
+00:06:15,169 --> 00:06:18,979
+Si vous concevez des expressions SQL
+dans votre application web,
+
+102
+00:06:18,979 --> 00:06:22,969
+assurez-vous de n'utiliser que des 
+requêtes paramétrées.
+
+103
+00:06:22,969 --> 00:06:27,360
+Les requêtes paramétrées ne sont pas vulnérables 
+aux attaques SQL
+
+104
+00:06:27,360 --> 00:06:30,530
+Donc, si vous créez dynamiquement des expressions SQL
+
+105
+00:06:30,530 --> 00:06:35,360
+dans votre application web, c'est normalement
+ce qu'il y a de mieux à faire.
+
+106
+00:06:35,360 --> 00:06:38,770
+Jetons un coup d'oeil au code
+
+107
+00:06:38,770 --> 00:06:41,969
+Ce premier exemple est en Java
+
+108
+00:06:41,969 --> 00:06:46,249
+Dans ce code Java, nous mettons un point d'interrogation
+
+109
+00:06:46,249 --> 00:06:50,669
+dans l'intruction SQL, pour marquer l'endroit
+où ira la donnée de l'utilisateur
+
+110
+00:06:50,669 --> 00:06:54,530
+à la place d'une instruction, nous utilisons maintenant
+une instruction paramétrée
+
+111
+00:06:54,530 --> 00:06:58,280
+ce qui permet de remplacer en sécurité le point 
+d'interrogation
+
+112
+00:06:58,280 --> 00:07:01,460
+par la donnée de l'utilisateur
+
+113
+00:07:01,460 --> 00:07:06,789
+Maintenant regardons en .net 
+C'est presque la même chose
+
+114
+00:07:06,789 --> 00:07:10,660
+nous plaçons un marqueur dans l'instruction SQL 
+à l'endroit où nous voulons insérer en sécurité 
+
+115
+00:07:10,660 --> 00:07:14,069
+la donnée de l'utilisateur
+Nous instancions le paramètre 
+
+116
+00:07:14,069 --> 00:07:17,460
+en lui donnant le nom du marqueur et la donnée 
+
+117
+00:07:17,460 --> 00:07:24,009
+Puis nous ajoutons le paramètre à la commande.
+
+118
+00:07:24,009 --> 00:07:27,669
+Une autre solution est de ne pas construire 
+de requête SQL
+
+119
+00:07:27,669 --> 00:07:31,639
+dans le code et d'utiliser à la place
+des procédures stockées
+
+120
+00:07:31,639 --> 00:07:35,139
+Il y a quelques bonnes pratiques de sécurité
+
+121
+00:07:35,139 --> 00:07:38,340
+que vous devez suivre lorsque vous construisez 
+et appelez les procédures stockées
+
+122
+00:07:38,340 --> 00:07:41,770
+que nous ne couvrirons pas toutes ici
+Mais nous indiquerons
+
+123
+00:07:41,770 --> 00:07:45,150
+des ressources sur le web pour approfondir
+
+
+124
+00:07:45,150 --> 00:07:48,310
+Ce sont les meilleurs cartes contre
+l'injection SQL
+
+125
+00:07:48,310 --> 00:07:51,590
+Mais comment faire avec les autres interpréteurs
+dont nous avons discuté
+
+126
+00:07:51,590 --> 00:07:55,159
+XML, ligne de commande, LDAP
+
+127
+00:07:55,159 --> 00:07:58,440
+et tant d'autres qui ne supportent pas
+
+128
+00:07:58,440 --> 00:08:01,690
+les expressions paramétrées
+
+129
+00:08:01,690 --> 00:08:06,360
+Donc, vous allez devoir encoder
+les données de l'utilisateur
+
+130
+00:08:06,360 --> 00:08:07,060
+avant de les concaténer
+
+131
+00:08:07,060 --> 00:08:10,479
+pour faire une commande.
+Chaque interpréteur
+
+132
+00:08:10,479 --> 00:08:15,009
+va exiger un encodeur spécifique.
+Je vais vous montrer
+
+133
+00:08:15,009 --> 00:08:18,400
+sur le web où vous pouvez télécharger
+
+134
+00:08:18,400 --> 00:08:21,870
+toutes sortes d'encoderus qui vont vous aider à vous défendre contre
+ces types d'injection. 
+
+135
+00:08:21,870 --> 00:08:25,960
+En réalité, il y a beaucoup plus à savoir
+sur 
+
+136
+00:08:25,960 --> 00:08:31,039
+des attaques par injection que ce que nous venons de dire.
+Cette vidéo vous propose seulement
+
+137
+00:08:31,039 --> 00:08:32,560
+une brève information,
+
+138
+00:08:32,560 --> 00:08:36,370
+juste le haut de l'iceberg mais
+j'espère que vous avez maintenant une idée
+
+139
+00:08:36,370 --> 00:08:37,279
+de ce que sont les injections.
+
+140
+00:08:37,279 --> 00:08:40,990
+et de quelques moyens de défense que vous pouvez utiliser 
+pour vous défendre vous-même mais vous devrez
+
+141
+00:08:40,990 --> 00:08:41,909
+trouver ailleurs d'autres éléments
+
+142
+00:08:41,909 --> 00:08:46,320
+pour construire réellement du code sécurisé.
+Donc regardons le site web de l'OWASP
+
+143
+00:08:46,320 --> 00:08:49,709
+qui présente beaucoup d'articles
+que vous devriez lire pour
+
+144
+00:08:49,709 --> 00:08:53,630
+complémenter vos connaissances sur les 
+attaques par injection
+
+145
+00:08:53,630 --> 00:08:56,890
+Vous devez absolument lire le chapitre
+
+146
+00:08:56,890 --> 00:09:01,339
+de prévention des injections 
+qui vous donnera plus d'information sur
+
+147
+00:09:01,339 --> 00:09:04,370
+les procédures stockées, les requêtes paramétrées
+
+148
+00:09:04,370 --> 00:09:08,140
+et l'échappement de données
+
+149
+00:09:08,140 --> 00:09:12,360
+puis regarder les articles sur les injections
+XPath et les
+
+150
+00:09:12,360 --> 00:09:15,480
+injections de logs et de commande
+
+151
+00:09:15,480 --> 00:09:19,459
+Et la dernière chose que je veux vous montrer
+est où vous pourrez trouver
+
+152
+00:09:19,459 --> 00:09:22,810
+ces encodeurs dont je vous ai parlés
+
+153
+00:09:22,810 --> 00:09:26,310
+Pour de bonnes références d'encodeurs,
+trouvez  l'API d'OWASP
+
+154
+00:09:26,310 --> 00:09:30,020
+Enterprise Security aussi appelée
+"ESAPI"
+
+155
+00:09:30,020 --> 00:09:34,400
+"ESAPI" est gratuit et Open Source 
+et je vous encourage à regarder le source
+
+156
+00:09:34,400 --> 00:09:34,930
+du code
+
+157
+00:09:34,930 --> 00:09:38,430
+et regardez les encodeurs que vous pourriez
+utiliser pour encoder correctement
+
+158
+00:09:38,430 --> 00:09:42,230
+les données non sûres et vous défendre
+contre ce que nous venons de voir.
+
+159
+00:09:42,230 --> 00:09:46,150
+Voilà, c'est fini pour cet
+épisode.
+
+160
+00:09:46,150 --> 00:09:49,740
+
+
+161
+00:09:49,740 --> 00:09:54,130
+
+
+162
+00:09:54,130 --> 00:09:57,820
+Toutes les ressources mentionnées dans cet épisode
+peuvent être récupérées librement.
+
+163
+00:09:57,820 --> 00:10:02,199
+CBT.com vous remercie tous.
+
+164
+00:10:02,199 --> 00:10:06,170
+Suivez notre chaine sur
+YouTube
+
+165
+00:10:06,170 --> 00:10:11,240
+A bientôt pour un nouvel épisode !
+
+166
+00:10:11,240 --> 00:10:18,100
+
+

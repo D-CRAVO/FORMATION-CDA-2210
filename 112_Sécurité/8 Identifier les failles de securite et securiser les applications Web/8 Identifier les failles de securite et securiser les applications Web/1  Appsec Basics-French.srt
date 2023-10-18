@@ -1,0 +1,651 @@
+﻿1
+00:00:02,560 --> 00:00:09,530
+...
+
+2
+00:00:09,530 --> 00:00:12,850
+...
+
+3
+00:00:12,850 --> 00:00:16,700
+..
+
+4
+00:00:16,700 --> 00:00:19,730
+Bonjour et bienvenue à la série 
+AppSec d'OWASP.
+
+5
+00:00:19,730 --> 00:00:24,560
+Mon nom est Jerry Hoff. C'est
+l'épisode numéro 1. Cette vidéo
+
+6
+00:00:24,560 --> 00:00:25,139
+est la première
+
+7
+00:00:25,140 --> 00:00:29,419
+d'une série de vidéos visant à
+démontrer et exposer les problèmes 
+de sécurité
+
+8
+00:00:29,419 --> 00:00:30,560
+les plus courants que 
+
+9
+00:00:30,560 --> 00:00:33,960
+rencontrent les développeurs dans la
+création d'applications web.
+
+10
+00:00:33,960 --> 00:00:37,520
+Maintenant vous devez déjà bien connaître le
+développement  
+
+11
+00:00:37,520 --> 00:00:38,790
+et le développement web en général.
+
+12
+00:00:38,790 --> 00:00:42,379
+Idéalement vous avez déjà développé des
+applications web mobile 
+
+13
+00:00:42,380 --> 00:00:45,700
+et maîtrisez les bases d'architecture 
+des applications Web  
+
+14
+00:00:45,700 --> 00:00:50,420
+et vous savez comment sont construites
+les applications web.
+
+15
+00:00:50,420 --> 00:00:53,589
+Après avoir dit ça, parlons maintenant
+de la sécurité des applications.
+
+16
+00:00:53,589 --> 00:00:56,789
+La réalité aujourd'hui est que 
+
+17
+00:00:56,789 --> 00:00:59,920
+la plupart des développeurs pensent
+déjà que leurs applications web sécurisées.
+
+18
+00:00:59,920 --> 00:01:03,909
+En fait, vous pourriez aussi penser
+que les applications Web que vous
+utilisez 
+
+19
+00:01:03,909 --> 00:01:04,658
+jour après jour sont aussi très sécurisées
+
+20
+00:01:04,659 --> 00:01:09,980
+aussi nous faisons tous des accès bancaires
+et de la messagerie et des
+
+21
+00:01:09,980 --> 00:01:12,990
+prêts sur le web etc
+
+22
+00:01:12,990 --> 00:01:16,429
+La pensée commune est qu'ils sont sécurisés.
+
+23
+00:01:16,430 --> 00:01:20,740
+Certains font un bien meilleur
+travail que d'autres, mais la grande
+majorité.
+
+24
+00:01:20,740 --> 00:01:24,350
+ne sont pas sécurisés et en disant
+qu'ils ne sont pas sécurisés,
+
+25
+00:01:24,350 --> 00:01:28,490
+ce je veux dire précisément est que le code 
+
+
+26
+00:01:28,490 --> 00:01:32,119
+contient un certain type
+de faille ou de bogue qui peut être exploité.
+
+27
+00:01:32,120 --> 00:01:36,630
+De sorte qu'un attaquant peut utiliser
+l'application de façon non conforme.
+
+28
+00:01:36,630 --> 00:01:40,690
+Cela veut dire en général qu'ils
+peuvent obtenir l'accès à des
+données privées ou à des données 
+
+29
+00:01:40,690 --> 00:01:42,090
+qu'ils ne pas autorisés à voir.
+
+30
+00:01:42,090 --> 00:01:45,880
+Cela peut aussi permettre d'utiliser
+l'application Web en tant que
+plate-forme pour réaliser une attaque.
+
+31
+00:01:45,880 --> 00:01:49,539
+D'autres utilisateurs peuvent réaliser
+tout un tas de différentes
+
+32
+00:01:49,540 --> 00:01:53,650
+tactiques et astuces que les
+attaquants utilisent afin d'atteindre
+cet objectif.
+
+33
+00:01:53,650 --> 00:01:57,990
+Nous regarderons les détails exacts
+des ces attaques dans les prochains épisodes.
+
+34
+00:01:57,990 --> 00:02:01,440
+Avant d'aller plus loin laissez-
+moi juste vous dire
+
+35
+00:02:01,440 --> 00:02:04,720
+que réellement et historiquement
+
+36
+00:02:04,720 --> 00:02:08,359
+Http n'a pas été conçu pour être
+sécurisé.
+
+37
+00:02:08,360 --> 00:02:11,930
+Il a été conçu pour des pages statiques
+et en lecture seule
+
+38
+00:02:11,930 --> 00:02:15,349
+à partager en interne entre des groupes
+de scientifiques.
+
+39
+00:02:15,349 --> 00:02:19,829
+Non pas pour ce que nous utilisons
+aujourd'hui comme la messagerie et
+l'accès aux banques,
+
+40
+00:02:19,830 --> 00:02:23,170
+les fournisseurs de soins de santé,
+information financière, paie.
+
+41
+00:02:23,170 --> 00:02:26,399
+Tout cela n'a même pas été envisagé
+
+42
+00:02:26,400 --> 00:02:30,129
+quand les spécifications ont été
+rédigées à l'origine. Il n'y avait
+même pas de notions de sessions
+
+43
+00:02:30,129 --> 00:02:31,659
+initialement.
+
+44
+00:02:31,659 --> 00:02:35,390
+Toutes les fonctions de sécurité que
+nous avons maintenant dans HTTP
+
+45
+00:02:35,390 --> 00:02:38,920
+qui ne sont pas très nombreuses ont
+été mises en place plus tard.
+
+46
+00:02:38,920 --> 00:02:42,458
+Et c'est à peu près comment les
+choses se trouvent encore aujourd'hui.
+
+47
+00:02:42,459 --> 00:02:46,159
+HTTP a de sérieuses failles 
+d'architecture, 
+
+48
+00:02:46,159 --> 00:02:49,358
+des failles de sécurité qui ont
+un grand besoin d'être abordées.
+
+49
+00:02:49,359 --> 00:02:53,469
+Certaines personnes ont suggéré
+que nous devrions simplement
+jeter tout le web 
+
+50
+00:02:53,469 --> 00:02:54,420
+et repartir de zéro.
+
+51
+00:02:54,420 --> 00:02:57,879
+Du point de vue de la sécurité,
+nous pouvons en débattre.
+
+52
+00:02:57,879 --> 00:03:03,010
+Mais comme cela ne va pas se produire de
+sitôt, ce que nous devons faire
+
+53
+00:03:03,010 --> 00:03:06,980
+est de développer et d'écrire du code 
+d'une manière défensive
+
+54
+00:03:06,980 --> 00:03:10,950
+pour ajouter ces éléments qui ne sont 
+pas inhérents au protocole.
+
+55
+00:03:10,950 --> 00:03:15,858
+Ainsi afin de faire cela efficacement,
+on a besoin de commencer à regarder nos
+applications web
+
+56
+00:03:15,859 --> 00:03:19,269
+de la façon dont un attaquant se
+penchera sur l'application Web.
+
+57
+00:03:19,269 --> 00:03:23,349
+Il est nécessaire de commencer à
+voir à travers les yeux d'un bad guy.
+
+58
+00:03:23,349 --> 00:03:27,179
+Quelles failles pourrait-il voir et exploiter ?
+
+
+59
+00:03:27,180 --> 00:03:30,279
+ll y en a beaucoup.
+
+60
+00:03:30,279 --> 00:03:33,599
+Donc il faut savoir
+comment le navigateur web
+
+61
+00:03:33,599 --> 00:03:36,869
+fonctionne réellement, comment il gère la façon dont
+les sessions, 
+
+62
+00:03:36,870 --> 00:03:41,510
+comment le navigateur Web gère JavaScript,
+
+
+63
+00:03:41,510 --> 00:03:42,739
+La transparence peut être.
+
+64
+00:03:42,739 --> 00:03:47,219
+Nous devons nous préoccuper
+de la façon dont les données sont
+passer du client au serveur
+
+65
+00:03:47,219 --> 00:03:51,279
+Nous devons faire très attention 
+
+66
+00:03:51,279 --> 00:03:54,279
+à l'authentification
+
+67
+00:03:54,279 --> 00:03:58,349
+À la manière de gérer les autorisations
+
+
+68
+00:03:58,349 --> 00:04:02,560
+Comment les fichiers sont téléchargés depuis
+ou vers le serveur web
+
+
+69
+00:04:02,560 --> 00:04:06,799
+Comment le serveur web intéragit avec la
+base de données, comment il interagit
+avec les services Web.
+
+70
+00:04:06,799 --> 00:04:10,809
+Tous ces domaines sont des points chauds,
+qui peuvent être exploités
+
+71
+00:04:10,809 --> 00:04:14,739
+par un attaquant. Des choses comme Ajax,
+
+72
+00:04:14,739 --> 00:04:18,260
+Flash, Flex, Silverlight,
+
+73
+00:04:18,260 --> 00:04:22,610
+les Applets Java et bien
+d'autres domaines .
+
+74
+00:04:22,610 --> 00:04:26,360
+que nous verrons par la suite.
+Il y aura une large surface d'attaque
+
+75
+00:04:26,360 --> 00:04:31,120
+ce qui signifie que
+tous ces domaines 
+peuvent être exploités.
+
+76
+00:04:31,120 --> 00:04:34,250
+par l'attaquant grâce à une 
+utilisation malicieuse.
+
+77
+00:04:34,250 --> 00:04:37,750
+Ce que vous voyez n'est qu'une fraction
+
+78
+00:04:37,750 --> 00:04:41,090
+des problèmes de sécurité
+qui affectent les applications
+web.
+
+79
+00:04:41,090 --> 00:04:46,429
+De plus, les attaquants utilisent
+sans cesse des moyens nouveaux 
+
+
+80
+00:04:46,430 --> 00:04:50,300
+pour attaquer les applications web
+
+81
+00:04:50,300 --> 00:04:53,310
+Construire une application
+web sécurisée est donc un challenge
+
+82
+00:04:53,310 --> 00:04:57,169
+Est-ce un problème aussi grave ?
+
+83
+00:04:57,169 --> 00:05:00,990
+Nous sommes souvent satisfaits des 
+applications Web
+
+84
+00:05:00,990 --> 00:05:05,930
+Mais il y a tous les jours des
+reportages sur le 
+vol des données des clients,
+
+85
+00:05:05,930 --> 00:05:10,320
+sur les vols de mots de passe,
+usurpation d'identité etc.
+
+86
+00:05:10,320 --> 00:05:14,680
+etc.
+
+87
+00:05:14,680 --> 00:05:18,700
+Les smartphone sont souvent soumis à ces attaques.
+
+88
+00:05:18,700 --> 00:05:23,380
+ 
+
+89
+00:05:23,380 --> 00:05:28,100
+Cette liste montre que c'est vraiment un problème !
+Pour être tout à fait clair,
+
+90
+00:05:28,100 --> 00:05:31,610
+cette série ne porte pas sur la
+sécurité du réseau.
+
+91
+00:05:31,610 --> 00:05:35,000
+Nous ne discutons pas
+de choses comme les pare-feu,
+
+92
+00:05:35,000 --> 00:05:38,180
+les Routeurs, les mises à jour d'Antivirus.
+
+93
+00:05:38,180 --> 00:05:42,680
+Toutes ces choses sont extrêmement
+vitales et nous construisons en nous appuyant
+sur cette sécurité.
+
+94
+00:05:42,680 --> 00:05:47,160
+Mais nous allons laisser ce genre de
+choses aux professionnels de l'infrastructure.
+
+95
+00:05:47,160 --> 00:05:50,780
+Ce dont nous allons discuter est la
+sécurité des applications.
+
+96
+00:05:50,780 --> 00:05:55,570
+Qui est le champ de la sécurité
+dédié aux techniques de
+programmation défensives.
+
+97
+00:05:55,570 --> 00:05:59,469
+Pour certains problèmes, 
+il suffira d'améliorer des détails
+de code,
+
+98
+00:05:59,470 --> 00:06:04,280
+de corriger des bugs, d'autres problèmes exigeront 
+un ensemble complet de contrôles de sécurité.
+
+99
+00:06:04,280 --> 00:06:08,429
+Et finalement, ce que nous voulons, c'est obtenir
+
+100
+00:06:08,430 --> 00:06:12,790
+des résultats reproductibles et fiables
+en terme de sécurité,
+
+101
+00:06:12,790 --> 00:06:18,100
+ce qui exige de changer globalement
+
+
+102
+00:06:18,100 --> 00:06:21,580
+la manière d'écrire des programmes, 
+donc tout le cycle de vie du logiciel.
+depuis le début
+
+103
+00:06:21,580 --> 00:06:24,609
+jusqu'au déploiement et même au-delà.
+
+104
+00:06:24,610 --> 00:06:28,890
+car la sécurité n'est pas une action
+unique mais un processus continu.
+
+105
+00:06:28,890 --> 00:06:32,229
+Cette série est donc définitivement
+orientée vers
+
+106
+00:06:32,230 --> 00:06:36,870
+les développeurs et les architectes
+qui s'occupent directement du code.
+
+
+107
+00:06:36,870 --> 00:06:40,010
+Et le langage de programmation utilisé
+
+
+108
+00:06:40,010 --> 00:06:43,450
+n'a pas vraiment d'importance.
+
+109
+00:06:43,450 --> 00:06:46,039
+Ce peut être Java, .NET
+
+110
+00:06:46,039 --> 00:06:50,830
+PHP, Rails, Python, les objectifs sont 
+
+
+111
+00:06:50,830 --> 00:06:54,000
+à peu près les mêmes quel que
+soit le langage.
+
+112
+00:06:54,000 --> 00:06:57,409
+Ceci nous amène
+à parler d'OWASP.
+
+113
+00:06:57,409 --> 00:07:02,250O
+Open Web Application Security Project
+
+114
+00:07:02,250 --> 00:07:06,590
+constitués de personnes volontaires qui contribue bénévolement 
+
+
+115
+00:07:06,590 --> 00:07:10,049
+pour sécuriser le web
+
+116
+00:07:10,050 --> 00:07:13,120
+Cette série prépare 
+à utiliser la documentation d'OWASP.
+
+117
+00:07:13,120 --> 00:07:16,690
+de nombreux projets et documentation
+
+118
+00:07:16,690 --> 00:07:19,949
+en Open Source, que vous
+pouvez télécharger, 
+
+119
+00:07:19,949 --> 00:07:24,650
+et commencer immédiatement à utiliser 
+pour améliorer la sécurité de vos applications.
+
+120
+00:07:24,650 --> 00:07:28,138
+Nous allons passer du temps
+sur le site d'OWASP
+
+121
+00:07:28,139 --> 00:07:31,569
+Où vous pouvez trouver de la
+documentation et
+
+122
+00:07:31,569 --> 00:07:35,500
+d'autres ressources liées à la
+sécurité des applications.
+
+123
+00:07:35,500 --> 00:07:39,710
+Une des plus grande
+
+124
+00:07:39,710 --> 00:07:44,008
+base de connaissance sur la 
+
+125
+00:07:44,009 --> 00:07:48,440
+sécurité
+
+126
+00:07:48,440 --> 00:07:51,539
+
+
+127
+00:07:51,539 --> 00:07:56,000
+Un des projets OWASP les plus populaires
+
+128
+00:07:56,000 --> 00:08:00,669
+le OWASP "Top Ten"
+
+129
+00:08:00,669 --> 00:08:04,349
+
+
+130
+00:08:04,349 --> 00:08:08,330
+
+
+131
+00:08:08,330 --> 00:08:12,060
+
+
+132
+00:08:12,060 --> 00:08:15,520
+
+
+133
+00:08:15,520 --> 00:08:16,258
+Applications.
+
+134
+00:08:16,259 --> 00:08:20,039
+
+
+135
+00:08:20,039 --> 00:08:24,210
+
+
+136
+00:08:24,210 --> 00:08:29,859
