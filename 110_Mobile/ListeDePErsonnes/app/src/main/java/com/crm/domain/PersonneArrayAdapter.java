@@ -12,12 +12,13 @@ import android.widget.TextView;
 import com.crm.listedepersonnes.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PersonneArrayAdapter extends ArrayAdapter<Personne> {
-    private ArrayList<Personne> personnes;
+    private ListPersonnes personnes;
 
-    public PersonneArrayAdapter(Context context, ArrayList<Personne> personnes){
-        super(context, R.layout.item_particulier,personnes);
+    public PersonneArrayAdapter(Context context, ListPersonnes personnes){
+        super(context, R.layout.item_particulier, (List<Personne>) personnes);
         this.personnes = personnes;
     }
 
@@ -28,7 +29,7 @@ public class PersonneArrayAdapter extends ArrayAdapter<Personne> {
             v = inflater.inflate(R.layout.item_particulier, null);
         }
 
-        Personne personneOfItem = (Personne) personnes.get(i);
+        Personne personneOfItem = (Personne) personnes.getListPersonnes().get(i);
         if (personneOfItem != null){
             TextView nomView = (TextView) v.findViewById(R.id.textViewNom);
             TextView prenomView = (TextView)  v.findViewById(R.id.textViewPrenom);
