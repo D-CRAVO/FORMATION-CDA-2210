@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj": {}
+    "D:\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj": {
+    "D:\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj",
+        "projectUniqueName": "D:\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj",
         "projectName": "ex37_barnabe",
-        "projectPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj",
-        "packagesPath": "C:\\Users\\dcravo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dcravo\\Documents\\GitHub\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\obj\\",
+        "projectPath": "D:\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\ex37_barnabe.csproj",
+        "packagesPath": "C:\\Users\\Dega\\.nuget\\packages\\",
+        "outputPath": "D:\\FORMATION-CDA-2210\\109_Tests\\RevisionBarnabe\\ex37_barnabe\\exercice_3-7_barnabe\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dcravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dega\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
